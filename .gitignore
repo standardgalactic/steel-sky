@@ -5,4 +5,5 @@
 *.code-workspace
 /.vscode
 
+/output/comfy/*.png
 /output/comfy/cache/

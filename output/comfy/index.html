@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Image Curator</title>
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #111;
+  --panel: #191919;
+  --panel2: #222;
+  --text: #eee;
+  --muted: #999;
+  --line: #333;
+  --favorite: #31a7ff;
+  --awesome: #b26cff;
+  --problem: #f0a830;
+  --reject: #ef5350;
+  --ok: #58b368;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.35 system-ui, sans-serif; }
+header {
+  position: sticky; top: 0; z-index: 10;
+  background: rgba(17,17,17,.96); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+  padding: 10px 12px;
+}
+.toolbar { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+button, select, input {
+  background: var(--panel2); color: var(--text); border:1px solid var(--line);
+  border-radius:6px; padding:7px 9px;
+}
+button { cursor:pointer; }
+button:hover { border-color:#666; }
+button.active { outline:2px solid var(--favorite); }
+.spacer { flex:1; }
+.stats { color:var(--muted); white-space:nowrap; }
+main { padding: 12px; }
+.grid {
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--thumb, 145px), 1fr));
+  gap:8px;
+}
+.tile {
+  position:relative; background:var(--panel); border:3px solid #2c2c2c;
+  border-radius:7px; overflow:hidden; min-width:0;
+}
+.tile.favorite { border-color: var(--favorite); }
+.tile.awesome { border-color: var(--awesome); box-shadow: inset 0 0 0 2px var(--awesome); }
+.tile.problem { border-color: var(--problem); }
+.tile.reject { border-color: var(--reject); opacity:.58; }
+.tile img {
+  display:block; width:100%; aspect-ratio:1/1; object-fit:cover; background:#080808;
+}
+.meta { padding:5px 6px 6px; }
+.filename { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:11px; color:#bbb; }
+.badges { min-height:18px; margin-top:3px; display:flex; gap:3px; flex-wrap:wrap; }
+.badge { font-size:10px; border:1px solid var(--line); border-radius:999px; padding:1px 5px; color:#ccc; }
+.tile.favorite .status { color:var(--favorite); }
+.tile.awesome .status { color:var(--awesome); }
+.tile.problem .status { color:var(--problem); }
+.tile.reject .status { color:var(--reject); }
+.overlay {
+  position:absolute; inset:0 0 auto 0; display:flex; justify-content:space-between;
+  padding:5px; pointer-events:none;
+}
+.status { background:rgba(0,0,0,.72); padding:2px 5px; border-radius:4px; font-size:11px; font-weight:700; }
+.pagebar { display:flex; justify-content:center; align-items:center; gap:8px; padding:14px 0 4px; }
+.legend { margin-top:8px; color:var(--muted); font-size:12px; }
+#dialog {
+  border:1px solid #555; border-radius:10px; padding:0; color:var(--text); background:#181818;
+  width:min(620px, calc(100vw - 24px));
+}
+#dialog::backdrop { background:rgba(0,0,0,.72); }
+.dialog-inner { padding:14px; }
+.dialog-image { width:100%; max-height:55vh; object-fit:contain; background:#090909; border-radius:6px; }
+.dialog-actions { display:grid; grid-template-columns:repeat(5,1fr); gap:6px; margin-top:10px; }
+.dialog-actions button[data-rating="favorite"] { border-color:var(--favorite); }
+.dialog-actions button[data-rating="awesome"] { border-color:var(--awesome); }
+.dialog-actions button[data-rating="problem"] { border-color:var(--problem); }
+.dialog-actions button[data-rating="reject"] { border-color:var(--reject); }
+.reason-grid { display:flex; flex-wrap:wrap; gap:8px 12px; margin:12px 0; }
+.reason-grid label { white-space:nowrap; }
+textarea { width:100%; min-height:58px; resize:vertical; background:#222; color:#eee; border:1px solid #444; border-radius:6px; padding:7px; }
+.dialog-footer { display:flex; gap:8px; justify-content:flex-end; margin-top:10px; }
+.top-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:10px 0 14px; }
+.top-grid section { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:8px; }
+.top-grid h3 { margin:0 0 6px; font-size:13px; }
+.minirow { display:flex; gap:5px; overflow:auto; }
+.minirow img { width:72px; height:72px; object-fit:cover; border-radius:4px; border:2px solid #333; cursor:pointer; }
+.minirow img.top { border-color:var(--awesome); }
+.minirow img.worst { border-color:var(--reject); }
+.hidden { display:none !important; }
+@media (max-width:600px) {
+  .dialog-actions { grid-template-columns:1fr 1fr; }
+  .top-grid { grid-template-columns:1fr; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="toolbar">
+    <select id="album"></select>
+    <select id="filter">
+      <option value="all">All ratings</option>
+      <option value="normal">Normal / implicit keep</option>
+      <option value="favorite">Favorites</option>
+      <option value="awesome">Awesome</option>
+      <option value="problem">Problematic</option>
+      <option value="reject">Rejected</option>
+    </select>
+    <button id="prev">← Prev</button>
+    <span id="pageLabel">Page 1</span>
+    <button id="next">Next →</button>
+    <button id="reviewed">Mark page reviewed</button>
+    <label>Thumb <input id="thumb" type="range" min="80" max="260" value="145"></label>
+    <span class="spacer"></span>
+    <span class="stats" id="stats"></span>
+    <button id="export">Export JSON</button>
+    <button id="exportPublish">Export publish.txt</button>
+  </div>
+  <div class="legend">Normal is implicit keep. Click an image for details. Keyboard in dialog: A awesome, F favorite, P problem, X reject, 0 normal, ←/→ previous/next.</div>
+</header>
+
+<main>
+  <div class="top-grid">
+    <section><h3>Top favorites</h3><div id="top" class="minirow"></div></section>
+    <section><h3>Worst / repair queue</h3><div id="worst" class="minirow"></div></section>
+  </div>
+  <div id="grid" class="grid"></div>
+  <div class="pagebar">
+    <button id="prevBottom">← Prev</button>
+    <span id="pageLabelBottom"></span>
+    <button id="nextBottom">Next →</button>
+  </div>
+</main>
+
+<dialog id="dialog">
+  <div class="dialog-inner">
+    <img id="dialogImage" class="dialog-image" alt="">
+    <div id="dialogFilename" style="margin-top:7px;color:#bbb"></div>
+    <div class="dialog-actions">
+      <button data-rating="normal">0 Normal</button>
+      <button data-rating="favorite">F Favorite</button>
+      <button data-rating="awesome">A Awesome</button>
+      <button data-rating="problem">P Problem</button>
+      <button data-rating="reject">X Reject</button>
+    </div>
+    <div class="reason-grid" id="reasons">
+      <label><input type="checkbox" value="frame"> frame</label>
+      <label><input type="checkbox" value="distorted"> distorted</label>
+      <label><input type="checkbox" value="garbled"> garbled</label>
+      <label><input type="checkbox" value="bad-anatomy"> bad anatomy</label>
+      <label><input type="checkbox" value="text"> text</label>
+      <label><input type="checkbox" value="composition"> composition</label>
+      <label><input type="checkbox" value="duplicate"> duplicate</label>
+      <label><input type="checkbox" value="other"> other</label>
+    </div>
+    <textarea id="note" placeholder="Optional note"></textarea>
+    <div class="dialog-footer">
+      <button id="dialogPrev">← Previous</button>
+      <button id="dialogNext">Next →</button>
+      <button id="closeDialog">Close</button>
+    </div>
+  </div>
+</dialog>
+
+<script>
+const PAGE_SIZE = 100;
+let manifest = null;
+let page = 1;
+let currentAlbum = "All";
+let currentFilter = "all";
+let currentFilename = null;
+let currentPageImages = [];
+
+const $ = s => document.querySelector(s);
+const albumEl = $("#album");
+const filterEl = $("#filter");
+const gridEl = $("#grid");
+const dialog = $("#dialog");
+
+function ratingFor(filename) {
+  return manifest.ratings[filename]?.rating || "normal";
+}
+function recordFor(filename) {
+  return manifest.ratings[filename] || {rating:"normal", reasons:[], note:""};
+}
+function albumImages() {
+  let xs = manifest.images;
+  if (currentAlbum !== "All") xs = xs.filter(x => x.album === currentAlbum);
+  if (currentFilter !== "all") xs = xs.filter(x => ratingFor(x.filename) === currentFilter);
+  return xs;
+}
+function totalPages() {
+  return Math.max(1, Math.ceil(albumImages().length / PAGE_SIZE));
+}
+function pageKey() {
+  return `${currentAlbum}:${page}`;
+}
+function counts() {
+  const xs = currentAlbum === "All" ? manifest.images : manifest.images.filter(x => x.album === currentAlbum);
+  const c = {normal:0,favorite:0,awesome:0,problem:0,reject:0};
+  xs.forEach(x => c[ratingFor(x.filename)]++);
+  return c;
+}
+function render() {
+  const xs = albumImages();
+  const pages = Math.max(1, Math.ceil(xs.length / PAGE_SIZE));
+  if (page > pages) page = pages;
+  const start = (page - 1) * PAGE_SIZE;
+  currentPageImages = xs.slice(start, start + PAGE_SIZE);
+
+  gridEl.innerHTML = "";
+  const frag = document.createDocumentFragment();
+  for (const item of currentPageImages) {
+    const rec = recordFor(item.filename);
+    const tile = document.createElement("div");
+    tile.className = `tile ${rec.rating || "normal"}`;
+    tile.dataset.filename = item.filename;
+
+    const img = document.createElement("img");
+    img.loading = "lazy";
+    img.src = "/images/" + encodeURIComponent(item.filename);
+    img.alt = item.filename;
+
+    const overlay = document.createElement("div");
+    overlay.className = "overlay";
+    const status = document.createElement("span");
+    status.className = "status";
+    status.textContent = rec.rating === "normal" ? "" : rec.rating.toUpperCase();
+    overlay.append(status);
+
+    const meta = document.createElement("div");
+    meta.className = "meta";
+    const fn = document.createElement("div");
+    fn.className = "filename";
+    fn.textContent = item.filename;
+    const badges = document.createElement("div");
+    badges.className = "badges";
+    for (const reason of (rec.reasons || [])) {
+      const b = document.createElement("span");
+      b.className = "badge";
+      b.textContent = reason;
+      badges.appendChild(b);
+    }
+    meta.append(fn, badges);
+    tile.append(img, overlay, meta);
+    tile.addEventListener("click", () => openDialog(item.filename));
+    frag.appendChild(tile);
+  }
+  gridEl.appendChild(frag);
+
+  const c = counts();
+  $("#stats").textContent =
+    `${xs.length.toLocaleString()} shown · ★★ ${c.awesome} · ★ ${c.favorite} · ! ${c.problem} · ✕ ${c.reject}`;
+  $("#pageLabel").textContent = `Page ${page} / ${pages}`;
+  $("#pageLabelBottom").textContent = `Page ${page} / ${pages}`;
+  const rev = !!manifest.reviewed_pages[pageKey()];
+  $("#reviewed").textContent = rev ? "✓ Page reviewed" : "Mark page reviewed";
+  $("#reviewed").classList.toggle("active", rev);
+  renderTopWorst();
+}
+function renderTopWorst() {
+  const scope = currentAlbum === "All" ? manifest.images : manifest.images.filter(x => x.album === currentAlbum);
+  const top = scope.filter(x => ["awesome","favorite"].includes(ratingFor(x.filename)))
+    .sort((a,b) => (ratingFor(a.filename)==="awesome" ? -1 : 1))
+    .slice(0, 12);
+  const worst = scope.filter(x => ["reject","problem"].includes(ratingFor(x.filename)))
+    .sort((a,b) => (ratingFor(a.filename)==="reject" ? -1 : 1))
+    .slice(0, 12);
+
+  const fill = (id, items, cls) => {
+    const el = $(id); el.innerHTML = "";
+    if (!items.length) { el.textContent = "None yet."; return; }
+    items.forEach(x => {
+      const img = document.createElement("img");
+      img.src = "/images/" + encodeURIComponent(x.filename);
+      img.alt = x.filename;
+      img.className = cls;
+      img.title = `${ratingFor(x.filename)} · ${x.filename}`;
+      img.addEventListener("click", () => openDialog(x.filename));
+      el.appendChild(img);
+    });
+  };
+  fill("#top", top, "top");
+  fill("#worst", worst, "worst");
+}
+function openDialog(filename) {
+  currentFilename = filename;
+  const rec = recordFor(filename);
+  $("#dialogImage").src = "/images/" + encodeURIComponent(filename);
+  $("#dialogImage").alt = filename;
+  $("#dialogFilename").textContent = filename;
+  $("#note").value = rec.note || "";
+  document.querySelectorAll("#reasons input").forEach(cb => cb.checked = (rec.reasons || []).includes(cb.value));
+  document.querySelectorAll(".dialog-actions button").forEach(b => b.classList.toggle("active", b.dataset.rating === rec.rating));
+  if (!dialog.open) dialog.showModal();
+}
+async function setRating(rating) {
+  if (!currentFilename) return;
+  const reasons = [...document.querySelectorAll("#reasons input:checked")].map(x => x.value);
+  const note = $("#note").value;
+  await fetch("/api/rate", {
+    method:"POST", headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({filename:currentFilename, rating, reasons, note})
+  });
+  if (rating === "normal") delete manifest.ratings[currentFilename];
+  else manifest.ratings[currentFilename] = {rating, reasons, note};
+  render();
+  openDialog(currentFilename);
+}
+async function saveCurrentMetadata() {
+  if (!currentFilename) return;
+  const rec = recordFor(currentFilename);
+  if ((rec.rating || "normal") === "normal") return;
+  const reasons = [...document.querySelectorAll("#reasons input:checked")].map(x => x.value);
+  const note = $("#note").value;
+  await fetch("/api/rate", {
+    method:"POST", headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({filename:currentFilename, rating:rec.rating, reasons, note})
+  });
+  manifest.ratings[currentFilename] = {...rec, reasons, note};
+  render();
+}
+function moveDialog(delta) {
+  const ix = currentPageImages.findIndex(x => x.filename === currentFilename);
+  if (ix < 0) return;
+  const nx = ix + delta;
+  if (nx >= 0 && nx < currentPageImages.length) openDialog(currentPageImages[nx].filename);
+}
+function changePage(delta) {
+  page = Math.min(totalPages(), Math.max(1, page + delta));
+  window.scrollTo({top:0, behavior:"instant"});
+  render();
+}
+function download(name, text, type="text/plain") {
+  const blob = new Blob([text], {type});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = name; a.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+function exportJson() {
+  download("curation-export.json", JSON.stringify({
+    exported_at:new Date().toISOString(),
+    album:currentAlbum,
+    ratings:manifest.ratings,
+    reviewed_pages:manifest.reviewed_pages
+  }, null, 2), "application/json");
+}
+function exportPublish() {
+  const scope = currentAlbum === "All" ? manifest.images : manifest.images.filter(x => x.album === currentAlbum);
+  const names = scope.filter(x => ratingFor(x.filename) !== "reject").map(x => x.filename);
+  download((currentAlbum === "All" ? "publish" : currentAlbum + "-publish") + ".txt", names.join("\n") + "\n");
+}
+
+async function init() {
+  manifest = await fetch("/api/manifest").then(r => r.json());
+  albumEl.innerHTML = "";
+  const all = document.createElement("option");
+  all.value = "All"; all.textContent = `All (${manifest.images.length.toLocaleString()})`;
+  albumEl.appendChild(all);
+  manifest.albums.forEach(a => {
+    const opt = document.createElement("option");
+    opt.value = a.name; opt.textContent = `${a.name} (${a.count.toLocaleString()})`;
+    albumEl.appendChild(opt);
+  });
+  render();
+}
+
+albumEl.addEventListener("change", e => { currentAlbum = e.target.value; page = 1; render(); });
+filterEl.addEventListener("change", e => { currentFilter = e.target.value; page = 1; render(); });
+$("#thumb").addEventListener("input", e => document.documentElement.style.setProperty("--thumb", e.target.value + "px"));
+$("#prev").addEventListener("click", () => changePage(-1));
+$("#next").addEventListener("click", () => changePage(1));
+$("#prevBottom").addEventListener("click", () => changePage(-1));
+$("#nextBottom").addEventListener("click", () => changePage(1));
+$("#reviewed").addEventListener("click", async () => {
+  const key = pageKey(), reviewed = !manifest.reviewed_pages[key];
+  await fetch("/api/review-page", {
+    method:"POST", headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({album:currentAlbum, page, reviewed})
+  });
+  if (reviewed) manifest.reviewed_pages[key] = true;
+  else delete manifest.reviewed_pages[key];
+  render();
+});
+document.querySelectorAll(".dialog-actions button").forEach(b => b.addEventListener("click", () => setRating(b.dataset.rating)));
+document.querySelectorAll("#reasons input").forEach(x => x.addEventListener("change", saveCurrentMetadata));
+$("#note").addEventListener("change", saveCurrentMetadata);
+$("#dialogPrev").addEventListener("click", () => moveDialog(-1));
+$("#dialogNext").addEventListener("click", () => moveDialog(1));
+$("#closeDialog").addEventListener("click", () => dialog.close());
+$("#export").addEventListener("click", exportJson);
+$("#exportPublish").addEventListener("click", exportPublish);
+
+document.addEventListener("keydown", e => {
+  if (!dialog.open) return;
+  if (e.target.tagName === "TEXTAREA") return;
+  const key = e.key.toLowerCase();
+  if (key === "a") setRating("awesome");
+  else if (key === "f") setRating("favorite");
+  else if (key === "p") setRating("problem");
+  else if (key === "x") setRating("reject");
+  else if (key === "0") setRating("normal");
+  else if (e.key === "ArrowLeft") moveDialog(-1);
+  else if (e.key === "ArrowRight") moveDialog(1);
+});
+
+init().catch(err => {
+  document.body.innerHTML = `<pre style="padding:20px;color:#f88">Failed to load curator: ${String(err)}</pre>`;
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,378 @@
+{
+  "last_node_id": 9,
+  "last_link_id": 9,
+  "nodes": [
+    {
+      "id": 5,
+      "type": "EmptyLatentImage",
+      "pos": [
+        473,
+        609
+      ],
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            2
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        512,
+        512,
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "type": "CLIPTextEncode",
+      "pos": [
+        413,
+        389
+      ],
+      "size": {
+        "0": 425.27801513671875,
+        "1": 180.6060791015625
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            6
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "cartoon bubbles,bright multicolor palette, characters, fantasy environment,  UI clutter, text overlays, logos, realistic textures, photorealism, explosions, weapons, complex backgrounds, text, watermark, ugly, amateur, distorted, garish, gawdy, abstract"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        -37,
+        460
+      ],
+      "size": {
+        "0": 315,
+        "1": 98
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            1
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            3,
+            5
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            8
+          ],
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "v1-5-pruned-emaonly.ckpt"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "KSampler",
+      "pos": [
+        894,
+        505
+      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 1
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 4
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 6
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            7
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        615331369110623,
+        "randomize",
+        20,
+        8,
+        "euler",
+        "normal",
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "type": "VAEDecode",
+      "pos": [
+        611,
+        66
+      ],
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 7
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 8
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            9
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "id": 9,
+      "type": "SaveImage",
+      "pos": [
+        1259,
+        -42
+      ],
+      "size": {
+        "0": 355.4561767578125,
+        "1": 363.86376953125
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 9
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "blastoids"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "CLIPTextEncode",
+      "pos": [
+        415,
+        186
+      ],
+      "size": {
+        "0": 422.84503173828125,
+        "1": 164.31304931640625
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            4
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "Perspective, realistic photograph, portrait, Galactromeda, Haplopraxis, Rendezvous with rama, single light source, artgerm, Spherical living pods, Fractal greenhouse living, wide open spaces, Organic plant nursery, overflowing greenery shrubs,Futuristic clothing, Behind the scenes, golden ratio, Mos eisley, dune, ruins, Haplopraxis, Galactromeda, sci-fi, futuristic, garden, future city, photorealistic,  surreal , a painting of a group of people gathered around a table, an oil on canvas painting, american scene painting, encampment, benjamin vnuk, a blueprint for a sparkling tomorrow, vertical farms, urban organic greenhouse, forest like, political art, outdoor scene Чаепитие в Мытищах, близ М  sci-fi, futuristic, vista, future city, photorealistic,  metallic, rainforest, greenery,surreal , a photograph, an oil on canvas painting, shutterstock, american scene painting, encampment, benjamin vnuk, political art, outdoor scene Чаепитие в Мытищах, близ Москвы, Flight of the navigator, morning,distant sky, single light source 10,000 years from now, Futuristic city, Forests, high contrast, Landscape, distant Sky, photograph, distant, Futuristic city, forest, cyborg, robotic parts, porcelain nousr robot, complex, cyborg, robotic parts, realistic photograph, front page of art station, wlop : : victor stone, sunny park background, style of stanley artgerm, wandering in the city, realistic face, Haplopraxis, Galactromeda, sci-fi, futuristic,  future city, photorealistic,  surreal , a painting of a group of people gathered around a table, an oil on canvas painting, shutterstock, american scene painting, encampment, benjamin vnuk, political art, outdoor scene Чаепитие в Мытищах, близ Москвы,Oil Painting: An outdoor scene reminiscent of American scene painting, capturing a group of diversPhotorealistic image: Realistic, mirrors, renaissance painting, futuristic city,Mikhail Vrubel, Boris Kustodiev, Ayn Rand, distant sky, Commander keen, artgerm, photograph, realistic, award winning, cybernetic circuit light Mechatronic, city on a Sci-Fi & Space Art. A visually stunning medium of an ethereal cloud_type with futuristic architecture_style spires reaching towards the heavens. The city is teeming with various   . The scene is enveloped in a vibrant Sci-Fi and Space Art atmosphere, with hints of art_style_1 and art_styleaying homage to the unique styles of he cityscape's captivating design instills a sense of strong_feeling_1 and evokes the boundless potential of the universe. Example values used for this prompt: painting, cumulonimbus, Deco,, insectoid, Surrealism, HR. Giger, Salvador Dali, awe, and wonder , Flight of the navigator, Galactromeda, Haplopraxis, masterpiece, Futuristic city, distant, photographic style, organic, surreal, hanging gardens, ruins,sci-fi, futuristic, vista, aether, artgerm, future city, high contrast, professional, photorealistic,  surreal, valley, depth, a photograph, an oil on canvas painting, shutterstock, american scene painting, encampment, benjamin vnuk, political art, outdoor scene Чаепитие в Мытищах, близ Москвы, Flight of the navigator, morning,distant sky, single light source, crisp shadows, Misty forest fog, a painting of a futuristic city at night, realistic photography futuristic living room, Organic distal crystal plate walls,distant sky, single light source 10,000 years from now, Futuristic city, Forests, high contrast, Landscape, distant Sky, photograph, distant, Futuristic city, forest, cyborg, robotic parts, porcelain nousr robot, complex, cyborg, robotic parts, realistic photograph, front page of art station, wlop : : victor stone, sunny park background, style of stanley artgerm, wandering in the city, realistic face, Haplopraxis, Galactromeda, sci-fi, futuristic,  future city, photorealistic,  surreal , a painting of a group of people gathered around a table, an oil on canvas painting, american scene painting, encampment, benjamin vnuk, political art, outdoor scene Чаепитие в Мытищах, близ М  sci-fi, futuristic, vista, future city, photorealistic,  surreal , a photograph, an oil on canvas painting, shutterstock, american scene painting, encampment, benjamin vnuk, political art, outdoor scene Чаепитие в Мытищах, близ Москвы, Flight of the navigator, morning,distant sky, single light source 10,000 years from now, Futuristic city, Forests, high contrast, Landscape, distant Sky, photograph, distant, Futuristic city, forest, cyborg, robotic parts, porcelain nousr robot, complex, cyborg, robotic parts, realistic photograph, front page of art station, wlop, victor stone, sunny park background, style of stanley artgerm, wandering in the city, realistic face, Haplopraxis, Galactromeda, sci-fi, futuristic,  future city, photorealistic,  surreal , a painting of a group of people gathered around a table, an oil on canvas painting, shutterstock, american scene painting, encampment, benjamin vnuk, political art, outdoor scene Чаепитие в Мытищах, близ Москвы,Oil Painting, An outdoor scene reminiscent of American scene painting, capturing a group of diverse individuals gathered around a large wooden table. They appear to be in deep discussion, surrounded by an encampment with tents and campfires. The setting sun paints the sky in warm hues, creating a stark contrast with the cool shadows on the ground. The painterly strokes are evident, giving the artwork a timeless feel. Photo: A sprawling futuristic city nestled within a dense forest. The balance between nature and architecture is evident, with skyscrapers seamlessly integrated among towering trees. High above, the sky is a vivid shade, illuminated by a single distant light source. Amidst the city's hustle and bustle, a cyborg with porcelain skin and intricate robotic parts walks confidently. This being, a blend of organic and mechanical, represents the epitome of technological advancement in this future world, A futuristic living room set 10,000 years from now. A close-up of a realistic face, possibly a cyborg, wandering through a bustling futuristic city. The face displays a mix of human and robotic features, hinting at a complex backstory. In the background, towering skyscrapers, multimeter bioluminescent Galactromeda and Haplopraxis"
+      ]
+    }
+  ],
+  "links": [
+    [
+      1,
+      4,
+      0,
+      3,
+      0,
+      "MODEL"
+    ],
+    [
+      2,
+      5,
+      0,
+      3,
+      3,
+      "LATENT"
+    ],
+    [
+      3,
+      4,
+      1,
+      6,
+      0,
+      "CLIP"
+    ],
+    [
+      4,
+      6,
+      0,
+      3,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      5,
+      4,
+      1,
+      7,
+      0,
+      "CLIP"
+    ],
+    [
+      6,
+      7,
+      0,
+      3,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      7,
+      3,
+      0,
+      8,
+      0,
+      "LATENT"
+    ],
+    [
+      8,
+      4,
+      2,
+      8,
+      1,
+      "VAE"
+    ],
+    [
+      9,
+      8,
+      0,
+      9,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.513158118230707,
+      "offset": {
+        "0": -294.1708370973297,
+        "1": 81.37502945436898
+      }
+    }
+  },
+  "version": 0.4
+}
