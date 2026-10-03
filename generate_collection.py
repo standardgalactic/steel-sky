@@ -75,3 +75,4 @@ def main():
     if not jobs:
         raise ValueError('No jobs selected')
     workflow_path = Path(args.workflow)
+    # Workflow content belongs to job identity, so changed settings regenerate.
