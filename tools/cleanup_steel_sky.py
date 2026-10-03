@@ -140,3 +140,4 @@ def main():
                 raise ValueError(f'Move collision: {target.relative_to(root)}')
             targets.add(target)
             moves.append((source, target))
+    rewrites = {}
