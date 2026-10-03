@@ -57,3 +57,4 @@ def get_image_summary(image_path):
         # Extract token usage
         token_usage = {
             "prompt_tokens": completion.usage.prompt_tokens,
+            "completion_tokens": completion.usage.completion_tokens,
