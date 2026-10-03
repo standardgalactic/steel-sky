@@ -299,3 +299,4 @@ def build_plan(source, dest, args):
             bmode, bblob = base[p]
             item["mode"] = bmode
             lf = to_lf(data)
+            if hash_object(dest, data) == bblob:
