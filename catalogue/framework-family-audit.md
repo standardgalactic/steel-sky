@@ -230,3 +230,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 17.07 The Locked Room’s Open Window: model checking, omitted transitions
 - 20.09 The Restaurant of Random Seating: randomized algorithms, probabilistic guarantees
 - 20.13 The Accountant’s Imaginary Goat: abstraction, category errors
+- 21.07 The Palace of Unfinished Proofs: proof obligations, conditional conclusions
