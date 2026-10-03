@@ -12,3 +12,4 @@ id,title,kind,framework,scale,family
 01.11,The Water Tower Census,M,sampling and survivorship bias,M,"Bayesian updating, bias and sampling"
 01.12,Rotary,M,fixed-point theorems,S,"Dynamics, feedback and oscillation"
 01.13,The Night Clerks of the Central Library,M,"sorting cost, information entropy",S,"Coding, cryptography and information"
+01.14,The Hyperbolic Quarter,M,hyperbolic geometry,M,"Geometry, space and scale"
