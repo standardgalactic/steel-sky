@@ -49,3 +49,4 @@ def get_image_summary(image_path):
             },
         ]
         completion = client.chat.completions.create(
+            model="grok-2-vision-latest",
