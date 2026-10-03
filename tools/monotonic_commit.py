@@ -112,3 +112,6 @@ def git(dest, *a, **k):
 def norm_author(name):
     name = name.strip()
     return ALIASES.get(name.lower(), name)
+
+
+def is_binary(b):
