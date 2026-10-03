@@ -533,3 +533,4 @@ def verify(dest, plan):
     ids = [tree[p][1] for p in check]
     for p, (_oid, h) in zip(check, read_blobs(dest, ids)):
         want = expect[p].get("data")
+        want = sha(want) if want is not None else expect[p]["sha"]
