@@ -338,3 +338,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
       ],
       "size": {
         "0": 425.27801513671875,
+        "1": 180.6060791015625
