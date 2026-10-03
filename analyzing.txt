@@ -272,3 +272,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
       "inputs": [
         {
           "name": "images",
+          "type": "IMAGE",
