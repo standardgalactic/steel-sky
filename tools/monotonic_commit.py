@@ -645,3 +645,4 @@ def main():
             sys.exit("--push needs --remote")
         if args.push_every > 0:
             shas = git(dest, "rev-list", "--reverse", "HEAD").decode().split()
+            step = args.push_every
