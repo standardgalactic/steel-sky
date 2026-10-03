@@ -144,3 +144,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 17.09 The Map of Accusations: observation bias, spatial intensity
 - 20.19 The Fortune-Teller’s Calibration Party: calibration, sharpness
 - 20.20 The Museum of Successful Failures: hindsight bias, selection effects
+- 21.17 The Carnival of Incompatible Chances: probability coherence
