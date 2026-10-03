@@ -124,3 +124,4 @@ def main():
     if args.check_only:
         broken = check_index(root)
         return 1 if broken else 0
+    # Git's index is retained here, so tracked ignored files remain eligible.
