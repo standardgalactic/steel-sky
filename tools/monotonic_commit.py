@@ -518,3 +518,4 @@ def verify(dest, plan):
     problems = []
     for p, it in expect.items():
         if p not in tree:
+            problems.append("missing: " + p)
