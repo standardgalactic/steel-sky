@@ -7,3 +7,4 @@ curl https://api.x.ai/v1/chat/completions \
     "messages": [
       { "role": "system", "content": "You are a test assistant." },
       { "role": "user", "content": "What is the purpose of a null-wavefront in Null Convention Logic?" }
+    ],
