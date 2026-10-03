@@ -5065,3 +5065,12 @@
 │       ├── aniara_00010_.png
 │       ├── aniara_00011_.png
 │       ├── aniara_00012_.png
+│       ├── aniara_00013_.png
+│       ├── aniara_00014_.png
+│       ├── aniara_00015_.png
+│       ├── aniara_00016_.png
+│       ├── aniara_00017_.png
+│       ├── aniara_00018_.png
+│       ├── aniara_00019_.png
+│       ├── aniara_00020_.png
+│       ├── aniara_00021_.png
