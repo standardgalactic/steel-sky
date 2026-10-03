@@ -14,3 +14,5 @@ def is_stop_line(line):
     return (line.strip().startswith("Total Token Usage Across All Files:") or
             line.strip().startswith('{') or
             line.strip().startswith('}'))
+
+def is_list_line(line):
