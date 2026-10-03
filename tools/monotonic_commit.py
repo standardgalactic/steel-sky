@@ -89,3 +89,4 @@ WHOLE_EXT = (".webp", ".png", ".jpg", ".jpeg", ".gif", ".pdf", ".mp3", ".mp4", "
 RULES = [
     ("pipeline", ["generate.py", "workflow.json", "generate_collection.py", "tools/*", "check-image.py",
                   "make-json.py", "test-*", "docker-compose.yml"]),
+    ("catalogue", ["catalogue/*", "catalogue.md", "framework-family-*", "graphic-treatment-*"]),
