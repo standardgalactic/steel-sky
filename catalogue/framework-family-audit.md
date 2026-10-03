@@ -41,3 +41,4 @@ Under this 26-family taxonomy **no family exceeds the cap**. The largest are Opt
 The cap test is only as strict as the taxonomy is fine. The same catalogue gives different answers at different granularities, so the taxonomy has to be fixed before the cap means anything.
 
 - **Inference and evidence (merging 4 families):** 75 entries, 17.0%. Breaches the cap if read as one family.
+- **Dynamical systems (merging 3 families):** 57 entries, 13.0%. Breaches the cap if read as one family.
