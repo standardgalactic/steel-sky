@@ -119,3 +119,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 02.01 The Lodger's Arithmetic: Bayesian updating under filtered evidence
 - 02.12 The Cellar Census: capture and recapture estimation
 - 03.13 The Almanac Compilers: forecast calibration
+- 04.03 The Court of Small Probabilities: base rates, prosecutor's fallacy
