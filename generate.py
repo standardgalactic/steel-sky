@@ -108,3 +108,4 @@ def main():
                 raise RuntimeError("Generation completed without saved images")
         time.sleep(1)
     raise TimeoutError(
+        f"Stopped waiting after {args.timeout:g}s; job {prompt_id} may still be running"
