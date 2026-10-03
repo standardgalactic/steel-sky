@@ -165,3 +165,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
       ],
       "size": {
         "0": 315,
+        "1": 262
