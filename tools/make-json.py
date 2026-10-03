@@ -38,3 +38,4 @@ with open(input_path, "r", encoding="utf-8") as f:
     lines = [line.rstrip() for line in f if line.strip()]
 
 entries = []
+i = 0
