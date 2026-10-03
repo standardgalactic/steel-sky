@@ -185,3 +185,6 @@ def split_lines(data):
 def blame_lines(dest, path):
     out = git(dest, "blame", "--line-porcelain", "-w", "HEAD", "--", path)
     return [norm_author(l[7:].decode("utf-8", "replace")) for l in out.split(b"\n") if l.startswith(b"author ")]
+
+
+def retained_authors(dest, path, new_data):
