@@ -544,3 +544,4 @@ def main():
     ap.add_argument("--source", default=".", help="finished working tree (needs a .gitignore)")
     ap.add_argument("--dest", required=True, help="new repository folder (must not exist)")
     ap.add_argument("--upstream", default=UPSTREAM_URL, help="upstream URL or local clone")
+    ap.add_argument("--lines", type=int, default=1, help="lines per commit for text files (default 1)")
