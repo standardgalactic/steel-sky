@@ -108,3 +108,4 @@ def main():
             
             # After processing all files, append total token usage
             total_output = (
+                f"\nTotal Token Usage Across All Files:\n"
