@@ -39,3 +39,4 @@ Commit counts come from `git shortlog` on the upstream history and count commits
 Weekly commit counts for the upstream project show a short, intense start and a long tail:
 
 | Year | Commits |
+|---|---|
