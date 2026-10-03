@@ -27,3 +27,4 @@ def encode_image(image_path):
     return encoded_string
 
 def get_image_summary(image_path):
+    """Get a summary of the image content and token usage using the xAI API."""
