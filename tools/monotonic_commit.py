@@ -319,3 +319,4 @@ def build_plan(source, dest, args):
     for p, (mode, _b) in sorted(base.items()):
         if p in seen:
             continue
+        if os.path.lexists(os.path.join(source, p)):
