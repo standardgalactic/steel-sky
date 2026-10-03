@@ -481,3 +481,4 @@ def read_blobs(dest, ids):
     split a request or desynchronise the replies."""
     proc = subprocess.Popen(["git", "cat-file", "--batch"], cwd=dest, stdin=subprocess.PIPE,
                             stdout=subprocess.PIPE)
+    try:
