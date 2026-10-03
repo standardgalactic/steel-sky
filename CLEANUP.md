@@ -17,3 +17,4 @@ git mv make-json.py check-image.py test-check-image.py test-grok.sh test-samples
 
 Move `catalogue.md` into `catalogue/` too (it was never in the tree you sent, so it may be outside the repo).
 Delete `README.txt` after its content is merged into `README.md`.
+The `*.progress.json` files are run state. Add them to `.gitignore` instead of committing them.
