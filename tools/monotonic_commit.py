@@ -472,3 +472,6 @@ def fast_import(dest, commits, ident, branch):
     if proc.wait():
         sys.exit("fast-import failed:\n" + err.decode("utf-8", "replace"))
     return n
+
+
+def read_blobs(dest, ids):
