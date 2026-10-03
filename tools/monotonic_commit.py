@@ -54,3 +54,4 @@ check) and compares its SHA-256 and its mode with the plan. It also checks that 
 set of tracked files is exactly the planned set. It refuses to push on any mismatch.
 
 Branch: the whole history, upstream commits included, lives on one branch,
+`archdaemon` by default (`--branch NAME` to change it). After the first push, set
