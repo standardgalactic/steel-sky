@@ -59,3 +59,4 @@ while i < len(lines):
                 i += 1
         summary = join_summary_lines(summary_lines).strip()
         entries.append({
+            "filename": filename,
