@@ -371,3 +371,4 @@ def trailers(it):
             else:
                 word = "retained"
             a = ", ".join("%s (%d lines %s)" % (k, v, word) for k, v in it["authors"].most_common())
+        else:
