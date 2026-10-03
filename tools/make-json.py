@@ -30,3 +30,4 @@ def join_summary_lines(lines):
         if i < len(lines) - 1:
             current_is_list = is_list_line(line)
             next_is_list = is_list_line(lines[i+1])
+            if current_is_list and not next_is_list and lines[i+1].strip():
