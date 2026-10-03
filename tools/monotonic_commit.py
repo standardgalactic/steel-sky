@@ -342,3 +342,4 @@ def provenance_files(plan, base_count):
     buf = io.StringIO()
     csv.writer(buf, lineterminator="\n").writerows(rows)
     counts = collections.Counter(it["cls"] for it in plan.items)
+    md = ["# Provenance", "",
