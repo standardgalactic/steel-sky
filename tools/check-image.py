@@ -96,3 +96,4 @@ def main():
                 # Prepare output string for individual image
                 output = (
                     f"{image_path}\n"
+                    f"Summary: {summary}\n"
