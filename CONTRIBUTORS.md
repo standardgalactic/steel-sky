@@ -29,3 +29,4 @@ The upstream repository was created in August 2022 and its last commit in this l
 | [ProducerMatt](https://github.com/ProducerMatt) | 1 |
 | Rafael Goes | 1 |
 | SachiaLanlus | 1 |
+| sejoung kim | 1 |
