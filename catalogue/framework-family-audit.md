@@ -301,3 +301,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 17.20 The Acquittal Nobody Understood: burdens of proof, epistemic and legal conclusions
 - 18.07 The Replica with Better Memories: authenticity, experiential value
 - 19.11 The Marriage of Unpaid Repairs: accumulated obligations, relational maintenance
+- 19.17 The Last Edition of the Local Paper: public knowledge, shared attention
