@@ -123,3 +123,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 04.07 The Laboratory of Replicated Results: multiple comparisons
 - 04.16 The Inspectorate of Honest Mistakes: error types
 - 04.17 The Bell Curve Tribunal: regression to the mean
+- 06.02 The Seed Vault Expedition: sampling, representativeness
