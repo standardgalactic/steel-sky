@@ -131,3 +131,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 10.18 The Interpreter at the Gate: base rates, false matches
 - 12.01 The Census of Closed Curtains: missing-not-at-random data
 - 12.02 The Photograph’s Other Edge: framing, evidential selection
+- 12.03 The Catalogue of Almost Matches: entity resolution, nontransitive similarity
