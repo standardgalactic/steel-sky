@@ -144,3 +144,4 @@ def main():
     if args.strip_think:
         for relative in paths:
             source = root / relative
+            if source.suffix.lower() not in {'.md', '.txt', '.vtt'} or source.is_symlink() or not source.is_file():
