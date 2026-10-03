@@ -403,3 +403,4 @@ async function described(){
   const go = d=>{dpage+=d; drender(); document.getElementById("described").scrollIntoView()};
   $("#dprev").onclick=()=>go(-1); $("#dnext").onclick=()=>go(1);
 }
+boot(); described();
