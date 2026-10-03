@@ -25,3 +25,4 @@ def save(path, state):
 
 def plan(config, selected):
     root = slug(config['name'])
+    shared = config['shared_prompt'].strip()
