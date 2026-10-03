@@ -27,3 +27,4 @@ The upstream repository was created in August 2022 and its last commit in this l
 | Mou Lai | 1 |
 | PassiveLemon | 1 |
 | [ProducerMatt](https://github.com/ProducerMatt) | 1 |
+| Rafael Goes | 1 |
