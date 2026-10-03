@@ -455,3 +455,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 22.10 The Queue from Every Position: queueing, unequal waiting experience
 
 ### Geometry, space and scale (13)
+
+- 01.14 The Hyperbolic Quarter: hyperbolic geometry
