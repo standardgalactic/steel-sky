@@ -207,3 +207,4 @@ def main():
         index_path = root / index_path
     if index_path.exists():
         shutil.copy2(index_path, backup / 'git-index')
+    (backup / 'plan.json').write_text(json.dumps({
