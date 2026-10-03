@@ -46,3 +46,4 @@ def plan(config, selected):
             negative = ', '.join(p for p in [settings.get('negative', '').strip(), entry.get('negative', '').strip()] if p)
             base_seed = int(settings.get('seed', 1000))
             for variant in range(1, variations + 1):
+                stable_offset = int(hashlib.sha256(folder.encode()).hexdigest()[:12], 16)
