@@ -90,3 +90,4 @@ def main():
             for i, image_path in enumerate(png_files, 1):
                 summary, token_usage = get_image_summary(image_path)
                 # Update total token usage
+                total_token_usage["prompt_tokens"] += token_usage["prompt_tokens"]
