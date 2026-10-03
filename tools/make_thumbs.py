@@ -104,3 +104,4 @@ def main():
         root = Path(s)
         if not root.is_dir():
             print("skip, not a folder:", s, file=sys.stderr)
+            continue
