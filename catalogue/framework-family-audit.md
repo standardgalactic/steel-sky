@@ -221,3 +221,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 05.14 The Rail Signal Box: Boolean logic, deadlock
 - 10.03 The Customs House Contradiction: inconsistent rule sets
 - 10.10 A Citizen of the Empty Set: domains, partial functions
+- 10.16 The Two-Way Bridge: mutual exclusion, deadlock
