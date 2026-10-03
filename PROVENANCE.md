@@ -10,3 +10,4 @@ This repository continues from the real history of https://github.com/AbdBarho/s
 | Class | Files | Meaning |
 |---|---|---|
 | upstream | 24 | Identical to the upstream file, or identical apart from CRLF versus LF (the repository then keeps upstream's LF bytes). Not re-committed. Authorship is in the upstream commits. |
+| upstream-modified | 3 | Started from an upstream file and differs from it. Trailers name the upstream authors whose lines are still present, counted by matching the final file against the upstream version. That is a count of surviving lines. It says nothing about who wrote the changes. Binary files are not line-matched, and their trailers name the authors of the upstream version. |
