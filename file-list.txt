@@ -5524,3 +5524,12 @@
 │       ├── aniara_00469_.png
 │       ├── aniara_00470_.png
 │       ├── aniara_00471_.png
+│       ├── aniara_00472_.png
+│       ├── aniara_00473_.png
+│       ├── aniara_00474_.png
+│       ├── aniara_00475_.png
+│       ├── aniara_00476_.png
+│       ├── aniara_00477_.png
+│       ├── aniara_00478_.png
+│       ├── aniara_00479_.png
+│       ├── aniara_00480_.png
