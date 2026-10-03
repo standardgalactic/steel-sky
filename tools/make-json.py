@@ -55,3 +55,4 @@ while i < len(lines):
                    and not is_stop_line(lines[i])):
                 line = lines[i]
                 if not is_separator(line):
+                    summary_lines.append(line)
