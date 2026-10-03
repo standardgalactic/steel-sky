@@ -56,3 +56,4 @@ def get_image_summary(image_path):
         summary = completion.choices[0].message.content
         # Extract token usage
         token_usage = {
+            "prompt_tokens": completion.usage.prompt_tokens,
