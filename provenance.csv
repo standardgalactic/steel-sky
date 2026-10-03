@@ -7,3 +7,12 @@ path,class,phase,upstream_lines_retained,upstream_authors
 .gitattributes,upstream,,,
 .github/ISSUE_TEMPLATE/bug.md,upstream,,,
 .github/ISSUE_TEMPLATE/config.yml,upstream,,,
+.github/pull_request_template.md,upstream,,,
+.github/workflows/docker.yml,upstream,,,
+.github/workflows/stale.yml,upstream,,,
+.gitignore,upstream-modified,upstream-changes,6 of 6,Mat (4); AbdBarho (1); Sebastian Piechowiak (1)
+.vscode/launch.json,upstream-ignored,,,
+CLEANUP.md,steel-sky,docs,,
+CONTRIBUTORS.md,steel-sky,docs,,
+LICENSE,upstream,,,
+README.md,upstream-modified,upstream-changes,20 of 48,AbdBarho (17); PassiveLemon (3)
