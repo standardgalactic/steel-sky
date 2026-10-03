@@ -199,3 +199,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
           "links": [
             7
           ],
+          "slot_index": 0
