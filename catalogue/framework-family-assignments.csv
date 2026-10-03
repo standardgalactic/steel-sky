@@ -374,3 +374,4 @@ id,title,kind,framework,scale,family
 19.13,The Farewell Scheduled Too Late,M,"deadlines, irreversible state transitions",S,"Thresholds, tipping points and cascades"
 19.14,The Market after the Last Stall,M/C,"coordination, threshold participation",M,"Thresholds, tipping points and cascades"
 19.15,The Archive’s Expiring Key,M,"cryptographic access, key loss",S,"Coding, cryptography and information"
+19.16,The Town That Sold Its Spare,M,"redundancy, fault tolerance",M,Physical and engineering limits
