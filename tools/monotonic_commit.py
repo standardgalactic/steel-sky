@@ -116,3 +116,6 @@ def norm_author(name):
 
 def is_binary(b):
     return b"\0" in b[:8192]
+
+
+def to_lf(b):
