@@ -232,3 +232,4 @@ def main():
     after = check_index(root)
     if before is not None and after is not None:
         old = {x['reference'] for x in before}
+        new = [x for x in after if x['reference'] not in old]
