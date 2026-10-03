@@ -27,3 +27,4 @@ def plan(config, selected):
     root = slug(config['name'])
     shared = config['shared_prompt'].strip()
     defaults = config.get('defaults', {})
+    seen = set()
