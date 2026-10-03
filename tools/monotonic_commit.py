@@ -520,3 +520,4 @@ def verify(dest, plan):
         if p not in tree:
             problems.append("missing: " + p)
         elif tree[p][0] != it["mode"]:
+            problems.append("mode %s, expected %s: %s" % (tree[p][0], it["mode"], p))
