@@ -378,3 +378,4 @@ def trailers(it):
         if it["cls"] == "upstream-modified" and it.get("retained") is not None:
             t += "Upstream-Lines-Retained: %d of %d\n" % (it["retained"], it["total"])
         return t + "Provenance: %s\n" % it["cls"]
+    return "\n\nProvenance: steel-sky\n"
