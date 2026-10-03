@@ -232,3 +232,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 20.13 The Accountant’s Imaginary Goat: abstraction, category errors
 - 21.07 The Palace of Unfinished Proofs: proof obligations, conditional conclusions
 - 22.19 The Last Light in Each Room: terminal actions, closure conditions
+
+### Graphs, networks and topology (23)
