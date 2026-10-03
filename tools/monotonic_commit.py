@@ -213,3 +213,4 @@ def describe(line, n, ext):
         if s.startswith("|"):
             cell = s.strip("| ").split("|")[0].strip()
             return "Add table row: " + (cell[:50] or "row")
+        if s[:2] in ("- ", "* ") or re.match(r"^\d+\. ", s):
