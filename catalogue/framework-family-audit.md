@@ -240,3 +240,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 01.06 The Parish of Bells: Voronoi partitions
 - 01.09 Fifty Floors of Rumour: percolation, epidemic thresholds
 - 01.17 The Last Stop on the Loop: topology, orientability
+- 02.05 The Dinner Table Problem: independent sets, graph constraints
