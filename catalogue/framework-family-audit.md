@@ -281,3 +281,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 15.11 The Braille Printer’s Apprentice: coding under physical constraints
 - 17.02 The Perfect Alibi Machine: cryptographic commitments, evidential scope
 - 19.08 The Library’s Final Catalogue: information preservation, operational access
+- 19.15 The Archive’s Expiring Key: cryptographic access, key loss
