@@ -51,3 +51,4 @@ def plan(config, selected):
                 job = {'prefix': f'{folder}/variant-{variant:03d}', 'prompt': positive,
                        'negative': negative, 'seed': seed, 'batch': batch}
                 job['key'] = hashlib.sha256(json.dumps(job, sort_keys=True).encode()).hexdigest()
+                yield job
