@@ -22,3 +22,4 @@ def encode_image(image_path):
 base64_image = encode_image(image_path)
 
 messages = [
+    {
