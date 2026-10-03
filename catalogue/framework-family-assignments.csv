@@ -68,3 +68,4 @@ id,title,kind,framework,scale,family
 04.07,The Laboratory of Replicated Results,M,multiple comparisons,M,"Bayesian updating, bias and sampling"
 04.08,The Registry of Names,M,"self-reference, barber paradox",S,"Logic, computation and formal languages"
 04.09,The Department of Forms,M,formal grammars,M,"Logic, computation and formal languages"
+04.10,The Ombudsman's Waiting Room,M,"priority inversion, queues",S,"Queues, flows and throughput"
