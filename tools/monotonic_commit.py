@@ -25,3 +25,4 @@ the final file against `git blame` of the upstream version. It is a count of
 surviving lines, not a statement about who wrote the changes:
 
     Upstream-Origin: https://github.com/AbdBarho/stable-diffusion-webui-docker
+    Upstream-Path: docker-compose.yml
