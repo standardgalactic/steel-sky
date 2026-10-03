@@ -244,3 +244,4 @@ def group_lines(data):
             cur = []
     if cur:
         if groups:
+            groups[-1].extend(cur)
