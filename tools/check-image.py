@@ -8,3 +8,5 @@ import time
 import random
 import json
 import sys
+
+# Retrieve the API key from environment variable
