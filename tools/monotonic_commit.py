@@ -269,3 +269,6 @@ def load(it, source, args):
 
 def per_commit(groups, args):
     return max(args.lines, -(-groups // args.max_commits_per_file))
+
+
+def commit_count(it, args):
