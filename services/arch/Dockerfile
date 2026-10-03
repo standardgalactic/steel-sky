@@ -5,3 +5,5 @@
 
 ARG BASE=flyxion/arch-minimal:v1
 FROM ${BASE}
+
+RUN pacman -Syu --noconfirm --needed \
