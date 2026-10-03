@@ -231,3 +231,4 @@ def main():
     print(f'Backup: {backup.relative_to(root)}')
     after = check_index(root)
     if before is not None and after is not None:
+        old = {x['reference'] for x in before}
