@@ -202,3 +202,6 @@ def retained_authors(dest, path, new_data):
             if i + k < len(names):
                 c[names[i + k]] += 1
     return c, sum(c.values()), len(up_l)
+
+
+def describe(line, n, ext):
