@@ -24,3 +24,4 @@ x-base_service: &base_service
 name: webui-docker
 
 services:
+  download:
