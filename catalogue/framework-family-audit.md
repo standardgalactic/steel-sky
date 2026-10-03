@@ -67,3 +67,4 @@ The inference cluster is the one to watch. The catalogue leans on evidence, sele
 - 01.01 The Department of Unclaimed Rooms: Language, meaning and convention
 - 03.01 The Last Projectionist: Inverse problems and inference from traces
 - 04.01 The Society for Perfect Endings: Logic, computation and formal languages
+- 07.01 The Whale Beneath the Railway: Optimization, search and scheduling
