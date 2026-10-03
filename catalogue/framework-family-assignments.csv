@@ -167,3 +167,4 @@ id,title,kind,framework,scale,family
 09.06,The Lighthouse Circuit,M,Chinese postman problem,S,"Optimization, search and scheduling"
 09.07,The Long Way Around Cape Nothing,M,"great circles, spherical geometry",M,"Geometry, space and scale"
 09.08,The Ferrymen of the Lagoon,M,state-space search,S,"Optimization, search and scheduling"
+09.09,The Caravan Without a Leader,M,"flocking, alignment dynamics",M,"Dynamics, feedback and oscillation"
