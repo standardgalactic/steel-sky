@@ -56,3 +56,5 @@ set of tracked files is exactly the planned set. It refuses to push on any misma
 Branch: the whole history, upstream commits included, lives on one branch,
 `archdaemon` by default (`--branch NAME` to change it). After the first push, set
 that branch as the default branch in the GitHub repository settings.
+
+Typical use, from the finished project folder (needs a .gitignore beside it):
