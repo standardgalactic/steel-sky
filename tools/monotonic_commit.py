@@ -294,3 +294,4 @@ def build_plan(source, dest, args):
         raw = open(full, "rb").read()
         data = to_lf(raw) if args.eol == "lf" else raw
         item = dict(path=p, size=len(data), sha=sha(data), phase=None, authors=None, retained=None,
+                    total=None, whole=True, groups=0, eol_only=False)
