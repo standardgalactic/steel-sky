@@ -368,3 +368,4 @@ id,title,kind,framework,scale,family
 19.07,The Winter They Spent the Buffer,M,"reserve depletion, stochastic demand",M,"Queues, flows and throughput"
 19.08,The Library’s Final Catalogue,M/C,"information preservation, operational access",M,"Coding, cryptography and information"
 19.09,The Farm beyond the Tipping Point,M,"bistability, hysteresis",M,"Dynamics, feedback and oscillation"
+19.10,The Theatre without a Back Door,M/C,"safety invariants, single-point failure",S,Physical and engineering limits
