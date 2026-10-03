@@ -189,3 +189,4 @@ def main():
     before = check_index(root)
     if not args.apply:
         print('Preview only. Add --apply to make these changes.')
+        return 0
