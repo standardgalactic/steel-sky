@@ -39,3 +39,4 @@ def get_image_summary(image_path):
                         "image_url": {
                             "url": f"data:image/png;base64,{base64_image}",
                             "detail": "high",
+                        },
