@@ -586,3 +586,4 @@ def main():
     git(dest, "remote", "remove", "origin")  # also drops refs/remotes/origin/*
     for b in git(dest, "for-each-ref", "--format=%(refname)", "refs/tags").decode().split():
         git(dest, "update-ref", "-d", b)
+    base_count = int(git(dest, "rev-list", "--count", "HEAD").decode())
