@@ -397,3 +397,4 @@ async function described(){
     const r = await fetch("image_descriptions.json"); if(!r.ok) throw 0;
     dd = await r.json(); if(!Array.isArray(dd))throw 0;
     dd = dd.filter(e=>e&&typeof e.filename==="string"&&typeof e.summary==="string"); if(!dd.length) throw 0;
+  }catch(e){ $("#desc").innerHTML='<p class="empty">No descriptions found. Add image_descriptions.json next to this page.</p>'; return }
