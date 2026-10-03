@@ -63,3 +63,4 @@ id,title,kind,framework,scale,family
 04.02,The Ministry of Lost Appeals,M,halting problem,M,"Logic, computation and formal languages"
 04.03,The Court of Small Probabilities,M,"base rates, prosecutor's fallacy",S,"Bayesian updating, bias and sampling"
 04.04,The School That Taught the Test,C,Goodhart's law,M,"Economics: value, scarcity and externalities"
+04.05,The Committee on Committees,M,"recursion, self-reference",S,"Logic, computation and formal languages"
