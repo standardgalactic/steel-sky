@@ -203,3 +203,4 @@ id,title,kind,framework,scale,family
 11.02,The Interpreter’s Missing Word,C,"lexical gaps, paraphrase",S,"Language, meaning and convention"
 11.03,The Silence Clause,M/C,"signaling games, strategic silence",S,Game theory and strategic interaction
 11.04,The Dictionary of Forbidden Examples,M/C,extensional and intensional definitions,M,"Logic, computation and formal languages"
+11.05,A Message in Eleven Pieces,M,"secret sharing, threshold reconstruction",M,"Coding, cryptography and information"
