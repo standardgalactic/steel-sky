@@ -316,3 +316,4 @@ function commonSuffix(prompts){
 function itemPrompt(r,n){const p=(r.prompt||"").split(", "); return p.slice(0,Math.max(1,p.length-n)).join(", ")}
 function show(run,list){
   const groups = {};
+  list.forEach(r=>{const p=r.path.split("/"); const dir=p.length>2?p.slice(1,-1).filter(x=>!/^variant-\d+$/.test(x)).map(pretty).join(" / "):"(files)"; (groups[dir]=groups[dir]||[]).push(r)});
