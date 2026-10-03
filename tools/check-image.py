@@ -48,3 +48,4 @@ def get_image_summary(image_path):
                 ],
             },
         ]
+        completion = client.chat.completions.create(
