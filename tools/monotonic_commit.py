@@ -504,3 +504,4 @@ def verify(dest, plan):
     Inherited upstream files (ignored here, or kept with --removed keep): the committed blob
     and mode must still be exactly what upstream has."""
     tree = {}
+    for e in git(dest, "ls-tree", "-r", "-z", "HEAD").split(b"\0"):
