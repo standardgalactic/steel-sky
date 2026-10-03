@@ -36,3 +36,5 @@ def join_summary_lines(lines):
 
 with open(input_path, "r", encoding="utf-8") as f:
     lines = [line.rstrip() for line in f if line.strip()]
+
+entries = []
