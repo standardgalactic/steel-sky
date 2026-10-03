@@ -557,3 +557,4 @@ def main():
     ap.add_argument("--name", help="commit author name (default: git config user.name)")
     ap.add_argument("--email", help="commit author email (default: git config user.email)")
     ap.add_argument("--remote", help="URL of the new, empty GitHub repository")
+    ap.add_argument("--push", action="store_true")
