@@ -103,3 +103,4 @@ def main():
                 pipe.write(output)
                 pipe.flush()
                 # Add random delay every 10 files
+                if i % 10 == 0:
