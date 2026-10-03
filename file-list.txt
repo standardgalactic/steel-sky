@@ -5929,3 +5929,12 @@
 │       ├── aniara_00874_.png
 │       ├── aniara_00875_.png
 │       ├── aniara_00876_.png
+│       ├── aniara_00877_.png
+│       ├── aniara_00878_.png
+│       ├── aniara_00879_.png
+│       ├── aniara_00880_.png
+│       ├── aniara_00881_.png
+│       ├── aniara_00882_.png
+│       ├── aniara_00883_.png
+│       ├── aniara_00884_.png
+│       ├── aniara_00885_.png
