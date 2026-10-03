@@ -113,3 +113,4 @@ def main():
                 f"{'='*50}\n"
             )
             pipe.write(total_output)
+            pipe.flush()
