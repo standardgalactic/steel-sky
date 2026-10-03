@@ -83,3 +83,4 @@ id,title,kind,framework,scale,family
 05.02,Lathe No. 9,M,"tolerances, error accumulation",S,"Measurement, error and uncertainty propagation"
 05.03,The Loom with Memory,M,"programmable machines, universal computation",M,"Logic, computation and formal languages"
 05.04,The Dial Telephone Valley,M,"numeral systems, pulse coding",M,"Coding, cryptography and information"
+05.05,The Seawall Engine,M,"Fourier analysis, tidal harmonics",M,"Dynamics, feedback and oscillation"
