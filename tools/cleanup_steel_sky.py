@@ -62,3 +62,4 @@ def check_index(root):
         return []
     parser = References()
     parser.feed(index.read_text(encoding='utf-8'))
+    if parser.base:
