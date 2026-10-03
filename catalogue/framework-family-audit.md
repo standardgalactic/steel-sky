@@ -479,3 +479,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 08.12 The Snow Surveyors: angle of repose, stability thresholds
 - 08.16 The Greenhouse Town: energy balance, steady states
 - 14.07 The Man Who Held Up the Ceiling: load paths, structural redundancy
+- 14.16 The Boy with the Wax Badge: operating envelopes, safety margins
