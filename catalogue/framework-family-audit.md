@@ -315,3 +315,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 11.07 The Last Fluent Sister: distributed linguistic knowledge
 - 11.10 The Messenger Who Never Lies: pragmatics, implicature
 - 11.12 The Courtesy That Closed the Door: speech acts, institutional authority
+- 11.14 Names for the Same Mountain: reference, situated description
