@@ -612,3 +612,4 @@ def main():
     for label, cls in (("removed", "upstream-removed"), ("ignored here but present in upstream", "upstream-ignored")):
         lst = [it["path"] for it in plan.items if it["cls"] == cls]
         if lst:
+            act = ("deleted" if args.removed == "delete" else "kept") if cls == "upstream-removed" else "kept"
