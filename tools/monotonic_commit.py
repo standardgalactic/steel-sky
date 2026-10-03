@@ -196,3 +196,4 @@ def retained_authors(dest, path, new_data):
         return c, None, sum(c.values())
     up_l, new_l = split_lines(up), split_lines(new_data)
     c = collections.Counter()
+    sm = difflib.SequenceMatcher(None, up_l, new_l, autojunk=False)
