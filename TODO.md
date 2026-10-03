@@ -12,3 +12,4 @@ The old viewer was a Picbreeder-style rater for a 4,999-image set, with ratings 
 | Log click coordinates on images | Not planned. Needs a backend. |
 | Show a marker where an image was clicked | Not planned. Only useful with click logging. |
 | Tooltip with existing comments and ratings on hover | Not planned. Needs stored feedback. |
+| Heatmap of popular click areas | Not planned. |
