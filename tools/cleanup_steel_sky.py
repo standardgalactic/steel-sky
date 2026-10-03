@@ -166,3 +166,4 @@ def main():
     for rule in ('/output/', '*.progress.json', '/.cleanup-backups/'):
         if rule not in lines:
             lines.append(rule)
+    new_ignore = ('\n'.join(lines) + '\n').encode('utf-8')
