@@ -617,3 +617,4 @@ def main():
             for p in lst[:15]:
                 print("   " + p)
     if args.dry_run:
+        shutil.rmtree(dest, ignore_errors=True)
