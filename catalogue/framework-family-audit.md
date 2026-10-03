@@ -284,3 +284,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 19.15 The Archive’s Expiring Key: cryptographic access, key loss
 
 ### Institutions, culture and social relation (20)
+
+- 04.19 The Hospital Triage Tribunal: competing ethical frameworks
