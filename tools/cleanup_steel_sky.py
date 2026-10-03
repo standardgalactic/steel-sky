@@ -31,3 +31,4 @@ def git(root, *args):
     result = subprocess.run(['git', '-C', str(root), *args], capture_output=True)
     if result.returncode:
         raise RuntimeError(result.stderr.decode('utf-8', 'replace').strip())
+    return result.stdout
