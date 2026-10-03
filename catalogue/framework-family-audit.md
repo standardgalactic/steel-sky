@@ -65,3 +65,4 @@ The inference cluster is the one to watch. The catalogue leans on evidence, sele
 ## Slate projects by family
 
 - 01.01 The Department of Unclaimed Rooms: Language, meaning and convention
+- 03.01 The Last Projectionist: Inverse problems and inference from traces
