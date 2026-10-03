@@ -212,3 +212,4 @@ def describe(line, n, ext):
             return "Add heading: " + s.lstrip("# ").strip()[:60]
         if s.startswith("|"):
             cell = s.strip("| ").split("|")[0].strip()
+            return "Add table row: " + (cell[:50] or "row")
