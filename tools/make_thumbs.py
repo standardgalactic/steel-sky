@@ -32,3 +32,4 @@ def read_prompt(img):
     try:
         graph = json.loads(raw)
     except Exception:
+        return "", "", None
