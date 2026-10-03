@@ -28,3 +28,4 @@ widget_names = {
         "sampler_name", "scheduler", "denoise",
     ],
     "SaveImage": ["filename_prefix"],
+    "VAEDecode": [],
