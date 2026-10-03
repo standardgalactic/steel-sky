@@ -57,3 +57,4 @@ while i < len(lines):
                 if not is_separator(line):
                     summary_lines.append(line)
                 i += 1
+        summary = join_summary_lines(summary_lines).strip()
