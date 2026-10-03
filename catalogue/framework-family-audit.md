@@ -570,3 +570,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 15.05 The Marathon of Small Repairs: pacing, fluctuating capacity
 - 15.09 The Piano with Unequal Keys: embodied skill, environmental adaptation
 - 16.03 The Couple Who Remembered Opposite Days: autobiographical memory, salience
+- 16.06 Two Maps for One Journey: representation, task-dependent models
