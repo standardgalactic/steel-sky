@@ -527,3 +527,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 12.06 A Ledger with Two Histories: append-only records, provenance
 - 13.03 A Calendar Adopted Too Soon: coordination costs, standards adoption
 - 13.07 The Well That Stayed Public: institutional commons, credible commitments
+- 15.19 The Breath Between Lines: temporal coordination, adaptation
