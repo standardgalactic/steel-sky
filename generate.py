@@ -61,3 +61,4 @@ def main():
         for socket in node.get("inputs", []):
             if socket.get("link") is not None:
                 link = links[socket["link"]]
+                inputs[socket["name"]] = [str(link[1]), link[2]]
