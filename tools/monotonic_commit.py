@@ -323,3 +323,4 @@ def build_plan(source, dest, args):
             plan.add(path=p, cls="upstream-ignored", phase=None, mode=mode, base_blob=_b, sha=None, whole=True, groups=0)
         elif args.removed == "delete":
             c = collections.Counter(blame_lines(dest, p))
+            plan.add(path=p, cls="upstream-removed", phase="upstream-changes", mode=mode, sha=None,
