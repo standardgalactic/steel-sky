@@ -43,3 +43,4 @@ while i < len(lines):
     if lines[i].endswith(".png"):
         filename = lines[i]
         i += 1
+        summary_lines = []
