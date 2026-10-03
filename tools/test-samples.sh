@@ -8,3 +8,4 @@
     [[ "$prompt" =~ ^[[:space:]]*# ]] && continue
 
     count=$((count + 1))
+    printf -v prefix 'collection/scene-%03d' "$count"
