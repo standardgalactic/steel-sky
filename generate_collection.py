@@ -59,3 +59,4 @@ def main():
     parser.add_argument('config', nargs='?', default='collection.json')
     parser.add_argument('--generator', default='generate.py')
     parser.add_argument('--workflow', default='workflow.json')
+    parser.add_argument('--url', default='http://127.0.0.1:7860')
