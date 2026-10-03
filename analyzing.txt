@@ -32,3 +32,4 @@ services:
 
   auto: &automatic
     <<: *base_service
+    profiles: ["auto"]
