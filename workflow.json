@@ -111,3 +111,4 @@
       "inputs": [
         {
           "name": "samples",
+          "type": "LATENT",
