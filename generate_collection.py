@@ -30,3 +30,4 @@ def plan(config, selected):
     seen = set()
     for category, group in config['categories'].items():
         if selected and category not in selected:
+            continue
