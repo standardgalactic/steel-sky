@@ -458,3 +458,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 
 - 01.14 The Hyperbolic Quarter: hyperbolic geometry
 - 03.11 The Mapmaker's Last Contract: projection distortion, curvature
+- 04.13 The Academy of Proportion: square-cube law
