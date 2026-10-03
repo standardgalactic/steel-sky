@@ -158,3 +158,4 @@ def list_source_files(source):
         if os.path.islink(full):
             skipped.append((p, "symlink"))
         elif os.path.isfile(full):
+            files.append(p)
