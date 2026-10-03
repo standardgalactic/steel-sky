@@ -366,3 +366,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
       "widgets_values": [
         "text, watermark, ugly, amateur, distorted, garish, gawdy, abstract"
       ]
+    },
