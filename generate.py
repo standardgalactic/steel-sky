@@ -29,3 +29,4 @@ widget_names = {
     ],
     "SaveImage": ["filename_prefix"],
     "VAEDecode": [],
+}
