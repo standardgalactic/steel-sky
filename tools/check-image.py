@@ -117,3 +117,5 @@ def main():
     finally:
         process.stdin.close()
         process.wait()
+
+if __name__ == "__main__":
