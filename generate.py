@@ -102,3 +102,4 @@ def main():
             if images:
                 for image in images:
                     relative = Path(image.get("subfolder", "")) / image["filename"]
+                    print(f"Saved on server: {relative}")
