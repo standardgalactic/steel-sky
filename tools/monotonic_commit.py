@@ -534,3 +534,4 @@ def verify(dest, plan):
     for p, (_oid, h) in zip(check, read_blobs(dest, ids)):
         want = expect[p].get("data")
         want = sha(want) if want is not None else expect[p]["sha"]
+        if h != want:
