@@ -191,3 +191,4 @@ def retained_authors(dest, path, new_data):
     """Authors of upstream lines still present in new_data. Returns (Counter, retained, total)."""
     up = git(dest, "cat-file", "blob", "HEAD:" + path)
     names = blame_lines(dest, path)
+    if is_binary(up) or is_binary(new_data):
