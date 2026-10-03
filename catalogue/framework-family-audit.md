@@ -277,3 +277,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 11.06 The Festival of Misheard Names: noisy channels, decoding ambiguity
 - 11.11 The Village of Short Names: prefix-free codes, unique decoding
 - 11.15 The Password of the Bereaved: authentication, replay attacks
+- 11.19 The Letter That Could Not Be Shortened: incompressibility, description length
