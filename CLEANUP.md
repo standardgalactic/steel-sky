@@ -66,3 +66,4 @@ then delete the PNG copies.
 ## 5. Commit
 
 ```
+git add -A
