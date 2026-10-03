@@ -95,3 +95,4 @@ id,title,kind,framework,scale,family
 05.14,The Rail Signal Box,M,"Boolean logic, deadlock",M,"Logic, computation and formal languages"
 05.15,The Mechanical Turk's Heirs,C,"observational equivalence, hidden operators",M,Inverse problems and inference from traces
 05.16,The Elevator to Nowhere,M,reachable states,S,"Optimization, search and scheduling"
+05.17,The Siren Test,M,Doppler shift,S,"Geometry, space and scale"
