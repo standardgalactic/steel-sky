@@ -337,3 +337,4 @@ function esc(s){return String(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt
 
 function open(i){
   if(!current.length)return;
+  idx = (i+current.length)%current.length;
