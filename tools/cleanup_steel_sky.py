@@ -56,3 +56,4 @@ class References(HTMLParser):
 
 
 def check_index(root):
+    index = root / 'index.html'
