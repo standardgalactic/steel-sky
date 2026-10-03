@@ -438,3 +438,6 @@ def schedule(plan, source, args):
             for it, gen in streams:
                 for msg, data in gen:
                     yield it["path"], msg, data, it["mode"]
+
+
+def fast_import(dest, commits, ident, branch):
