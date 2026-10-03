@@ -402,3 +402,4 @@ id,title,kind,framework,scale,family
 21.01,The City of Borrowed Lengths,M,"metric spaces, changing distance",M,"Geometry, space and scale"
 21.02,The Room That Forgets One Object,M,"finite memory, eviction policies",S,"Optimization, search and scheduling"
 21.03,The Staircase of Rational Steps,M,"density of the rationals, order",S,"Infinity, limits and continuity"
+21.04,The Market Where Tomorrow Is Visible,M/C,"strategic anticipation, reflexive prediction",M,Causal inference and performative feedback
