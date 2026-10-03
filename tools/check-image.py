@@ -100,3 +100,4 @@ def main():
                     f"{'-'*50}\n"
                 )
                 # Write to pipe (tee will handle file and terminal output)
+                pipe.write(output)
