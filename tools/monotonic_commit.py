@@ -393,3 +393,4 @@ def commits_for(it, source, args):
         yield "%s: %s %s (%d bytes)%s" % (scope, verb, path, len(data), tr), data
         return
     groups = group_lines(data)
+    if not groups:
