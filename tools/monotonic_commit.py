@@ -163,3 +163,4 @@ def list_source_files(source):
 
 
 def phase_of(path, cls):
+    if cls in ("upstream-modified", "upstream-removed"):
