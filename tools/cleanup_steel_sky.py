@@ -71,3 +71,4 @@ def check_index(root):
         if url.scheme or url.netloc or not url.path:
             continue
         path = unquote(url.path)
+        if path.startswith('/'):
