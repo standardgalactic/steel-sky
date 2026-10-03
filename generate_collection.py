@@ -3,3 +3,4 @@
 import argparse
 import hashlib
 import json
+import re
