@@ -369,3 +369,4 @@ def trailers(it):
             elif it.get("retained") is None:
                 word = "in the upstream version, not line-matched"
             else:
+                word = "retained"
