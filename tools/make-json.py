@@ -44,3 +44,4 @@ while i < len(lines):
         filename = lines[i]
         i += 1
         summary_lines = []
+        if i < len(lines) and lines[i].startswith("Summary:"):
