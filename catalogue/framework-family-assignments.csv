@@ -284,3 +284,4 @@ id,title,kind,framework,scale,family
 15.03,The Dancer’s Borrowed Balance,M,"sensor fusion, weighted estimation",S,"Measurement, error and uncertainty propagation"
 15.04,The Uniform Maker,M,"distributions, multivariate variation",M,"Statistics: distributions, power laws and extremes"
 15.05,The Marathon of Small Repairs,C,"pacing, fluctuating capacity",S,"Memory, cognition and embodied skill"
+15.06,The Mirror Measurement,M/C,"measurement error, proxy selection",S,"Measurement, error and uncertainty propagation"
