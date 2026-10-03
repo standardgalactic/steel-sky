@@ -389,3 +389,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 
 - 02.19 A Quiet Inheritance of Debt: exponential growth, compounding
 - 04.15 The Pension Fund's Long Dinner: compounding, time inconsistency
+- 06.04 The Dig at Lot 12: radioactive decay, half-life
