@@ -35,3 +35,4 @@ def plan(config, selected):
             settings = {**defaults, **group.get('settings', {}), **entry.get('settings', {})}
             variations = int(settings.get('variations', 1))
             batch = int(settings.get('batch', 4))
+            if variations < 1 or batch < 1:
