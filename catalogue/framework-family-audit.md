@@ -297,3 +297,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 15.07 The Prosthetic Workshop’s Promise: participatory design, situated expertise
 - 16.07 The Promise with No Deadline: liveness, unspecified obligations
 - 17.04 The Crime That Changed Names: institutional classification, retrospective judgment
+- 17.10 The Restorer’s Invisible Repair: authenticity, provenance, intention
