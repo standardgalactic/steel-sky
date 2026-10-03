@@ -18,3 +18,4 @@ def slug(value):
 
 def save(path, state):
     path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix('.tmp')
