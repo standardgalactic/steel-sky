@@ -589,3 +589,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 01.18 Hotel Infinity Street: Hilbert's hotel, infinite sets
 - 02.10 The Estate of Unequal Halves: convergent series
 - 10.04 The River That Moved the Border: continuity and definitions
+- 20.03 The Hotel Inspector’s Infinite Upgrade: countable infinity, reindexing
