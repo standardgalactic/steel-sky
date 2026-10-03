@@ -76,3 +76,4 @@ id,title,kind,framework,scale,family
 04.15,The Pension Fund's Long Dinner,M,"compounding, time inconsistency",M,"Growth, decay and population dynamics"
 04.16,The Inspectorate of Honest Mistakes,M,error types,S,"Bayesian updating, bias and sampling"
 04.17,The Bell Curve Tribunal,M,regression to the mean,M,"Bayesian updating, bias and sampling"
+04.18,The Procurement of Ladders,M,bullwhip effect,M,"Queues, flows and throughput"
