@@ -5038,3 +5038,12 @@
 │       ├── Steel-sky_00870_.png
 │       ├── Steel-sky_00871_.png
 │       ├── Steel-sky_00872_.png
+│       ├── Steel-sky_00873_.png
+│       ├── Steel-sky_00874_.png
+│       ├── Steel-sky_00875_.png
+│       ├── Steel-sky_00876_.png
+│       ├── Steel-sky_00877_.png
+│       ├── Steel-sky_00878_.png
+│       ├── Steel-sky_00879_.png
+│       ├── Steel-sky_00880_.png
+│       ├── Steel-sky_00881_.png
