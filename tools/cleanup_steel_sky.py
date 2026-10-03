@@ -130,3 +130,4 @@ def main():
     moves = []
     targets = set()
     for pattern, directory in MOVES:
+        for source in sorted(root.glob(pattern)):
