@@ -266,3 +266,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 02.17 The Thin Walls: information leakage, signal and noise
 - 03.03 The Telegraph Operators' Last Message: coding theory
 - 05.04 The Dial Telephone Valley: numeral systems, pulse coding
+- 05.18 The Lock Maker's Pins: combinatorial keyspaces
