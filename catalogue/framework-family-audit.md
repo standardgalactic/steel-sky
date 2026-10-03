@@ -578,3 +578,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Number, notation and calendars (6)
 
 - 01.07 Street Names for the Dead: pigeonhole principle, finite namespaces
+- 01.08 The Tram That Skips: modular arithmetic, Chinese remainder theorem
