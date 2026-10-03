@@ -168,3 +168,4 @@ def phase_of(path, cls):
     m = PROJECT_RE.match(path)
     if m:
         return "project-" + m.group(1)
+    for name, pats in RULES:
