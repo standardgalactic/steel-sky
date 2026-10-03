@@ -87,3 +87,4 @@ def main():
 
     try:
         with process.stdin as pipe:
+            for i, image_path in enumerate(png_files, 1):
