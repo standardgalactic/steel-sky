@@ -262,3 +262,4 @@ class Plan:
 def load(it, source, args):
     """The bytes this file should have in the new repository."""
     if it.get("data") is not None:
+        return it["data"]
