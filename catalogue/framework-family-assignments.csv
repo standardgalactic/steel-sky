@@ -142,3 +142,4 @@ id,title,kind,framework,scale,family
 08.01,Seven Minutes of Summer,M,bounded reachability,M,"Optimization, search and scheduling"
 08.02,The Fog Ledger,M,"attenuation, Beer-Lambert law",S,"Geometry, space and scale"
 08.03,The Wind Tax,M,Betz limit,M,Physical and engineering limits
+08.04,The Hundred-Year Flood Committee,M,"return periods, extreme value statistics",M,"Statistics: distributions, power laws and extremes"
