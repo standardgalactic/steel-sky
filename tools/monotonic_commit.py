@@ -374,3 +374,4 @@ def trailers(it):
         else:
             a = "none retained (file rewritten)"
         t = ("\n\nUpstream-Origin: %s\nUpstream-Path: %s\nUpstream-Authors: %s\n"
+             % (UPSTREAM_URL, it["path"], a))
