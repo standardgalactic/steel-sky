@@ -180,3 +180,4 @@ def main():
     tracked = [os.fsdecode(p) for p in git(root, 'ls-files', '-z').split(b'\0') if p]
     untrack = [p for p in tracked if p.startswith('output/') or p.endswith('.progress.json')]
     for source, target in moves:
+        print(f'Move: {source.relative_to(root)} -> {target.relative_to(root)}')
