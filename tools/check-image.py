@@ -114,3 +114,4 @@ def main():
             )
             pipe.write(total_output)
             pipe.flush()
+    finally:
