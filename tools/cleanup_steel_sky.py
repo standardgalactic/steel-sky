@@ -220,3 +220,4 @@ def main():
             git(root, 'mv', '--', relative, str(target.relative_to(root)))
         else:
             source.rename(target)
+    if merge:
