@@ -8,3 +8,4 @@ The old viewer was a Picbreeder-style rater for a 4,999-image set, with ratings 
 
 | Item | Status |
 |---|---|
+| Store filenames exactly as written (`ComfyUI_00003_.png`, not corrupted names) | Done by design. The site reads exact paths from `index.jsonl` and no longer stores names by hand. |
