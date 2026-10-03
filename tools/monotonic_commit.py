@@ -34,3 +34,4 @@ Emails are never written. Authors are named, not impersonated: the commit author
 is you.
 
 Bytes are preserved, with two exceptions that are reported. Files are read and
+written as raw bytes (no decoding, no line-ending changes) unless you pass `--eol lf`.
