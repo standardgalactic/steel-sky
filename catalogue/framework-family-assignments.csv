@@ -67,3 +67,4 @@ id,title,kind,framework,scale,family
 04.06,The Bureau of Standard Weights,M,"measurement, calibration chains",M,"Measurement, error and uncertainty propagation"
 04.07,The Laboratory of Replicated Results,M,multiple comparisons,M,"Bayesian updating, bias and sampling"
 04.08,The Registry of Names,M,"self-reference, barber paradox",S,"Logic, computation and formal languages"
+04.09,The Department of Forms,M,formal grammars,M,"Logic, computation and formal languages"
