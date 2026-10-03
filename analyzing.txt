@@ -5,3 +5,4 @@ cat workflow.json
 [8.348s](base)  130  flyxion@volsorium:/mnt/c/Users/nateg/OneDrive/Documentos/GitHub/stable-diffusion$ cat docker-compose.yml
 x-base_service: &base_service
     ports:
+      - "${WEBUI_PORT:-7860}:7860"
