@@ -302,3 +302,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 18.07 The Replica with Better Memories: authenticity, experiential value
 - 19.11 The Marriage of Unpaid Repairs: accumulated obligations, relational maintenance
 - 19.17 The Last Edition of the Local Paper: public knowledge, shared attention
+- 20.10 The Man Who Outsourced His Apologies: delegated action, relational sincerity
