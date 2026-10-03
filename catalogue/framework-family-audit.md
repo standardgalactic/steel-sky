@@ -572,3 +572,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 16.03 The Couple Who Remembered Opposite Days: autobiographical memory, salience
 - 16.06 Two Maps for One Journey: representation, task-dependent models
 - 16.13 The Caretaker’s Substitute: tacit knowledge, role transfer
+- 19.03 The Orchestra after the Missing Note: constitutive practices, collective identity
