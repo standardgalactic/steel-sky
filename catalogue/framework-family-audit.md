@@ -438,3 +438,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 18.18 The Wedding of Equal Contributions: proportionality, unequal capacity
 
 ### Queues, flows and throughput (14)
+
+- 03.06 The Elevator Attendants: queueing theory
