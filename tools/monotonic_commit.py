@@ -627,3 +627,4 @@ def main():
     git(dest, "reset", "-q", "--hard", args.branch)
 
     print("Verifying content, modes and file set from the object database ...")
+    problems = verify(dest, plan)
