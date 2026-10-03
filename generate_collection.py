@@ -52,3 +52,6 @@ def plan(config, selected):
                        'negative': negative, 'seed': seed, 'batch': batch}
                 job['key'] = hashlib.sha256(json.dumps(job, sort_keys=True).encode()).hexdigest()
                 yield job
+
+
+def main():
