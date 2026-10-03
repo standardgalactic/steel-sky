@@ -377,3 +377,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 12.08 The Ten-Year Blank: interpolation, non-identifiability
 - 12.11 The Deposition of the Empty Chair: absence of evidence, search adequacy
 - 12.20 The Day They Recorded Everything: observability, measurement limits
+- 17.01 The Verdict in the Missing Frame: temporal sampling, underdetermination
