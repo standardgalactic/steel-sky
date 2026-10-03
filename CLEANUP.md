@@ -67,3 +67,4 @@ then delete the PNG copies.
 
 ```
 git add -A
+git commit -m "Reorganise repository, add catalogue and pilot documentation, add thumbnail tooling"
