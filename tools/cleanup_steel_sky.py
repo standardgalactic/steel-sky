@@ -19,3 +19,4 @@ MOVES = [
  ('01.01-*.md', 'projects/01.01'),
  ('01.01-register-overlay.svg', 'projects/01.01/assets'),
  ('framework-family-*', 'catalogue'), ('graphic-treatment-*', 'catalogue'),
+ ('catalogue.md', 'catalogue'), ('slate-samples*.json', 'manifests'),
