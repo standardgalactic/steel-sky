@@ -88,3 +88,4 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--root', default='.')
     ap.add_argument('--apply', action='store_true', help='Apply cleanup; otherwise preview only')
+    ap.add_argument('--check-only', action='store_true')
