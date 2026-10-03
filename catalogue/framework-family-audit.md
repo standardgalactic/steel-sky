@@ -128,3 +128,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 06.15 The Typology Wars: clustering, classification
 - 06.18 The Reconstruction Committee: overfitting
 - 06.20 The Last Dig Season: Bayesian search
+- 10.18 The Interpreter at the Gate: base rates, false matches
