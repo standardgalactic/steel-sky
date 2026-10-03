@@ -220,3 +220,4 @@ def describe(line, n, ext):
         return "Add text: " + short
     if ext == ".py":
         m = re.match(r"\s*(def|class)\s+(\w+)", s)
+        if m:
