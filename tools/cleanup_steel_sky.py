@@ -209,3 +209,4 @@ def main():
         shutil.copy2(index_path, backup / 'git-index')
     (backup / 'plan.json').write_text(json.dumps({
         'moves': [[str(s.relative_to(root)), str(t.relative_to(root))] for s,t in moves],
+        'rewrites': [str(p.relative_to(root)) for p in rewrites],
