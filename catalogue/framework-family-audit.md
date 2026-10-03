@@ -550,3 +550,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Causal inference and performative feedback (11)
 
 - 08.07 The Rainmakers' Guild: confounding, causal inference
+- 13.01 The Letter Delivered Before Dawn: causal models, interventions
