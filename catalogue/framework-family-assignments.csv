@@ -135,3 +135,4 @@ id,title,kind,framework,scale,family
 07.14,The Last Pollinator Guild,M,"network robustness, extinction cascades",M,"Graphs, networks and topology"
 07.15,The Coral Zoning Board,M,"bistability, tipping points",M,"Dynamics, feedback and oscillation"
 07.16,The Migrating Forest,M,"dispersal, travelling waves",M,"Growth, decay and population dynamics"
+07.17,The Bird Language Interpreters,C,"honest signaling, handicap principle",S,Game theory and strategic interaction
