@@ -105,3 +105,5 @@ Contributions are welcome! **Create a discussion first of what the problem is an
 ## Disclaimer
 
 The authors of this project are not responsible for any content generated using this interface.
+
+This license of this software forbids you from sharing any content that violates any laws, produce any harm to a person, disseminate any personal information that would be meant for harm, spread misinformation and target vulnerable groups. For the full list of restrictions please read [the license](./LICENSE).
