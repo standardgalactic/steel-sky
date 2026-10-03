@@ -532,3 +532,4 @@ def verify(dest, plan):
     check = [p for p in expect if p in tree]
     ids = [tree[p][1] for p in check]
     for p, (_oid, h) in zip(check, read_blobs(dest, ids)):
+        want = expect[p].get("data")
