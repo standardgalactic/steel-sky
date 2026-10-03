@@ -23,3 +23,5 @@ Commits that touch an upstream-modified file carry trailers. The authors named a
 those whose upstream lines are still present in the final file, found by matching
 the final file against `git blame` of the upstream version. It is a count of
 surviving lines, not a statement about who wrote the changes:
+
+    Upstream-Origin: https://github.com/AbdBarho/stable-diffusion-webui-docker
