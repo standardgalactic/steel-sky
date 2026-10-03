@@ -15,3 +15,4 @@ The index keeps the prompt that ComfyUI embeds in each PNG, so the thumbnail
 copy of the project does not lose how an image was made.
 """
 import argparse
+import json
