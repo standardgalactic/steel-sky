@@ -110,3 +110,4 @@ def git(dest, *a, **k):
 
 
 def norm_author(name):
+    name = name.strip()
