@@ -1,1 +1,2 @@
 # Steel Sky tooling container, built on flyxion/arch-minimal:v1.
+# Holds the Python tools (generate_collection.py, make_thumbs.py, monotonic_commit.py).
