@@ -507,3 +507,4 @@ def verify(dest, plan):
     for e in git(dest, "ls-tree", "-r", "-z", "HEAD").split(b"\0"):
         if e:
             meta, p = e.split(b"\t", 1)
+            mode, _t, oid = meta.decode().split()
