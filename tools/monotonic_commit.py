@@ -509,3 +509,4 @@ def verify(dest, plan):
             meta, p = e.split(b"\t", 1)
             mode, _t, oid = meta.decode().split()
             tree[os.fsdecode(p)] = (mode, oid)
+    expect, inherited = {}, {}
