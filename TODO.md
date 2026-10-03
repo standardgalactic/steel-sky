@@ -27,3 +27,4 @@ If feedback comes back, the simplest static route is to let visitors open a pre-
 - [ ] Add exact lettering (dialogue, ledger hands, stamped notices) as a compositing step after generation.
 - [ ] Write a script that places generated images inside `03.01-reconstruction-marker.svg`.
 - [ ] Build a casting and location sheet from the best v3 and v4 picks, one page per project.
+- [ ] Decide how Ilse's age and tape measure are shown. The generator has not produced either reliably.
