@@ -26,3 +26,4 @@ Your current rules only cover PNGs directly inside the two folders:
 ```
 /output/comfy/*.png
 /output/comfy/cache/
+/output/old/*.png
