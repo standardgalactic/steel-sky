@@ -52,3 +52,12 @@
 │   │   ├── slate-samples-v3
 │   │   ├── slate-samples-v4
 │   │   ├── steel-sky_00001_.png
+│   │   ├── steel-sky_00002_.png
+│   │   ├── steel-sky_00003_.png
+│   │   └── steel-sky_00004_.png
+│   └── old
+│       ├── 0000-sample.txt
+│       ├── ComfyUI_00002_.png
+│       ├── ComfyUI_00003_.png
+│       ├── ComfyUI_00004_.png
+│       ├── ComfyUI_00005_.png
