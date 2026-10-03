@@ -147,3 +147,4 @@ def list_source_files(source):
                    "ls-files", "-co", "--exclude-standard", "-z"])
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
+    files, skipped = [], []
