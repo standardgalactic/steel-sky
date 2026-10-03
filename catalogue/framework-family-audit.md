@@ -273,3 +273,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 06.10 The Time Capsule Dispute: channel coding across time
 - 09.05 Translators on the Slow Boat: channel capacity with delay
 - 10.15 The Language of Stamps: checksums, error detection
+- 11.05 A Message in Eleven Pieces: secret sharing, threshold reconstruction
