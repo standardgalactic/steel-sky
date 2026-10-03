@@ -116,3 +116,4 @@ def main():
             pipe.flush()
     finally:
         process.stdin.close()
+        process.wait()
