@@ -39,3 +39,5 @@ They do not match the run subfolders (`output/comfy/slate-samples-v4/03-01/...`)
 ```
 
 Keep your other lines (`/.devcontainer`, `/docker-compose.override.yml`, `*.code-workspace`, `/.vscode`).
+
+Anything already committed under `output/` stays tracked even after the ignore rule. Check with `git ls-files output | head` and, if there are files, run:
