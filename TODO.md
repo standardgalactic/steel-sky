@@ -19,3 +19,5 @@ The old viewer was a Picbreeder-style rater for a 4,999-image set, with ratings 
 | Session or user tracking, moderation, admin dashboard | Not planned. |
 
 If feedback comes back, the simplest static route is to let visitors open a pre-filled GitHub issue from the image viewer, with the image path in the title. That needs no database.
+
+## Image pipeline
