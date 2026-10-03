@@ -11,3 +11,4 @@
     printf -v prefix 'collection/scene-%03d' "$count"
 
     printf '\nGenerating scene %03d: %s\n' "$count" "$prompt"
+    python generate.py "$prompt" --batch 4 --prefix "$prefix"
