@@ -46,3 +46,4 @@ class References(HTMLParser):
             self.base = attrs.get('href')
         for attr in ('src', 'href', 'poster', 'data'):
             if attrs.get(attr):
+                self.refs.append((tag, attr, attrs[attr]))
