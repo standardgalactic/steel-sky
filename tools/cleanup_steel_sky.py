@@ -92,3 +92,4 @@ def main():
     ap.add_argument('--strip-think', action='store_true', help='Remove complete think blocks in tracked/unignored .md, .txt, .vtt files')
     ap.add_argument('--merge-readme', action='store_true', help='Append README.txt to README.md and remove README.txt')
     args = ap.parse_args()
+    requested = Path(args.root).resolve()
