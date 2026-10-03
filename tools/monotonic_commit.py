@@ -414,3 +414,4 @@ def commits_for(it, source, args):
 
 def schedule(plan, source, args):
     """Yield (path, message, data, mode) commits in order, lazily, so memory stays small."""
+    by_phase = collections.OrderedDict()
