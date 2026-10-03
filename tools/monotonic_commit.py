@@ -103,3 +103,6 @@ def run(args, cwd=None, inp=None, check=True):
     if check and r.returncode:
         sys.exit("git error: %s\n%s" % (" ".join(args), r.stderr.decode("utf-8", "replace")))
     return r.stdout
+
+
+def git(dest, *a, **k):
