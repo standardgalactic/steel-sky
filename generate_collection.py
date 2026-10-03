@@ -99,3 +99,4 @@ def main():
                    '--url', args.url, '--seed', str(job['seed']), '--batch', str(job['batch']),
                    '--prefix', job['prefix'], '--negative', job['negative'], '--timeout', str(args.timeout)]
         state['jobs'][job['key']] = {**job, 'status': 'running'}
+        save(manifest, state)
