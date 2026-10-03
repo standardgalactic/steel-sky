@@ -108,3 +108,4 @@ def main():
 
         def temporary_git_command(root, *commands):
             if commands == ('rev-parse', '--show-toplevel'):
+                return os.fsencode(str(requested))
