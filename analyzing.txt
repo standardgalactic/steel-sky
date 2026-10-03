@@ -39,3 +39,4 @@ services:
       - CLI_ARGS=--allow-code --medvram --xformers --enable-insecure-extension-access --api
 
   auto-cpu:
+    <<: *automatic
