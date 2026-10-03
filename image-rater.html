@@ -80,3 +80,4 @@
           const { data, error } = await supabase.from('image_feedback').insert([{
             filename,
             rating: select.value,
+            comment: textarea.value,
