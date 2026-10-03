@@ -492,3 +492,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 04.06 The Bureau of Standard Weights: measurement, calibration chains
 - 04.12 The Parliament of Rounding: rounding error, aggregation
 - 05.02 Lathe No. 9: tolerances, error accumulation
+- 06.12 The Atlas of Wrong Maps: datum and coordinate error
