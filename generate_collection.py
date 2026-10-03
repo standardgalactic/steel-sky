@@ -55,3 +55,4 @@ def plan(config, selected):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
