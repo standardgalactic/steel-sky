@@ -292,3 +292,4 @@ id,title,kind,framework,scale,family
 15.11,The Braille Printer’s Apprentice,M,coding under physical constraints,S,"Coding, cryptography and information"
 15.12,The Queue for Sitting Down,M/C,allocation under unequal need,M,"Fair division, allocation and social choice"
 15.13,The Actor’s Second Voice,C,"identity, social recognition",S,Identity and continuity
+15.14,The Stair Count,M,"path cost, heterogeneous metrics",S,"Optimization, search and scheduling"
