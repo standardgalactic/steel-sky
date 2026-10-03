@@ -13,3 +13,4 @@ def slug(value):
     value = re.sub(r'[^a-zA-Z0-9_-]+', '-', str(value)).strip('-').lower()
     if not value:
         raise ValueError('Names must contain at least one ASCII letter or number')
+    return value
