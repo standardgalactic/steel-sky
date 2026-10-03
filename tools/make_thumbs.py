@@ -67,3 +67,4 @@ def one(job):
                 t.save(out, "WEBP", quality=quality, method=6)
         return {"path": rel.as_posix(), "w": w, "h": h, "seed": seed,
                 "prompt": pos, "negative": neg}
+    except Exception as e:  # keep going on a bad file
