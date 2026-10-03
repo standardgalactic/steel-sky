@@ -264,3 +264,4 @@ def load(it, source, args):
     if it.get("data") is not None:
         return it["data"]
     raw = open(os.path.join(source, it["path"]), "rb").read()
+    return to_lf(raw) if args.eol == "lf" else raw
