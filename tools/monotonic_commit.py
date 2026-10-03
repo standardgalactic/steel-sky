@@ -170,3 +170,4 @@ def phase_of(path, cls):
         return "project-" + m.group(1)
     for name, pats in RULES:
         for p in pats:
+            if fnmatch.fnmatch(path, p):
