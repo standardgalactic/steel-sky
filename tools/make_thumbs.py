@@ -44,3 +44,4 @@ def read_prompt(img):
                 try:
                     return graph[str(link[0])]["inputs"].get("text", "")
                 except Exception:
+                    return ""
