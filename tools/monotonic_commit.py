@@ -31,3 +31,4 @@ surviving lines, not a statement about who wrote the changes:
     Provenance: upstream-modified
 
 Emails are never written. Authors are named, not impersonated: the commit author
+is you.
