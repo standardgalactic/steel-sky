@@ -495,3 +495,6 @@ def read_blobs(dest, ids):
     finally:
         proc.stdin.close()
         proc.wait()
+
+
+def verify(dest, plan):
