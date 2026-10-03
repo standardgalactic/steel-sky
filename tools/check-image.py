@@ -97,3 +97,4 @@ def main():
                 output = (
                     f"{image_path}\n"
                     f"Summary: {summary}\n"
+                    f"{'-'*50}\n"
