@@ -543,3 +543,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 16.18 The Shared Object: identity, attachment, stewardship
 - 17.19 The Case of the Returning Object: state identity, reversible transformations
 - 21.12 The Island of Perfect Copies: personal identity, branching continuity
+- 22.01 The Life of a Borrowed Cup: object biography, situated value
