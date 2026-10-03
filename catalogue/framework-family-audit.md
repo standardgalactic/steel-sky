@@ -517,3 +517,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 18.14 The Merchant of Limited Editions: scarcity, endogenous value
 - 18.15 The Bargain Beneath the Floorboards: opportunity cost, complementarity
 - 18.20 The Object Everyone Wanted to Give Away: negative value, disposal constraints
+
+### Coordination, protocols and distributed knowledge (12)
