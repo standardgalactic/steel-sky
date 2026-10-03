@@ -103,3 +103,4 @@ def main():
         subprocess.run(
             ['git', 'init', '--bare', '-q', temporary_git.name],
             check=True,
+        )
