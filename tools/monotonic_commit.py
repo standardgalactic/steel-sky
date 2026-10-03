@@ -218,3 +218,4 @@ def describe(line, n, ext):
         if s.startswith("```"):
             return "Add code block"
         return "Add text: " + short
+    if ext == ".py":
