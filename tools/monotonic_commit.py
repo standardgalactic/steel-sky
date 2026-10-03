@@ -582,3 +582,4 @@ def main():
     git(dest, "config", "user.email", email)
     for b in git(dest, "for-each-ref", "--format=%(refname:short)", "refs/heads").decode().split():
         if b != args.branch:
+            git(dest, "branch", "-q", "-D", b)
