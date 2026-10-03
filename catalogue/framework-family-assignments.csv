@@ -385,3 +385,4 @@ id,title,kind,framework,scale,family
 20.04,The Committee for Spontaneous Fun,C,"performative contradiction, institutional scripting",S,Causal inference and performative feedback
 20.05,The Baker’s Noncommutative Breakfast,M,noncommutative operations,S,"Symmetry, groups and algebra"
 20.06,The Detective of Missing Socks,M,"combinatorics, search-space reduction",S,"Optimization, search and scheduling"
+20.07,The Town That Optimized Its Picnic,M,"multi-objective optimization, Pareto efficiency",M,"Optimization, search and scheduling"
