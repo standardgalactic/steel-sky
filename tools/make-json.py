@@ -19,3 +19,4 @@ def is_list_line(line):
     stripped = line.lstrip()
     return (
         stripped.startswith("- ") or
+        stripped.startswith("* ") or
