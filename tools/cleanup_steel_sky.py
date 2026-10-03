@@ -203,3 +203,4 @@ def main():
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(source, target)
     index_path = Path(os.fsdecode(git(root, 'rev-parse', '--git-path', 'index')).strip())
+    if not index_path.is_absolute():
