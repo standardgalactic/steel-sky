@@ -555,3 +555,4 @@ def main():
     ap.add_argument("--branch", default="archdaemon", help="branch name for the whole history (default: archdaemon)")
     ap.add_argument("--interleave", action="store_true", help="alternate between files within a phase")
     ap.add_argument("--name", help="commit author name (default: git config user.name)")
+    ap.add_argument("--email", help="commit author email (default: git config user.email)")
