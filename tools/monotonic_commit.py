@@ -511,3 +511,4 @@ def verify(dest, plan):
             tree[os.fsdecode(p)] = (mode, oid)
     expect, inherited = {}, {}
     for it in plan.items:
+        if it["cls"] == "upstream-ignored" or (it["cls"] == "upstream-removed" and it["phase"] is None):
