@@ -16,3 +16,4 @@ This repository continues from the real history of https://github.com/AbdBarho/s
 | upstream-ignored | 1 | In upstream, present in the author's folder but excluded by its `.gitignore`. Left exactly as upstream has it, and checked to be unchanged. |
 
 Counts do not include `PROVENANCE.md` and `provenance.csv` themselves.
+The per-file table is in `provenance.csv`.
