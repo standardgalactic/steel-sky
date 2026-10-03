@@ -23,3 +23,4 @@ The upstream repository was created in August 2022 and its last commit in this l
 | Johannes Sjölund | 1 |
 | [Manuel Schmid](https://github.com/mashb1t) | 1 |
 | Mat | 1 |
+| [mohamednabiel717](https://github.com/mohamednabiel717) | 1 |
