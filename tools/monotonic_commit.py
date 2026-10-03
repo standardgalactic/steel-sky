@@ -549,3 +549,4 @@ def main():
     ap.add_argument("--max-line-bytes", type=int, default=2_000_000, help="bigger text files go in whole")
     ap.add_argument("--eol", choices=["keep", "lf"], default="keep",
                     help="keep bytes exactly as they are (default) or convert CRLF to LF in text files")
+    ap.add_argument("--removed", choices=["delete", "keep"], default="delete",
