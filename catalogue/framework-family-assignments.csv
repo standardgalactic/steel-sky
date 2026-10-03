@@ -97,3 +97,4 @@ id,title,kind,framework,scale,family
 05.16,The Elevator to Nowhere,M,reachable states,S,"Optimization, search and scheduling"
 05.17,The Siren Test,M,Doppler shift,S,"Geometry, space and scale"
 05.18,The Lock Maker's Pins,M,combinatorial keyspaces,S,"Coding, cryptography and information"
+05.19,The Printing Press Chain,M,"copying fidelity, exponential spread",M,"Coding, cryptography and information"
