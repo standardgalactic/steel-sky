@@ -142,3 +142,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 17.06 The Duplicate Confession: source dependence, textual copying
 - 17.08 A Fingerprint for Every Passenger: multiple testing, false discovery
 - 17.09 The Map of Accusations: observation bias, spatial intensity
+- 20.19 The Fortune-Teller’s Calibration Party: calibration, sharpness
