@@ -170,3 +170,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 10.09 The Migration of the Quiet Language: Schelling segregation
 - 15.16 The Tailor’s Moving Client: tracking, delayed feedback
 - 16.08 The Musician and the Metronome Maker: synchronization, expressive deviation
+- 16.20 The Distance That Kept Them Close: coupling strength, interaction dynamics
