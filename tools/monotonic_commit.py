@@ -172,3 +172,4 @@ def phase_of(path, cls):
         for p in pats:
             if fnmatch.fnmatch(path, p):
                 return name
+    return "misc"
