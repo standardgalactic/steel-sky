@@ -214,3 +214,4 @@ def main():
     for path, data in rewrites.items():
         path.write_bytes(data)
     for source, target in moves:
+        target.parent.mkdir(parents=True, exist_ok=True)
