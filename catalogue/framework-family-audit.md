@@ -560,3 +560,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 21.04 The Market Where Tomorrow Is Visible: strategic anticipation, reflexive prediction
 - 21.13 The Weather of Forgotten Promises: state dependence, latent variables
 - 22.07 Variations on a Missed Train: causal counterfactuals, branching structure
+
+### Memory, cognition and embodied skill (11)
