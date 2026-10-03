@@ -34,3 +34,12 @@
 │       ├── VAE-approx
 │       └── karlo
 ├── docker-compose.yml
+├── file-list.txt
+├── framework-family-assignments.csv
+├── framework-family-audit.md
+├── generate.py
+├── generate_collection.py
+├── graphic-treatment-assignments.csv
+├── image-rater.html
+├── image_descriptions.json
+├── index.html
