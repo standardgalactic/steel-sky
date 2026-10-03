@@ -87,3 +87,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 05.16 The Elevator to Nowhere: reachable states
 - 07.01 The Whale Beneath the Railway: network dependence, constrained optimization
 - 08.01 Seven Minutes of Summer: bounded reachability
+- 09.02 Pilgrim's Shortest Road: traveling salesman, heuristics
