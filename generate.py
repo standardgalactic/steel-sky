@@ -47,3 +47,4 @@ def api(path, payload=None):
 
 def main():
     workflow = json.loads(Path(args.workflow).read_text(encoding="utf-8"))
+    links = {link[0]: link for link in workflow["links"]}
