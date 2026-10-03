@@ -42,3 +42,4 @@ The cap test is only as strict as the taxonomy is fine. The same catalogue gives
 
 - **Inference and evidence (merging 4 families):** 75 entries, 17.0%. Breaches the cap if read as one family.
 - **Dynamical systems (merging 3 families):** 57 entries, 13.0%. Breaches the cap if read as one family.
+- **Strategic and economic structure (merging 4 families):** 64 entries, 14.5%. Breaches the cap if read as one family.
