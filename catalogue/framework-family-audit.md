@@ -536,3 +536,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Identity and continuity (11)
 
 - 02.20 The Heirloom Ship: identity under replacement
+- 12.19 The Name on the Wrong Grave: identity criteria, evidential conflict
