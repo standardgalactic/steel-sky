@@ -61,3 +61,4 @@ def check_index(root):
         print('No index.html found at the repository root.')
         return []
     parser = References()
+    parser.feed(index.read_text(encoding='utf-8'))
