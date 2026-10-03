@@ -397,3 +397,4 @@ def commits_for(it, source, args):
         yield "%s: Add empty %s%s" % (scope, path, tr), data
         return
     per = per_commit(len(groups), args)
+    ext = os.path.splitext(path)[1].lower()
