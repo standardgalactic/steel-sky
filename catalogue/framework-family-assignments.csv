@@ -53,3 +53,4 @@ id,title,kind,framework,scale,family
 03.12,The Chimney Sweeps of the Gas City,M,cascading failure,M,"Thresholds, tipping points and cascades"
 03.13,The Almanac Compilers,M,forecast calibration,S,"Bayesian updating, bias and sampling"
 03.14,The Night Watchmen's Round,M,"art gallery theorem, coverage",S,"Optimization, search and scheduling"
+03.15,The Salt Road Porters,M,knapsack and packing,M,"Optimization, search and scheduling"
