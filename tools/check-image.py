@@ -83,3 +83,4 @@ def main():
         stdin=subprocess.PIPE,
         text=True,
         encoding="utf-8"
+    )
