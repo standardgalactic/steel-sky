@@ -102,3 +102,4 @@ def main():
 
     for s in a.sources:
         root = Path(s)
+        if not root.is_dir():
