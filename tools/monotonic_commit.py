@@ -387,3 +387,4 @@ def commits_for(it, source, args):
     if it["cls"] == "upstream-removed":
         yield "%s: Remove upstream file %s%s" % (scope, path, tr), None
         return
+    data = load(it, source, args)
