@@ -400,3 +400,4 @@ def commits_for(it, source, args):
     ext = os.path.splitext(path)[1].lower()
     base = os.path.basename(path)
     acc = []
+    for i in range(0, len(groups), per):
