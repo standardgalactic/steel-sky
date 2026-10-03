@@ -89,3 +89,4 @@ def main():
     ap.add_argument('--root', default='.')
     ap.add_argument('--apply', action='store_true', help='Apply cleanup; otherwise preview only')
     ap.add_argument('--check-only', action='store_true')
+    ap.add_argument('--strip-think', action='store_true', help='Remove complete think blocks in tracked/unignored .md, .txt, .vtt files')
