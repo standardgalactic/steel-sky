@@ -94,3 +94,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 09.15 The Homing Pigeons' Map: gradient following
 - 10.12 The Money Changers' Loop: arbitrage, negative cycles
 - 10.20 The Last Ferry Home: interval scheduling
+- 11.13 The Translation Tournament: optimization with competing objectives
