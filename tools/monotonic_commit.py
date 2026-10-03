@@ -632,3 +632,4 @@ def main():
         print("PROBLEMS: %d" % len(problems))
         for b in problems[:30]:
             print("   " + b)
+        sys.exit("Not pushing. Fix the cause and run again with a new --dest.")
