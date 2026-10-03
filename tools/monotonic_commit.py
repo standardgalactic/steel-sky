@@ -402,3 +402,4 @@ def commits_for(it, source, args):
     acc = []
     for i in range(0, len(groups), per):
         chunk = groups[i:i + per]
+        for g in chunk:
