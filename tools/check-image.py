@@ -72,3 +72,4 @@ def main():
         "completion_tokens": 0,
         "total_tokens": 0
     }
+    # Get all PNG files in the current directory
