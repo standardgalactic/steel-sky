@@ -228,3 +228,4 @@ id,title,kind,framework,scale,family
 12.07,The Archive Fire Lottery,M,survivorship bias,M,"Bayesian updating, bias and sampling"
 12.08,The Ten-Year Blank,M,"interpolation, non-identifiability",S,Inverse problems and inference from traces
 12.09,The Museum of Borrowed Faces,M/C,"classification thresholds, asymmetric error costs",M,"Bayesian updating, bias and sampling"
+12.10,The Last Address Book,M,temporal graphs,S,"Graphs, networks and topology"
