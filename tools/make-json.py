@@ -45,3 +45,4 @@ while i < len(lines):
         i += 1
         summary_lines = []
         if i < len(lines) and lines[i].startswith("Summary:"):
+            first_summary = lines[i][len("Summary:"):].strip()
