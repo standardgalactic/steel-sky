@@ -552,3 +552,4 @@ def main():
     ap.add_argument("--removed", choices=["delete", "keep"], default="delete",
                     help="upstream files missing from your folder: delete them in a commit that credits "
                          "upstream (default), or leave them as upstream has them")
+    ap.add_argument("--branch", default="archdaemon", help="branch name for the whole history (default: archdaemon)")
