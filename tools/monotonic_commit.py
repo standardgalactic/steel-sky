@@ -312,3 +312,4 @@ def build_plan(source, dest, args):
             item["phase"] = phase_of(p, item["cls"])
             ext = os.path.splitext(p)[1].lower()
             item["whole"] = (item["cls"] == "upstream-modified" or is_binary(data)
+                             or len(data) > args.max_line_bytes or ext in WHOLE_EXT)
