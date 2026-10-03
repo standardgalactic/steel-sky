@@ -16,3 +16,4 @@ Under this 26-family taxonomy **no family exceeds the cap**. The largest are Opt
 | 6 | Graphs, networks and topology | 23 | 5.2% | 12 |
 | 7 | Coding, cryptography and information | 21 | 4.8% | 14 |
 | 8 | Institutions, culture and social relation | 20 | 4.5% | 15 |
+| 9 | Language, meaning and convention | 17 | 3.9% | 18 |
