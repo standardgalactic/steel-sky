@@ -72,3 +72,4 @@ def one(job):
 
 
 def make_sheets(rows, thumb_root, sheet_dir, cell=96, cols=20, per_sheet=400, quality=70):
+    sheet_dir.mkdir(parents=True, exist_ok=True)
