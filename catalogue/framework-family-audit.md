@@ -585,3 +585,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 09.18 The Harbor of Many Clocks: calendar arithmetic, Metonic cycle
 
 ### Infinity, limits and continuity (6)
+
+- 01.18 Hotel Infinity Street: Hilbert's hotel, infinite sets
