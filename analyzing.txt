@@ -429,3 +429,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
       1,
       6,
       0,
+      "CLIP"
