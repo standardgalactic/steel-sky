@@ -390,3 +390,4 @@ def commits_for(it, source, args):
     data = load(it, source, args)
     if it["whole"]:
         verb = "Update upstream file" if it["cls"] == "upstream-modified" else "Add"
+        yield "%s: %s %s (%d bytes)%s" % (scope, verb, path, len(data), tr), data
