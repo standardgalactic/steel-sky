@@ -49,3 +49,4 @@ services:
     <<: *base_service
     profiles: ["comfy"]
     build: ./services/comfy/
+    image: sd-comfy:7
