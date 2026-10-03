@@ -29,3 +29,4 @@ MOVES = [
 
 def git(root, *args):
     result = subprocess.run(['git', '-C', str(root), *args], capture_output=True)
+    if result.returncode:
