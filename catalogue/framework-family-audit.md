@@ -286,3 +286,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Institutions, culture and social relation (20)
 
 - 04.19 The Hospital Triage Tribunal: competing ethical frameworks
+- 06.08 The Cairn of Standard Gauge: path dependence
