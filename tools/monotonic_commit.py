@@ -620,3 +620,5 @@ def main():
         shutil.rmtree(dest, ignore_errors=True)
         print("\nDry run only. Nothing was kept.")
         return
+
+    print("\nImporting ...")
