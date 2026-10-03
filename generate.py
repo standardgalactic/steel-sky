@@ -44,3 +44,5 @@ def api(path, payload=None):
     except error.HTTPError as exc:
         detail = exc.read().decode("utf-8", errors="replace")
         raise RuntimeError(f"HTTP {exc.code}: {detail}") from exc
+
+def main():
