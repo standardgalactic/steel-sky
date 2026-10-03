@@ -491,3 +491,4 @@ def read_blobs(dest, ids):
                 continue
             body = proc.stdout.read(int(head[2]))
             proc.stdout.read(1)
+            yield oid, sha(body)
