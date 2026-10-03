@@ -613,3 +613,4 @@ def main():
         lst = [it["path"] for it in plan.items if it["cls"] == cls]
         if lst:
             act = ("deleted" if args.removed == "delete" else "kept") if cls == "upstream-removed" else "kept"
+            print("\nUpstream files %s (%s): %d" % (label, act, len(lst)))
