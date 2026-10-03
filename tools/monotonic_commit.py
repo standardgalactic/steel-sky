@@ -251,3 +251,4 @@ def group_lines(data):
 
 
 class Plan:
+    def __init__(self):
