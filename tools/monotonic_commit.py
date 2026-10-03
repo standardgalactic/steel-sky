@@ -592,3 +592,5 @@ def main():
     for p, data in provenance_files(plan, base_count):
         plan.add(path=p, cls="steel-sky", phase="docs", data=data, mode="100644", sha=sha(data),
                  whole=False, groups=len(group_lines(data)), authors=None, retained=None)
+
+    counts = collections.Counter(it["cls"] for it in plan.items)
