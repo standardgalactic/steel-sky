@@ -255,3 +255,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 19.05 The Shop after Its Customers Left: network effects, critical participation
 - 19.18 The Bridge Closed for Good: cut sets, network resilience
 - 21.18 The House with Two Interiors: topology, local and global structure
+- 21.20 The Sleeper Who Could Change One Rule: rule systems, dependency consequences
