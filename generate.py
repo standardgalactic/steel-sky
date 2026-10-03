@@ -56,3 +56,4 @@ def main():
             raise ValueError(f"Unsupported node type: {kind}")
         inputs = {}
         for name, value in zip(widget_names[kind], node.get("widgets_values", [])):
+            if not name.startswith("_"):
