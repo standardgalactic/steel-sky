@@ -122,3 +122,4 @@ id,title,kind,framework,scale,family
 07.01,The Whale Beneath the Railway,M,"network dependence, constrained optimization",L,"Optimization, search and scheduling"
 07.02,The Lichen Parliament,M,"stag hunt, mutualism",S,Game theory and strategic interaction
 07.03,The Orchard of Borrowed Bees,M,nested bipartite networks,M,"Graphs, networks and topology"
+07.04,The Moss Cartographers,M,reaction-diffusion patterns,S,"Dynamics, feedback and oscillation"
