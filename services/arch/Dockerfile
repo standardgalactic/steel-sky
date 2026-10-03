@@ -12,3 +12,4 @@ RUN pacman -Syu --noconfirm --needed \
 
 ARG PUID=1000
 ARG PGID=1000
+RUN groupadd -g ${PGID} steel && useradd -m -u ${PUID} -g ${PGID} -s /bin/bash steel
