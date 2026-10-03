@@ -17,3 +17,4 @@ copy of the project does not lose how an image was made.
 import argparse
 import json
 import os
+import sys
