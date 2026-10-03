@@ -105,3 +105,4 @@ def main():
                     print(f"Saved on server: {relative}")
                 return
             if status.get("completed"):
+                raise RuntimeError("Generation completed without saved images")
