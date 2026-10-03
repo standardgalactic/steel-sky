@@ -77,3 +77,4 @@ def make_sheets(rows, thumb_root, sheet_dir, cell=96, cols=20, per_sheet=400, qu
     for n in range(0, len(ok), per_sheet):
         chunk = ok[n:n + per_sheet]
         rows_n = (len(chunk) + cols - 1) // cols
+        sheet = Image.new("RGB", (cols * cell, rows_n * cell), (20, 20, 20))
