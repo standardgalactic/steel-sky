@@ -48,3 +48,4 @@ while i < len(lines):
             first_summary = lines[i][len("Summary:"):].strip()
             if first_summary:
                 summary_lines.append(first_summary)
+            i += 1
