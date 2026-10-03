@@ -102,3 +102,4 @@ def run(args, cwd=None, inp=None, check=True):
     r = subprocess.run(args, cwd=cwd, input=inp, capture_output=True)
     if check and r.returncode:
         sys.exit("git error: %s\n%s" % (" ".join(args), r.stderr.decode("utf-8", "replace")))
+    return r.stdout
