@@ -54,3 +54,4 @@ def main():
         kind = node["type"]
         if kind not in widget_names:
             raise ValueError(f"Unsupported node type: {kind}")
+        inputs = {}
