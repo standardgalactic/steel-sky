@@ -95,3 +95,4 @@ def main():
     ap.add_argument("sources", nargs="+", help="folders of PNGs, e.g. output/comfy output/old")
     ap.add_argument("--dst", default="thumbs")
     ap.add_argument("--size", type=int, default=192)
+    ap.add_argument("--quality", type=int, default=60)
