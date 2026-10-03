@@ -183,3 +183,4 @@ def split_lines(data):
 
 
 def blame_lines(dest, path):
+    out = git(dest, "blame", "--line-porcelain", "-w", "HEAD", "--", path)
