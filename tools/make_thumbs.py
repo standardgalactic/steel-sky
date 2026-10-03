@@ -109,3 +109,4 @@ def main():
         files = sorted(root.rglob("*.png"))
         print(f"{root}: {len(files)} PNGs")
         jobs = [(f, dst, root, a.size, a.quality) for f in files]
+        with Pool(a.workers) as pool:
