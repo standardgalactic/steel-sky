@@ -48,3 +48,4 @@ def plan(config, selected):
             for variant in range(1, variations + 1):
                 stable_offset = int(hashlib.sha256(folder.encode()).hexdigest()[:12], 16)
                 seed = (base_seed + stable_offset + variant - 1) % (2**48)
+                job = {'prefix': f'{folder}/variant-{variant:03d}', 'prompt': positive,
