@@ -386,3 +386,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 22.16 The Square after Everyone Leaves: traces, inference without presence
 
 ### Growth, decay and population dynamics (15)
+
+- 02.19 A Quiet Inheritance of Debt: exponential growth, compounding
