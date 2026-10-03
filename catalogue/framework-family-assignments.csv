@@ -46,3 +46,4 @@ id,title,kind,framework,scale,family
 03.05,The Lighthouse Keeper's Shift Table,M,constraint satisfaction,S,"Optimization, search and scheduling"
 03.06,The Elevator Attendants,M,queueing theory,M,"Queues, flows and throughput"
 03.07,The Cobbler of the Closed Mill,M,local versus global optima,S,"Optimization, search and scheduling"
+03.08,The Ledger Keepers of a Vanished Bank,M,Benford's law,M,"Statistics: distributions, power laws and extremes"
