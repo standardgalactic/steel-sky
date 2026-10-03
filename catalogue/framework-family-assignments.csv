@@ -160,3 +160,4 @@ id,title,kind,framework,scale,family
 08.19,The Orchard That Lost Its Winter,M,"threshold accumulation, degree-days",M,"Thresholds, tipping points and cascades"
 08.20,The Aurora Watchers,M,excitable systems,S,"Dynamics, feedback and oscillation"
 09.01,The Return Voyage of the Mapless,M,"dead reckoning, error accumulation",M,"Measurement, error and uncertainty propagation"
+09.02,Pilgrim's Shortest Road,M,"traveling salesman, heuristics",M,"Optimization, search and scheduling"
