@@ -152,3 +152,4 @@ def main():
             except UnicodeDecodeError:
                 print(f'Skipping non-UTF8 text: {relative}')
                 continue
+            cleaned, count = THINK.subn('', text)
