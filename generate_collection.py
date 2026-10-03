@@ -72,3 +72,4 @@ def main():
         if unknown:
             raise ValueError(f'Unknown categories: {sorted(unknown)}')
     jobs = list(plan(config, args.category))
+    if not jobs:
