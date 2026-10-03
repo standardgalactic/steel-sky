@@ -61,3 +61,4 @@ while i < len(lines):
         entries.append({
             "filename": filename,
             "summary": summary
+        })
