@@ -359,3 +359,6 @@ def provenance_files(plan, base_count):
           "", "Counts do not include `PROVENANCE.md` and `provenance.csv` themselves.",
           "The per-file table is in `provenance.csv`.", ""]
     return [("provenance.csv", buf.getvalue().encode()), ("PROVENANCE.md", "\n".join(md).encode())]
+
+
+def trailers(it):
