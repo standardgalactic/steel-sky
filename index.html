@@ -296,3 +296,4 @@ function hero(){
 function tabs(){
   const byRun = {};
   rows.forEach(r=>{const run = r.path.includes("/")?r.path.split("/")[0]:"(top level)"; (byRun[run]=byRun[run]||[]).push(r)});
+  const order = Object.keys(RUNS).filter(k=>byRun[k]).concat(Object.keys(byRun).filter(k=>!RUNS[k]));
