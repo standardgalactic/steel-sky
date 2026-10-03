@@ -368,3 +368,4 @@ def trailers(it):
                 word = "removed"
             elif it.get("retained") is None:
                 word = "in the upstream version, not line-matched"
+            else:
