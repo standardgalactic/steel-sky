@@ -25,3 +25,4 @@ id,title,kind,framework,scale,family
 02.04,"Grandmother's Recipe, Corrupted",M,"noisy channels, error correction",M,"Coding, cryptography and information"
 02.05,The Dinner Table Problem,M,"independent sets, graph constraints",S,"Graphs, networks and topology"
 02.06,Whose Turn to Wash,M,"fair division, envy-freeness",S,"Fair division, allocation and social choice"
+02.07,The Thermostat War,M,"repeated games, tit-for-tat",S,Game theory and strategic interaction
