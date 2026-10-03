@@ -81,3 +81,4 @@ def make_sheets(rows, thumb_root, sheet_dir, cell=96, cols=20, per_sheet=400, qu
         for i, r in enumerate(chunk):
             p = thumb_root / (r["path"] + ".webp")
             try:
+                with Image.open(p) as t:
