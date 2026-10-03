@@ -21,3 +21,6 @@ def save(path, state):
     temporary = path.with_suffix('.tmp')
     temporary.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding='utf-8')
     temporary.replace(path)
+
+
+def plan(config, selected):
