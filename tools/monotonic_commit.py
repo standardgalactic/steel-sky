@@ -642,3 +642,4 @@ def main():
         git(dest, "remote", "add", "origin", args.remote)
     if args.push:
         if not args.remote:
+            sys.exit("--push needs --remote")
