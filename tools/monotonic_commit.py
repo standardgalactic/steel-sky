@@ -385,3 +385,4 @@ def commits_for(it, source, args):
     """Yield (message, bytes or None) per commit for one file. None means delete."""
     path, scope, tr = it["path"], it["phase"], trailers(it)
     if it["cls"] == "upstream-removed":
+        yield "%s: Remove upstream file %s%s" % (scope, path, tr), None
