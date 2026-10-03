@@ -158,3 +158,4 @@ def main():
                 print(f'Remove {count} think block(s): {relative}')
             if '<think>' in cleaned or '</think>' in cleaned:
                 print(f'Remaining unmatched/literal think tag: {relative}')
+    ignore = root / '.gitignore'
