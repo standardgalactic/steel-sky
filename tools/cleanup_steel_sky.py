@@ -59,3 +59,4 @@ def check_index(root):
     index = root / 'index.html'
     if not index.is_file():
         print('No index.html found at the repository root.')
+        return []
