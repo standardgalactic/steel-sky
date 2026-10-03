@@ -461,3 +461,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 04.13 The Academy of Proportion: square-cube law
 - 05.17 The Siren Test: Doppler shift
 - 08.02 The Fog Ledger: attenuation, Beer-Lambert law
+- 08.09 The Lightning Rod Wars: field geometry, point discharge
