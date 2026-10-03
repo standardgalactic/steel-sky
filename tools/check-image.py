@@ -112,3 +112,4 @@ def main():
                 f"{json.dumps(total_token_usage, indent=2)}\n"
                 f"{'='*50}\n"
             )
+            pipe.write(total_output)
