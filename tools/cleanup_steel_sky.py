@@ -198,3 +198,4 @@ def main():
     if merge:
         originals.add(readme_txt)
     for source in originals:
+        if source.is_file():
