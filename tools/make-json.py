@@ -52,3 +52,4 @@ while i < len(lines):
             # Collect all summary lines until next filename, stop line, or end of file
             while (i < len(lines)
                    and not lines[i].endswith(".png")
+                   and not is_stop_line(lines[i])):
