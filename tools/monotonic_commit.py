@@ -153,3 +153,4 @@ def list_source_files(source):
             continue
         p = os.fsdecode(raw)
         full = os.path.join(source, p)
+        if p.startswith(".git/"):
