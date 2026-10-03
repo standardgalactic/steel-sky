@@ -92,3 +92,4 @@ RULES = [
     ("catalogue", ["catalogue/*", "catalogue.md", "framework-family-*", "graphic-treatment-*"]),
     ("manifests", ["manifests/*", "slate-samples*.json", "collection.json"]),
     ("samples", ["samples/*", "thumbs/*", "assets/*", "*.webp"]),
+    ("site", ["index.html", "image-rater.html", "image_descriptions.json"]),
