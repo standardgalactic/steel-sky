@@ -61,3 +61,4 @@ services:
     environment:
       - CLI_ARGS=--cpu
 [0.006s](base)  flyxion@volsorium:/mnt/c/Users/nateg/OneDrive/Documentos/GitHub/stable-diffusion$ cat README.md
+# Preliminary Run
