@@ -129,3 +129,4 @@ def main():
     paths = sorted(set(paths))
     moves = []
     targets = set()
+    for pattern, directory in MOVES:
