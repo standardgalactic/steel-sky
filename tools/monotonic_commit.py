@@ -241,3 +241,4 @@ def group_lines(data):
         cur.append(ln)
         if ln.strip():
             groups.append(cur)
+            cur = []
