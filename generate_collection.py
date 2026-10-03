@@ -33,3 +33,4 @@ def plan(config, selected):
             continue
         for entry in group['items']:
             settings = {**defaults, **group.get('settings', {}), **entry.get('settings', {})}
+            variations = int(settings.get('variations', 1))
