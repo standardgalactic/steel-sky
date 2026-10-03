@@ -456,3 +456,4 @@ def fast_import(dest, commits, ident, branch):
             w.write(("committer %s <%s> %d %s\n" % (name, email, int(time.time()), tz)).encode("utf-8"))
             w.write(b"data %d\n%s\n" % (len(m), m))
             if first:
+                w.write(("from %s\n" % tip).encode())
