@@ -189,3 +189,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
         {
           "name": "latent_image",
           "type": "LATENT",
+          "link": 2
