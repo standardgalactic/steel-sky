@@ -336,3 +336,4 @@ function show(run,list){
 function esc(s){return String(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 
 function open(i){
+  if(!current.length)return;
