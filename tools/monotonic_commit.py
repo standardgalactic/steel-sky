@@ -597,3 +597,4 @@ def main():
     per_phase = collections.Counter()
     for it in plan.items:
         if it.get("phase"):
+            per_phase[it["phase"]] += commit_count(it, args)
