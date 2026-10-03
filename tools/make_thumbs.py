@@ -66,3 +66,4 @@ def one(job):
                 t.thumbnail((size, size), Image.LANCZOS)
                 t.save(out, "WEBP", quality=quality, method=6)
         return {"path": rel.as_posix(), "w": w, "h": h, "seed": seed,
+                "prompt": pos, "negative": neg}
