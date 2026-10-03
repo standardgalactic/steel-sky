@@ -49,3 +49,4 @@ class References(HTMLParser):
                 self.refs.append((tag, attr, attrs[attr]))
         if attrs.get('srcset'):
             # Handles ordinary file srcsets; data URLs are excluded.
+            value = attrs['srcset']
