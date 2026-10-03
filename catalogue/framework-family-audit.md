@@ -335,3 +335,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 09.20 The Closed Route: cyclic groups
 - 10.02 Passport of Nine Names: equivalence classes
 - 12.12 The Duplicate Children: counting with overlapping sets
+- 12.18 The Archive That Forgot Its Order: permutations, sequence-dependent meaning
