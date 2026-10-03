@@ -290,3 +290,4 @@ function hero(){
   const src = pool.length>=8?pool:rows;
   const n = matchMedia("(max-width:700px)").matches?8:16;
   const picks = src.map(r=>[Math.random(),r]).sort((a,b)=>a[0]-b[0]).slice(0,n).map(x=>x[1]);
+  $("#sheet").innerHTML = picks.map(r=>`<img src="${esc(thumb(r))}" alt="" loading="eager">`).join("");
