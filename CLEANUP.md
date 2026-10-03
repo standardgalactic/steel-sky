@@ -22,3 +22,5 @@ The `*.progress.json` files are run state. Add them to `.gitignore` instead of c
 ## 2. Stop tracking raw output
 
 Your current rules only cover PNGs directly inside the two folders:
+
+```
