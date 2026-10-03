@@ -42,3 +42,4 @@ def api(path, payload=None):
         with request.urlopen(req, timeout=30) as response:
             return json.load(response)
     except error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", errors="replace")
