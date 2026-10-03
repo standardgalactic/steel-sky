@@ -9,3 +9,4 @@ XAI_API_KEY = os.getenv("XAI_API_KEY")
 image_path = "ComfyUI_04099_.png"
 
 client = OpenAI(
+    api_key=XAI_API_KEY,
