@@ -101,3 +101,4 @@ def main():
     a = ap.parse_args()
 
     for s in a.sources:
+        root = Path(s)
