@@ -267,3 +267,4 @@ const $ = s => document.querySelector(s);
 let rows = [], current = [], idx = 0;
 
 function parse(text){return text.split("\n").filter(Boolean).map(l=>{try{return JSON.parse(l)}catch(e){return null}}).filter(r=>r&&!r.error&&typeof r.path==="string")}
+function assetPath(path){return String(path).split("/").map(encodeURIComponent).join("/")}
