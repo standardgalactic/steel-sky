@@ -64,3 +64,4 @@ id,title,kind,framework,scale,family
 04.03,The Court of Small Probabilities,M,"base rates, prosecutor's fallacy",S,"Bayesian updating, bias and sampling"
 04.04,The School That Taught the Test,C,Goodhart's law,M,"Economics: value, scarcity and externalities"
 04.05,The Committee on Committees,M,"recursion, self-reference",S,"Logic, computation and formal languages"
+04.06,The Bureau of Standard Weights,M,"measurement, calibration chains",M,"Measurement, error and uncertainty propagation"
