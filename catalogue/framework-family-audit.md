@@ -35,3 +35,5 @@ Under this 26-family taxonomy **no family exceeds the cap**. The largest are Opt
 | 25 | Number, notation and calendars | 6 | 1.4% | 29 |
 | 26 | Infinity, limits and continuity | 6 | 1.4% | 29 |
 | | **Total** | **440** | 100% | |
+
+## What the result depends on
