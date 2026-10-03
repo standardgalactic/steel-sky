@@ -67,3 +67,5 @@ while i < len(lines):
 
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(entries, f, indent=2, ensure_ascii=False)
+
+print(f"✅ Wrote {len(entries)} entries to {output_path}")
