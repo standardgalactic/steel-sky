@@ -227,3 +227,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 11.09 The Two Grammars of Winter: ambiguity in formal grammars
 - 14.05 The Thread Seller: graph traversal, external memory
 - 14.15 The Seamstress’s Endless Cloth: recursion, base cases
+- 17.07 The Locked Room’s Open Window: model checking, omitted transitions
