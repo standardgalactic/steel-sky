@@ -22,3 +22,4 @@ client = OpenAI(
 
 def encode_image(image_path):
     """Encode an image file to base64 string."""
+    with open(image_path, "rb") as image_file:
