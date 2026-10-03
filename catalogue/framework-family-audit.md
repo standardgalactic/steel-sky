@@ -201,3 +201,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 18.02 The Auction of Unwritten Books: common-value auctions, winner’s curse
 - 18.03 The Price of Standing First: all-pay auctions, rent dissipation
 - 18.04 The Shop That Raised Its Prices Kindly: signaling, price-quality inference
+- 18.05 The Currency of Favours: obligation networks, reciprocity
