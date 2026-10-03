@@ -3,3 +3,4 @@
 # ComfyUI keeps running in its own container (profile "comfy").
 # Use another Arch image with --build-arg BASE=archlinux:latest
 ARG BASE=flyxion/arch-minimal:v1
+FROM ${BASE}
