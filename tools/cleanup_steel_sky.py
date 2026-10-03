@@ -123,3 +123,4 @@ def main():
     root = Path(git(requested, 'rev-parse', '--show-toplevel').decode().strip())
     if args.check_only:
         broken = check_index(root)
+        return 1 if broken else 0
