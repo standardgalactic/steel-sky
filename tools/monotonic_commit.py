@@ -379,3 +379,6 @@ def trailers(it):
             t += "Upstream-Lines-Retained: %d of %d\n" % (it["retained"], it["total"])
         return t + "Provenance: %s\n" % it["cls"]
     return "\n\nProvenance: steel-sky\n"
+
+
+def commits_for(it, source, args):
