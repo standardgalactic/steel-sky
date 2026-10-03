@@ -211,3 +211,4 @@ def main():
         'moves': [[str(s.relative_to(root)), str(t.relative_to(root))] for s,t in moves],
         'rewrites': [str(p.relative_to(root)) for p in rewrites],
         'untracked': untrack}, indent=2))
+    for path, data in rewrites.items():
