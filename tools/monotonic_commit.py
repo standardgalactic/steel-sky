@@ -408,3 +408,4 @@ def commits_for(it, source, args):
         if per > 1:
             what = "Add lines %d to %d of %s" % (i + 1, min(i + per, len(groups)), base)
         else:
+            what = describe(first, i + 1, ext)
