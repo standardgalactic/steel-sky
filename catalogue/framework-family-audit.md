@@ -557,3 +557,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 18.19 The Resale of Tomorrow: expectations, speculative feedback
 - 20.04 The Committee for Spontaneous Fun: performative contradiction, institutional scripting
 - 20.16 The Emergency Rehearsal Emergency: simulation fidelity, intervention effects
+- 21.04 The Market Where Tomorrow Is Visible: strategic anticipation, reflexive prediction
