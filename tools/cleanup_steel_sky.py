@@ -147,3 +147,4 @@ def main():
             if source.suffix.lower() not in {'.md', '.txt', '.vtt'} or source.is_symlink() or not source.is_file():
                 continue
             raw = source.read_bytes()
+            try:
