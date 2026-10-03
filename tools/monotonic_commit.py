@@ -160,3 +160,6 @@ def list_source_files(source):
         elif os.path.isfile(full):
             files.append(p)
     return sorted(files), skipped
+
+
+def phase_of(path, cls):
