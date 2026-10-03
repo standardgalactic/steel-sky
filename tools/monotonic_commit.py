@@ -584,3 +584,4 @@ def main():
         if b != args.branch:
             git(dest, "branch", "-q", "-D", b)
     git(dest, "remote", "remove", "origin")  # also drops refs/remotes/origin/*
+    for b in git(dest, "for-each-ref", "--format=%(refname)", "refs/tags").decode().split():
