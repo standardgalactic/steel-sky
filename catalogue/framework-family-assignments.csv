@@ -164,3 +164,4 @@ id,title,kind,framework,scale,family
 09.03,The Repair Fleet,M,scheduling,L,"Optimization, search and scheduling"
 09.04,A Cargo of Seeds,M,"founder effect, genetic drift",S,"Growth, decay and population dynamics"
 09.05,Translators on the Slow Boat,M,channel capacity with delay,M,"Coding, cryptography and information"
+09.06,The Lighthouse Circuit,M,Chinese postman problem,S,"Optimization, search and scheduling"
