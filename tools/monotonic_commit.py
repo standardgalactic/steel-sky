@@ -629,3 +629,4 @@ def main():
     print("Verifying content, modes and file set from the object database ...")
     problems = verify(dest, plan)
     if problems:
+        print("PROBLEMS: %d" % len(problems))
