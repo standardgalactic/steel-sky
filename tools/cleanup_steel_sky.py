@@ -139,3 +139,4 @@ def main():
             if target.exists() or target in targets:
                 raise ValueError(f'Move collision: {target.relative_to(root)}')
             targets.add(target)
+            moves.append((source, target))
