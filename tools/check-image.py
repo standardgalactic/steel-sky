@@ -78,3 +78,4 @@ def main():
     print(f"Found {total_files} PNG files to process.", file=sys.stderr)
 
     # Use subprocess.Popen with tee to write to file and terminal
+    process = subprocess.Popen(
