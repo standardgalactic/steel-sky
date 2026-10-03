@@ -126,3 +126,4 @@ def main():
         return 1 if broken else 0
     # Git's index is retained here, so tracked ignored files remain eligible.
     paths = [os.fsdecode(p) for p in git(root, 'ls-files', '-co', '--exclude-standard', '-z').split(b'\0') if p]
+    paths = sorted(set(paths))
