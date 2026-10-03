@@ -232,3 +232,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
       "inputs": [
         {
           "name": "samples",
+          "type": "LATENT",
