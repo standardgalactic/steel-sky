@@ -427,3 +427,4 @@ def schedule(plan, source, args):
         if args.interleave:
             live = streams
             while live:
+                nxt = []
