@@ -386,3 +386,4 @@ function drender(){
   $("#desc").innerHTML = a.map(e=>`<article><img src="${esc(dsrc(e.filename))}" alt="" loading="lazy"><div class="sum">${mdHtml(e.summary)}</div></article>`).join("");
   document.querySelectorAll("#desc article img").forEach((img,i)=>{
     const fallback = "thumbs/comfy/"+assetPath(a[i].filename+".webp");
+    img.addEventListener("error",()=>{img.src=fallback},{once:true});
