@@ -101,3 +101,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 14.03 The Minotaur of Building C: partially observable search
 - 14.04 Twelve Tasks Before Closing: resource-constrained scheduling
 - 14.09 The Stone on the Loading Ramp: potential functions, progress measures
+- 14.11 The House of Opened Gifts: irreversible decisions, option value
