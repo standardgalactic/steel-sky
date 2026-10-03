@@ -2,3 +2,4 @@ id,title,kind,framework,scale,family
 01.01,The Department of Unclaimed Rooms,M/C,"map versus territory, classification",M,"Language, meaning and convention"
 01.02,Municipal Weather,M,feedback and control,M,"Dynamics, feedback and oscillation"
 01.03,The Sewer Cartographers,M,graph coloring,S,"Graphs, networks and topology"
+01.04,A Bridge for Every Sunday,M,Eulerian paths,S,"Graphs, networks and topology"
