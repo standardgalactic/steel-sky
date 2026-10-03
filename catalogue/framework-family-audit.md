@@ -262,3 +262,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Coding, cryptography and information (21)
 
 - 01.13 The Night Clerks of the Central Library: sorting cost, information entropy
+- 02.04 Grandmother's Recipe, Corrupted: noisy channels, error correction
