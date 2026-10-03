@@ -657,3 +657,6 @@ def main():
         print("Pushed.")
     else:
         print("Not pushed. Review with: git -C %s log --oneline | head" % dest)
+
+
+if __name__ == "__main__":
