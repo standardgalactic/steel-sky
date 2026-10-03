@@ -58,3 +58,4 @@ def main():
         for name, value in zip(widget_names[kind], node.get("widgets_values", [])):
             if not name.startswith("_"):
                 inputs[name] = value
+        for socket in node.get("inputs", []):
