@@ -94,3 +94,4 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("sources", nargs="+", help="folders of PNGs, e.g. output/comfy output/old")
     ap.add_argument("--dst", default="thumbs")
+    ap.add_argument("--size", type=int, default=192)
