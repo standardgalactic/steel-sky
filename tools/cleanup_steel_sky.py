@@ -170,3 +170,4 @@ def main():
     if new_ignore != raw_ignore:
         rewrites[ignore] = new_ignore
     readme_txt = root / 'README.txt'
+    readme_md = root / 'README.md'
