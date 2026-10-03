@@ -43,3 +43,4 @@ Keep your other lines (`/.devcontainer`, `/docker-compose.override.yml`, `*.code
 Anything already committed under `output/` stays tracked even after the ignore rule. Check with `git ls-files output | head` and, if there are files, run:
 
 ```
+git rm -r --cached output
