@@ -49,3 +49,4 @@ The inference cluster is the one to watch. The catalogue leans on evidence, sele
 ## Method and its limits
 
 - Each entry was given one family, assigned from its Framework text by keyword rules in priority order, then every assignment was read and corrected by hand. 22 entries matched no rule and were assigned by hand, and about 20 more were reassigned after review (for example a keyword match on "graph" inside "autobiographical").
+- Single assignment hides overlap. Many entries belong to two families (for example 17.01 temporal sampling is both inverse-problem and sampling). A multi-label count would be higher for every family.
