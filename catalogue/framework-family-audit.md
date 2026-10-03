@@ -168,3 +168,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 08.20 The Aurora Watchers: excitable systems
 - 09.09 The Caravan Without a Leader: flocking, alignment dynamics
 - 10.09 The Migration of the Quiet Language: Schelling segregation
+- 15.16 The Tailor’s Moving Client: tracking, delayed feedback
