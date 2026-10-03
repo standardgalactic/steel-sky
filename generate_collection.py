@@ -44,3 +44,4 @@ def plan(config, selected):
             # Distinction always precedes category context and the shared prompt.
             positive = ', '.join(p for p in [entry['prompt'].strip(), group.get('prompt', '').strip(), shared] if p)
             negative = ', '.join(p for p in [settings.get('negative', '').strip(), entry.get('negative', '').strip()] if p)
+            base_seed = int(settings.get('seed', 1000))
