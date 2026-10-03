@@ -51,3 +51,4 @@ If the PNGs are already in history, the clone size will not shrink until history
 ## 3. Build previews
 
 ```
+pip install pillow
