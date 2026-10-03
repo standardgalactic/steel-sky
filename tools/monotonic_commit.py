@@ -311,3 +311,4 @@ def build_plan(source, dest, args):
         if item["cls"] != "upstream":
             item["phase"] = phase_of(p, item["cls"])
             ext = os.path.splitext(p)[1].lower()
+            item["whole"] = (item["cls"] == "upstream-modified" or is_binary(data)
