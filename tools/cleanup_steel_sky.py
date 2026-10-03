@@ -156,3 +156,4 @@ def main():
             if count:
                 rewrites[source] = cleaned.encode('utf-8')
                 print(f'Remove {count} think block(s): {relative}')
+            if '<think>' in cleaned or '</think>' in cleaned:
