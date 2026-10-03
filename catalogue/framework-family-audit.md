@@ -187,3 +187,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 07.17 The Bird Language Interpreters: honest signaling, handicap principle
 - 09.16 The Salt Water Diplomat: bargaining, alternating offers
 - 09.17 The Crossing Council: coordination games, focal points
+- 10.06 The Smuggler's Gradient: inspection games
