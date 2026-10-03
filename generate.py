@@ -77,3 +77,4 @@ def main():
         graph["9"]["inputs"]["filename_prefix"] = args.prefix
 
     seed = args.seed if args.seed is not None else secrets.randbits(48)
+    graph["3"]["inputs"]["seed"] = seed
