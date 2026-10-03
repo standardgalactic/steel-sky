@@ -96,3 +96,4 @@ def main():
         if previous and not args.retry_incomplete:
             raise ValueError(f"Incomplete job: {job['prefix']}. Check ComfyUI before using --retry-incomplete, since it may still be running.")
         command = [sys.executable, args.generator, job['prompt'], '--workflow', args.workflow,
+                   '--url', args.url, '--seed', str(job['seed']), '--batch', str(job['batch']),
