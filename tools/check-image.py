@@ -31,3 +31,4 @@ def get_image_summary(image_path):
     try:
         base64_image = encode_image(image_path)
         messages = [
+            {
