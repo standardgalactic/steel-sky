@@ -38,3 +38,4 @@ def plan(config, selected):
             if variations < 1 or batch < 1:
                 raise ValueError('variations and batch must be positive')
             folder = f"{root}/{slug(category)}/{slug(entry['name'])}"
+            if folder in seen:
