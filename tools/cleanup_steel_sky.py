@@ -173,3 +173,4 @@ def main():
     readme_md = root / 'README.md'
     merge = args.merge_readme and readme_txt.is_file()
     if merge:
+        md = rewrites.get(readme_md, readme_md.read_bytes() if readme_md.exists() else b'')
