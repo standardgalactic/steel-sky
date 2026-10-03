@@ -224,3 +224,4 @@ id,title,kind,framework,scale,family
 12.03,The Catalogue of Almost Matches,M,"entity resolution, nontransitive similarity",M,"Bayesian updating, bias and sampling"
 12.04,The Five Who Agreed,M/C,correlated evidence,S,"Bayesian updating, bias and sampling"
 12.05,The Index of Erased Occupations,C,"ontology design, archival visibility",M,"Institutions, culture and social relation"
+12.06,A Ledger with Two Histories,M,"append-only records, provenance",M,"Coordination, protocols and distributed knowledge"
