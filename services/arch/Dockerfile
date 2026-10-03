@@ -11,3 +11,4 @@ RUN pacman -Syu --noconfirm --needed \
     && pacman -Scc --noconfirm
 
 ARG PUID=1000
+ARG PGID=1000
