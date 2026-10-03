@@ -580,3 +580,4 @@ def main():
     git(dest, "checkout", "-q", "-B", args.branch, default)
     git(dest, "config", "user.name", name)
     git(dest, "config", "user.email", email)
+    for b in git(dest, "for-each-ref", "--format=%(refname:short)", "refs/heads").decode().split():
