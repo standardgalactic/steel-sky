@@ -41,3 +41,4 @@ def plan(config, selected):
             if folder in seen:
                 raise ValueError(f'Duplicate output folder: {folder}')
             seen.add(folder)
+            # Distinction always precedes category context and the shared prompt.
