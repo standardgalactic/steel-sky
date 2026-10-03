@@ -62,3 +62,4 @@ def get_image_summary(image_path):
         } if completion.usage else {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
         return summary, token_usage
     except Exception as e:
+        return f"Error processing {image_path}: {str(e)}", {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
