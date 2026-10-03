@@ -7,3 +7,4 @@ id,title,kind,framework,scale,family
 01.06,The Parish of Bells,M,Voronoi partitions,M,"Graphs, networks and topology"
 01.07,Street Names for the Dead,M,"pigeonhole principle, finite namespaces",S,"Number, notation and calendars"
 01.08,The Tram That Skips,M,"modular arithmetic, Chinese remainder theorem",S,"Number, notation and calendars"
+01.09,Fifty Floors of Rumour,M,"percolation, epidemic thresholds",M,"Graphs, networks and topology"
