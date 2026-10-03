@@ -348,3 +348,4 @@ $("#prev").onclick = ()=>open(idx-1);
 $("#next").onclick = ()=>open(idx+1);
 $("#close").onclick = ()=>$("#lb").close();
 $("#lb").addEventListener("click",e=>{if(e.target===$("#lb"))$("#lb").close()});
+addEventListener("keydown",e=>{if(!$("#lb").open)return; if(e.key==="ArrowLeft")open(idx-1); if(e.key==="ArrowRight")open(idx+1)});
