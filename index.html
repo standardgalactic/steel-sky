@@ -381,3 +381,4 @@ function fixMd(md){
 }
 function mdHtml(t){return (window.marked&&marked.parse)?marked.parse(fixMd(t||"")):"<p>"+esc(t)+"</p>"}
 function dsrc(f){return "thumbs/old/"+assetPath(f+".webp")}
+function drender(){
