@@ -106,3 +106,4 @@ def main():
         except KeyboardInterrupt:
             state['jobs'][job['key']]['status'] = 'interrupted'
             save(manifest, state)
+            print('\nInterrupted. The server may still finish this job.', file=sys.stderr)
