@@ -290,3 +290,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 12.05 The Index of Erased Occupations: ontology design, archival visibility
 - 13.04 The Loom Patent Refused: path dependence, institutional selection
 - 13.18 The Observatory’s Wrong Appointment: discovery processes, institutional access
+- 14.02 Orpheus at the Answering Service: grief, mediated presence
