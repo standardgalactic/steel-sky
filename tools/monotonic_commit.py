@@ -221,3 +221,4 @@ def describe(line, n, ext):
     if ext == ".py":
         m = re.match(r"\s*(def|class)\s+(\w+)", s)
         if m:
+            return "Add %s %s" % (m.group(1), m.group(2))
