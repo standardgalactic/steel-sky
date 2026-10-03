@@ -95,3 +95,4 @@ RULES = [
     ("site", ["index.html", "image-rater.html", "image_descriptions.json"]),
     ("docs", ["README*", "CONTRIBUTORS.md", "TODO.md", "CLEANUP.md", "LICENSE", ".gitignore"]),
 ]
+PROJECT_RE = re.compile(r"^(?:projects/)?(\d\d\.\d\d)[-/]")
