@@ -45,3 +45,4 @@ def get_image_summary(image_path):
                         "type": "text",
                         "text": "What's in this image?",
                     },
+                ],
