@@ -295,3 +295,4 @@ function hero(){
 
 function tabs(){
   const byRun = {};
+  rows.forEach(r=>{const run = r.path.includes("/")?r.path.split("/")[0]:"(top level)"; (byRun[run]=byRun[run]||[]).push(r)});
