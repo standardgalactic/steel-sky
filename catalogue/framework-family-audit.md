@@ -85,3 +85,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 03.15 The Salt Road Porters: knapsack and packing
 - 05.09 The Dam's Operating Manual: minimax decisions under uncertainty
 - 05.16 The Elevator to Nowhere: reachable states
+- 07.01 The Whale Beneath the Railway: network dependence, constrained optimization
