@@ -656,3 +656,4 @@ def main():
             git(dest, "push", "-u", "origin", args.branch)
         print("Pushed.")
     else:
+        print("Not pushed. Review with: git -C %s log --oneline | head" % dest)
