@@ -82,3 +82,4 @@ def main():
     print(f"{len(jobs)} jobs; {sum(j['batch'] for j in jobs)} images", flush=True)
     if args.dry_run:
         for job in jobs:
+            print(f"\n{job['prefix']} | seed={job['seed']} | batch={job['batch']}\n{job['prompt']}\nNegative: {job['negative']}")
