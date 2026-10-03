@@ -4,3 +4,5 @@
 Standard library plus Pillow. Run from the repo root:
 
     python tools/make_thumbs.py output/comfy output/old --dst thumbs
+
+For every PNG under each source folder it writes:
