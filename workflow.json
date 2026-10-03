@@ -205,3 +205,4 @@
         "Node name for S&R": "CheckpointLoaderSimple"
       },
       "widgets_values": [
+        "v1-5-pruned-emaonly.ckpt"
