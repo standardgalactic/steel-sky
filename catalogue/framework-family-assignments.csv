@@ -48,3 +48,4 @@ id,title,kind,framework,scale,family
 03.07,The Cobbler of the Closed Mill,M,local versus global optima,S,"Optimization, search and scheduling"
 03.08,The Ledger Keepers of a Vanished Bank,M,Benford's law,M,"Statistics: distributions, power laws and extremes"
 03.09,The Rope Walkers' Guild,M,"stability, inverted pendulum",S,Physical and engineering limits
+03.10,The Switchboard Women,M,circuit versus packet routing,M,"Queues, flows and throughput"
