@@ -12,3 +12,4 @@ parser.add_argument("prompt", nargs="?", help="Defaults to the workflow's prompt
 parser.add_argument("--workflow", default="workflow.json")
 parser.add_argument("--url", default="http://127.0.0.1:7860")
 parser.add_argument("--negative")
+parser.add_argument("--seed", type=int)
