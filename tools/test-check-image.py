@@ -33,3 +33,4 @@ messages = [
                 },
             },
             {
+                "type": "text",
