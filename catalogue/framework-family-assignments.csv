@@ -231,3 +231,4 @@ id,title,kind,framework,scale,family
 12.10,The Last Address Book,M,temporal graphs,S,"Graphs, networks and topology"
 12.11,The Deposition of the Empty Chair,C,"absence of evidence, search adequacy",S,Inverse problems and inference from traces
 12.12,The Duplicate Children,M,counting with overlapping sets,M,"Symmetry, groups and algebra"
+12.13,The Historian’s Favourite Century,M,"selection bias, denominator neglect",S,"Bayesian updating, bias and sampling"
