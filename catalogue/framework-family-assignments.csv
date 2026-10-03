@@ -435,3 +435,4 @@ id,title,kind,framework,scale,family
 22.14,The Night of Separate Windows,M/C,"local knowledge, incomplete observability",M,Inverse problems and inference from traces
 22.15,The Rehearsal in Reverse,M/C,"dependency reconstruction, causal direction",S,Inverse problems and inference from traces
 22.16,The Square after Everyone Leaves,C,"traces, inference without presence",S,Inverse problems and inference from traces
+22.17,Three Journeys of the Same Distance,M/C,heterogeneous path costs,M,"Optimization, search and scheduling"
