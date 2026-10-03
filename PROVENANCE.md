@@ -14,3 +14,5 @@ This repository continues from the real history of https://github.com/AbdBarho/s
 | steel-sky | 12356 | Not in upstream. |
 | upstream-removed | 1 | In upstream, absent from this project. Deleted in a commit that names the upstream authors, unless the history was built with `--removed keep`. |
 | upstream-ignored | 1 | In upstream, present in the author's folder but excluded by its `.gitignore`. Left exactly as upstream has it, and checked to be unchanged. |
+
+Counts do not include `PROVENANCE.md` and `provenance.csv` themselves.
