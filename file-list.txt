@@ -6019,3 +6019,12 @@
 │       ├── aniara_00964_.png
 │       ├── aniara_00965_.png
 │       ├── aniara_00966_.png
+│       ├── aniara_00967_.png
+│       ├── aniara_00968_.png
+│       ├── aniara_00969_.png
+│       ├── aniara_00970_.png
+│       ├── aniara_00971_.png
+│       ├── aniara_00972_.png
+│       ├── aniara_00973_.png
+│       ├── aniara_00974_.png
+│       ├── aniara_00975_.png
