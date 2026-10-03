@@ -213,3 +213,4 @@ def main():
         'untracked': untrack}, indent=2))
     for path, data in rewrites.items():
         path.write_bytes(data)
+    for source, target in moves:
