@@ -79,3 +79,4 @@
         button.addEventListener('click', async () => {
           const { data, error } = await supabase.from('image_feedback').insert([{
             filename,
+            rating: select.value,
