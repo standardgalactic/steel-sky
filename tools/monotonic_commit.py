@@ -226,3 +226,4 @@ def describe(line, n, ext):
             return "Add import: " + short
         if s.startswith("#"):
             return "Add comment: " + short
+        return "Add code line %d" % n
