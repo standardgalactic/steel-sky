@@ -535,3 +535,4 @@ def verify(dest, plan):
         want = expect[p].get("data")
         want = sha(want) if want is not None else expect[p]["sha"]
         if h != want:
+            problems.append("content differs: " + p)
