@@ -338,3 +338,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 12.18 The Archive That Forgot Its Order: permutations, sequence-dependent meaning
 - 20.01 The Mayor’s Unsortable Parade: partial orders, topological sorting
 - 20.02 The Society of Unlucky Hats: derangements
+- 20.05 The Baker’s Noncommutative Breakfast: noncommutative operations
