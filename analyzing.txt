@@ -40,3 +40,4 @@ services:
 
   auto-cpu:
     <<: *automatic
+    profiles: ["auto-cpu"]
