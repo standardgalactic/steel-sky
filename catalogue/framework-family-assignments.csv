@@ -14,3 +14,4 @@ id,title,kind,framework,scale,family
 01.13,The Night Clerks of the Central Library,M,"sorting cost, information entropy",S,"Coding, cryptography and information"
 01.14,The Hyperbolic Quarter,M,hyperbolic geometry,M,"Geometry, space and scale"
 01.15,The Stairwell Committee,M,"social choice, Arrow's impossibility",M,"Fair division, allocation and social choice"
+01.16,The Block That Wouldn't Die,M,cellular automata,M,"Logic, computation and formal languages"
