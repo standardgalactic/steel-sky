@@ -35,3 +35,4 @@ def api(path, payload=None):
     data = None if payload is None else json.dumps(payload).encode("utf-8")
     req = request.Request(
         args.url.rstrip("/") + path,
+        data=data,
