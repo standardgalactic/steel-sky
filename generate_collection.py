@@ -66,3 +66,4 @@ def main():
     parser.add_argument('--timeout', type=float, default=1800)
     args = parser.parse_args()
     config_path = Path(args.config)
+    config = json.loads(config_path.read_text(encoding='utf-8'))
