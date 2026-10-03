@@ -11,3 +11,4 @@ For every PNG under each source folder it writes:
   thumbs/<source-name>/sheets/sheet-NN.webp      contact sheets, 400 images each (20 x 20)
 
 Existing thumbnails are skipped, so the script can be re-run after new generations.
+The index keeps the prompt that ComfyUI embeds in each PNG, so the thumbnail
