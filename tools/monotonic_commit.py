@@ -120,3 +120,6 @@ def is_binary(b):
 
 def to_lf(b):
     return b if is_binary(b) else b.replace(b"\r\n", b"\n")
+
+
+def sha(b):
