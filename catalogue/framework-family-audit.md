@@ -228,3 +228,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 14.05 The Thread Seller: graph traversal, external memory
 - 14.15 The Seamstress’s Endless Cloth: recursion, base cases
 - 17.07 The Locked Room’s Open Window: model checking, omitted transitions
+- 20.09 The Restaurant of Random Seating: randomized algorithms, probabilistic guarantees
