@@ -386,3 +386,4 @@ def commits_for(it, source, args):
     path, scope, tr = it["path"], it["phase"], trailers(it)
     if it["cls"] == "upstream-removed":
         yield "%s: Remove upstream file %s%s" % (scope, path, tr), None
+        return
