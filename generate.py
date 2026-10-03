@@ -78,3 +78,5 @@ def main():
 
     seed = args.seed if args.seed is not None else secrets.randbits(48)
     graph["3"]["inputs"]["seed"] = seed
+
+    submitted = api("/prompt", {"prompt": graph})
