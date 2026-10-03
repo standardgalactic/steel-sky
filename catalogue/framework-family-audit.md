@@ -236,3 +236,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Graphs, networks and topology (23)
 
 - 01.03 The Sewer Cartographers: graph coloring
+- 01.04 A Bridge for Every Sunday: Eulerian paths
