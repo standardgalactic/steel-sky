@@ -376,3 +376,4 @@ function openSheet(src,k){
 let dd = [], dpage = 0; const PER = 10;
 function fixMd(md){
   md = md.replace(/([^\n])(\d+\.)/g,'$1\n$2').replace(/([^\n])(-\s)/g,'$1\n$2');
+  md = md.split('\n').filter(l=>!(l.trim().length>=2&&/^-+$/.test(l.trim()))).join('\n');
