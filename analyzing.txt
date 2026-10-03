@@ -6,3 +6,4 @@ cat workflow.json
 x-base_service: &base_service
     ports:
       - "${WEBUI_PORT:-7860}:7860"
+    volumes:
