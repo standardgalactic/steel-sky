@@ -249,3 +249,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 10.14 The Lighthouse Zone: medial axis, equidistance
 - 12.10 The Last Address Book: temporal graphs
 - 12.14 The Family Tree with a Loop: directed acyclic graphs, inconsistent constraints
+- 13.02 The Bridge That Was Never Built: network topology, accessibility
