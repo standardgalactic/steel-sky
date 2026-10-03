@@ -150,3 +150,4 @@ def main():
             try:
                 text = raw.decode('utf-8')
             except UnicodeDecodeError:
+                print(f'Skipping non-UTF8 text: {relative}')
