@@ -27,3 +27,4 @@ messages = [
         "content": [
             {
                 "type": "image_url",
+                "image_url": {
