@@ -379,3 +379,4 @@ function fixMd(md){
   md = md.split('\n').filter(l=>!(l.trim().length>=2&&/^-+$/.test(l.trim()))).join('\n');
   return md.replace(/\n{3,}/g,'\n\n');
 }
+function mdHtml(t){return (window.marked&&marked.parse)?marked.parse(fixMd(t||"")):"<p>"+esc(t)+"</p>"}
