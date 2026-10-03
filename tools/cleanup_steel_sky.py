@@ -75,3 +75,4 @@ def check_index(root):
             print(f'Deployment-root reference (manual check): {ref}')
             continue
         target = index.parent / path
+        if not target.exists():
