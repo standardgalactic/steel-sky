@@ -200,3 +200,4 @@ def main():
     for source in originals:
         if source.is_file():
             target = backup / 'files' / source.relative_to(root)
+            target.parent.mkdir(parents=True, exist_ok=True)
