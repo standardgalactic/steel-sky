@@ -337,3 +337,4 @@ def provenance_files(plan, base_count):
         a = ""
         if it.get("authors"):
             a = "; ".join("%s (%d)" % (k, v) for k, v in it["authors"].most_common())
+        ret = "" if it.get("retained") is None else "%d of %d" % (it["retained"], it["total"])
