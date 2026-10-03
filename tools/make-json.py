@@ -66,3 +66,4 @@ while i < len(lines):
         i += 1
 
 with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(entries, f, indent=2, ensure_ascii=False)
