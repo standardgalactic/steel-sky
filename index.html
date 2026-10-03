@@ -270,3 +270,5 @@ function parse(text){return text.split("\n").filter(Boolean).map(l=>{try{return 
 function assetPath(path){return String(path).split("/").map(encodeURIComponent).join("/")}
 function thumb(r){return "thumbs/comfy/"+assetPath(r.path+".webp")}
 function pretty(s){return /^\d\d-\d\d$/.test(s)?s.replace("-","."):s}
+
+async function boot(){
