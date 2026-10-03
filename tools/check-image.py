@@ -76,3 +76,5 @@ def main():
     png_files = [file for file in os.listdir(".") if file.lower().endswith(".png")]
     total_files = len(png_files)
     print(f"Found {total_files} PNG files to process.", file=sys.stderr)
+
+    # Use subprocess.Popen with tee to write to file and terminal
