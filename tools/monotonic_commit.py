@@ -351,3 +351,4 @@ def provenance_files(plan, base_count):
           "finished form. The steps show how the file can be assembled, not how it was first written.",
           "- Timestamps on those commits are the times the script ran, not the times the work was done.",
           "", "| Class | Files | Meaning |", "|---|---|---|",
+          "| upstream | %d | Identical to the upstream file, or identical apart from CRLF versus LF (the repository then keeps upstream's LF bytes). Not re-committed. Authorship is in the upstream commits. |" % counts["upstream"],
