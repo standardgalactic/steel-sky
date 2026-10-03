@@ -459,3 +459,4 @@ def fast_import(dest, commits, ident, branch):
                 w.write(("from %s\n" % tip).encode())
                 first = False
             if data is None:
+                w.write(b"D " + fi_path(path) + b"\n")
