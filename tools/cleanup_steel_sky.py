@@ -184,3 +184,4 @@ def main():
     for p in untrack:
         print(f'Untrack, retain on disk: {p}')
     if merge:
+        print('Append README.txt to README.md, then remove README.txt')
