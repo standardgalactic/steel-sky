@@ -42,3 +42,4 @@ messages = [
 
 completion = client.chat.completions.create(
     model="grok-2-vision-latest",
+    messages=messages,
