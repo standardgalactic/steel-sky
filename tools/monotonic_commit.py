@@ -574,3 +574,4 @@ def main():
         sys.exit("Set git user.name and user.email, or pass --name and --email.")
 
     print("Cloning upstream base ...")
+    run(["git", "clone", "-q", args.upstream, args.dest])
