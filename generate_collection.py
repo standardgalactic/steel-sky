@@ -20,3 +20,4 @@ def save(path, state):
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix('.tmp')
     temporary.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding='utf-8')
+    temporary.replace(path)
