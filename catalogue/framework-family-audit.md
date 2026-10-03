@@ -435,3 +435,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 15.12 The Queue for Sitting Down: allocation under unequal need
 - 16.04 The Shared Garden Boundary: fair division with heterogeneous values
 - 18.16 The Heir to the Waiting List: tradable access, allocation rules
+- 18.18 The Wedding of Equal Contributions: proportionality, unequal capacity
