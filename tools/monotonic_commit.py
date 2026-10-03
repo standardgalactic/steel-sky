@@ -389,3 +389,4 @@ def commits_for(it, source, args):
         return
     data = load(it, source, args)
     if it["whole"]:
+        verb = "Update upstream file" if it["cls"] == "upstream-modified" else "Add"
