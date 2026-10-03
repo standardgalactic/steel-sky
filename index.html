@@ -308,3 +308,4 @@ function commonSuffix(prompts){
   let n=0;
   while(true){
     const a = parts[0][parts[0].length-1-n];
+    if(a===undefined || !parts.every(p=>p[p.length-1-n]===a)) break;
