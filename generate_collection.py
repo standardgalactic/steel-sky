@@ -85,3 +85,4 @@ def main():
             print(f"\n{job['prefix']} | seed={job['seed']} | batch={job['batch']}\n{job['prompt']}\nNegative: {job['negative']}")
         return
     if not Path(args.generator).is_file():
+        raise ValueError(f'Cannot find {args.generator}; use the generate.py created earlier')
