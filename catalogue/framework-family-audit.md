@@ -70,3 +70,5 @@ The inference cluster is the one to watch. The catalogue leans on evidence, sele
 - 07.01 The Whale Beneath the Railway: Optimization, search and scheduling
 - 08.01 Seven Minutes of Summer: Optimization, search and scheduling
 - 11.01 A Country Made of Footnotes: Logic, computation and formal languages
+
+Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 04.01 and 11.01 (Logic and formal languages). Optimization is at the cap, so one of 07.01 or 08.01 is a candidate for a different framing if any entry has to move. Otherwise the slate spans four families.
