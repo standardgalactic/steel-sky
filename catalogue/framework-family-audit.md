@@ -414,3 +414,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 08.10 The Monsoon Calendar: bifurcation, onset
 - 08.19 The Orchard That Lost Its Winter: threshold accumulation, degree-days
 - 10.17 The Quarantine Line: SIR models, reproduction thresholds
+- 19.04 The Reservoir’s Last Useful Inch: nonlinear constraints, thresholds
