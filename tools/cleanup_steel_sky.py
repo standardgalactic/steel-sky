@@ -52,3 +52,4 @@ class References(HTMLParser):
             value = attrs['srcset']
             if 'data:' not in value:
                 self.refs.extend((tag, 'srcset', part.strip().split()[0])
+                                 for part in value.split(',') if part.strip())
