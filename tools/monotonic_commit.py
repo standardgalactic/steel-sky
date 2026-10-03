@@ -422,3 +422,4 @@ def schedule(plan, source, args):
     names += sorted(n for n in by_phase if n.startswith("project-"))
     names += [n for n in ("manifests", "samples", "site", "docs", "misc") if n in by_phase]
     for name in names:
+        streams = [(it, iter(commits_for(it, source, args)))
