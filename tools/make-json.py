@@ -63,3 +63,4 @@ while i < len(lines):
             "summary": summary
         })
     else:
+        i += 1
