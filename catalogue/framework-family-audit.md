@@ -83,3 +83,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 03.07 The Cobbler of the Closed Mill: local versus global optima
 - 03.14 The Night Watchmen's Round: art gallery theorem, coverage
 - 03.15 The Salt Road Porters: knapsack and packing
+- 05.09 The Dam's Operating Manual: minimax decisions under uncertainty
