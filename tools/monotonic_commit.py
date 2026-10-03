@@ -537,3 +537,6 @@ def verify(dest, plan):
         if h != want:
             problems.append("content differs: " + p)
     return problems
+
+
+def main():
