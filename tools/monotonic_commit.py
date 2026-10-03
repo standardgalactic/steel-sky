@@ -398,3 +398,4 @@ def commits_for(it, source, args):
         return
     per = per_commit(len(groups), args)
     ext = os.path.splitext(path)[1].lower()
+    base = os.path.basename(path)
