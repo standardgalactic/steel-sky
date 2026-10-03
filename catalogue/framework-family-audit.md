@@ -103,3 +103,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 14.09 The Stone on the Loading Ramp: potential functions, progress measures
 - 14.11 The House of Opened Gifts: irreversible decisions, option value
 - 15.02 A Door Wide Enough: constraint satisfaction, inclusive design
+- 15.14 The Stair Count: path cost, heterogeneous metrics
