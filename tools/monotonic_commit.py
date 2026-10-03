@@ -96,3 +96,6 @@ RULES = [
     ("docs", ["README*", "CONTRIBUTORS.md", "TODO.md", "CLEANUP.md", "LICENSE", ".gitignore"]),
 ]
 PROJECT_RE = re.compile(r"^(?:projects/)?(\d\d\.\d\d)[-/]")
+
+
+def run(args, cwd=None, inp=None, check=True):
