@@ -16,3 +16,4 @@ x-base_service: &base_service
     deploy:
       resources:
         reservations:
+          devices:
