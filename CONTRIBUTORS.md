@@ -9,3 +9,4 @@ The upstream repository was created in August 2022 and its last commit in this l
 | Contributor | Commits |
 |---|---|
 | [AbdBarho](https://github.com/AbdBarho) | 208 |
+| Sebastian Piechowiak | 3 |
