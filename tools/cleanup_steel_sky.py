@@ -191,3 +191,4 @@ def main():
         print('Preview only. Add --apply to make these changes.')
         return 0
     # Back up all touched bytes and the index before mutation.
+    stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')
