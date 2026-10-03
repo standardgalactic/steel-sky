@@ -46,3 +46,4 @@ def api(path, payload=None):
         raise RuntimeError(f"HTTP {exc.code}: {detail}") from exc
 
 def main():
+    workflow = json.loads(Path(args.workflow).read_text(encoding="utf-8"))
