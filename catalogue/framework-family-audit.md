@@ -225,3 +225,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 11.01 A Country Made of Footnotes: formal languages, interpretive context
 - 11.04 The Dictionary of Forbidden Examples: extensional and intensional definitions
 - 11.09 The Two Grammars of Winter: ambiguity in formal grammars
+- 14.05 The Thread Seller: graph traversal, external memory
