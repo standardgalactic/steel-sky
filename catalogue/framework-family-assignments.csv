@@ -250,3 +250,4 @@ id,title,kind,framework,scale,family
 13.09,The Station Built on the Other Bank,M/C,"spatial allocation, agglomeration",L,"Fair division, allocation and social choice"
 13.10,The Election with Another Agenda,M,"Condorcet cycles, sequential voting",M,"Fair division, allocation and social choice"
 13.11,The Quarantine That Opened Early,M/C,"epidemic dynamics, decision uncertainty",L,"Growth, decay and population dynamics"
+13.12,The Expedition That Turned Back,M,"optimal stopping, option value",M,"Optimization, search and scheduling"
