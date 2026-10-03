@@ -58,3 +58,4 @@ services:
     <<: *comfy
     profiles: ["comfy-cpu"]
     deploy: {}
+    environment:
