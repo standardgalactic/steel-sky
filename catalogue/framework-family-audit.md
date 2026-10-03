@@ -10,3 +10,4 @@ Under this 26-family taxonomy **no family exceeds the cap**. The largest are Opt
 |---|---|---|---|---|
 | 1 | Optimization, search and scheduling | 35 | 8.0% | 0 |
 | 2 | Bayesian updating, bias and sampling | 31 | 7.0% | 4 |
+| 3 | Dynamics, feedback and oscillation | 28 | 6.4% | 7 |
