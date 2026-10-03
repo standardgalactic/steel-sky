@@ -50,3 +50,4 @@ class References(HTMLParser):
         if attrs.get('srcset'):
             # Handles ordinary file srcsets; data URLs are excluded.
             value = attrs['srcset']
+            if 'data:' not in value:
