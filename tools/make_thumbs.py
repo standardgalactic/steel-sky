@@ -38,3 +38,4 @@ def read_prompt(img):
     for node in graph.values():
         if node.get("class_type") in ("KSampler", "KSamplerAdvanced"):
             inp = node.get("inputs", {})
+            seed = inp.get("seed", inp.get("noise_seed"))
