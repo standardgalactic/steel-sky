@@ -33,3 +33,4 @@ id,title,kind,framework,scale,family
 02.12,The Cellar Census,M,capture and recapture estimation,S,"Bayesian updating, bias and sampling"
 02.13,Hand-Me-Downs,M,"Markov chains, stationary distributions",M,"Statistics: distributions, power laws and extremes"
 02.14,The Landlady's Ledger,M,"invariants, conservation",S,"Symmetry, groups and algebra"
+02.15,The Birthday House,M,birthday paradox,M,"Statistics: distributions, power laws and extremes"
