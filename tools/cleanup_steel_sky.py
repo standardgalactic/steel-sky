@@ -206,3 +206,4 @@ def main():
     if not index_path.is_absolute():
         index_path = root / index_path
     if index_path.exists():
+        shutil.copy2(index_path, backup / 'git-index')
