@@ -319,3 +319,4 @@ function show(run,list){
   list.forEach(r=>{const p=r.path.split("/"); const dir=p.length>2?p.slice(1,-1).filter(x=>!/^variant-\d+$/.test(x)).map(pretty).join(" / "):"(files)"; (groups[dir]=groups[dir]||[]).push(r)});
   const note = RUNS[run]?RUNS[run].note:"";
   current = [];
+  let html = note?`<p class="runnote">${note}</p>`:"";
