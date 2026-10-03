@@ -6064,3 +6064,12 @@
 │       ├── blastoids_00009_.png
 │       ├── blastoids_00010_.png
 │       ├── blastoids_00011_.png
+│       ├── blastoids_00012_.png
+│       ├── blastoids_00013_.png
+│       ├── blastoids_00014_.png
+│       ├── blastoids_00015_.png
+│       ├── blastoids_00016_.png
+│       ├── blastoids_00017_.png
+│       ├── blastoids_00018_.png
+│       ├── blastoids_00019_.png
+│       ├── blastoids_00020_.png
