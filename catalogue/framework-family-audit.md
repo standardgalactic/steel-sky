@@ -521,3 +521,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Coordination, protocols and distributed knowledge (12)
 
 - 01.19 The Clock Tower That Disagrees: distributed time, consensus
+- 07.08 The Termite Archivists: stigmergy
