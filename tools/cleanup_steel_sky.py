@@ -142,3 +142,4 @@ def main():
             moves.append((source, target))
     rewrites = {}
     if args.strip_think:
+        for relative in paths:
