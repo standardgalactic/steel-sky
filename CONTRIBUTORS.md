@@ -47,3 +47,5 @@ Weekly commit counts for the upstream project show a short, intense start and a 
 The busiest week was the one starting 28 August 2022, with 34 commits. There are no upstream commits after 23 June 2024 in this lineage. These weekly figures come from the GitHub commit graph and total 255, while the history I counted above has 237 commits. The two sources were not reconciled, so treat both as approximate.
 
 ## Steel Sky
+
+Steel Sky adds the 440-project screenplay catalogue, the pilot projects, the manifest runner (`generate_collection.py`), the thumbnail tools and the experiment site. These are by Flyxion ([standardgalactic](https://github.com/standardgalactic)).
