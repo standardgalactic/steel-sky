@@ -11,3 +11,4 @@ import sys
 
 # Retrieve the API key from environment variable
 XAI_API_KEY = os.getenv("XAI_API_KEY")
+if not XAI_API_KEY:
