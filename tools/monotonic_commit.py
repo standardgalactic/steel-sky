@@ -435,3 +435,4 @@ def schedule(plan, source, args):
                         nxt.append((it, gen))
                 live = nxt
         else:
+            for it, gen in streams:
