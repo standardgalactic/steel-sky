@@ -14,3 +14,4 @@ x-base_service: &base_service
     stop_signal: SIGKILL
     tty: true
     deploy:
+      resources:
