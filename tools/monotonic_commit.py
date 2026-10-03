@@ -344,3 +344,4 @@ def provenance_files(plan, base_count):
     counts = collections.Counter(it["cls"] for it in plan.items)
     md = ["# Provenance", "",
           "This repository continues from the real history of %s." % UPSTREAM_URL, "",
+          "- The first %d commits are upstream's own, unchanged, with their original authors and dates." % base_count,
