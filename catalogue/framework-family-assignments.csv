@@ -31,3 +31,4 @@ id,title,kind,framework,scale,family
 02.10,The Estate of Unequal Halves,M,convergent series,M,"Infinity, limits and continuity"
 02.11,The Mirror Cousin,M,"chirality, symmetry",S,"Symmetry, groups and algebra"
 02.12,The Cellar Census,M,capture and recapture estimation,S,"Bayesian updating, bias and sampling"
+02.13,Hand-Me-Downs,M,"Markov chains, stationary distributions",M,"Statistics: distributions, power laws and extremes"
