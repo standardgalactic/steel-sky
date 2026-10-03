@@ -29,3 +29,5 @@ services:
     profiles: ["download"]
     volumes:
       - *v1
+
+  auto: &automatic
