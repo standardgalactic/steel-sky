@@ -380,3 +380,4 @@ function fixMd(md){
   return md.replace(/\n{3,}/g,'\n\n');
 }
 function mdHtml(t){return (window.marked&&marked.parse)?marked.parse(fixMd(t||"")):"<p>"+esc(t)+"</p>"}
+function dsrc(f){return "thumbs/old/"+assetPath(f+".webp")}
