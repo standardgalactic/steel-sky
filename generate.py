@@ -36,3 +36,4 @@ def api(path, payload=None):
     req = request.Request(
         args.url.rstrip("/") + path,
         data=data,
+        headers={"Content-Type": "application/json"},
