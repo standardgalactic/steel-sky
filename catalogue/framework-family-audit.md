@@ -411,3 +411,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 05.10 The Furnace Inheritance: phase transitions, annealing
 - 07.06 The Wolves of the Underground Station: trophic cascades
 - 08.08 Heat Dome Etiquette: nonlinear thresholds
+- 08.10 The Monsoon Calendar: bifurcation, onset
