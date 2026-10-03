@@ -89,3 +89,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 08.01 Seven Minutes of Summer: bounded reachability
 - 09.02 Pilgrim's Shortest Road: traveling salesman, heuristics
 - 09.03 The Repair Fleet: scheduling
+- 09.06 The Lighthouse Circuit: Chinese postman problem
