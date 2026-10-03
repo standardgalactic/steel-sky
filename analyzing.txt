@@ -357,3 +357,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
           "links": [
             6
           ],
+          "slot_index": 0
