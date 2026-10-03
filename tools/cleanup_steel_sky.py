@@ -169,3 +169,4 @@ def main():
     new_ignore = ('\n'.join(lines) + '\n').encode('utf-8')
     if new_ignore != raw_ignore:
         rewrites[ignore] = new_ignore
+    readme_txt = root / 'README.txt'
