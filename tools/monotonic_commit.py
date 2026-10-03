@@ -71,3 +71,4 @@ import collections
 import csv
 import difflib
 import fnmatch
+import hashlib
