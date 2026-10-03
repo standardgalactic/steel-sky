@@ -466,3 +466,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 09.07 The Long Way Around Cape Nothing: great circles, spherical geometry
 - 09.10 Letters from the Outbound: light-time delay
 - 09.19 The Unmapped Meridian: coordinate conventions
+- 10.11 The Boundary Conditions: boundary value problems
