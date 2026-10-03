@@ -615,3 +615,4 @@ def main():
             act = ("deleted" if args.removed == "delete" else "kept") if cls == "upstream-removed" else "kept"
             print("\nUpstream files %s (%s): %d" % (label, act, len(lst)))
             for p in lst[:15]:
+                print("   " + p)
