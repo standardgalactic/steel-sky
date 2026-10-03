@@ -321,3 +321,4 @@ function show(run,list){
   current = [];
   let html = note?`<p class="runnote">${note}</p>`:"";
   const byProject = {};
+  Object.keys(groups).forEach(g=>{const proj=g.split(" / ")[0]; (byProject[proj]=byProject[proj]||[]).push(groups[g][0].prompt)});
