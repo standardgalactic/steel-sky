@@ -65,3 +65,4 @@ def main():
         graph[str(node["id"])] = {"class_type": kind, "inputs": inputs}
 
     # These node IDs match your supplied workflow.
+    if args.prompt is not None:
