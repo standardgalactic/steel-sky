@@ -282,3 +282,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 17.02 The Perfect Alibi Machine: cryptographic commitments, evidential scope
 - 19.08 The Library’s Final Catalogue: information preservation, operational access
 - 19.15 The Archive’s Expiring Key: cryptographic access, key loss
+
+### Institutions, culture and social relation (20)
