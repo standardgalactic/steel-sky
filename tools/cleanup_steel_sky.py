@@ -148,3 +148,4 @@ def main():
                 continue
             raw = source.read_bytes()
             try:
+                text = raw.decode('utf-8')
