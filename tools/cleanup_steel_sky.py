@@ -229,3 +229,4 @@ def main():
     for path in untrack:
         git(root, 'rm', '--cached', '-f', '--', path)
     print(f'Backup: {backup.relative_to(root)}')
+    after = check_index(root)
