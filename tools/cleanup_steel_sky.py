@@ -44,3 +44,4 @@ class References(HTMLParser):
         attrs = dict(attrs)
         if tag == 'base':
             self.base = attrs.get('href')
+        for attr in ('src', 'href', 'poster', 'data'):
