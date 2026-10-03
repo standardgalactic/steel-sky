@@ -519,3 +519,4 @@ def verify(dest, plan):
     for p, it in expect.items():
         if p not in tree:
             problems.append("missing: " + p)
+        elif tree[p][0] != it["mode"]:
