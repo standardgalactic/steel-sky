@@ -126,3 +126,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 06.02 The Seed Vault Expedition: sampling, representativeness
 - 06.11 The Bone Counters: minimum number of individuals
 - 06.15 The Typology Wars: clustering, classification
+- 06.18 The Reconstruction Committee: overfitting
