@@ -107,3 +107,4 @@ def main():
             if status.get("completed"):
                 raise RuntimeError("Generation completed without saved images")
         time.sleep(1)
+    raise TimeoutError(
