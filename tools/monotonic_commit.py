@@ -367,3 +367,4 @@ def trailers(it):
             if it["cls"] == "upstream-removed":
                 word = "removed"
             elif it.get("retained") is None:
+                word = "in the upstream version, not line-matched"
