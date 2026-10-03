@@ -176,3 +176,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 20.14 The Orchestra of Independent Conductors: conflicting controllers, coupled systems
 - 21.08 The River Running through Its Own Source: fixed points, self-consistency
 - 21.10 The Town of Delayed Reflections: delay systems, stale observations
+- 22.04 The Building across Four Seasons: coupled processes, timescale separation
