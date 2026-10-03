@@ -246,3 +246,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 07.14 The Last Pollinator Guild: network robustness, extinction cascades
 - 10.01 The Checkpoint at Two Villages: connectedness, enclaves
 - 10.07 The Enclave Postal Service: graph connectivity
+- 10.14 The Lighthouse Zone: medial axis, equidistance
