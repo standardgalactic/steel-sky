@@ -110,3 +110,5 @@ def main():
     raise TimeoutError(
         f"Stopped waiting after {args.timeout:g}s; job {prompt_id} may still be running"
     )
+
+if __name__ == "__main__":
