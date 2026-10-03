@@ -67,3 +67,4 @@ def main():
     args = parser.parse_args()
     config_path = Path(args.config)
     config = json.loads(config_path.read_text(encoding='utf-8'))
+    if args.category:
