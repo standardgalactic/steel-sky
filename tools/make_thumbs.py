@@ -79,3 +79,4 @@ def make_sheets(rows, thumb_root, sheet_dir, cell=96, cols=20, per_sheet=400, qu
         rows_n = (len(chunk) + cols - 1) // cols
         sheet = Image.new("RGB", (cols * cell, rows_n * cell), (20, 20, 20))
         for i, r in enumerate(chunk):
+            p = thumb_root / (r["path"] + ".webp")
