@@ -59,3 +59,4 @@ def one(job):
     try:
         with Image.open(src) as img:
             pos, neg, seed = read_prompt(img)
+            w, h = img.size
