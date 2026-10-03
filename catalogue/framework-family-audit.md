@@ -484,3 +484,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 19.02 The Factory That Kept Its Lights: viability constraints, admissible degradation
 - 19.10 The Theatre without a Back Door: safety invariants, single-point failure
 - 19.16 The Town That Sold Its Spare: redundancy, fault tolerance
+- 20.08 The Groom’s Backup Groom: redundancy, common-mode failure
