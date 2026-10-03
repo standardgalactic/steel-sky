@@ -50,3 +50,4 @@ id,title,kind,framework,scale,family
 03.09,The Rope Walkers' Guild,M,"stability, inverted pendulum",S,Physical and engineering limits
 03.10,The Switchboard Women,M,circuit versus packet routing,M,"Queues, flows and throughput"
 03.11,The Mapmaker's Last Contract,M,"projection distortion, curvature",M,"Geometry, space and scale"
+03.12,The Chimney Sweeps of the Gas City,M,cascading failure,M,"Thresholds, tipping points and cascades"
