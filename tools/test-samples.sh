@@ -2,3 +2,4 @@
 
 (
   set -e
+  count=0
