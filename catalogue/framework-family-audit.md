@@ -500,3 +500,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 15.03 The Dancer’s Borrowed Balance: sensor fusion, weighted estimation
 - 15.06 The Mirror Measurement: measurement error, proxy selection
 - 20.18 The Clerk Who Rounded Himself Up: discrete allocation, rounding rules
+- 21.15 The Village That Changes Scale: dimensional analysis, scaling relations
