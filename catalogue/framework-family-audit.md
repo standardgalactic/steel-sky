@@ -181,3 +181,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Game theory and strategic interaction (25)
 
 - 01.05 Traffic That Remembers: Braess's paradox, equilibrium
+- 02.07 The Thermostat War: repeated games, tit-for-tat
