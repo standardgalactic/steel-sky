@@ -163,3 +163,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 07.15 The Coral Zoning Board: bistability, tipping points
 - 08.05 The Long Dark Rota: entrainment of oscillators
 - 08.06 Thaw Season Ferries: hysteresis, phase change
+- 08.13 The Forecast Office at the End of the Line: chaos, sensitive dependence
