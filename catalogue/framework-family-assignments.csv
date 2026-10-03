@@ -196,3 +196,4 @@ id,title,kind,framework,scale,family
 10.15,The Language of Stamps,M,"checksums, error detection",S,"Coding, cryptography and information"
 10.16,The Two-Way Bridge,M,"mutual exclusion, deadlock",S,"Logic, computation and formal languages"
 10.17,The Quarantine Line,M,"SIR models, reproduction thresholds",M,"Thresholds, tipping points and cascades"
+10.18,The Interpreter at the Gate,M,"base rates, false matches",M,"Bayesian updating, bias and sampling"
