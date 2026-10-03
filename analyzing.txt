@@ -385,3 +385,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
         {
           "name": "clip",
           "type": "CLIP",
+          "link": 3
