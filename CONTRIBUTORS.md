@@ -10,3 +10,4 @@ The upstream repository was created in August 2022 and its last commit in this l
 |---|---|
 | [AbdBarho](https://github.com/AbdBarho) | 208 |
 | Sebastian Piechowiak | 3 |
+| 神楽坂·喵 | 3 |
