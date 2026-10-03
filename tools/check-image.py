@@ -99,3 +99,4 @@ def main():
                     f"Summary: {summary}\n"
                     f"{'-'*50}\n"
                 )
+                # Write to pipe (tee will handle file and terminal output)
