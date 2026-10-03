@@ -78,3 +78,4 @@ def check_index(root):
         if not target.exists():
             broken.append({'tag': tag, 'attribute': attr, 'reference': ref})
     for item in broken:
+        print(f"Missing static HTML target: {item['reference']}")
