@@ -260,3 +260,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 22.18 The Quilt of Unfinished Tasks: dependency networks, distributed continuation
 
 ### Coding, cryptography and information (21)
+
+- 01.13 The Night Clerks of the Central Library: sorting cost, information entropy
