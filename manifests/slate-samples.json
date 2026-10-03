@@ -1,3 +1,4 @@
 {
   "name": "slate-samples",
   "shared_prompt": "graphic novel interior art, hand drawn, flat 2d illustration, strong readable composition, clean uncluttered image",
+  "defaults": {
