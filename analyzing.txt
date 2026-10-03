@@ -93,3 +93,5 @@ This repository provides multiple UIs for you to play around with stable diffusi
 ### [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 
 [Full feature list here](https://github.com/comfyanonymous/ComfyUI#features), Screenshot:
+
+| Workflow                                                                         |
