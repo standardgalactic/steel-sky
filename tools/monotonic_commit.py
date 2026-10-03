@@ -409,3 +409,4 @@ def commits_for(it, source, args):
             what = "Add lines %d to %d of %s" % (i + 1, min(i + per, len(groups)), base)
         else:
             what = describe(first, i + 1, ext)
+        yield "%s: %s (%s)%s" % (scope, what, base, tr), b"".join(acc)
