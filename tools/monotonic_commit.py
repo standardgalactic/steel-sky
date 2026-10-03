@@ -314,3 +314,4 @@ def build_plan(source, dest, args):
             item["whole"] = (item["cls"] == "upstream-modified" or is_binary(data)
                              or len(data) > args.max_line_bytes or ext in WHOLE_EXT)
             if not item["whole"]:
+                item["groups"] = len(group_lines(data))
