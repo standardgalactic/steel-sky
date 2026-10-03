@@ -309,3 +309,4 @@ def build_plan(source, dest, args):
         else:
             item.update(cls="steel-sky", mode="100755" if data.startswith(b"#!") else "100644")
         if item["cls"] != "upstream":
+            item["phase"] = phase_of(p, item["cls"])
