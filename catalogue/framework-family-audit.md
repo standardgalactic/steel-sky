@@ -567,3 +567,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 14.13 Echo in the Call Centre: recognition, scripted interaction
 - 14.19 The Messenger’s Borrowed Shoes: affordances, person-environment fit
 - 15.01 The Hand That Learned Twice: motor learning, transfer
+- 15.05 The Marathon of Small Repairs: pacing, fluctuating capacity
