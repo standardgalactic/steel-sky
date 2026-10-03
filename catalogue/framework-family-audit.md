@@ -243,3 +243,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 02.05 The Dinner Table Problem: independent sets, graph constraints
 - 06.14 The Layer of Ash: cross-dating, dependency graphs
 - 07.03 The Orchard of Borrowed Bees: nested bipartite networks
+- 07.14 The Last Pollinator Guild: network robustness, extinction cascades
