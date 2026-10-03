@@ -82,3 +82,4 @@ def main():
     submitted = api("/prompt", {"prompt": graph})
     if submitted.get("node_errors"):
         raise RuntimeError(json.dumps(submitted["node_errors"], indent=2))
+    prompt_id = submitted["prompt_id"]
