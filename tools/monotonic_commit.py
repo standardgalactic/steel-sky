@@ -235,3 +235,4 @@ def describe(line, n, ext):
 
 
 def group_lines(data):
+    """Raw-byte lines; blank lines are attached to the next non-blank line."""
