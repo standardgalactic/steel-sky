@@ -11,3 +11,5 @@ RUN pacman-key --init && pacman-key --populate archlinux || true
 RUN pacman -Syu --noconfirm --needed \
       shadow ca-certificates python python-pillow python-requests git less nano jq \
     && pacman -Scc --noconfirm
+
+# Run as a normal user whose ids match yours, so files written to the mounted
