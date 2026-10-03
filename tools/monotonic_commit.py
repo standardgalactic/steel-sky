@@ -142,3 +142,4 @@ def list_source_files(source):
     """Files git would track, honouring the source .gitignore, without touching the source."""
     tmp = tempfile.mkdtemp()
     try:
+        run(["git", "init", "--bare", "-q", tmp])
