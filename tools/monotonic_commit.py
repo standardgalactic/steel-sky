@@ -316,3 +316,4 @@ def build_plan(source, dest, args):
             if not item["whole"]:
                 item["groups"] = len(group_lines(data))
         plan.add(**item)
+    for p, (mode, _b) in sorted(base.items()):
