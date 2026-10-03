@@ -73,3 +73,4 @@ def main():
         "total_tokens": 0
     }
     # Get all PNG files in the current directory
+    png_files = [file for file in os.listdir(".") if file.lower().endswith(".png")]
