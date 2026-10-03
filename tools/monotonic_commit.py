@@ -501,3 +501,4 @@ def verify(dest, plan):
     """Return a list of problems. Compares committed content, modes and the file set to the plan.
 
     Planned files: content (SHA-256 of the committed blob) and mode must match.
+    Inherited upstream files (ignored here, or kept with --removed keep): the committed blob
