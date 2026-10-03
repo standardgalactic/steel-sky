@@ -39,3 +39,4 @@ with open(input_path, "r", encoding="utf-8") as f:
 
 entries = []
 i = 0
+while i < len(lines):
