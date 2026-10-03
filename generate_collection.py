@@ -103,3 +103,4 @@ def main():
         print(f"\n[{index}/{len(jobs)}] {job['prefix']}", flush=True)
         try:
             result = subprocess.run(command, check=False)
+        except KeyboardInterrupt:
