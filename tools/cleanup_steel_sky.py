@@ -225,3 +225,4 @@ def main():
             git(root, 'rm', '--cached', '-f', '--', 'README.txt')
             readme_txt.unlink()
         else:
+            readme_txt.unlink()
