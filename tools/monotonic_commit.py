@@ -575,3 +575,4 @@ def main():
 
     print("Cloning upstream base ...")
     run(["git", "clone", "-q", args.upstream, args.dest])
+    dest = args.dest
