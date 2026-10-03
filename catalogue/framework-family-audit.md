@@ -43,3 +43,5 @@ The cap test is only as strict as the taxonomy is fine. The same catalogue gives
 - **Inference and evidence (merging 4 families):** 75 entries, 17.0%. Breaches the cap if read as one family.
 - **Dynamical systems (merging 3 families):** 57 entries, 13.0%. Breaches the cap if read as one family.
 - **Strategic and economic structure (merging 4 families):** 64 entries, 14.5%. Breaches the cap if read as one family.
+
+The inference cluster is the one to watch. The catalogue leans on evidence, selection and reconstruction as a motif, so a reviewer who treats those as one family would find about 17% of the catalogue in it. If the 8% cap is meant to protect against that kind of dominance, the taxonomy should be agreed on those terms. This audit uses the finer split because the families differ in the mathematics they actually require (Bayes' rule, inverse problems, causal graphs and heavy-tailed statistics are different tools).
