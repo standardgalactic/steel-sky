@@ -69,3 +69,4 @@ id,title,kind,framework,scale,family
 04.08,The Registry of Names,M,"self-reference, barber paradox",S,"Logic, computation and formal languages"
 04.09,The Department of Forms,M,formal grammars,M,"Logic, computation and formal languages"
 04.10,The Ombudsman's Waiting Room,M,"priority inversion, queues",S,"Queues, flows and throughput"
+04.11,The Auditors of the Moon,M,infinite regress of verification,M,"Logic, computation and formal languages"
