@@ -80,3 +80,5 @@ import subprocess
 import sys
 import tempfile
 import time
+
+UPSTREAM_URL = "https://github.com/AbdBarho/stable-diffusion-webui-docker"
