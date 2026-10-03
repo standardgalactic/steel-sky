@@ -356,3 +356,4 @@ def provenance_files(plan, base_count):
           "| steel-sky | %d | Not in upstream. |" % counts["steel-sky"],
           "| upstream-removed | %d | In upstream, absent from this project. Deleted in a commit that names the upstream authors, unless the history was built with `--removed keep`. |" % counts["upstream-removed"],
           "| upstream-ignored | %d | In upstream, present in the author's folder but excluded by its `.gitignore`. Left exactly as upstream has it, and checked to be unchanged. |" % counts["upstream-ignored"],
+          "", "Counts do not include `PROVENANCE.md` and `provenance.csv` themselves.",
