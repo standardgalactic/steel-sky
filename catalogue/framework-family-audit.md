@@ -532,3 +532,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 17.18 The Signature Borrower: authorization, scope of delegation
 - 19.19 The Festival Nobody Could Restart: coordination capital, interrupted traditions
 - 20.12 The Queue Jumpers’ Association: coordination failure, positional competition
+
+### Identity and continuity (11)
