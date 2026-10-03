@@ -515,3 +515,4 @@ def verify(dest, plan):
             inherited[it["path"]] = it
         elif it["cls"] != "upstream-removed":
             expect[it["path"]] = it
+    problems = []
