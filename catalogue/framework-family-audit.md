@@ -416,3 +416,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 10.17 The Quarantine Line: SIR models, reproduction thresholds
 - 19.04 The Reservoir’s Last Useful Inch: nonlinear constraints, thresholds
 - 19.13 The Farewell Scheduled Too Late: deadlines, irreversible state transitions
+- 19.14 The Market after the Last Stall: coordination, threshold participation
