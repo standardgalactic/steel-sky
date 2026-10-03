@@ -328,3 +328,4 @@ function show(run,list){
     html += `<div class="group"><h3>${esc(g)}</h3>${items[0].prompt?`<p class="prompt">${esc(itemPrompt(items[0],cut[g.split(" / ")[0]]||0))}</p>`:""}<div class="strip">`;
     items.forEach(r=>{current.push(r); html += `<button data-i="${current.length-1}" aria-label="Open image"><img src="${esc(thumb(r))}" alt="${esc(g)}" loading="lazy"></button>`});
     html += `</div></div>`;
+  });
