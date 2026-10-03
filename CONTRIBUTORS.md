@@ -30,3 +30,4 @@ The upstream repository was created in August 2022 and its last commit in this l
 | Rafael Goes | 1 |
 | SachiaLanlus | 1 |
 | sejoung kim | 1 |
+| [simonmcnair](https://github.com/simonmcnair) | 1 |
