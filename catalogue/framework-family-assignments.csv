@@ -9,3 +9,4 @@ id,title,kind,framework,scale,family
 01.08,The Tram That Skips,M,"modular arithmetic, Chinese remainder theorem",S,"Number, notation and calendars"
 01.09,Fifty Floors of Rumour,M,"percolation, epidemic thresholds",M,"Graphs, networks and topology"
 01.10,The Tenants of the Fault Line,M,self-organized criticality,M,"Thresholds, tipping points and cascades"
+01.11,The Water Tower Census,M,sampling and survivorship bias,M,"Bayesian updating, bias and sampling"
