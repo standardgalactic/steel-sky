@@ -22,3 +22,4 @@ MOVES = [
  ('catalogue.md', 'catalogue'), ('slate-samples*.json', 'manifests'),
  ('collection.json', 'manifests'),
  ('make-json.py', 'tools'), ('check-image.py', 'tools'),
+ ('test-check-image.py', 'tools'), ('test-grok.sh', 'tools'),
