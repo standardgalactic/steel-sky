@@ -340,3 +340,4 @@ def provenance_files(plan, base_count):
         ret = "" if it.get("retained") is None else "%d of %d" % (it["retained"], it["total"])
         rows.append((it["path"], it["cls"], it.get("phase") or "", ret, a))
     buf = io.StringIO()
+    csv.writer(buf, lineterminator="\n").writerows(rows)
