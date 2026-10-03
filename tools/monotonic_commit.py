@@ -431,3 +431,4 @@ def schedule(plan, source, args):
                 for it, gen in live:
                     s = next(gen, None)
                     if s:
+                        yield it["path"], s[0], s[1], it["mode"]
