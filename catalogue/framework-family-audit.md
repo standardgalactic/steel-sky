@@ -108,3 +108,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 16.14 The Two Authors of One Ending: constraint negotiation, incompatible objectives
 - 17.03 The House of Impossible Statements: satisfiability, minimal inconsistent subsets
 - 20.06 The Detective of Missing Socks: combinatorics, search-space reduction
+- 20.07 The Town That Optimized Its Picnic: multi-objective optimization, Pareto efficiency
