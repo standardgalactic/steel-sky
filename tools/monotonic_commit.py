@@ -15,3 +15,4 @@ The history has two parts.
 Every file is classified before anything is written:
 
     upstream            identical to the upstream file (ignoring line endings): no commit
+    upstream-modified   started from an upstream file and differs from it
