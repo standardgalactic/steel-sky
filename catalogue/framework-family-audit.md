@@ -451,3 +451,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 14.18 The Feast That Never Ended: replenishment, throughput constraints
 - 18.06 The Debt That Arrived Early: liquidity constraints, timing
 - 19.07 The Winter They Spent the Buffer: reserve depletion, stochastic demand
+- 22.05 A Day in the Water’s Account: conservation, stocks and flows
