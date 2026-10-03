@@ -177,3 +177,4 @@ def main():
         txt = rewrites.get(readme_txt, readme_txt.read_bytes())
         rewrites[readme_md] = md.rstrip(b'\r\n') + b'\n\n' + txt
         rewrites.pop(readme_txt, None)
+    tracked = [os.fsdecode(p) for p in git(root, 'ls-files', '-z').split(b'\0') if p]
