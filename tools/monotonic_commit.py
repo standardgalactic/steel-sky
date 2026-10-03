@@ -401,3 +401,4 @@ def commits_for(it, source, args):
     base = os.path.basename(path)
     acc = []
     for i in range(0, len(groups), per):
+        chunk = groups[i:i + per]
