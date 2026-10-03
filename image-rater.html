@@ -37,3 +37,4 @@
     const filenames = await fetch('output/comfy/filenames.json').then(r => r.json())
 
     // Split filenames into categories
+    filenames.forEach(name => {
