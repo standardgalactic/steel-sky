@@ -154,3 +154,4 @@ def main():
                 continue
             cleaned, count = THINK.subn('', text)
             if count:
+                rewrites[source] = cleaned.encode('utf-8')
