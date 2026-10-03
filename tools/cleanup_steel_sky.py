@@ -122,3 +122,4 @@ def main():
         print('Cleaning a folder without Git history; no files need untracking.')
     root = Path(git(requested, 'rev-parse', '--show-toplevel').decode().strip())
     if args.check_only:
+        broken = check_index(root)
