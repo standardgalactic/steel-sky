@@ -309,3 +309,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Language, meaning and convention (17)
 
 - 01.01 The Department of Unclaimed Rooms: map versus territory, classification
+- 06.06 Scholars of the Traffic Light: signs, symbol grounding
