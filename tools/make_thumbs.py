@@ -49,3 +49,4 @@ def read_prompt(img):
             pos = text_of(inp.get("positive", [None]))
             neg = text_of(inp.get("negative", [None]))
             break
+    return pos, neg, seed
