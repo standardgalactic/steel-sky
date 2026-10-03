@@ -199,3 +199,4 @@ def retained_authors(dest, path, new_data):
     sm = difflib.SequenceMatcher(None, up_l, new_l, autojunk=False)
     for i, _j, n in sm.get_matching_blocks():
         for k in range(n):
+            if i + k < len(names):
