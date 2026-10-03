@@ -32,3 +32,5 @@ surviving lines, not a statement about who wrote the changes:
 
 Emails are never written. Authors are named, not impersonated: the commit author
 is you.
+
+Bytes are preserved, with two exceptions that are reported. Files are read and
