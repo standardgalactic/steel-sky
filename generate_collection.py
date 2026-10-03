@@ -91,3 +91,4 @@ def main():
     for index, job in enumerate(jobs, 1):
         previous = state['jobs'].get(job['key'], {})
         if previous.get('status') == 'completed':
+            print(f"[{index}/{len(jobs)}] Already completed: {job['prefix']}", flush=True)
