@@ -111,3 +111,4 @@ def main():
                 f"\nTotal Token Usage Across All Files:\n"
                 f"{json.dumps(total_token_usage, indent=2)}\n"
                 f"{'='*50}\n"
+            )
