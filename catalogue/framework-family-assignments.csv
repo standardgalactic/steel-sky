@@ -84,3 +84,4 @@ id,title,kind,framework,scale,family
 05.03,The Loom with Memory,M,"programmable machines, universal computation",M,"Logic, computation and formal languages"
 05.04,The Dial Telephone Valley,M,"numeral systems, pulse coding",M,"Coding, cryptography and information"
 05.05,The Seawall Engine,M,"Fourier analysis, tidal harmonics",M,"Dynamics, feedback and oscillation"
+05.06,The Orrery Mechanic,M,"gear ratios, continued fractions, resonance",S,"Dynamics, feedback and oscillation"
