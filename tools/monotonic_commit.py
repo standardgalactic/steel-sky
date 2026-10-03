@@ -461,3 +461,4 @@ def fast_import(dest, commits, ident, branch):
             if data is None:
                 w.write(b"D " + fi_path(path) + b"\n")
             else:
+                w.write(b"M " + mode.encode() + b" inline " + fi_path(path) + b"\n")
