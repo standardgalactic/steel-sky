@@ -38,3 +38,4 @@ def api(path, payload=None):
         data=data,
         headers={"Content-Type": "application/json"},
     )
+    try:
