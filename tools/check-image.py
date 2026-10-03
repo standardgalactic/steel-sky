@@ -93,3 +93,4 @@ def main():
                 total_token_usage["prompt_tokens"] += token_usage["prompt_tokens"]
                 total_token_usage["completion_tokens"] += token_usage["completion_tokens"]
                 total_token_usage["total_tokens"] += token_usage["total_tokens"]
+                # Prepare output string for individual image
