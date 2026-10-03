@@ -468,3 +468,4 @@ def fast_import(dest, commits, ident, branch):
         w.close()
     except BrokenPipeError:
         pass
+    err = proc.stderr.read()
