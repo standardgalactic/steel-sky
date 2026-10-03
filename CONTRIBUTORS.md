@@ -15,3 +15,4 @@ The upstream repository was created in August 2022 and its last commit in this l
 | [LEv145](https://github.com/LEv145) | 2 |
 | [Simon Oelerich](https://github.com/gmasil) | 2 |
 | [66li](https://github.com/66li) | 1 |
+| [Adam Florizone](https://github.com/adamflorizone) | 1 |
