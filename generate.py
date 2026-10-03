@@ -70,3 +70,4 @@ def main():
     if args.negative is not None:
         graph["7"]["inputs"]["text"] = args.negative
     if args.batch is not None:
+        if args.batch < 1:
