@@ -639,3 +639,4 @@ def main():
     git(dest, "gc", "-q", "--aggressive", "--prune=now")
 
     if args.remote:
+        git(dest, "remote", "add", "origin", args.remote)
