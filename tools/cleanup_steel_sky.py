@@ -114,3 +114,4 @@ def main():
                  '--work-tree=' + str(requested), *commands],
                 capture_output=True,
             )
+            if result.returncode:
