@@ -450,3 +450,4 @@ def fast_import(dest, commits, ident, branch):
     w = proc.stdin
     first, n = True, 0
     try:
+        for path, msg, data, mode in commits:
