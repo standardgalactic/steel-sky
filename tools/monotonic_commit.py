@@ -578,3 +578,4 @@ def main():
     dest = args.dest
     default = git(dest, "rev-parse", "--abbrev-ref", "HEAD").decode().strip()
     git(dest, "checkout", "-q", "-B", args.branch, default)
+    git(dest, "config", "user.name", name)
