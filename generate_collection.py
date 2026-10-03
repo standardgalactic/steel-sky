@@ -68,3 +68,4 @@ def main():
     config_path = Path(args.config)
     config = json.loads(config_path.read_text(encoding='utf-8'))
     if args.category:
+        unknown = set(args.category) - set(config['categories'])
