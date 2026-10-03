@@ -409,3 +409,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 03.12 The Chimney Sweeps of the Gas City: cascading failure
 - 04.14 The Office of Permanent Temporary Measures: hysteresis, ratchet effects
 - 05.10 The Furnace Inheritance: phase transitions, annealing
+- 07.06 The Wolves of the Underground Station: trophic cascades
