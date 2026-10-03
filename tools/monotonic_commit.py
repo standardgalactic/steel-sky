@@ -18,3 +18,5 @@ Every file is classified before anything is written:
     upstream-modified   started from an upstream file and differs from it
     steel-sky           not in upstream
     upstream-removed    in upstream, absent from your folder (deleted, or kept with --removed keep)
+
+Commits that touch an upstream-modified file carry trailers. The authors named are
