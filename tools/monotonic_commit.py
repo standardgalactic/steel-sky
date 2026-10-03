@@ -551,3 +551,4 @@ def main():
                     help="keep bytes exactly as they are (default) or convert CRLF to LF in text files")
     ap.add_argument("--removed", choices=["delete", "keep"], default="delete",
                     help="upstream files missing from your folder: delete them in a commit that credits "
+                         "upstream (default), or leave them as upstream has them")
