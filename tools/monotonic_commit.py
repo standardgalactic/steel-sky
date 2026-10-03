@@ -634,3 +634,4 @@ def main():
             print("   " + b)
         sys.exit("Not pushing. Fix the cause and run again with a new --dest.")
     total = int(git(dest, "rev-list", "--count", "HEAD").decode())
+    n_files = sum(1 for i in plan.items if i["cls"] not in ("upstream-removed", "upstream-ignored"))
