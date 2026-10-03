@@ -185,3 +185,4 @@ def main():
         print(f'Untrack, retain on disk: {p}')
     if merge:
         print('Append README.txt to README.md, then remove README.txt')
+    print(f'Plan: {len(moves)} moves, {len(rewrites)} file rewrites, {len(untrack)} files to untrack.')
