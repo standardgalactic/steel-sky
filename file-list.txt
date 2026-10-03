@@ -6028,3 +6028,12 @@
 │       ├── aniara_00973_.png
 │       ├── aniara_00974_.png
 │       ├── aniara_00975_.png
+│       ├── aniara_00976_.png
+│       ├── aniara_00977_.png
+│       ├── aniara_00978_.png
+│       ├── aniara_00979_.png
+│       ├── aniara_00980_.png
+│       ├── aniara_00981_.png
+│       ├── aniara_00982_.png
+│       ├── aniara_00983_.png
+│       ├── aniara_00984_.png
