@@ -5128,3 +5128,12 @@
 │       ├── aniara_00073_.png
 │       ├── aniara_00074_.png
 │       ├── aniara_00075_.png
+│       ├── aniara_00076_.png
+│       ├── aniara_00077_.png
+│       ├── aniara_00078_.png
+│       ├── aniara_00079_.png
+│       ├── aniara_00080_.png
+│       ├── aniara_00081_.png
+│       ├── aniara_00082_.png
+│       ├── aniara_00083_.png
+│       ├── aniara_00084_.png
