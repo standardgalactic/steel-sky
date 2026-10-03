@@ -56,3 +56,4 @@ while i < len(lines):
                 line = lines[i]
                 if not is_separator(line):
                     summary_lines.append(line)
+                i += 1
