@@ -47,3 +47,4 @@ def plan(config, selected):
             base_seed = int(settings.get('seed', 1000))
             for variant in range(1, variations + 1):
                 stable_offset = int(hashlib.sha256(folder.encode()).hexdigest()[:12], 16)
+                seed = (base_seed + stable_offset + variant - 1) % (2**48)
