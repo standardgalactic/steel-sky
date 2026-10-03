@@ -194,3 +194,4 @@ def main():
     stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')
     backup = root / '.cleanup-backups' / stamp
     backup.mkdir(parents=True)
+    originals = set(rewrites) | {source for source, _ in moves}
