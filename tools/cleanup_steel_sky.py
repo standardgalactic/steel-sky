@@ -235,3 +235,4 @@ def main():
         new = [x for x in after if x['reference'] not in old]
         print(f'New missing static targets after cleanup: {len(new)}')
     print('Cleanup complete. No commit or push was made. Review git status and both staged and unstaged diffs.')
+    return 1 if after else 0
