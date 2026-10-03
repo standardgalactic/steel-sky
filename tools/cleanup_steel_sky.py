@@ -182,3 +182,4 @@ def main():
     for source, target in moves:
         print(f'Move: {source.relative_to(root)} -> {target.relative_to(root)}')
     for p in untrack:
+        print(f'Untrack, retain on disk: {p}')
