@@ -13,3 +13,5 @@ The history has two parts.
    are reconstructions of the finished files, and PROVENANCE.md says so.
 
 Every file is classified before anything is written:
+
+    upstream            identical to the upstream file (ignoring line endings): no commit
