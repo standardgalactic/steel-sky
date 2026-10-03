@@ -336,3 +336,4 @@ def provenance_files(plan, base_count):
     for it in sorted(plan.items, key=lambda x: x["path"]):
         a = ""
         if it.get("authors"):
+            a = "; ".join("%s (%d)" % (k, v) for k, v in it["authors"].most_common())
