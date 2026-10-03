@@ -8,3 +8,4 @@ Under this 26-family taxonomy **no family exceeds the cap**. The largest are Opt
 
 | Rank | Family | Entries | Share | Headroom to 35 |
 |---|---|---|---|---|
+| 1 | Optimization, search and scheduling | 35 | 8.0% | 0 |
