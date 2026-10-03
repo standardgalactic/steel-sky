@@ -599,3 +599,4 @@ def main():
         if it.get("phase"):
             per_phase[it["phase"]] += commit_count(it, args)
     total_commits = sum(per_phase.values())
+    print("\nFiles: " + ", ".join("%s %d" % (k, v) for k, v in sorted(counts.items())))
