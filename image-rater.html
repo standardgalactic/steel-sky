@@ -72,3 +72,4 @@
           const rect = e.target.getBoundingClientRect()
           const x = ((e.clientX - rect.left) / rect.width).toFixed(3)
           const y = ((e.clientY - rect.top) / rect.height).toFixed(3)
+          alert(`Clicked at (${x}, ${y}) in image ${filename}`)
