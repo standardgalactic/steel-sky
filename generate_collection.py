@@ -84,3 +84,4 @@ def main():
         for job in jobs:
             print(f"\n{job['prefix']} | seed={job['seed']} | batch={job['batch']}\n{job['prompt']}\nNegative: {job['negative']}")
         return
+    if not Path(args.generator).is_file():
