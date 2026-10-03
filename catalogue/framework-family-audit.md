@@ -24,3 +24,4 @@ Under this 26-family taxonomy **no family exceeds the cap**. The largest are Opt
 | 14 | Thresholds, tipping points and cascades | 14 | 3.2% | 21 |
 | 15 | Fair division, allocation and social choice | 14 | 3.2% | 21 |
 | 16 | Queues, flows and throughput | 14 | 3.2% | 21 |
+| 17 | Geometry, space and scale | 13 | 3.0% | 22 |
