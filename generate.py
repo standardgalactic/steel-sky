@@ -84,3 +84,5 @@ def main():
         raise RuntimeError(json.dumps(submitted["node_errors"], indent=2))
     prompt_id = submitted["prompt_id"]
     print(f"Queued {prompt_id}; seed={seed}", flush=True)
+
+    deadline = time.monotonic() + args.timeout
