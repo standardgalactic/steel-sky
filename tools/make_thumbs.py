@@ -103,3 +103,4 @@ def main():
     for s in a.sources:
         root = Path(s)
         if not root.is_dir():
+            print("skip, not a folder:", s, file=sys.stderr)
