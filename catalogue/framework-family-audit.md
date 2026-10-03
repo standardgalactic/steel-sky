@@ -591,3 +591,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 10.04 The River That Moved the Border: continuity and definitions
 - 20.03 The Hotel Inspector’s Infinite Upgrade: countable infinity, reindexing
 - 21.03 The Staircase of Rational Steps: density of the rationals, order
+- 21.11 The Door with No Last Lock: infinite sequences, limit completion
