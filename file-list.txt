@@ -12166,3 +12166,12 @@
 │       ├── steel-sky.txt
 │       ├── steel-workflow.json
 │       └── test-check-image.py
+├── prompts.txt
+├── results.json
+├── services
+│   ├── AUTOMATIC1111
+│   │   ├── Dockerfile
+│   │   ├── clone.sh
+│   │   ├── config.py
+│   │   └── entrypoint.sh
+│   ├── comfy
