@@ -97,3 +97,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 11.13 The Translation Tournament: optimization with competing objectives
 - 13.12 The Expedition That Turned Back: optimal stopping, option value
 - 13.14 The Factory’s Shorter Day: productivity curves, fatigue
+- 14.01 The Woman Who Returned the Sun: scheduling, precedence constraints
