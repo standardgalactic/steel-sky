@@ -619,3 +619,4 @@ def main():
     if args.dry_run:
         shutil.rmtree(dest, ignore_errors=True)
         print("\nDry run only. Nothing was kept.")
+        return
