@@ -37,3 +37,4 @@ def api(path, payload=None):
         args.url.rstrip("/") + path,
         data=data,
         headers={"Content-Type": "application/json"},
+    )
