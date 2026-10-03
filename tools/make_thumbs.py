@@ -50,3 +50,6 @@ def read_prompt(img):
             neg = text_of(inp.get("negative", [None]))
             break
     return pos, neg, seed
+
+
+def one(job):
