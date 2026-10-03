@@ -572,3 +572,5 @@ def main():
     email = args.email or run(["git", "config", "user.email"], check=False).decode().strip()
     if not name or not email:
         sys.exit("Set git user.name and user.email, or pass --name and --email.")
+
+    print("Cloning upstream base ...")
