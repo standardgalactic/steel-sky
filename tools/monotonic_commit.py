@@ -355,3 +355,4 @@ def provenance_files(plan, base_count):
           "| upstream-modified | %d | Started from an upstream file and differs from it. Trailers name the upstream authors whose lines are still present, counted by matching the final file against the upstream version. That is a count of surviving lines. It says nothing about who wrote the changes. Binary files are not line-matched, and their trailers name the authors of the upstream version. |" % counts["upstream-modified"],
           "| steel-sky | %d | Not in upstream. |" % counts["steel-sky"],
           "| upstream-removed | %d | In upstream, absent from this project. Deleted in a commit that names the upstream authors, unless the history was built with `--removed keep`. |" % counts["upstream-removed"],
+          "| upstream-ignored | %d | In upstream, present in the author's folder but excluded by its `.gitignore`. Left exactly as upstream has it, and checked to be unchanged. |" % counts["upstream-ignored"],
