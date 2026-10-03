@@ -163,3 +163,4 @@ def main():
     ignore_text = raw_ignore.decode('utf-8')
     old_output = {'/output/comfy/*.png', '/output/comfy/cache/', '/output/old/*.png'}
     lines = [line for line in ignore_text.splitlines() if line.strip() not in old_output]
+    for rule in ('/output/', '*.progress.json', '/.cleanup-backups/'):
