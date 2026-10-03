@@ -13,3 +13,5 @@ import sys
 XAI_API_KEY = os.getenv("XAI_API_KEY")
 if not XAI_API_KEY:
     raise ValueError("XAI_API_KEY environment variable not set")
+
+# Initialize the OpenAI client
