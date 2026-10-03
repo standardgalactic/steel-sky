@@ -357,3 +357,4 @@ function sheets(){
     const img = new Image();
     img.onload = ()=>{
       const fig = document.createElement("figure");
+      fig.innerHTML = `<button aria-label="Open sheet ${n}"><img src="${img.src}" alt="Contact sheet ${n}" loading="lazy"></button><figcaption>Sheet ${n}: images ${(n-1)*400+1} to ${n*400}</figcaption>`;
