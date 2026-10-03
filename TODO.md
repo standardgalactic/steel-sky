@@ -39,3 +39,4 @@ If feedback comes back, the simplest static route is to let visitors open a pre-
 - [ ] 11.01 A Country Made of Footnotes: same four steps.
 - [ ] Sample images for each new project, using a new manifest category.
 - [ ] Hand-code the 162 graphic treatments that name no medium.
+- [ ] Differentiate the eight clusters of near-duplicate treatments before developing those projects.
