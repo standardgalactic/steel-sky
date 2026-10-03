@@ -16,3 +16,4 @@ if not XAI_API_KEY:
 
 # Initialize the OpenAI client
 client = OpenAI(
+    api_key=XAI_API_KEY,
