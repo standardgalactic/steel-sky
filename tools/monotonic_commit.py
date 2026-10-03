@@ -341,3 +341,4 @@ def provenance_files(plan, base_count):
         rows.append((it["path"], it["cls"], it.get("phase") or "", ret, a))
     buf = io.StringIO()
     csv.writer(buf, lineterminator="\n").writerows(rows)
+    counts = collections.Counter(it["cls"] for it in plan.items)
