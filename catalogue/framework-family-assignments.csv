@@ -407,3 +407,4 @@ id,title,kind,framework,scale,family
 21.06,The Sleeper’s Conservation Law,M,invariants,M,"Symmetry, groups and algebra"
 21.07,The Palace of Unfinished Proofs,M,"proof obligations, conditional conclusions",M,"Logic, computation and formal languages"
 21.08,The River Running through Its Own Source,M,"fixed points, self-consistency",S,"Dynamics, feedback and oscillation"
+21.09,The Garden of Negative Flowers,M,"signed quantities, cancellation",S,"Symmetry, groups and algebra"
