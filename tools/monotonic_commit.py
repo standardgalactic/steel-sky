@@ -449,3 +449,4 @@ def fast_import(dest, commits, ident, branch):
                             stderr=subprocess.PIPE)
     w = proc.stdin
     first, n = True, 0
+    try:
