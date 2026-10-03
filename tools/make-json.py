@@ -12,3 +12,4 @@ def is_separator(line):
 def is_stop_line(line):
     # Add more stop triggers here as needed
     return (line.strip().startswith("Total Token Usage Across All Files:") or
+            line.strip().startswith('{') or
