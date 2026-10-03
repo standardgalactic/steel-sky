@@ -39,3 +39,5 @@ messages = [
         ],
     },
 ]
+
+completion = client.chat.completions.create(
