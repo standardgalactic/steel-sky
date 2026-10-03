@@ -80,3 +80,4 @@ def main():
     graph["3"]["inputs"]["seed"] = seed
 
     submitted = api("/prompt", {"prompt": graph})
+    if submitted.get("node_errors"):
