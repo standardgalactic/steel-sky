@@ -68,3 +68,4 @@ def one(job):
         return {"path": rel.as_posix(), "w": w, "h": h, "seed": seed,
                 "prompt": pos, "negative": neg}
     except Exception as e:  # keep going on a bad file
+        return {"path": rel.as_posix(), "error": str(e)}
