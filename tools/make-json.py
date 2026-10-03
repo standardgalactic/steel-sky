@@ -58,3 +58,4 @@ while i < len(lines):
                     summary_lines.append(line)
                 i += 1
         summary = join_summary_lines(summary_lines).strip()
+        entries.append({
