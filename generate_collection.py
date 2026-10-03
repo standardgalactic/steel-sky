@@ -11,3 +11,4 @@ from pathlib import Path
 
 def slug(value):
     value = re.sub(r'[^a-zA-Z0-9_-]+', '-', str(value)).strip('-').lower()
+    if not value:
