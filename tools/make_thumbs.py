@@ -7,3 +7,4 @@ Standard library plus Pillow. Run from the repo root:
 
 For every PNG under each source folder it writes:
   thumbs/<source-name>/<relative path>.webp      small preview (default 192 px, quality 60)
+  thumbs/<source-name>/index.jsonl               one line per image: path, size, seed, prompt, negative
