@@ -4,3 +4,4 @@
 # Any Arch-based image works.
 
 ARG BASE=flyxion/arch-minimal:v1
+FROM ${BASE}
