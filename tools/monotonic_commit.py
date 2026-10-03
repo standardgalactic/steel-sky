@@ -430,3 +430,4 @@ def schedule(plan, source, args):
                 nxt = []
                 for it, gen in live:
                     s = next(gen, None)
+                    if s:
