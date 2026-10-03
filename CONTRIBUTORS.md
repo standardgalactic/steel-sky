@@ -33,3 +33,5 @@ The upstream repository was created in August 2022 and its last commit in this l
 | [simonmcnair](https://github.com/simonmcnair) | 1 |
 
 Commit counts come from `git shortlog` on the upstream history and count commits by author, so they do not reflect review, issue reports or design work. Contributors without a link used an e-mail address that does not identify a GitHub account in the history.
+
+## Activity over time
