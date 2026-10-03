@@ -41,3 +41,4 @@ def read_prompt(img):
             seed = inp.get("seed", inp.get("noise_seed"))
 
             def text_of(link):
+                try:
