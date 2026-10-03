@@ -21,3 +21,4 @@ def is_list_line(line):
         stripped.startswith("- ") or
         stripped.startswith("* ") or
         bool(re.match(r"^\d+\.\s", stripped))
+    )
