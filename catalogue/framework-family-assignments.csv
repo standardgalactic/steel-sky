@@ -5,3 +5,4 @@ id,title,kind,framework,scale,family
 01.04,A Bridge for Every Sunday,M,Eulerian paths,S,"Graphs, networks and topology"
 01.05,Traffic That Remembers,M,"Braess's paradox, equilibrium",M,Game theory and strategic interaction
 01.06,The Parish of Bells,M,Voronoi partitions,M,"Graphs, networks and topology"
+01.07,Street Names for the Dead,M,"pigeonhole principle, finite namespaces",S,"Number, notation and calendars"
