@@ -45,3 +45,4 @@ def plan(config, selected):
             positive = ', '.join(p for p in [entry['prompt'].strip(), group.get('prompt', '').strip(), shared] if p)
             negative = ', '.join(p for p in [settings.get('negative', '').strip(), entry.get('negative', '').strip()] if p)
             base_seed = int(settings.get('seed', 1000))
+            for variant in range(1, variations + 1):
