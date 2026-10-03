@@ -365,3 +365,4 @@ def trailers(it):
     if it["cls"] in ("upstream-modified", "upstream-removed"):
         if it["authors"]:
             if it["cls"] == "upstream-removed":
+                word = "removed"
