@@ -405,3 +405,4 @@ def commits_for(it, source, args):
         for g in chunk:
             acc.extend(g)
         first = next((x for x in chunk[0] if x.strip()), chunk[0][0])
+        if per > 1:
