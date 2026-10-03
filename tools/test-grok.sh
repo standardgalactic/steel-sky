@@ -9,3 +9,4 @@ curl https://api.x.ai/v1/chat/completions \
       { "role": "user", "content": "What is the purpose of a null-wavefront in Null Convention Logic?" }
     ],
     "model": "grok-3-latest",
+    "stream": false,
