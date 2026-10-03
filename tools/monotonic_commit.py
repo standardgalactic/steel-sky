@@ -209,3 +209,4 @@ def describe(line, n, ext):
     short = (s[:60] + "...") if len(s) > 60 else s
     if ext == ".md":
         if s.startswith("#"):
+            return "Add heading: " + s.lstrip("# ").strip()[:60]
