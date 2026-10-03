@@ -87,3 +87,4 @@ WHOLE_EXT = (".webp", ".png", ".jpg", ".jpeg", ".gif", ".pdf", ".mp3", ".mp4", "
 
 # Phase order matters. First matching rule wins.
 RULES = [
+    ("pipeline", ["generate.py", "workflow.json", "generate_collection.py", "tools/*", "check-image.py",
