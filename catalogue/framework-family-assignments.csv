@@ -329,3 +329,4 @@ id,title,kind,framework,scale,family
 17.08,A Fingerprint for Every Passenger,M,"multiple testing, false discovery",M,"Bayesian updating, bias and sampling"
 17.09,The Map of Accusations,M/C,"observation bias, spatial intensity",M,"Bayesian updating, bias and sampling"
 17.10,The Restorer’s Invisible Repair,C,"authenticity, provenance, intention",S,"Institutions, culture and social relation"
+17.11,The Number That Accused Him,M,"Benford analysis, diagnostic limits",M,"Statistics: distributions, power laws and extremes"
