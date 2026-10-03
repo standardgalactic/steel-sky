@@ -517,3 +517,4 @@ def verify(dest, plan):
             expect[it["path"]] = it
     problems = []
     for p, it in expect.items():
+        if p not in tree:
