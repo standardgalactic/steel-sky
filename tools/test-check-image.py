@@ -19,3 +19,4 @@ def encode_image(image_path):
     return encoded_string
 
 # Getting the base64 string
+base64_image = encode_image(image_path)
