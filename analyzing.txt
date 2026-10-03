@@ -144,3 +144,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
           "links": [
             2
           ],
+          "slot_index": 0
