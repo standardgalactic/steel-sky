@@ -7,3 +7,12 @@
 ├── 03.01-reconstruction-marker.svg
 ├── 03.01-the-last-projectionist-scene-outline.md
 ├── 03.01-the-last-projectionist-screenplay.md
+├── 03.01-the-last-projectionist-treatment.md
+├── 03.01-the-last-projectionist-visual-bible.md
+├── LICENSE
+├── README.md
+├── README.txt
+├── analyzing.txt
+├── ankara-01.webp
+├── ankara-02.webp
+├── ankara-03.webp
