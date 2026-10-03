@@ -323,3 +323,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 15.17 The Workshop of Quiet Signals: interoception, interpretive uncertainty
 - 16.09 The Language They Built Together: emergent convention, private shorthand
 - 16.17 The House of Different Silences: communication norms, ambiguous behavior
+- 19.12 The Island That Lost Its Translation: interpretive infrastructure, institutional access
