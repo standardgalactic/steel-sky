@@ -33,3 +33,4 @@ def get_image_summary(image_path):
         messages = [
             {
                 "role": "user",
+                "content": [
