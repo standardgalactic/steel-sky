@@ -64,3 +64,4 @@ def one(job):
                 out.parent.mkdir(parents=True, exist_ok=True)
                 t = img.convert("RGB")
                 t.thumbnail((size, size), Image.LANCZOS)
+                t.save(out, "WEBP", quality=quality, method=6)
