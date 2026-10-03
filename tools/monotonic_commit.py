@@ -452,3 +452,4 @@ def fast_import(dest, commits, ident, branch):
     try:
         for path, msg, data, mode in commits:
             m = msg.encode("utf-8")
+            w.write(b"commit refs/heads/" + branch.encode() + b"\n")
