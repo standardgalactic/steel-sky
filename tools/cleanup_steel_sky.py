@@ -68,3 +68,4 @@ def check_index(root):
     broken = []
     for tag, attr, ref in parser.refs:
         url = urlsplit(ref)
+        if url.scheme or url.netloc or not url.path:
