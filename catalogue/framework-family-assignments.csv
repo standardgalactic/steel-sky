@@ -132,3 +132,4 @@ id,title,kind,framework,scale,family
 07.11,The Mycelial Telegraph,M,network flow,S,"Queues, flows and throughput"
 07.12,A Garden of Slow Predators,M,separation of timescales,S,"Dynamics, feedback and oscillation"
 07.13,The Salt Marsh Census,M,species-area relationship,S,"Growth, decay and population dynamics"
+07.14,The Last Pollinator Guild,M,"network robustness, extinction cascades",M,"Graphs, networks and topology"
