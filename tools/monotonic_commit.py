@@ -376,3 +376,4 @@ def trailers(it):
         t = ("\n\nUpstream-Origin: %s\nUpstream-Path: %s\nUpstream-Authors: %s\n"
              % (UPSTREAM_URL, it["path"], a))
         if it["cls"] == "upstream-modified" and it.get("retained") is not None:
+            t += "Upstream-Lines-Retained: %d of %d\n" % (it["retained"], it["total"])
