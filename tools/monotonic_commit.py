@@ -288,3 +288,4 @@ def build_plan(source, dest, args):
     plan = Plan()
     plan.skipped = skipped
     seen = set()
+    for p in files:
