@@ -143,3 +143,4 @@ def main():
     rewrites = {}
     if args.strip_think:
         for relative in paths:
+            source = root / relative
