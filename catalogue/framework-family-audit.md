@@ -53,3 +53,5 @@ The inference cluster is the one to watch. The catalogue leans on evidence, sele
 - The assignment uses the Framework field only. It does not test whether two entries with different framework labels dramatise the same story shape.
 - Conceptual (C) entries are spread over Language, Identity, Institutions, Memory and Economics families, so the cap is tested for them too, but they are the least reliably categorised.
 - Cycle 01 entries use a slightly different line format ("| Scale M") and were parsed together with the rest. All 440 matched.
+
+## Recommendations
