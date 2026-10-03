@@ -302,3 +302,4 @@ def build_plan(source, dest, args):
             if hash_object(dest, data) == bblob:
                 item.update(cls="upstream")
             elif lf != data and hash_object(dest, lf) == bblob:
+                item.update(cls="upstream", eol_only=True, sha=sha(lf))
