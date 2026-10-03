@@ -196,3 +196,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 16.05 The Friend Who Always Agreed: preference falsification, relational uncertainty
 - 16.10 The Gift Ledger: reciprocity, non-equivalent exchange
 - 16.15 The Honest Surprise: information asymmetry, consent
+- 16.16 The Friendship after the Contest: zero-sum episodes, continuing relationships
