@@ -255,3 +255,4 @@ class Plan:
         self.items = []
 
     def add(self, **k):
+        k.setdefault("data", None)
