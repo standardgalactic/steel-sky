@@ -505,3 +505,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Economics: value, scarcity and externalities (13)
 
 - 04.04 The School That Taught the Test: Goodhart's law
+- 07.10 The Pasture Commons Revisited: commons governance
