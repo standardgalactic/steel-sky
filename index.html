@@ -303,3 +303,4 @@ function tabs(){
 }
 
 function commonSuffix(prompts){
+  const parts = prompts.filter(Boolean).map(p=>p.split(", "));
