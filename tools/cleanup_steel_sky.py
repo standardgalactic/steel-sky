@@ -119,3 +119,4 @@ def main():
             return result.stdout
 
         globals()['git'] = temporary_git_command
+        print('Cleaning a folder without Git history; no files need untracking.')
