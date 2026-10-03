@@ -343,3 +343,4 @@ def provenance_files(plan, base_count):
     csv.writer(buf, lineterminator="\n").writerows(rows)
     counts = collections.Counter(it["cls"] for it in plan.items)
     md = ["# Provenance", "",
+          "This repository continues from the real history of %s." % UPSTREAM_URL, "",
