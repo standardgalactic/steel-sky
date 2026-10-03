@@ -485,3 +485,4 @@ def read_blobs(dest, ids):
         for oid in ids:
             proc.stdin.write(oid.encode() + b"\n")
             proc.stdin.flush()
+            head = proc.stdout.readline().split()
