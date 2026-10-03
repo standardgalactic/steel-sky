@@ -339,3 +339,4 @@ function open(i){
   if(!current.length)return;
   idx = (i+current.length)%current.length;
   const r = current[idx];
+  if(r._sheet){openSheet(r._sheet,r._sheetNumber);return}
