@@ -11,3 +11,5 @@ The history has two parts.
    binary files and very large files go in whole. Commit times are the real
    times at which the script runs. Nothing is back-dated. The intermediate states
    are reconstructions of the finished files, and PROVENANCE.md says so.
+
+Every file is classified before anything is written:
