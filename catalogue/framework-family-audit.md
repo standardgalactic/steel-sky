@@ -343,3 +343,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 21.05 The Forest of Identical Entrances: symmetry, indistinguishability
 - 21.06 The Sleeper’s Conservation Law: invariants
 - 21.09 The Garden of Negative Flowers: signed quantities, cancellation
+- 21.14 The Library of All Rearrangements: permutations, semantic constraints
