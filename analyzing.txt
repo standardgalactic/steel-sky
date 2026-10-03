@@ -27,3 +27,4 @@ services:
   download:
     build: ./services/download/
     profiles: ["download"]
+    volumes:
