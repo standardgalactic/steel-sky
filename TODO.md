@@ -44,3 +44,4 @@ If feedback comes back, the simplest static route is to let visitors open a pre-
 ## Site and repository
 
 - [ ] Rebuild `thumbs/comfy` at 512 px (`--size 512 --quality 80`) so the image viewer is sharp.
+- [ ] Commit the contact sheets for `output/old`, and attach the full archive to a release.
