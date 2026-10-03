@@ -63,3 +63,4 @@ def main():
     parser.add_argument('--category', action='append', help='Repeat to select multiple categories')
     parser.add_argument('--dry-run', action='store_true')
     parser.add_argument('--retry-incomplete', action='store_true', help='Explicitly resubmit interrupted/failed jobs; may duplicate images')
+    parser.add_argument('--timeout', type=float, default=1800)
