@@ -43,3 +43,4 @@ class References(HTMLParser):
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         if tag == 'base':
+            self.base = attrs.get('href')
