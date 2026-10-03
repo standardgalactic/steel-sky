@@ -34,3 +34,4 @@ def read_prompt(img):
     except Exception:
         return "", "", None
     pos = neg = ""
+    seed = None
