@@ -278,3 +278,4 @@ def commit_count(it, args):
 
 
 def build_plan(source, dest, args):
+    files, skipped = list_source_files(source)
