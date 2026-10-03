@@ -323,3 +323,4 @@ id,title,kind,framework,scale,family
 17.02,The Perfect Alibi Machine,M,"cryptographic commitments, evidential scope",M,"Coding, cryptography and information"
 17.03,The House of Impossible Statements,M,"satisfiability, minimal inconsistent subsets",S,"Optimization, search and scheduling"
 17.04,The Crime That Changed Names,C,"institutional classification, retrospective judgment",M,"Institutions, culture and social relation"
+17.05,The Inspector’s Elegant Theory,M,"overfitting, model selection",M,"Bayesian updating, bias and sampling"
