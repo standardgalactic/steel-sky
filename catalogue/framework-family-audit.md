@@ -397,3 +397,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 07.18 The Beaver Engineers: niche construction
 - 07.19 The Plague of Helpful Species: logistic growth, Allee effects
 - 07.20 The Quiet Meadow Under the Parking Lot: seed banks, bet-hedging
+- 09.04 A Cargo of Seeds: founder effect, genetic drift
