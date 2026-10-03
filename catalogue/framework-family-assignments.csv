@@ -221,3 +221,4 @@ id,title,kind,framework,scale,family
 11.20,The Gesture Returned,C,"embodied convention, contextual meaning",S,"Language, meaning and convention"
 12.01,The Census of Closed Curtains,M,missing-not-at-random data,M,"Bayesian updating, bias and sampling"
 12.02,The Photograph’s Other Edge,C,"framing, evidential selection",S,"Bayesian updating, bias and sampling"
+12.03,The Catalogue of Almost Matches,M,"entity resolution, nontransitive similarity",M,"Bayesian updating, bias and sampling"
