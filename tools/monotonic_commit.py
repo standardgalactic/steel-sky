@@ -469,3 +469,4 @@ def fast_import(dest, commits, ident, branch):
     except BrokenPipeError:
         pass
     err = proc.stderr.read()
+    if proc.wait():
