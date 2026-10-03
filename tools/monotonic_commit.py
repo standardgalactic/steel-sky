@@ -606,3 +606,4 @@ def main():
         print("  %-18s %6d" % (k, v))
     eol = [it["path"] for it in plan.items if it.get("eol_only")]
     if eol:
+        print("\nIdentical to upstream apart from line endings (not re-committed): %d" % len(eol))
