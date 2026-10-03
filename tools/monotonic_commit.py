@@ -292,3 +292,4 @@ def build_plan(source, dest, args):
         seen.add(p)
         full = os.path.join(source, p)
         raw = open(full, "rb").read()
+        data = to_lf(raw) if args.eol == "lf" else raw
