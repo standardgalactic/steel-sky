@@ -594,3 +594,4 @@ def main():
                  whole=False, groups=len(group_lines(data)), authors=None, retained=None)
 
     counts = collections.Counter(it["cls"] for it in plan.items)
+    per_phase = collections.Counter()
