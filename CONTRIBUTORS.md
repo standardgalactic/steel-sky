@@ -49,3 +49,5 @@ The busiest week was the one starting 28 August 2022, with 34 commits. There are
 ## Steel Sky
 
 Steel Sky adds the 440-project screenplay catalogue, the pilot projects, the manifest runner (`generate_collection.py`), the thumbnail tools and the experiment site. These are by Flyxion ([standardgalactic](https://github.com/standardgalactic)).
+
+## Licence
