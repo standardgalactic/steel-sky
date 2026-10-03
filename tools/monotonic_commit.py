@@ -135,3 +135,4 @@ def fi_path(p):
     b = os.fsencode(p)
     if b.startswith(b'"') or b"\n" in b:
         b = b'"' + b.replace(b"\\", b"\\\\").replace(b'"', b'\\"').replace(b"\n", b"\\n") + b'"'
+    return b
