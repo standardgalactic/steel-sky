@@ -321,3 +321,4 @@ def build_plan(source, dest, args):
             continue
         if os.path.lexists(os.path.join(source, p)):
             plan.add(path=p, cls="upstream-ignored", phase=None, mode=mode, base_blob=_b, sha=None, whole=True, groups=0)
+        elif args.removed == "delete":
