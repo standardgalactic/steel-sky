@@ -82,3 +82,6 @@ def check_index(root):
     print(f'Static HTML check: {len(broken)} missing relative targets.')
     print('This check does not execute JavaScript or inspect fetch(), CSS URLs, or generated paths.')
     return broken
+
+
+def main():
