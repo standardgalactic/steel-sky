@@ -171,3 +171,4 @@ def phase_of(path, cls):
     for name, pats in RULES:
         for p in pats:
             if fnmatch.fnmatch(path, p):
+                return name
