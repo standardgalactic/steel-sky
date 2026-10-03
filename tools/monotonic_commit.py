@@ -123,3 +123,4 @@ def to_lf(b):
 
 
 def sha(b):
+    return hashlib.sha256(b).hexdigest()
