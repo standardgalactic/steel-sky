@@ -396,3 +396,4 @@ def commits_for(it, source, args):
     if not groups:
         yield "%s: Add empty %s%s" % (scope, path, tr), data
         return
+    per = per_commit(len(groups), args)
