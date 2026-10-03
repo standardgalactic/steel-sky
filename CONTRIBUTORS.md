@@ -19,3 +19,4 @@ The upstream repository was created in August 2022 and its last commit in this l
 | AJ Walter | 1 |
 | [cococig](https://github.com/cococig) | 1 |
 | Derek Palmer (Creative) | 1 |
+| [divens](https://github.com/divens) | 1 |
