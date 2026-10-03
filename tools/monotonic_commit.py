@@ -287,3 +287,4 @@ def build_plan(source, dest, args):
             base[os.fsdecode(p)] = (mode, blob)
     plan = Plan()
     plan.skipped = skipped
+    seen = set()
