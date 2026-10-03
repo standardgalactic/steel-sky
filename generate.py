@@ -100,3 +100,4 @@ def main():
                 if image.get("type") == "output"
             ]
             if images:
+                for image in images:
