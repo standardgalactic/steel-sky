@@ -201,3 +201,4 @@ def retained_authors(dest, path, new_data):
         for k in range(n):
             if i + k < len(names):
                 c[names[i + k]] += 1
+    return c, sum(c.values()), len(up_l)
