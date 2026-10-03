@@ -437,3 +437,4 @@ def schedule(plan, source, args):
         else:
             for it, gen in streams:
                 for msg, data in gen:
+                    yield it["path"], msg, data, it["mode"]
