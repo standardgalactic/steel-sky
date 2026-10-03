@@ -144,3 +144,4 @@ def list_source_files(source):
     try:
         run(["git", "init", "--bare", "-q", tmp])
         out = run(["git", "-c", "core.excludesFile=", "--git-dir=" + tmp, "--work-tree=" + source,
+                   "ls-files", "-co", "--exclude-standard", "-z"])
