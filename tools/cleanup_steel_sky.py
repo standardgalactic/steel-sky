@@ -215,3 +215,4 @@ def main():
         path.write_bytes(data)
     for source, target in moves:
         target.parent.mkdir(parents=True, exist_ok=True)
+        relative = str(source.relative_to(root))
