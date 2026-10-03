@@ -40,3 +40,4 @@ id,title,kind,framework,scale,family
 02.19,A Quiet Inheritance of Debt,M,"exponential growth, compounding",M,"Growth, decay and population dynamics"
 02.20,The Heirloom Ship,C,identity under replacement,M,Identity and continuity
 03.01,The Last Projectionist,M,"inverse problems, underdetermination",M,Inverse problems and inference from traces
+03.02,The Ferry Without a River,M,optimal stopping,S,"Optimization, search and scheduling"
