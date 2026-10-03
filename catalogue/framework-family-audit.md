@@ -349,3 +349,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Statistics: distributions, power laws and extremes (17)
 
 - 02.13 Hand-Me-Downs: Markov chains, stationary distributions
+- 02.15 The Birthday House: birthday paradox
