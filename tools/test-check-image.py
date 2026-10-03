@@ -23,3 +23,4 @@ base64_image = encode_image(image_path)
 
 messages = [
     {
+        "role": "user",
