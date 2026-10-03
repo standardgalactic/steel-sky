@@ -312,3 +312,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 06.06 Scholars of the Traffic Light: signs, symbol grounding
 - 06.17 The Burial of the Standard Meter: conventions and units
 - 11.02 The Interpreter’s Missing Word: lexical gaps, paraphrase
+- 11.07 The Last Fluent Sister: distributed linguistic knowledge
