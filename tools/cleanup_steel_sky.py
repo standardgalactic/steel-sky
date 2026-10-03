@@ -202,3 +202,4 @@ def main():
             target = backup / 'files' / source.relative_to(root)
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(source, target)
+    index_path = Path(os.fsdecode(git(root, 'rev-parse', '--git-path', 'index')).strip())
