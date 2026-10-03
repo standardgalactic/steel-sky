@@ -86,3 +86,4 @@ ALIASES = {"abdullah barhoum": "AbdBarho", "abdullah": "AbdBarho", "abdbarho": "
 WHOLE_EXT = (".webp", ".png", ".jpg", ".jpeg", ".gif", ".pdf", ".mp3", ".mp4", ".zip", ".woff", ".woff2")
 
 # Phase order matters. First matching rule wins.
+RULES = [
