@@ -29,3 +29,4 @@ Under this 26-family taxonomy **no family exceeds the cap**. The largest are Opt
 | 19 | Measurement, error and uncertainty propagation | 13 | 3.0% | 22 |
 | 20 | Economics: value, scarcity and externalities | 13 | 3.0% | 22 |
 | 21 | Coordination, protocols and distributed knowledge | 12 | 2.7% | 23 |
+| 22 | Identity and continuity | 11 | 2.5% | 24 |
