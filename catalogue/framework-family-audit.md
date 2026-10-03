@@ -394,3 +394,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 07.09 Rivers That Keep Accounts: mass balance, nutrient cycling
 - 07.13 The Salt Marsh Census: species-area relationship
 - 07.16 The Migrating Forest: dispersal, travelling waves
+- 07.18 The Beaver Engineers: niche construction
