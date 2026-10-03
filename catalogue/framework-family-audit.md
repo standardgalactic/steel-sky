@@ -207,3 +207,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 18.12 The Landlord’s Perfect Tenant: adverse selection, screening
 
 ### Logic, computation and formal languages (24)
+
+- 01.16 The Block That Wouldn't Die: cellular automata
