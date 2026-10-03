@@ -526,3 +526,4 @@ def verify(dest, plan):
             problems.append("inherited file disappeared: " + p)
         elif tree[p] != (it["mode"], it["base_blob"]):
             problems.append("inherited file changed: " + p)
+    for p in tree:
