@@ -211,3 +211,4 @@ def describe(line, n, ext):
         if s.startswith("#"):
             return "Add heading: " + s.lstrip("# ").strip()[:60]
         if s.startswith("|"):
+            cell = s.strip("| ").split("|")[0].strip()
