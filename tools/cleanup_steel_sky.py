@@ -227,3 +227,4 @@ def main():
         else:
             readme_txt.unlink()
     for path in untrack:
+        git(root, 'rm', '--cached', '-f', '--', path)
