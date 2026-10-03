@@ -12184,3 +12184,12 @@
 │       ├── download.sh
 │       └── links.txt
 ├── slate-samples-v2.json
+├── slate-samples-v2.progress.json
+├── slate-samples-v3.json
+├── slate-samples-v3.progress.json
+├── slate-samples-v4.json
+├── slate-samples-v4.progress.json
+├── slate-samples.json
+├── slate-samples.progress.json
+├── steel-sky.txt
+├── test-check-image.py
