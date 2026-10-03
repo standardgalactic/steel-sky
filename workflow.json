@@ -57,3 +57,4 @@
         },
         {
           "name": "positive",
+          "type": "CONDITIONING",
