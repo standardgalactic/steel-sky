@@ -29,3 +29,5 @@ surviving lines, not a statement about who wrote the changes:
     Upstream-Authors: AbdBarho (40 lines retained), PassiveLemon (14 lines retained)
     Upstream-Lines-Retained: 55 of 63
     Provenance: upstream-modified
+
+Emails are never written. Authors are named, not impersonated: the commit author
