@@ -68,3 +68,4 @@ def main():
     if args.prompt is not None:
         graph["6"]["inputs"]["text"] = args.prompt
     if args.negative is not None:
+        graph["7"]["inputs"]["text"] = args.negative
