@@ -53,3 +53,4 @@ while i < len(lines):
             while (i < len(lines)
                    and not lines[i].endswith(".png")
                    and not is_stop_line(lines[i])):
+                line = lines[i]
