@@ -603,3 +603,4 @@ def main():
     print("Upstream base commits kept: %d" % base_count)
     print("Reconstruction commits: %d" % total_commits)
     for k, v in sorted(per_phase.items()):
+        print("  %-18s %6d" % (k, v))
