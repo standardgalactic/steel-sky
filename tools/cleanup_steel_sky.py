@@ -195,3 +195,4 @@ def main():
     backup = root / '.cleanup-backups' / stamp
     backup.mkdir(parents=True)
     originals = set(rewrites) | {source for source, _ in moves}
+    if merge:
