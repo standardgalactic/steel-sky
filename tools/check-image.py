@@ -75,3 +75,4 @@ def main():
     # Get all PNG files in the current directory
     png_files = [file for file in os.listdir(".") if file.lower().endswith(".png")]
     total_files = len(png_files)
+    print(f"Found {total_files} PNG files to process.", file=sys.stderr)
