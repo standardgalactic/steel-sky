@@ -406,3 +406,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Thresholds, tipping points and cascades (14)
 
 - 01.10 The Tenants of the Fault Line: self-organized criticality
+- 03.12 The Chimney Sweeps of the Gas City: cascading failure
