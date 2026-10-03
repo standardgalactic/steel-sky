@@ -327,3 +327,4 @@ def build_plan(source, dest, args):
                      whole=True, groups=0, authors=c, retained=None, total=sum(c.values()))
         else:
             plan.add(path=p, cls="upstream-removed", phase=None, mode=mode, base_blob=_b, sha=None,
+                     whole=True, groups=0)
