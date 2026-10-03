@@ -132,3 +132,4 @@ def main():
     for pattern, directory in MOVES:
         for source in sorted(root.glob(pattern)):
             if not source.is_file() or source.is_symlink():
+                continue
