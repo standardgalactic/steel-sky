@@ -179,3 +179,4 @@ def main():
         rewrites.pop(readme_txt, None)
     tracked = [os.fsdecode(p) for p in git(root, 'ls-files', '-z').split(b'\0') if p]
     untrack = [p for p in tracked if p.startswith('output/') or p.endswith('.progress.json')]
+    for source, target in moves:
