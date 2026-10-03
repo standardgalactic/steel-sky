@@ -280,3 +280,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 11.19 The Letter That Could Not Be Shortened: incompressibility, description length
 - 15.11 The Braille Printer’s Apprentice: coding under physical constraints
 - 17.02 The Perfect Alibi Machine: cryptographic commitments, evidential scope
+- 19.08 The Library’s Final Catalogue: information preservation, operational access
