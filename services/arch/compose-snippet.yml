@@ -21,3 +21,4 @@ RUN groupadd -g ${PGID} steel && useradd -m -u ${PUID} -g ${PGID} -s /bin/bash s
 USER steel
 WORKDIR /work
 ENV PYTHONUNBUFFERED=1 COMFY_URL=http://host.docker.internal:7860
+CMD ["bash"]
