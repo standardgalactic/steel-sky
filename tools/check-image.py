@@ -81,3 +81,4 @@ def main():
     process = subprocess.Popen(
         ["tee", "-a", output_file],
         stdin=subprocess.PIPE,
+        text=True,
