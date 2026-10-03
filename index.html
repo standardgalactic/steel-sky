@@ -395,3 +395,4 @@ function drender(){
 async function described(){
   try{
     const r = await fetch("image_descriptions.json"); if(!r.ok) throw 0;
+    dd = await r.json(); if(!Array.isArray(dd))throw 0;
