@@ -28,3 +28,4 @@ def join_summary_lines(lines):
     for i, line in enumerate(lines):
         result.append(line)
         if i < len(lines) - 1:
+            current_is_list = is_list_line(line)
