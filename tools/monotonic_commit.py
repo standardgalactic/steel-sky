@@ -607,3 +607,4 @@ def main():
     eol = [it["path"] for it in plan.items if it.get("eol_only")]
     if eol:
         print("\nIdentical to upstream apart from line endings (not re-committed): %d" % len(eol))
+    for p, why in plan.skipped:
