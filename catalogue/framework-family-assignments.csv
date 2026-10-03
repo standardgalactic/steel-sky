@@ -169,3 +169,4 @@ id,title,kind,framework,scale,family
 09.08,The Ferrymen of the Lagoon,M,state-space search,S,"Optimization, search and scheduling"
 09.09,The Caravan Without a Leader,M,"flocking, alignment dynamics",M,"Dynamics, feedback and oscillation"
 09.10,Letters from the Outbound,M,light-time delay,M,"Geometry, space and scale"
+09.11,The Closed Ark,M,minimum viable population,L,"Growth, decay and population dynamics"
