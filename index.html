@@ -362,3 +362,4 @@ function sheets(){
       box.appendChild(fig); n++; if(n<=80) next();
     };
     img.onerror = ()=>{ if(n===1) box.innerHTML = '<p class="empty">Contact sheets are not available yet. Run tools/make_thumbs.py to build them.</p>'; };
+    img.src = "thumbs/old/sheets/"+name;
