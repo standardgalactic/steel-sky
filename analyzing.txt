@@ -121,3 +121,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
 [0.007s](base)  flyxion@volsorium:/mnt/c/Users/nateg/OneDrive/Documentos/GitHub/stable-diffusion$ cat workflow.json
 {
   "last_node_id": 9,
+  "last_link_id": 9,
