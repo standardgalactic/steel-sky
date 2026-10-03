@@ -51,3 +51,4 @@ def main():
     graph = {}
 
     for node in workflow["nodes"]:
+        kind = node["type"]
