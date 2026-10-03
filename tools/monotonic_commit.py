@@ -571,3 +571,4 @@ def main():
     name = args.name or run(["git", "config", "user.name"], check=False).decode().strip()
     email = args.email or run(["git", "config", "user.email"], check=False).decode().strip()
     if not name or not email:
+        sys.exit("Set git user.name and user.email, or pass --name and --email.")
