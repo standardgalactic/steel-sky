@@ -428,3 +428,4 @@ def schedule(plan, source, args):
             live = streams
             while live:
                 nxt = []
+                for it, gen in live:
