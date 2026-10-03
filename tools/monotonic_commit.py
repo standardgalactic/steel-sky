@@ -272,3 +272,4 @@ def per_commit(groups, args):
 
 
 def commit_count(it, args):
+    if it["cls"] == "upstream-removed" or it["whole"] or it["groups"] == 0:
