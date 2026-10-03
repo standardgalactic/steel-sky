@@ -211,3 +211,4 @@ id,title,kind,framework,scale,family
 11.10,The Messenger Who Never Lies,C,"pragmatics, implicature",S,"Language, meaning and convention"
 11.11,The Village of Short Names,M,"prefix-free codes, unique decoding",S,"Coding, cryptography and information"
 11.12,The Courtesy That Closed the Door,C,"speech acts, institutional authority",S,"Language, meaning and convention"
+11.13,The Translation Tournament,M/C,optimization with competing objectives,M,"Optimization, search and scheduling"
