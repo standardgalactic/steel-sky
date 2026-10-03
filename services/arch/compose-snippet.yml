@@ -6,3 +6,4 @@ ARG BASE=flyxion/arch-minimal:v1
 FROM ${BASE}
 
 USER root
+# A minimal image may have no initialised package keys. This is harmless if it does.
