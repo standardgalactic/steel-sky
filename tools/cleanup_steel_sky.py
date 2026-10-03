@@ -201,3 +201,4 @@ def main():
         if source.is_file():
             target = backup / 'files' / source.relative_to(root)
             target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source, target)
