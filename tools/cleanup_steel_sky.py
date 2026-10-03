@@ -94,3 +94,4 @@ def main():
     args = ap.parse_args()
     requested = Path(args.root).resolve()
     probe = subprocess.run(
+        ['git', '-C', str(requested), 'rev-parse', '--show-toplevel'],
