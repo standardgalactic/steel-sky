@@ -228,3 +228,4 @@ def main():
             readme_txt.unlink()
     for path in untrack:
         git(root, 'rm', '--cached', '-f', '--', path)
+    print(f'Backup: {backup.relative_to(root)}')
