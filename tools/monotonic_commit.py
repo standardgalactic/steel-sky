@@ -43,3 +43,5 @@ written as raw bytes (no decoding, no line-ending changes) unless you pass `--eo
 
 Binary files get no line matching. Their trailers name the authors of the upstream
 version ("not line-matched"), which is not a statement about what survives.
+
+File modes: a path that exists upstream keeps its upstream mode. A new file is
