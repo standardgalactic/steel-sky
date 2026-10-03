@@ -140,3 +140,4 @@ id,title,kind,framework,scale,family
 07.19,The Plague of Helpful Species,M,"logistic growth, Allee effects",M,"Growth, decay and population dynamics"
 07.20,The Quiet Meadow Under the Parking Lot,M,"seed banks, bet-hedging",S,"Growth, decay and population dynamics"
 08.01,Seven Minutes of Summer,M,bounded reachability,M,"Optimization, search and scheduling"
+08.02,The Fog Ledger,M,"attenuation, Beer-Lambert law",S,"Geometry, space and scale"
