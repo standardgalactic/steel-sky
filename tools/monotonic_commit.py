@@ -256,3 +256,4 @@ class Plan:
 
     def add(self, **k):
         k.setdefault("data", None)
+        self.items.append(k)
