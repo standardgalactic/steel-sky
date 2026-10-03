@@ -330,3 +330,4 @@ function show(run,list){
     html += `</div></div>`;
   });
   $("#runview").innerHTML = html;
+  $("#runview").onclick = e=>{const b=e.target.closest("button[data-i]"); if(b) open(+b.dataset.i)};
