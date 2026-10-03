@@ -32,3 +32,4 @@ def join_summary_lines(lines):
             next_is_list = is_list_line(lines[i+1])
             if current_is_list and not next_is_list and lines[i+1].strip():
                 result.append("")  # add blank line to break list in markdown
+    return "\n".join(result)
