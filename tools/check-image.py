@@ -70,3 +70,4 @@ def main():
     total_token_usage = {
         "prompt_tokens": 0,
         "completion_tokens": 0,
+        "total_tokens": 0
