@@ -29,3 +29,4 @@ def plan(config, selected):
     defaults = config.get('defaults', {})
     seen = set()
     for category, group in config['categories'].items():
+        if selected and category not in selected:
