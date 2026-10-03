@@ -25,3 +25,12 @@
 │   │   ├── auto
 │   │   └── comfy
 │   ├── embeddings
+│   └── models
+│       ├── GFPGAN
+│       ├── LDSR
+│       ├── RealESRGAN
+│       ├── Stable-diffusion
+│       ├── VAE
+│       ├── VAE-approx
+│       └── karlo
+├── docker-compose.yml
