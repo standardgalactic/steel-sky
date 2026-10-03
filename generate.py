@@ -71,3 +71,4 @@ def main():
         graph["7"]["inputs"]["text"] = args.negative
     if args.batch is not None:
         if args.batch < 1:
+            raise ValueError("--batch must be at least 1")
