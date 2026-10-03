@@ -134,3 +134,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 12.03 The Catalogue of Almost Matches: entity resolution, nontransitive similarity
 - 12.04 The Five Who Agreed: correlated evidence
 - 12.07 The Archive Fire Lottery: survivorship bias
+- 12.09 The Museum of Borrowed Faces: classification thresholds, asymmetric error costs
