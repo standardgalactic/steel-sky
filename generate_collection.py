@@ -50,3 +50,4 @@ def plan(config, selected):
                 seed = (base_seed + stable_offset + variant - 1) % (2**48)
                 job = {'prefix': f'{folder}/variant-{variant:03d}', 'prompt': positive,
                        'negative': negative, 'seed': seed, 'batch': batch}
+                job['key'] = hashlib.sha256(json.dumps(job, sort_keys=True).encode()).hexdigest()
