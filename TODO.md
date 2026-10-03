@@ -11,3 +11,4 @@ The old viewer was a Picbreeder-style rater for a 4,999-image set, with ratings 
 | Store filenames exactly as written (`ComfyUI_00003_.png`, not corrupted names) | Done by design. The site reads exact paths from `index.jsonl` and no longer stores names by hand. |
 | Log click coordinates on images | Not planned. Needs a backend. |
 | Show a marker where an image was clicked | Not planned. Only useful with click logging. |
+| Tooltip with existing comments and ratings on hover | Not planned. Needs stored feedback. |
