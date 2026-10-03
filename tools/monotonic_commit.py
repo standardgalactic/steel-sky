@@ -436,3 +436,4 @@ def schedule(plan, source, args):
                 live = nxt
         else:
             for it, gen in streams:
+                for msg, data in gen:
