@@ -107,3 +107,4 @@ def main():
                     time.sleep(random.uniform(0.5, 2.0))
             
             # After processing all files, append total token usage
+            total_output = (
