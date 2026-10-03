@@ -110,3 +110,4 @@ def main():
             if commands == ('rev-parse', '--show-toplevel'):
                 return os.fsencode(str(requested))
             result = subprocess.run(
+                ['git', '--git-dir=' + temporary_git.name,
