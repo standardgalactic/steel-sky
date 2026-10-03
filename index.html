@@ -299,3 +299,4 @@ function tabs(){
   const order = Object.keys(RUNS).filter(k=>byRun[k]).concat(Object.keys(byRun).filter(k=>!RUNS[k]));
   $("#runs").innerHTML = order.map((k,i)=>`<button role="tab" aria-selected="${i===0}" data-run="${esc(k)}"><b>${esc(RUNS[k]?RUNS[k].name:k)}</b><span>${byRun[k].length} images</span></button>`).join("");
   $("#runs").onclick = e=>{const b=e.target.closest("button"); if(!b)return; document.querySelectorAll("#runs button").forEach(x=>x.setAttribute("aria-selected",x===b)); show(b.dataset.run,byRun[b.dataset.run])};
+  if(order.length) show(order[0],byRun[order[0]]);
