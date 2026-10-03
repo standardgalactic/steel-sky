@@ -231,3 +231,4 @@ def describe(line, n, ext):
         return "Add data entry %d" % n
     if ext in (".html", ".svg", ".xml", ".css"):
         return "Add markup line %d" % n
+    return "Add line %d" % n
