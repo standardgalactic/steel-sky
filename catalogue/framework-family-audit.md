@@ -336,3 +336,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 10.02 Passport of Nine Names: equivalence classes
 - 12.12 The Duplicate Children: counting with overlapping sets
 - 12.18 The Archive That Forgot Its Order: permutations, sequence-dependent meaning
+- 20.01 The Mayor’s Unsortable Parade: partial orders, topological sorting
