@@ -47,3 +47,5 @@ version ("not line-matched"), which is not a statement about what survives.
 File modes: a path that exists upstream keeps its upstream mode. A new file is
 100755 only when it starts with a `#!` line, otherwise 100644. The source folder's
 own permission bits are not used, so the result is the same on Windows and Linux.
+
+Verification: after the import the script reads every file back out of the new
