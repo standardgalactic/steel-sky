@@ -94,3 +94,4 @@ def main():
             if status.get("status_str") == "error":
                 raise RuntimeError(json.dumps(status, indent=2))
             images = [
+                image
