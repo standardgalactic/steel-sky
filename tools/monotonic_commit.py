@@ -587,3 +587,5 @@ def main():
     for b in git(dest, "for-each-ref", "--format=%(refname)", "refs/tags").decode().split():
         git(dest, "update-ref", "-d", b)
     base_count = int(git(dest, "rev-list", "--count", "HEAD").decode())
+
+    plan = build_plan(source, dest, args)
