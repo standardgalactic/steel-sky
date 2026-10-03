@@ -64,3 +64,4 @@ services:
 # Preliminary Run
 
 ![](ankara-01.webp)
+![](ankara-02.webp)
