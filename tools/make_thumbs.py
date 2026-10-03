@@ -114,3 +114,4 @@ def main():
         dst.mkdir(parents=True, exist_ok=True)
         with open(dst / "index.jsonl", "w", encoding="utf-8") as fh:
             for r in rows:
+                fh.write(json.dumps(r, ensure_ascii=False) + "\n")
