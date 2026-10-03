@@ -515,3 +515,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 18.10 The Market for Certainty: risk pooling, correlated losses
 - 18.13 The Cost of the Free Workshop: externalities, hidden resource transfers
 - 18.14 The Merchant of Limited Editions: scarcity, endogenous value
+- 18.15 The Bargain Beneath the Floorboards: opportunity cost, complementarity
