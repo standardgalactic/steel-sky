@@ -253,3 +253,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 17.12 The Chain of Custody Dinner: provenance graphs, broken continuity
 - 19.01 The Last Bus on Tuesday: accessibility thresholds, dependency networks
 - 19.05 The Shop after Its Customers Left: network effects, critical participation
+- 19.18 The Bridge Closed for Good: cut sets, network resilience
