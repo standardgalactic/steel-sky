@@ -67,3 +67,4 @@ def main():
     # These node IDs match your supplied workflow.
     if args.prompt is not None:
         graph["6"]["inputs"]["text"] = args.prompt
+    if args.negative is not None:
