@@ -97,3 +97,4 @@ def main():
         ['git', '-C', str(requested), 'rev-parse', '--show-toplevel'],
         capture_output=True,
     )
+    if probe.returncode:
