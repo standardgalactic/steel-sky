@@ -93,3 +93,4 @@ def make_sheets(rows, thumb_root, sheet_dir, cell=96, cols=20, per_sheet=400, qu
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("sources", nargs="+", help="folders of PNGs, e.g. output/comfy output/old")
+    ap.add_argument("--dst", default="thumbs")
