@@ -199,3 +199,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 16.16 The Friendship after the Contest: zero-sum episodes, continuing relationships
 - 17.14 The Honest Pair of Liars: strategic communication, incentive compatibility
 - 18.02 The Auction of Unwritten Books: common-value auctions, winner’s curse
+- 18.03 The Price of Standing First: all-pay auctions, rent dissipation
