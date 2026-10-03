@@ -359,3 +359,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 06.16 The Fossil Keyboard: Zipf's law
 - 08.04 The Hundred-Year Flood Committee: return periods, extreme value statistics
 - 08.14 The Dust Year: diffusion, random walks
+- 08.17 The Hail Insurers: heavy tails, ruin
