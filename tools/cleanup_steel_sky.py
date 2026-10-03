@@ -32,3 +32,6 @@ def git(root, *args):
     if result.returncode:
         raise RuntimeError(result.stderr.decode('utf-8', 'replace').strip())
     return result.stdout
+
+
+class References(HTMLParser):
