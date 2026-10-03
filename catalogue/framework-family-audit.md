@@ -234,3 +234,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 22.19 The Last Light in Each Room: terminal actions, closure conditions
 
 ### Graphs, networks and topology (23)
+
+- 01.03 The Sewer Cartographers: graph coloring
