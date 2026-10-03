@@ -44,3 +44,4 @@ Anything already committed under `output/` stays tracked even after the ignore r
 
 ```
 git rm -r --cached output
+```
