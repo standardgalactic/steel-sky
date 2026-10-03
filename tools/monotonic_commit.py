@@ -37,3 +37,4 @@ Bytes are preserved, with two exceptions that are reported. Files are read and
 written as raw bytes (no decoding, no line-ending changes) unless you pass `--eol lf`.
 
   1. A file whose only difference from upstream is CRLF versus LF counts as identical
+     to upstream, so the repository keeps upstream's LF bytes and your CRLF copy is
