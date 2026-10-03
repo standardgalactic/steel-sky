@@ -65,3 +65,4 @@ def check_index(root):
     if parser.base:
         print(f'HTML base URL detected: {parser.base}; resolve these paths against the deployment URL manually.')
         return None
+    broken = []
