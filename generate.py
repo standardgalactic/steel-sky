@@ -75,3 +75,5 @@ def main():
         graph["5"]["inputs"]["batch_size"] = args.batch
     if args.prefix is not None:
         graph["9"]["inputs"]["filename_prefix"] = args.prefix
+
+    seed = args.seed if args.seed is not None else secrets.randbits(48)
