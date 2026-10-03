@@ -83,3 +83,4 @@ import time
 
 UPSTREAM_URL = "https://github.com/AbdBarho/stable-diffusion-webui-docker"
 ALIASES = {"abdullah barhoum": "AbdBarho", "abdullah": "AbdBarho", "abdbarho": "AbdBarho"}
+WHOLE_EXT = (".webp", ".png", ".jpg", ".jpeg", ".gif", ".pdf", ".mp3", ".mp4", ".zip", ".woff", ".woff2")
