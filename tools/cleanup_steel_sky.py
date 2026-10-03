@@ -199,3 +199,4 @@ def main():
         originals.add(readme_txt)
     for source in originals:
         if source.is_file():
+            target = backup / 'files' / source.relative_to(root)
