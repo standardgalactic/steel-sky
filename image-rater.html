@@ -70,3 +70,4 @@
 
         img.addEventListener('click', e => {
           const rect = e.target.getBoundingClientRect()
+          const x = ((e.clientX - rect.left) / rect.width).toFixed(3)
