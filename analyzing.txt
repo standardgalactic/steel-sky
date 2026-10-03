@@ -240,3 +240,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
           "type": "VAE",
           "link": 8
         }
+      ],
