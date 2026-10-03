@@ -224,3 +224,4 @@ def main():
         if 'README.txt' in tracked:
             git(root, 'rm', '--cached', '-f', '--', 'README.txt')
             readme_txt.unlink()
+        else:
