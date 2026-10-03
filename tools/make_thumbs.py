@@ -30,3 +30,4 @@ def read_prompt(img):
     if not raw:
         return "", "", None
     try:
+        graph = json.loads(raw)
