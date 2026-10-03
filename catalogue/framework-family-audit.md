@@ -39,3 +39,5 @@ Under this 26-family taxonomy **no family exceeds the cap**. The largest are Opt
 ## What the result depends on
 
 The cap test is only as strict as the taxonomy is fine. The same catalogue gives different answers at different granularities, so the taxonomy has to be fixed before the cap means anything.
+
+- **Inference and evidence (merging 4 families):** 75 entries, 17.0%. Breaches the cap if read as one family.
