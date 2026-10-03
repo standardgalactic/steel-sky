@@ -148,3 +148,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 22.11 The Photograph before It Was Taken: framing, collective production
 
 ### Dynamics, feedback and oscillation (28)
+
+- 01.02 Municipal Weather: feedback and control
