@@ -569,3 +569,4 @@ def main():
         sys.exit("Destination already exists: " + args.dest)
 
     name = args.name or run(["git", "config", "user.name"], check=False).decode().strip()
+    email = args.email or run(["git", "config", "user.email"], check=False).decode().strip()
