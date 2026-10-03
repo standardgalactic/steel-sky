@@ -7,3 +7,4 @@ ARG BASE=flyxion/arch-minimal:v1
 FROM ${BASE}
 
 RUN pacman -Syu --noconfirm --needed \
+      python python-pillow python-requests git openssh less nano vim jq rsync \
