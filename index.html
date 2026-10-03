@@ -361,3 +361,4 @@ function sheets(){
       const k = n; fig.querySelector("button").onclick = ()=>{current=[{path:"thumbs/old/sheets/"+name,prompt:"",negative:"",seed:null,_sheet:img.src,_sheetNumber:k}]; openSheet(img.src,k)};
       box.appendChild(fig); n++; if(n<=80) next();
     };
+    img.onerror = ()=>{ if(n===1) box.innerHTML = '<p class="empty">Contact sheets are not available yet. Run tools/make_thumbs.py to build them.</p>'; };
