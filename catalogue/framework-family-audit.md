@@ -581,3 +581,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 01.08 The Tram That Skips: modular arithmetic, Chinese remainder theorem
 - 05.08 The Cogwheel Parish: least common multiples, wear patterns
 - 05.11 The Abacus Factory: positional notation, base systems
+- 09.13 The Cicada Road: prime periods
