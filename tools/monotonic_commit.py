@@ -248,3 +248,6 @@ def group_lines(data):
         else:
             groups.append(cur)
     return groups
+
+
+class Plan:
