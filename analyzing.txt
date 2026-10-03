@@ -34,3 +34,4 @@ services:
     <<: *base_service
     profiles: ["auto"]
     build: ./services/AUTOMATIC1111
+    image: sd-auto:78
