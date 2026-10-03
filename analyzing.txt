@@ -22,3 +22,5 @@ x-base_service: &base_service
                 capabilities: [compute, utility]
 
 name: webui-docker
+
+services:
