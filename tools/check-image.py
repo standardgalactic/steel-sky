@@ -84,3 +84,5 @@ def main():
         text=True,
         encoding="utf-8"
     )
+
+    try:
