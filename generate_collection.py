@@ -88,3 +88,4 @@ def main():
         raise ValueError(f'Cannot find {args.generator}; use the generate.py created earlier')
     manifest = config_path.with_name(config_path.stem + '.progress.json')
     state = json.loads(manifest.read_text()) if manifest.exists() else {'jobs': {}}
+    for index, job in enumerate(jobs, 1):
