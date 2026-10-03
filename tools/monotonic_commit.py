@@ -589,3 +589,4 @@ def main():
     base_count = int(git(dest, "rev-list", "--count", "HEAD").decode())
 
     plan = build_plan(source, dest, args)
+    for p, data in provenance_files(plan, base_count):
