@@ -633,3 +633,4 @@ def main():
         for b in problems[:30]:
             print("   " + b)
         sys.exit("Not pushing. Fix the cause and run again with a new --dest.")
+    total = int(git(dest, "rev-list", "--count", "HEAD").decode())
