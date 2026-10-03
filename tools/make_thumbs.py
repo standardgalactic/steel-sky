@@ -22,3 +22,6 @@ from multiprocessing import Pool
 from pathlib import Path
 
 from PIL import Image
+
+
+def read_prompt(img):
