@@ -553,3 +553,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 13.01 The Letter Delivered Before Dawn: causal models, interventions
 - 14.17 The Three Fates of the Tailoring Shop: prediction, intervention, causal feedback
 - 17.13 The Defendant of Tomorrow: prediction, performative feedback
+- 17.15 The Accident with Three Causes: causal attribution, explanatory plurality
