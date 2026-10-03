@@ -175,3 +175,4 @@ def main():
     if merge:
         md = rewrites.get(readme_md, readme_md.read_bytes() if readme_md.exists() else b'')
         txt = rewrites.get(readme_txt, readme_txt.read_bytes())
+        rewrites[readme_md] = md.rstrip(b'\r\n') + b'\n\n' + txt
