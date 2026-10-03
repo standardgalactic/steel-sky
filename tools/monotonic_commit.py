@@ -173,3 +173,6 @@ def phase_of(path, cls):
             if fnmatch.fnmatch(path, p):
                 return name
     return "misc"
+
+
+def split_lines(data):
