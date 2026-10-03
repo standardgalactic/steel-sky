@@ -1,2 +1,3 @@
 cat docker-compose.yml
 cat README.md
+cat workflow.json
