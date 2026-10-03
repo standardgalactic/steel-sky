@@ -34,3 +34,4 @@ def get_image_summary(image_path):
             {
                 "role": "user",
                 "content": [
+                    {
