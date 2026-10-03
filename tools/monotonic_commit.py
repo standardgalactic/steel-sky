@@ -232,3 +232,6 @@ def describe(line, n, ext):
     if ext in (".html", ".svg", ".xml", ".css"):
         return "Add markup line %d" % n
     return "Add line %d" % n
+
+
+def group_lines(data):
