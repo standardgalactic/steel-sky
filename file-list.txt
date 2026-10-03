@@ -12157,3 +12157,12 @@
 │       ├── macrolife_00992_.png
 │       ├── macrolife_00993_.png
 │       ├── macrolife_00994_.png
+│       ├── macrolife_00995_.png
+│       ├── macrolife_00996_.png
+│       ├── macrolife_00997_.png
+│       ├── macrolife_00998_.png
+│       ├── macrolife_00999_.png
+│       ├── macrolife_01000_.png
+│       ├── steel-sky.txt
+│       ├── steel-workflow.json
+│       └── test-check-image.py
