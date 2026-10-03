@@ -347,3 +347,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 21.16 The Dreamer’s Undo Tax: reversibility, residual state
 
 ### Statistics: distributions, power laws and extremes (17)
+
+- 02.13 Hand-Me-Downs: Markov chains, stationary distributions
