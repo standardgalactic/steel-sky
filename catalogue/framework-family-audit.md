@@ -215,3 +215,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 04.05 The Committee on Committees: recursion, self-reference
 - 04.08 The Registry of Names: self-reference, barber paradox
 - 04.09 The Department of Forms: formal grammars
+- 04.11 The Auditors of the Moon: infinite regress of verification
