@@ -55,3 +55,4 @@ def read_prompt(img):
 def one(job):
     src, dst, root, size, quality = job
     rel = src.relative_to(root)
+    out = dst / (str(rel) + ".webp")
