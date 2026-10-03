@@ -263,3 +263,4 @@
       "inputs": [
         {
           "name": "clip",
+          "type": "CLIP",
