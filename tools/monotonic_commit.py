@@ -558,3 +558,4 @@ def main():
     ap.add_argument("--email", help="commit author email (default: git config user.email)")
     ap.add_argument("--remote", help="URL of the new, empty GitHub repository")
     ap.add_argument("--push", action="store_true")
+    ap.add_argument("--push-every", type=int, default=0, help="push in batches of N commits (default: once at the end)")
