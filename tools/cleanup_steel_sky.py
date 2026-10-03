@@ -138,3 +138,4 @@ def main():
             target = root / directory / source.name
             if target.exists() or target in targets:
                 raise ValueError(f'Move collision: {target.relative_to(root)}')
+            targets.add(target)
