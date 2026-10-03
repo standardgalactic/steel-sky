@@ -333,3 +333,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 02.11 The Mirror Cousin: chirality, symmetry
 - 02.14 The Landlady's Ledger: invariants, conservation
 - 09.20 The Closed Route: cyclic groups
+- 10.02 Passport of Nine Names: equivalence classes
