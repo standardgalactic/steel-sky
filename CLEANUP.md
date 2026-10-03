@@ -37,3 +37,5 @@ They do not match the run subfolders (`output/comfy/slate-samples-v4/03-01/...`)
 /output/
 *.progress.json
 ```
+
+Keep your other lines (`/.devcontainer`, `/docker-compose.override.yml`, `*.code-workspace`, `/.vscode`).
