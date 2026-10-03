@@ -13,3 +13,4 @@ The upstream repository was created in August 2022 and its last commit in this l
 | 神楽坂·喵 | 3 |
 | [cloudaxes](https://github.com/cloudaxes) | 2 |
 | [LEv145](https://github.com/LEv145) | 2 |
+| [Simon Oelerich](https://github.com/gmasil) | 2 |
