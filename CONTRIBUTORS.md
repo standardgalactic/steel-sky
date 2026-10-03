@@ -43,3 +43,5 @@ Weekly commit counts for the upstream project show a short, intense start and a 
 | 2022 (from late August) | 153 |
 | 2023 | 91 |
 | 2024 (to late June) | 11 |
+
+The busiest week was the one starting 28 August 2022, with 34 commits. There are no upstream commits after 23 June 2024 in this lineage. These weekly figures come from the GitHub commit graph and total 255, while the history I counted above has 237 commits. The two sources were not reconciled, so treat both as approximate.
