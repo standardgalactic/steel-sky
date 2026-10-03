@@ -401,3 +401,4 @@ async function described(){
   const p = +new URLSearchParams(location.search).get("page"); dpage = Number.isInteger(p)&&p>0?Math.min(p-1,Math.ceil(dd.length/PER)-1):0;
   $("#pager").hidden = false; drender();
   const go = d=>{dpage+=d; drender(); document.getElementById("described").scrollIntoView()};
+  $("#dprev").onclick=()=>go(-1); $("#dnext").onclick=()=>go(1);
