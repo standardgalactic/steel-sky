@@ -17,3 +17,5 @@ parser.add_argument("--batch", type=int)
 parser.add_argument("--prefix")
 parser.add_argument("--timeout", type=float, default=1800)
 args = parser.parse_args()
+
+# Widget order for the specific node types in your supplied workflow.
