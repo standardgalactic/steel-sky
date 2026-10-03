@@ -340,3 +340,4 @@ function open(i){
   idx = (i+current.length)%current.length;
   const r = current[idx];
   if(r._sheet){openSheet(r._sheet,r._sheetNumber);return}
+  $("#lbimg").src = thumb(r); $("#lbimg").alt = r.path;
