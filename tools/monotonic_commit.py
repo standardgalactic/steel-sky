@@ -523,3 +523,4 @@ def verify(dest, plan):
             problems.append("mode %s, expected %s: %s" % (tree[p][0], it["mode"], p))
     for p, it in inherited.items():
         if p not in tree:
+            problems.append("inherited file disappeared: " + p)
