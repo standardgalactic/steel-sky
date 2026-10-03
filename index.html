@@ -325,3 +325,4 @@ function show(run,list){
   const cut = {}; Object.keys(byProject).forEach(k=>cut[k]=commonSuffix(byProject[k]));
   Object.keys(groups).sort().forEach(g=>{
     const items = groups[g];
+    html += `<div class="group"><h3>${esc(g)}</h3>${items[0].prompt?`<p class="prompt">${esc(itemPrompt(items[0],cut[g.split(" / ")[0]]||0))}</p>`:""}<div class="strip">`;
