@@ -105,3 +105,4 @@ def main():
             result = subprocess.run(command, check=False)
         except KeyboardInterrupt:
             state['jobs'][job['key']]['status'] = 'interrupted'
+            save(manifest, state)
