@@ -26,3 +26,4 @@ surviving lines, not a statement about who wrote the changes:
 
     Upstream-Origin: https://github.com/AbdBarho/stable-diffusion-webui-docker
     Upstream-Path: docker-compose.yml
+    Upstream-Authors: AbdBarho (40 lines retained), PassiveLemon (14 lines retained)
