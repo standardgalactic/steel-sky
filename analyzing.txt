@@ -28,3 +28,4 @@ services:
     build: ./services/download/
     profiles: ["download"]
     volumes:
+      - *v1
