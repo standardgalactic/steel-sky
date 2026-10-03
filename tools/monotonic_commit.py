@@ -146,3 +146,4 @@ def list_source_files(source):
         out = run(["git", "-c", "core.excludesFile=", "--git-dir=" + tmp, "--work-tree=" + source,
                    "ls-files", "-co", "--exclude-standard", "-z"])
     finally:
+        shutil.rmtree(tmp, ignore_errors=True)
