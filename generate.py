@@ -40,3 +40,4 @@ def api(path, payload=None):
     )
     try:
         with request.urlopen(req, timeout=30) as response:
+            return json.load(response)
