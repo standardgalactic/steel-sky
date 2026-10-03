@@ -387,3 +387,4 @@ function drender(){
   document.querySelectorAll("#desc article img").forEach((img,i)=>{
     const fallback = "thumbs/comfy/"+assetPath(a[i].filename+".webp");
     img.addEventListener("error",()=>{img.src=fallback},{once:true});
+    if(img.complete&&img.naturalWidth===0){img.dispatchEvent(new Event("error"))}
