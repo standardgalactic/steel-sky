@@ -45,3 +45,4 @@ Binary files get no line matching. Their trailers name the authors of the upstre
 version ("not line-matched"), which is not a statement about what survives.
 
 File modes: a path that exists upstream keeps its upstream mode. A new file is
+100755 only when it starts with a `#!` line, otherwise 100644. The source folder's
