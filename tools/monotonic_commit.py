@@ -441,3 +441,4 @@ def schedule(plan, source, args):
 
 
 def fast_import(dest, commits, ident, branch):
+    """Stream commits into git fast-import. Returns the number written."""
