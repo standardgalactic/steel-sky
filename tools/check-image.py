@@ -101,3 +101,4 @@ def main():
                 )
                 # Write to pipe (tee will handle file and terminal output)
                 pipe.write(output)
+                pipe.flush()
