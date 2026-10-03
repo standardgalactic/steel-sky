@@ -24,3 +24,4 @@ def is_list_line(line):
     )
 
 def join_summary_lines(lines):
+    result = []
