@@ -35,3 +35,5 @@ The upstream repository was created in August 2022 and its last commit in this l
 Commit counts come from `git shortlog` on the upstream history and count commits by author, so they do not reflect review, issue reports or design work. Contributors without a link used an e-mail address that does not identify a GitHub account in the history.
 
 ## Activity over time
+
+Weekly commit counts for the upstream project show a short, intense start and a long tail:
