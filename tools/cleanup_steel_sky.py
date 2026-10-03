@@ -222,3 +222,4 @@ def main():
             source.rename(target)
     if merge:
         if 'README.txt' in tracked:
+            git(root, 'rm', '--cached', '-f', '--', 'README.txt')
