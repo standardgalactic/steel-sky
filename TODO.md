@@ -28,3 +28,4 @@ If feedback comes back, the simplest static route is to let visitors open a pre-
 - [ ] Write a script that places generated images inside `03.01-reconstruction-marker.svg`.
 - [ ] Build a casting and location sheet from the best v3 and v4 picks, one page per project.
 - [ ] Decide how Ilse's age and tape measure are shown. The generator has not produced either reliably.
+- [ ] Turn the two catalogue audits into a script in `tools/`.
