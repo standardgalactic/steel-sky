@@ -224,3 +224,4 @@ def describe(line, n, ext):
             return "Add %s %s" % (m.group(1), m.group(2))
         if s.startswith(("import ", "from ")):
             return "Add import: " + short
+        if s.startswith("#"):
