@@ -86,3 +86,4 @@ def check_index(root):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--root', default='.')
