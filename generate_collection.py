@@ -70,3 +70,4 @@ def main():
     if args.category:
         unknown = set(args.category) - set(config['categories'])
         if unknown:
+            raise ValueError(f'Unknown categories: {sorted(unknown)}')
