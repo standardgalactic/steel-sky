@@ -22,3 +22,4 @@ id,title,kind,framework,scale,family
 02.01,The Lodger's Arithmetic,M,Bayesian updating under filtered evidence,S,"Bayesian updating, bias and sampling"
 02.02,Seven Keys to One Door,M,"permutations, cycle structure",S,"Symmetry, groups and algebra"
 02.03,The Wallpaper Group,M,plane symmetry groups,M,"Symmetry, groups and algebra"
+02.04,"Grandmother's Recipe, Corrupted",M,"noisy channels, error correction",M,"Coding, cryptography and information"
