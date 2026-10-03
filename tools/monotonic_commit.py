@@ -308,3 +308,4 @@ def build_plan(source, dest, args):
                 item.update(cls="upstream-modified", authors=a, retained=ret, total=tot)
         else:
             item.update(cls="steel-sky", mode="100755" if data.startswith(b"#!") else "100644")
+        if item["cls"] != "upstream":
