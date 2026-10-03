@@ -71,3 +71,4 @@ def main():
         unknown = set(args.category) - set(config['categories'])
         if unknown:
             raise ValueError(f'Unknown categories: {sorted(unknown)}')
+    jobs = list(plan(config, args.category))
