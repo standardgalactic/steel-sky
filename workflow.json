@@ -67,3 +67,4 @@
         },
         {
           "name": "latent_image",
+          "type": "LATENT",
