@@ -51,3 +51,4 @@ own permission bits are not used, so the result is the same on Windows and Linux
 Verification: after the import the script reads every file back out of the new
 repository's object database (not the working tree, so autocrlf cannot disturb the
 check) and compares its SHA-256 and its mode with the plan. It also checks that the
+set of tracked files is exactly the planned set. It refuses to push on any mismatch.
