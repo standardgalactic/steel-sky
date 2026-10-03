@@ -464,3 +464,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 08.09 The Lightning Rod Wars: field geometry, point discharge
 - 08.18 The Sundial Dispute: equation of time, solar geometry
 - 09.07 The Long Way Around Cape Nothing: great circles, spherical geometry
+- 09.10 Letters from the Outbound: light-time delay
