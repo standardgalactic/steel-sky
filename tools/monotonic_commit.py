@@ -531,3 +531,4 @@ def verify(dest, plan):
             problems.append("unexpected file: " + p)
     check = [p for p in expect if p in tree]
     ids = [tree[p][1] for p in check]
+    for p, (_oid, h) in zip(check, read_blobs(dest, ids)):
