@@ -33,3 +33,5 @@ def join_summary_lines(lines):
             if current_is_list and not next_is_list and lines[i+1].strip():
                 result.append("")  # add blank line to break list in markdown
     return "\n".join(result)
+
+with open(input_path, "r", encoding="utf-8") as f:
