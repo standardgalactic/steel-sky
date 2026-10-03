@@ -96,3 +96,4 @@ def main():
             images = [
                 image
                 for output in result.get("outputs", {}).values()
+                for image in output.get("images", [])
