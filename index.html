@@ -306,3 +306,4 @@ function commonSuffix(prompts){
   const parts = prompts.filter(Boolean).map(p=>p.split(", "));
   if(parts.length<2) return 0;
   let n=0;
+  while(true){
