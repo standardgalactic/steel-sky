@@ -80,3 +80,4 @@ def main():
     for job in jobs:
         job['key'] = hashlib.sha256((job['key'] + workflow_hash + args.url).encode()).hexdigest()
     print(f"{len(jobs)} jobs; {sum(j['batch'] for j in jobs)} images", flush=True)
+    if args.dry_run:
