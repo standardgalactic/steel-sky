@@ -74,3 +74,4 @@ def check_index(root):
         if path.startswith('/'):
             print(f'Deployment-root reference (manual check): {ref}')
             continue
+        target = index.parent / path
