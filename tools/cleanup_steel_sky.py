@@ -134,3 +134,4 @@ def main():
             if not source.is_file() or source.is_symlink():
                 continue
             if source.name.endswith('.progress.json'):
+                continue
