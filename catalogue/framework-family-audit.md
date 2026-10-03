@@ -327,3 +327,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 22.08 The Bell Passed from Hand to Hand: convention, changing authority
 
 ### Symmetry, groups and algebra (17)
+
+- 02.02 Seven Keys to One Door: permutations, cycle structure
