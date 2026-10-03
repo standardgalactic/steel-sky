@@ -366,3 +366,4 @@ def trailers(it):
         if it["authors"]:
             if it["cls"] == "upstream-removed":
                 word = "removed"
+            elif it.get("retained") is None:
