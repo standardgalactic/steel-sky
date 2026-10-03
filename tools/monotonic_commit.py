@@ -200,3 +200,4 @@ def retained_authors(dest, path, new_data):
     for i, _j, n in sm.get_matching_blocks():
         for k in range(n):
             if i + k < len(names):
+                c[names[i + k]] += 1
