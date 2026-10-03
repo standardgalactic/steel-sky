@@ -117,3 +117,4 @@ def main():
                 fh.write(json.dumps(r, ensure_ascii=False) + "\n")
         if not a.no_sheets:
             make_sheets(rows, dst, dst / "sheets")
+        size = sum(p.stat().st_size for p in dst.rglob("*.webp"))
