@@ -65,3 +65,4 @@ Typical use, from the finished project folder (needs a .gitignore beside it):
         --remote https://github.com/standardgalactic/steel-sky --push
 
 Requires git and Python 3.8 or newer. Standard library only.
+"""
