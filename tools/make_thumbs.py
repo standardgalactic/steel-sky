@@ -107,3 +107,4 @@ def main():
             continue
         dst = Path(a.dst) / root.name
         files = sorted(root.rglob("*.png"))
+        print(f"{root}: {len(files)} PNGs")
