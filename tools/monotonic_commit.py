@@ -514,3 +514,4 @@ def verify(dest, plan):
         if it["cls"] == "upstream-ignored" or (it["cls"] == "upstream-removed" and it["phase"] is None):
             inherited[it["path"]] = it
         elif it["cls"] != "upstream-removed":
+            expect[it["path"]] = it
