@@ -174,3 +174,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 18.17 The City That Paid for Applause: positional goods, feedback
 - 19.09 The Farm beyond the Tipping Point: bistability, hysteresis
 - 20.14 The Orchestra of Independent Conductors: conflicting controllers, coupled systems
+- 21.08 The River Running through Its Own Source: fixed points, self-consistency
