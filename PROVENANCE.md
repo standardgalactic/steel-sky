@@ -9,3 +9,4 @@ This repository continues from the real history of https://github.com/AbdBarho/s
 
 | Class | Files | Meaning |
 |---|---|---|
+| upstream | 24 | Identical to the upstream file, or identical apart from CRLF versus LF (the repository then keeps upstream's LF bytes). Not re-committed. Authorship is in the upstream commits. |
