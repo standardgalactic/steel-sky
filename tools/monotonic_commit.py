@@ -225,3 +225,4 @@ def describe(line, n, ext):
         if s.startswith(("import ", "from ")):
             return "Add import: " + short
         if s.startswith("#"):
+            return "Add comment: " + short
