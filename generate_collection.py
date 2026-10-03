@@ -40,3 +40,4 @@ def plan(config, selected):
             folder = f"{root}/{slug(category)}/{slug(entry['name'])}"
             if folder in seen:
                 raise ValueError(f'Duplicate output folder: {folder}')
+            seen.add(folder)
