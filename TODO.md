@@ -24,3 +24,4 @@ If feedback comes back, the simplest static route is to let visitors open a pre-
 
 - [ ] Fix `01.01-register-overlay.svg`: widen the registration slip as the visual bible describes (0.3, 0.6, 1.0 mm and up), draw each register's rear strip as specified, and add a separated version with seven sheets side by side for Scene 14.
 - [ ] Draw the brass plate "3R" as a vector asset for 01.01.
+- [ ] Add exact lettering (dialogue, ledger hands, stamped notices) as a compositing step after generation.
