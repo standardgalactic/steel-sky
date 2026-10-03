@@ -20,3 +20,4 @@ args = parser.parse_args()
 
 # Widget order for the specific node types in your supplied workflow.
 widget_names = {
+    "CheckpointLoaderSimple": ["ckpt_name"],
