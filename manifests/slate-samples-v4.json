@@ -4,3 +4,4 @@
   "defaults": {
     "batch": 3,
     "variations": 1,
+    "seed": 20261005,
