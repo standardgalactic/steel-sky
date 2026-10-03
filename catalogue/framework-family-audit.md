@@ -55,3 +55,5 @@ The inference cluster is the one to watch. The catalogue leans on evidence, sele
 - Cycle 01 entries use a slightly different line format ("| Scale M") and were parsed together with the rest. All 440 matched.
 
 ## Recommendations
+
+1. Adopt this 26-family list as the operational definition for the cap.
