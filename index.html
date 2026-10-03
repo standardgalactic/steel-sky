@@ -341,3 +341,4 @@ function open(i){
   const r = current[idx];
   if(r._sheet){openSheet(r._sheet,r._sheetNumber);return}
   $("#lbimg").src = thumb(r); $("#lbimg").alt = r.path;
+  $("#lbmeta").innerHTML = `<dt>Prompt</dt><dd>${esc(r.prompt)||"Not recorded"}</dd><dt>Negative prompt</dt><dd>${esc(r.negative)||"Not recorded"}</dd><dt>Seed</dt><dd>${esc(r.seed??"Not recorded")}</dd><dt>File</dt><dd>${esc(r.path)}</dd>`;
