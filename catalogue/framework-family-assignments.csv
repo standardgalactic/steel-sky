@@ -92,3 +92,4 @@ id,title,kind,framework,scale,family
 05.11,The Abacus Factory,M,"positional notation, base systems",S,"Number, notation and calendars"
 05.12,The Weighing Machine of Saint Ardel,M,"noise averaging, law of large numbers",S,"Statistics: distributions, power laws and extremes"
 05.13,The Vending Oracle,M,finite state machines,S,"Logic, computation and formal languages"
+05.14,The Rail Signal Box,M,"Boolean logic, deadlock",M,"Logic, computation and formal languages"
