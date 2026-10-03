@@ -112,3 +112,4 @@ def main():
         save(manifest, state)
         if result.returncode:
             print('Stopped after a failed job; progress was saved.', file=sys.stderr)
+            return 1
