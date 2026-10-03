@@ -4156,3 +4156,12 @@
 │       ├── ComfyUI_04098_.png
 │       ├── ComfyUI_04099_.png
 │       ├── Political Art_00001_.png
+│       ├── Political Art_00002_.png
+│       ├── Political Art_00003_.png
+│       ├── Political Art_00004_.png
+│       ├── Political Art_00005_.png
+│       ├── Political Art_00006_.png
+│       ├── Political Art_00007_.png
+│       ├── Political Art_00008_.png
+│       ├── Political Art_00009_.png
+│       ├── Political Art_00010_.png
