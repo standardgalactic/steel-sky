@@ -114,3 +114,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 22.17 Three Journeys of the Same Distance: heterogeneous path costs
 
 ### Bayesian updating, bias and sampling (31)
+
+- 01.11 The Water Tower Census: sampling and survivorship bias
