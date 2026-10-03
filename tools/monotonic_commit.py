@@ -208,3 +208,4 @@ def describe(line, n, ext):
     s = line.decode("utf-8", "replace").strip()
     short = (s[:60] + "...") if len(s) > 60 else s
     if ext == ".md":
+        if s.startswith("#"):
