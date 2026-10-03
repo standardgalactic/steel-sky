@@ -42,3 +42,4 @@ written as raw bytes (no decoding, no line-ending changes) unless you pass `--eo
   2. Symbolic links are not imported. They are listed as skipped.
 
 Binary files get no line matching. Their trailers name the authors of the upstream
+version ("not line-matched"), which is not a statement about what survives.
