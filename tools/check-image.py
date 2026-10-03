@@ -53,3 +53,4 @@ def get_image_summary(image_path):
             messages=messages,
             temperature=0.01,
         )
+        summary = completion.choices[0].message.content
