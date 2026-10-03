@@ -336,3 +336,4 @@ id,title,kind,framework,scale,family
 17.15,The Accident with Three Causes,C,"causal attribution, explanatory plurality",M,Causal inference and performative feedback
 17.16,The Thief of Almost Nothing,M,"cumulative sums, sequential detection",M,"Statistics: distributions, power laws and extremes"
 17.17,The Scene Rebuilt for the Jury,M/C,"sensitivity analysis, reconstruction assumptions",S,Inverse problems and inference from traces
+17.18,The Signature Borrower,M/C,"authorization, scope of delegation",M,"Coordination, protocols and distributed knowledge"
