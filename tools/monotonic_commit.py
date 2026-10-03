@@ -151,3 +151,4 @@ def list_source_files(source):
     for raw in out.split(b"\0"):
         if not raw:
             continue
+        p = os.fsdecode(raw)
