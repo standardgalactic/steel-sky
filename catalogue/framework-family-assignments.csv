@@ -205,3 +205,4 @@ id,title,kind,framework,scale,family
 11.04,The Dictionary of Forbidden Examples,M/C,extensional and intensional definitions,M,"Logic, computation and formal languages"
 11.05,A Message in Eleven Pieces,M,"secret sharing, threshold reconstruction",M,"Coding, cryptography and information"
 11.06,The Festival of Misheard Names,M,"noisy channels, decoding ambiguity",M,"Coding, cryptography and information"
+11.07,The Last Fluent Sister,C,distributed linguistic knowledge,S,"Language, meaning and convention"
