@@ -53,3 +53,4 @@ def main():
     for node in workflow["nodes"]:
         kind = node["type"]
         if kind not in widget_names:
+            raise ValueError(f"Unsupported node type: {kind}")
