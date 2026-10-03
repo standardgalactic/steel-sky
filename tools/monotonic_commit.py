@@ -275,3 +275,6 @@ def commit_count(it, args):
     if it["cls"] == "upstream-removed" or it["whole"] or it["groups"] == 0:
         return 1
     return -(-it["groups"] // per_commit(it["groups"], args))
+
+
+def build_plan(source, dest, args):
