@@ -513,3 +513,4 @@ def verify(dest, plan):
     for it in plan.items:
         if it["cls"] == "upstream-ignored" or (it["cls"] == "upstream-removed" and it["phase"] is None):
             inherited[it["path"]] = it
+        elif it["cls"] != "upstream-removed":
