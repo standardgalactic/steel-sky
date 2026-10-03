@@ -9,3 +9,4 @@ x-base_service: &base_service
     volumes:
       - &v1 ./data:/data
       - &v2 ./output:/output
+    command: >
