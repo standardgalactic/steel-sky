@@ -98,3 +98,4 @@ def main():
                     f"{image_path}\n"
                     f"Summary: {summary}\n"
                     f"{'-'*50}\n"
+                )
