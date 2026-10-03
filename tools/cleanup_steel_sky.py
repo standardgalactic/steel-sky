@@ -233,3 +233,4 @@ def main():
     if before is not None and after is not None:
         old = {x['reference'] for x in before}
         new = [x for x in after if x['reference'] not in old]
+        print(f'New missing static targets after cleanup: {len(new)}')
