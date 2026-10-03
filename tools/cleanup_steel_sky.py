@@ -219,3 +219,4 @@ def main():
         if relative in tracked:
             git(root, 'mv', '--', relative, str(target.relative_to(root)))
         else:
+            source.rename(target)
