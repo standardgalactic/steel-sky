@@ -274,3 +274,4 @@ function pretty(s){return /^\d\d-\d\d$/.test(s)?s.replace("-","."):s}
 async function boot(){
   try{
     const res = await fetch("thumbs/comfy/index.jsonl");
+    if(!res.ok) throw new Error(res.status);
