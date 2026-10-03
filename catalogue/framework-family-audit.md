@@ -448,3 +448,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 10.08 The Visa Queue: Little's law
 - 13.05 The Harbour Without a Toll: congestion, externalities
 - 13.16 The Canal with a Different Lock: bottlenecks, throughput
+- 14.18 The Feast That Never Ended: replenishment, throughput constraints
