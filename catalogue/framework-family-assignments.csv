@@ -262,3 +262,4 @@ id,title,kind,framework,scale,family
 14.01,The Woman Who Returned the Sun,M,"scheduling, precedence constraints",M,"Optimization, search and scheduling"
 14.02,Orpheus at the Answering Service,C,"grief, mediated presence",S,"Institutions, culture and social relation"
 14.03,The Minotaur of Building C,M,partially observable search,M,"Optimization, search and scheduling"
+14.04,Twelve Tasks Before Closing,M,resource-constrained scheduling,S,"Optimization, search and scheduling"
