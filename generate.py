@@ -26,3 +26,4 @@ widget_names = {
     "KSampler": [
         "seed", "_seed_control", "steps", "cfg",
         "sampler_name", "scheduler", "denoise",
+    ],
