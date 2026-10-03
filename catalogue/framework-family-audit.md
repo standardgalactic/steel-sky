@@ -508,3 +508,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 07.10 The Pasture Commons Revisited: commons governance
 - 13.19 The Inheritance Divided Equally: wealth dynamics, initial conditions
 - 14.08 The Golden Touch Account: commodification, incommensurable values
+- 14.10 The Apple at the Reunion: positional competition, scarce recognition
