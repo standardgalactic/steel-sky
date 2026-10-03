@@ -98,3 +98,4 @@ def main():
         capture_output=True,
     )
     if probe.returncode:
+        import tempfile
