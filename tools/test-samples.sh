@@ -6,3 +6,5 @@
   while IFS= read -r prompt || [[ -n "$prompt" ]]; do
     [[ "$prompt" =~ ^[[:space:]]*$ ]] && continue
     [[ "$prompt" =~ ^[[:space:]]*# ]] && continue
+
+    count=$((count + 1))
