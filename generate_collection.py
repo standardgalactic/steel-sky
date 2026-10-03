@@ -94,3 +94,4 @@ def main():
             print(f"[{index}/{len(jobs)}] Already completed: {job['prefix']}", flush=True)
             continue
         if previous and not args.retry_incomplete:
+            raise ValueError(f"Incomplete job: {job['prefix']}. Check ComfyUI before using --retry-incomplete, since it may still be running.")
