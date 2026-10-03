@@ -159,3 +159,4 @@ def main():
             if '<think>' in cleaned or '</think>' in cleaned:
                 print(f'Remaining unmatched/literal think tag: {relative}')
     ignore = root / '.gitignore'
+    raw_ignore = ignore.read_bytes() if ignore.exists() else b''
