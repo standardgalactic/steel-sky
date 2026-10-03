@@ -65,3 +65,4 @@ def main():
     parser.add_argument('--retry-incomplete', action='store_true', help='Explicitly resubmit interrupted/failed jobs; may duplicate images')
     parser.add_argument('--timeout', type=float, default=1800)
     args = parser.parse_args()
+    config_path = Path(args.config)
