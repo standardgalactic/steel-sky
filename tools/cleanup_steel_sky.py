@@ -204,3 +204,4 @@ def main():
             shutil.copy2(source, target)
     index_path = Path(os.fsdecode(git(root, 'rev-parse', '--git-path', 'index')).strip())
     if not index_path.is_absolute():
+        index_path = root / index_path
