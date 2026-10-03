@@ -278,3 +278,4 @@ async function boot(){
     rows = parse(await res.text());
   }catch(e){
     $("#labmsg").innerHTML = '<p class="err">The image index could not be loaded. If you opened this file directly, serve the folder instead, for example with <code>python -m http.server</code>.</p>';
+    $("#sheet").style.display="none";
