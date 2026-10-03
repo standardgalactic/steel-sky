@@ -150,3 +150,4 @@ def list_source_files(source):
     files, skipped = [], []
     for raw in out.split(b"\0"):
         if not raw:
+            continue
