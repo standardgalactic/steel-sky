@@ -360,3 +360,4 @@ function sheets(){
       fig.innerHTML = `<button aria-label="Open sheet ${n}"><img src="${img.src}" alt="Contact sheet ${n}" loading="lazy"></button><figcaption>Sheet ${n}: images ${(n-1)*400+1} to ${n*400}</figcaption>`;
       const k = n; fig.querySelector("button").onclick = ()=>{current=[{path:"thumbs/old/sheets/"+name,prompt:"",negative:"",seed:null,_sheet:img.src,_sheetNumber:k}]; openSheet(img.src,k)};
       box.appendChild(fig); n++; if(n<=80) next();
+    };
