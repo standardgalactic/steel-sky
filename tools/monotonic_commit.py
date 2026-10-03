@@ -370,3 +370,4 @@ def trailers(it):
                 word = "in the upstream version, not line-matched"
             else:
                 word = "retained"
+            a = ", ".join("%s (%d lines %s)" % (k, v, word) for k, v in it["authors"].most_common())
