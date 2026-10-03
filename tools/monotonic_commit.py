@@ -652,3 +652,4 @@ def main():
             for i, s in enumerate(marks, 1):
                 git(dest, "push", "-q", "origin", "%s:refs/heads/%s" % (s, args.branch))
                 print("pushed batch %d/%d" % (i, len(marks)))
+        else:
