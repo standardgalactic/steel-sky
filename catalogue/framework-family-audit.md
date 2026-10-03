@@ -257,3 +257,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 21.18 The House with Two Interiors: topology, local and global structure
 - 21.20 The Sleeper Who Could Change One Rule: rule systems, dependency consequences
 - 22.03 The Journey of the Red Coat: temporal paths, contact networks
+- 22.18 The Quilt of Unfinished Tasks: dependency networks, distributed continuation
