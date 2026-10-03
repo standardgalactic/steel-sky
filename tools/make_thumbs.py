@@ -119,3 +119,6 @@ def main():
             make_sheets(rows, dst, dst / "sheets")
         size = sum(p.stat().st_size for p in dst.rglob("*.webp"))
         print(f"  wrote {dst}  ({size / 1e6:.1f} MB of WebP)")
+
+
+if __name__ == "__main__":
