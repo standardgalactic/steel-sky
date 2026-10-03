@@ -49,3 +49,4 @@ while i < len(lines):
             if first_summary:
                 summary_lines.append(first_summary)
             i += 1
+            # Collect all summary lines until next filename, stop line, or end of file
