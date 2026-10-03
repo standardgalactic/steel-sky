@@ -362,3 +362,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 08.17 The Hail Insurers: heavy tails, ruin
 - 10.05 A Border Drawn with a Ruler: fractal dimension, coastline paradox
 - 15.04 The Uniform Maker: distributions, multivariate variation
+- 17.11 The Number That Accused Him: Benford analysis, diagnostic limits
