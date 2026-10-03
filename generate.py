@@ -104,3 +104,4 @@ def main():
                     relative = Path(image.get("subfolder", "")) / image["filename"]
                     print(f"Saved on server: {relative}")
                 return
+            if status.get("completed"):
