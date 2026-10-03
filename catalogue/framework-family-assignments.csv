@@ -327,3 +327,4 @@ id,title,kind,framework,scale,family
 17.06,The Duplicate Confession,M/C,"source dependence, textual copying",S,"Bayesian updating, bias and sampling"
 17.07,The Locked Room’s Open Window,M,"model checking, omitted transitions",S,"Logic, computation and formal languages"
 17.08,A Fingerprint for Every Passenger,M,"multiple testing, false discovery",M,"Bayesian updating, bias and sampling"
+17.09,The Map of Accusations,M/C,"observation bias, spatial intensity",M,"Bayesian updating, bias and sampling"
