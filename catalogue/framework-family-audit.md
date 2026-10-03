@@ -467,3 +467,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 09.10 Letters from the Outbound: light-time delay
 - 09.19 The Unmapped Meridian: coordinate conventions
 - 10.11 The Boundary Conditions: boundary value problems
+- 15.08 The Weight of the Giant Costume: square-cube scaling, mechanical advantage
