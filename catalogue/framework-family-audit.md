@@ -129,3 +129,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 06.18 The Reconstruction Committee: overfitting
 - 06.20 The Last Dig Season: Bayesian search
 - 10.18 The Interpreter at the Gate: base rates, false matches
+- 12.01 The Census of Closed Curtains: missing-not-at-random data
