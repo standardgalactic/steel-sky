@@ -188,3 +188,4 @@ def main():
     print(f'Plan: {len(moves)} moves, {len(rewrites)} file rewrites, {len(untrack)} files to untrack.')
     before = check_index(root)
     if not args.apply:
+        print('Preview only. Add --apply to make these changes.')
