@@ -116,3 +116,4 @@ def main():
             for r in rows:
                 fh.write(json.dumps(r, ensure_ascii=False) + "\n")
         if not a.no_sheets:
+            make_sheets(rows, dst, dst / "sheets")
