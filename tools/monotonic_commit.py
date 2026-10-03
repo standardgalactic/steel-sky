@@ -482,3 +482,4 @@ def read_blobs(dest, ids):
     proc = subprocess.Popen(["git", "cat-file", "--batch"], cwd=dest, stdin=subprocess.PIPE,
                             stdout=subprocess.PIPE)
     try:
+        for oid in ids:
