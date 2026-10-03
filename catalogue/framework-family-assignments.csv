@@ -111,3 +111,4 @@ id,title,kind,framework,scale,family
 06.10,The Time Capsule Dispute,M,channel coding across time,M,"Coding, cryptography and information"
 06.11,The Bone Counters,M,minimum number of individuals,S,"Bayesian updating, bias and sampling"
 06.12,The Atlas of Wrong Maps,M,datum and coordinate error,S,"Measurement, error and uncertainty propagation"
+06.13,The Radio Silence Fellowship,C,absence of evidence,M,Inverse problems and inference from traces
