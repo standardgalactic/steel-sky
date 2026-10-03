@@ -52,3 +52,4 @@ def get_image_summary(image_path):
             model="grok-2-vision-latest",
             messages=messages,
             temperature=0.01,
+        )
