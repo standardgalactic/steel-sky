@@ -248,3 +248,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
           "links": [
             9
           ],
+          "slot_index": 0
