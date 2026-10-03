@@ -116,3 +116,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Bayesian updating, bias and sampling (31)
 
 - 01.11 The Water Tower Census: sampling and survivorship bias
+- 02.01 The Lodger's Arithmetic: Bayesian updating under filtered evidence
