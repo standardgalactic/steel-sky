@@ -20,3 +20,4 @@ Every file is classified before anything is written:
     upstream-removed    in upstream, absent from your folder (deleted, or kept with --removed keep)
 
 Commits that touch an upstream-modified file carry trailers. The authors named are
+those whose upstream lines are still present in the final file, found by matching
