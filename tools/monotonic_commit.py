@@ -483,3 +483,4 @@ def read_blobs(dest, ids):
                             stdout=subprocess.PIPE)
     try:
         for oid in ids:
+            proc.stdin.write(oid.encode() + b"\n")
