@@ -148,3 +148,4 @@ def list_source_files(source):
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     files, skipped = [], []
+    for raw in out.split(b"\0"):
