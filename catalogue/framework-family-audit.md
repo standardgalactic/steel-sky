@@ -494,3 +494,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 05.02 Lathe No. 9: tolerances, error accumulation
 - 06.12 The Atlas of Wrong Maps: datum and coordinate error
 - 09.01 The Return Voyage of the Mapless: dead reckoning, error accumulation
+- 09.12 The Navigator's Table of Stars: interpolation, tabulated functions
