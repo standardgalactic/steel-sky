@@ -602,3 +602,4 @@ def main():
     print("\nFiles: " + ", ".join("%s %d" % (k, v) for k, v in sorted(counts.items())))
     print("Upstream base commits kept: %d" % base_count)
     print("Reconstruction commits: %d" % total_commits)
+    for k, v in sorted(per_phase.items()):
