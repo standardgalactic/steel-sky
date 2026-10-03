@@ -52,3 +52,6 @@ services:
     image: sd-comfy:7
     environment:
       - CLI_ARGS=
+
+
+  comfy-cpu:
