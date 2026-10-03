@@ -114,3 +114,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
 
 - [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI)
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
