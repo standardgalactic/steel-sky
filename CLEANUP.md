@@ -31,3 +31,5 @@ Your current rules only cover PNGs directly inside the two folders:
 ```
 
 They do not match the run subfolders (`output/comfy/slate-samples-v4/03-01/...`), so `git add -A` would commit those images. Replace the output rules with:
+
+```
