@@ -503,3 +503,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 21.15 The Village That Changes Scale: dimensional analysis, scaling relations
 
 ### Economics: value, scarcity and externalities (13)
+
+- 04.04 The School That Taught the Test: Goodhart's law
