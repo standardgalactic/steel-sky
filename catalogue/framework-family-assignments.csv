@@ -418,3 +418,4 @@ id,title,kind,framework,scale,family
 21.17,The Carnival of Incompatible Chances,M,probability coherence,M,"Bayesian updating, bias and sampling"
 21.18,The House with Two Interiors,M,"topology, local and global structure",S,"Graphs, networks and topology"
 21.19,The Orchard of Branching Days,M/C,"branching time, irreversible choice",M,"Optimization, search and scheduling"
+21.20,The Sleeper Who Could Change One Rule,M/C,"rule systems, dependency consequences",L,"Graphs, networks and topology"
