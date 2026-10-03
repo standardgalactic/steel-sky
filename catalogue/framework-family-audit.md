@@ -135,3 +135,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 12.04 The Five Who Agreed: correlated evidence
 - 12.07 The Archive Fire Lottery: survivorship bias
 - 12.09 The Museum of Borrowed Faces: classification thresholds, asymmetric error costs
+- 12.13 The Historian’s Favourite Century: selection bias, denominator neglect
