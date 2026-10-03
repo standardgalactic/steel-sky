@@ -58,3 +58,4 @@ The inference cluster is the one to watch. The catalogue leans on evidence, sele
 
 1. Adopt this 26-family list as the operational definition for the cap.
 2. Treat Optimization (35, at cap) as closed and Bayesian (31) as near cap. Replacement entries should come from lower-count families such as Number and calendars, Infinity and limits, Identity, Causal inference or Memory.
+3. Resolve the inference cluster question explicitly, since it is the one place where the answer changes with the reading.
