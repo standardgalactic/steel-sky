@@ -105,3 +105,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 15.02 A Door Wide Enough: constraint satisfaction, inclusive design
 - 15.14 The Stair Count: path cost, heterogeneous metrics
 - 16.12 The Marriage of Separate Calendars: periodic scheduling, institutional time
+- 16.14 The Two Authors of One Ending: constraint negotiation, incompatible objectives
