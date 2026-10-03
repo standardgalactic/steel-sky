@@ -424,3 +424,4 @@ def schedule(plan, source, args):
     for name in names:
         streams = [(it, iter(commits_for(it, source, args)))
                    for it in sorted(by_phase[name], key=lambda x: x["path"])]
+        if args.interleave:
