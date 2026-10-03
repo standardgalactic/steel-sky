@@ -32,3 +32,4 @@ def plan(config, selected):
         if selected and category not in selected:
             continue
         for entry in group['items']:
+            settings = {**defaults, **group.get('settings', {}), **entry.get('settings', {})}
