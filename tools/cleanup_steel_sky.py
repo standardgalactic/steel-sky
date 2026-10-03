@@ -212,3 +212,4 @@ def main():
         'rewrites': [str(p.relative_to(root)) for p in rewrites],
         'untracked': untrack}, indent=2))
     for path, data in rewrites.items():
+        path.write_bytes(data)
