@@ -93,3 +93,4 @@ id,title,kind,framework,scale,family
 05.12,The Weighing Machine of Saint Ardel,M,"noise averaging, law of large numbers",S,"Statistics: distributions, power laws and extremes"
 05.13,The Vending Oracle,M,finite state machines,S,"Logic, computation and formal languages"
 05.14,The Rail Signal Box,M,"Boolean logic, deadlock",M,"Logic, computation and formal languages"
+05.15,The Mechanical Turk's Heirs,C,"observational equivalence, hidden operators",M,Inverse problems and inference from traces
