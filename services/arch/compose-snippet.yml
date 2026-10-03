@@ -7,3 +7,4 @@ FROM ${BASE}
 
 USER root
 # A minimal image may have no initialised package keys. This is harmless if it does.
+RUN pacman-key --init && pacman-key --populate archlinux || true
