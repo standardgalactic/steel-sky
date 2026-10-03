@@ -152,3 +152,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 01.02 Municipal Weather: feedback and control
 - 01.12 Rotary: fixed-point theorems
 - 02.08 The House That Settled: attractors, fixed points
+- 02.09 Three Clocks in the Hall: coupled oscillators, synchronization
