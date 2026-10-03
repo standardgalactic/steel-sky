@@ -516,3 +516,4 @@ def verify(dest, plan):
         elif it["cls"] != "upstream-removed":
             expect[it["path"]] = it
     problems = []
+    for p, it in expect.items():
