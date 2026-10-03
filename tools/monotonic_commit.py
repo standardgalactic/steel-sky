@@ -565,3 +565,4 @@ def main():
     source = os.path.abspath(args.source)
     if not os.path.exists(os.path.join(source, ".gitignore")):
         sys.exit("No .gitignore in the source folder. Create it first so output/ is not committed.")
+    if os.path.exists(args.dest):
