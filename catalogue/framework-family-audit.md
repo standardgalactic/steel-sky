@@ -431,3 +431,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 13.09 The Station Built on the Other Bank: spatial allocation, agglomeration
 - 13.10 The Election with Another Agenda: Condorcet cycles, sequential voting
 - 13.17 The Census That Counted Children: apportionment, representation
+- 15.10 The Runner’s Hidden Reserve: constrained optimization, resource allocation
