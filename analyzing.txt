@@ -1,1 +1,2 @@
 cat docker-compose.yml
+cat README.md
