@@ -332,3 +332,4 @@ def build_plan(source, dest, args):
 
 
 def provenance_files(plan, base_count):
+    rows = [("path", "class", "phase", "upstream_lines_retained", "upstream_authors")]
