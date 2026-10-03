@@ -47,3 +47,5 @@ The cap test is only as strict as the taxonomy is fine. The same catalogue gives
 The inference cluster is the one to watch. The catalogue leans on evidence, selection and reconstruction as a motif, so a reviewer who treats those as one family would find about 17% of the catalogue in it. If the 8% cap is meant to protect against that kind of dominance, the taxonomy should be agreed on those terms. This audit uses the finer split because the families differ in the mathematics they actually require (Bayes' rule, inverse problems, causal graphs and heavy-tailed statistics are different tools).
 
 ## Method and its limits
+
+- Each entry was given one family, assigned from its Framework text by keyword rules in priority order, then every assignment was read and corrected by hand. 22 entries matched no rule and were assigned by hand, and about 20 more were reassigned after review (for example a keyword match on "graph" inside "autobiographical").
