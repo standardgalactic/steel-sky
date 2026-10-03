@@ -444,3 +444,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 04.10 The Ombudsman's Waiting Room: priority inversion, queues
 - 04.18 The Procurement of Ladders: bullwhip effect
 - 07.11 The Mycelial Telegraph: network flow
+- 08.11 Drought Arithmetic: stocks and flows
