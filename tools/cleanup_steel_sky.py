@@ -57,3 +57,4 @@ class References(HTMLParser):
 
 def check_index(root):
     index = root / 'index.html'
+    if not index.is_file():
