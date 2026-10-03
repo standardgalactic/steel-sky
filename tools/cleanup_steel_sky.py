@@ -181,3 +181,4 @@ def main():
     untrack = [p for p in tracked if p.startswith('output/') or p.endswith('.progress.json')]
     for source, target in moves:
         print(f'Move: {source.relative_to(root)} -> {target.relative_to(root)}')
+    for p in untrack:
