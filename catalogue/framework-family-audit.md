@@ -157,3 +157,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 05.05 The Seawall Engine: Fourier analysis, tidal harmonics
 - 05.06 The Orrery Mechanic: gear ratios, continued fractions, resonance
 - 05.07 A Radio That Hears Itself: positive feedback, oscillation
+- 07.04 The Moss Cartographers: reaction-diffusion patterns
