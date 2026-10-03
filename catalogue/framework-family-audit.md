@@ -172,3 +172,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 16.08 The Musician and the Metronome Maker: synchronization, expressive deviation
 - 16.20 The Distance That Kept Them Close: coupling strength, interaction dynamics
 - 18.17 The City That Paid for Applause: positional goods, feedback
+- 19.09 The Farm beyond the Tipping Point: bistability, hysteresis
