@@ -264,3 +264,4 @@ id,title,kind,framework,scale,family
 14.03,The Minotaur of Building C,M,partially observable search,M,"Optimization, search and scheduling"
 14.04,Twelve Tasks Before Closing,M,resource-constrained scheduling,S,"Optimization, search and scheduling"
 14.05,The Thread Seller,M,"graph traversal, external memory",S,"Logic, computation and formal languages"
+14.06,Persephone’s Second Address,C,"role conflict, negotiated belonging",M,"Institutions, culture and social relation"
