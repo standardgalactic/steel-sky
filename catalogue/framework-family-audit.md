@@ -412,3 +412,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 07.06 The Wolves of the Underground Station: trophic cascades
 - 08.08 Heat Dome Etiquette: nonlinear thresholds
 - 08.10 The Monsoon Calendar: bifurcation, onset
+- 08.19 The Orchard That Lost Its Winter: threshold accumulation, degree-days
