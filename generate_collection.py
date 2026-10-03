@@ -76,3 +76,4 @@ def main():
         raise ValueError('No jobs selected')
     workflow_path = Path(args.workflow)
     # Workflow content belongs to job identity, so changed settings regenerate.
+    workflow_hash = hashlib.sha256(workflow_path.read_bytes()).hexdigest()
