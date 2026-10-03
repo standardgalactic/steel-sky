@@ -119,3 +119,4 @@ def main():
         process.wait()
 
 if __name__ == "__main__":
+    main()
