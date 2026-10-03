@@ -17,3 +17,4 @@ The upstream repository was created in August 2022 and its last commit in this l
 | [66li](https://github.com/66li) | 1 |
 | [Adam Florizone](https://github.com/adamflorizone) | 1 |
 | AJ Walter | 1 |
+| [cococig](https://github.com/cococig) | 1 |
