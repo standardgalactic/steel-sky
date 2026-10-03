@@ -221,3 +221,4 @@ def main():
         else:
             source.rename(target)
     if merge:
+        if 'README.txt' in tracked:
