@@ -511,3 +511,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 14.10 The Apple at the Reunion: positional competition, scarce recognition
 - 14.12 The Boatman’s Subscription: cross-subsidy, budget constraints
 - 18.01 The Collector’s Last Empty Shelf: marginal utility, changing preferences
+- 18.09 The Subscription Nobody Used: sunk costs, prospective choice
