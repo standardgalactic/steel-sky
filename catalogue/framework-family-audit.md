@@ -540,3 +540,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 15.13 The Actor’s Second Voice: identity, social recognition
 - 15.15 The Body Double Contract: resemblance, substitutability
 - 15.20 The Portrait That Would Not Sit Still: dynamic identity, representation
+- 16.18 The Shared Object: identity, attachment, stewardship
