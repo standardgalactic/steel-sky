@@ -87,3 +87,4 @@ def make_sheets(rows, thumb_root, sheet_dir, cell=96, cols=20, per_sheet=400, qu
                     sheet.paste(t, ((i % cols) * cell, (i // cols) * cell))
             except Exception:
                 pass
+        sheet.save(sheet_dir / f"sheet-{n // per_sheet + 1:02d}.webp", "WEBP", quality=quality)
