@@ -608,3 +608,4 @@ def main():
     if eol:
         print("\nIdentical to upstream apart from line endings (not re-committed): %d" % len(eol))
     for p, why in plan.skipped:
+        print("Skipped %s: %s" % (why, p))
