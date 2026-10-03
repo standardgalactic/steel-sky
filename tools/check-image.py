@@ -89,3 +89,4 @@ def main():
         with process.stdin as pipe:
             for i, image_path in enumerate(png_files, 1):
                 summary, token_usage = get_image_summary(image_path)
+                # Update total token usage
