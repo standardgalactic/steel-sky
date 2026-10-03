@@ -373,3 +373,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 06.01 The Parking Lot Temple: abductive inference, priors
 - 06.09 The Excavation of a Shopping Mall: underdetermination of function
 - 06.13 The Radio Silence Fellowship: absence of evidence
+- 06.19 The Hall of Misattributed Tools: equifinality, form versus function
