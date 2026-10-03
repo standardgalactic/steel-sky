@@ -69,3 +69,4 @@ Requires git and Python 3.8 or newer. Standard library only.
 import argparse
 import collections
 import csv
+import difflib
