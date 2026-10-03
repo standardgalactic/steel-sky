@@ -179,3 +179,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 22.04 The Building across Four Seasons: coupled processes, timescale separation
 
 ### Game theory and strategic interaction (25)
+
+- 01.05 Traffic That Remembers: Braess's paradox, equilibrium
