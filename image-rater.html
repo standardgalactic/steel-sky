@@ -50,3 +50,5 @@
       section.className = 'category'
       section.innerHTML = `<h2>${category}</h2><div class="grid"></div>`
       const grid = section.querySelector('.grid')
+
+      files.slice(0, 100).forEach(filename => {
