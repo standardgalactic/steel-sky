@@ -43,3 +43,12 @@
 ├── image-rater.html
 ├── image_descriptions.json
 ├── index.html
+├── make-json.py
+├── output
+│   ├── comfy
+│   │   ├── collection
+│   │   ├── slate-samples
+│   │   ├── slate-samples-v2
+│   │   ├── slate-samples-v3
+│   │   ├── slate-samples-v4
+│   │   ├── steel-sky_00001_.png
