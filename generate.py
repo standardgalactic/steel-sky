@@ -73,3 +73,4 @@ def main():
         if args.batch < 1:
             raise ValueError("--batch must be at least 1")
         graph["5"]["inputs"]["batch_size"] = args.batch
+    if args.prefix is not None:
