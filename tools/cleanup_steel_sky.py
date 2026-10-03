@@ -104,3 +104,4 @@ def main():
             ['git', 'init', '--bare', '-q', temporary_git.name],
             check=True,
         )
+        original_git = globals()['git']
