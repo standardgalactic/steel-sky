@@ -120,3 +120,4 @@ def main():
 
         globals()['git'] = temporary_git_command
         print('Cleaning a folder without Git history; no files need untracking.')
+    root = Path(git(requested, 'rev-parse', '--show-toplevel').decode().strip())
