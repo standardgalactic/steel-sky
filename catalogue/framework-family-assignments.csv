@@ -43,3 +43,4 @@ id,title,kind,framework,scale,family
 03.02,The Ferry Without a River,M,optimal stopping,S,"Optimization, search and scheduling"
 03.03,The Telegraph Operators' Last Message,M,coding theory,S,"Coding, cryptography and information"
 03.04,The Typesetter's Alphabet,M,"permutations, frequency distributions",S,"Statistics: distributions, power laws and extremes"
+03.05,The Lighthouse Keeper's Shift Table,M,constraint satisfaction,S,"Optimization, search and scheduling"
