@@ -329,3 +329,4 @@ function show(run,list){
     items.forEach(r=>{current.push(r); html += `<button data-i="${current.length-1}" aria-label="Open image"><img src="${esc(thumb(r))}" alt="${esc(g)}" loading="lazy"></button>`});
     html += `</div></div>`;
   });
+  $("#runview").innerHTML = html;
