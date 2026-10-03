@@ -238,3 +238,4 @@ def group_lines(data):
     """Raw-byte lines; blank lines are attached to the next non-blank line."""
     groups, cur = [], []
     for ln in data.splitlines(keepends=True):  # bytes: splits on \n, \r\n, \r only
+        cur.append(ln)
