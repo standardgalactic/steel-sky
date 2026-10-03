@@ -64,3 +64,5 @@ Copy the chosen full-size images into `samples/` (a few dozen at most) and conve
 then delete the PNG copies.
 
 ## 5. Commit
+
+```
