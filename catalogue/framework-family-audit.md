@@ -294,3 +294,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 14.06 Persephone’s Second Address: role conflict, negotiated belonging
 - 14.14 The Fire Taken Home: diffusion of innovation, complementary resources
 - 14.20 The Flood Story Club: cultural transmission, adaptive retelling
+- 15.07 The Prosthetic Workshop’s Promise: participatory design, situated expertise
