@@ -335,3 +335,4 @@ def provenance_files(plan, base_count):
     rows = [("path", "class", "phase", "upstream_lines_retained", "upstream_authors")]
     for it in sorted(plan.items, key=lambda x: x["path"]):
         a = ""
+        if it.get("authors"):
