@@ -587,3 +587,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Infinity, limits and continuity (6)
 
 - 01.18 Hotel Infinity Street: Hilbert's hotel, infinite sets
+- 02.10 The Estate of Unequal Halves: convergent series
