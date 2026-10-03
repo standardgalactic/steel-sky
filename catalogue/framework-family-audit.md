@@ -61,3 +61,5 @@ The inference cluster is the one to watch. The catalogue leans on evidence, sele
 3. Resolve the inference cluster question explicitly, since it is the one place where the answer changes with the reading.
 4. Run the second audit (graphic treatments, the Look field) before committing the other five slate projects.
 5. Keep the CSV beside the catalogue so the check can be rerun after any edit.
+
+## Slate projects by family
