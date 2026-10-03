@@ -276,3 +276,4 @@ async function boot(){
     const res = await fetch("thumbs/comfy/index.jsonl");
     if(!res.ok) throw new Error(res.status);
     rows = parse(await res.text());
+  }catch(e){
