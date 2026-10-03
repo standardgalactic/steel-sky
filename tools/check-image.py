@@ -54,3 +54,4 @@ def get_image_summary(image_path):
             temperature=0.01,
         )
         summary = completion.choices[0].message.content
+        # Extract token usage
