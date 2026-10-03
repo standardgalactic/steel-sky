@@ -192,3 +192,4 @@ def main():
         return 0
     # Back up all touched bytes and the index before mutation.
     stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')
+    backup = root / '.cleanup-backups' / stamp
