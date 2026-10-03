@@ -134,3 +134,4 @@ def fi_path(p):
     """Path bytes as fast-import wants them (C-quoted only when it has to be)."""
     b = os.fsencode(p)
     if b.startswith(b'"') or b"\n" in b:
+        b = b'"' + b.replace(b"\\", b"\\\\").replace(b'"', b'\\"').replace(b"\n", b"\\n") + b'"'
