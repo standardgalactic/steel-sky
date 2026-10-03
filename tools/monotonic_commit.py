@@ -107,3 +107,6 @@ def run(args, cwd=None, inp=None, check=True):
 
 def git(dest, *a, **k):
     return run(["git"] + list(a), cwd=dest, **k)
+
+
+def norm_author(name):
