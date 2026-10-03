@@ -63,3 +63,5 @@ def main():
                 link = links[socket["link"]]
                 inputs[socket["name"]] = [str(link[1]), link[2]]
         graph[str(node["id"])] = {"class_type": kind, "inputs": inputs}
+
+    # These node IDs match your supplied workflow.
