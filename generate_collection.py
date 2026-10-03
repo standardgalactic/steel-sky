@@ -31,3 +31,4 @@ def plan(config, selected):
     for category, group in config['categories'].items():
         if selected and category not in selected:
             continue
+        for entry in group['items']:
