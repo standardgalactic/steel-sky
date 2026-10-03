@@ -196,3 +196,4 @@ def main():
     backup.mkdir(parents=True)
     originals = set(rewrites) | {source for source, _ in moves}
     if merge:
+        originals.add(readme_txt)
