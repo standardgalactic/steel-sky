@@ -109,3 +109,4 @@ def main():
         time.sleep(1)
     raise TimeoutError(
         f"Stopped waiting after {args.timeout:g}s; job {prompt_id} may still be running"
+    )
