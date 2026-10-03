@@ -80,3 +80,4 @@ def main():
     # Use subprocess.Popen with tee to write to file and terminal
     process = subprocess.Popen(
         ["tee", "-a", output_file],
+        stdin=subprocess.PIPE,
