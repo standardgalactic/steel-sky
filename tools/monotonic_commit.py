@@ -596,3 +596,4 @@ def main():
     counts = collections.Counter(it["cls"] for it in plan.items)
     per_phase = collections.Counter()
     for it in plan.items:
+        if it.get("phase"):
