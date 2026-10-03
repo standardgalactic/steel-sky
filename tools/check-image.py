@@ -109,3 +109,4 @@ def main():
             # After processing all files, append total token usage
             total_output = (
                 f"\nTotal Token Usage Across All Files:\n"
+                f"{json.dumps(total_token_usage, indent=2)}\n"
