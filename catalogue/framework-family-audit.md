@@ -548,3 +548,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 22.20 A World Carried Forward: continuity through transformation, selective inheritance
 
 ### Causal inference and performative feedback (11)
+
+- 08.07 The Rainmakers' Guild: confounding, causal inference
