@@ -88,3 +88,4 @@ def main():
     deadline = time.monotonic() + args.timeout
     while time.monotonic() < deadline:
         history = api(f"/history/{prompt_id}")
+        if prompt_id in history:
