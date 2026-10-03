@@ -507,3 +507,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 04.04 The School That Taught the Test: Goodhart's law
 - 07.10 The Pasture Commons Revisited: commons governance
 - 13.19 The Inheritance Divided Equally: wealth dynamics, initial conditions
+- 14.08 The Golden Touch Account: commodification, incommensurable values
