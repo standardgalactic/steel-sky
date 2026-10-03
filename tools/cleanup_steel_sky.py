@@ -11,3 +11,5 @@ from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
+
+THINK = re.compile(r'<think>.*?</think>', re.DOTALL)
