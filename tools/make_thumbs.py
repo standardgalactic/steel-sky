@@ -61,3 +61,4 @@ def one(job):
             pos, neg, seed = read_prompt(img)
             w, h = img.size
             if not out.exists():
+                out.parent.mkdir(parents=True, exist_ok=True)
