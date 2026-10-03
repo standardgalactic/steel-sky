@@ -166,3 +166,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 08.13 The Forecast Office at the End of the Line: chaos, sensitive dependence
 - 08.15 Tides Without a Moon: resonance, forced oscillation
 - 08.20 The Aurora Watchers: excitable systems
+- 09.09 The Caravan Without a Leader: flocking, alignment dynamics
