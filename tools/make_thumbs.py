@@ -60,3 +60,4 @@ def one(job):
         with Image.open(src) as img:
             pos, neg, seed = read_prompt(img)
             w, h = img.size
+            if not out.exists():
