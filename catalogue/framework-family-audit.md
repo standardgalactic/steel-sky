@@ -427,3 +427,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 02.18 The Spare Room Lemma: Hall's marriage theorem
 - 04.20 The Republic of Alphabetical Order: agenda-setting, ordering effects
 - 10.13 The Mountain Pass Lottery: random allocation, fairness
+- 10.19 The Territory of Overlapping Claims: cake cutting, fair division
