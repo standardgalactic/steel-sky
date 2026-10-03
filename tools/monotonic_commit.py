@@ -527,3 +527,4 @@ def verify(dest, plan):
         elif tree[p] != (it["mode"], it["base_blob"]):
             problems.append("inherited file changed: " + p)
     for p in tree:
+        if p not in expect and p not in inherited:
