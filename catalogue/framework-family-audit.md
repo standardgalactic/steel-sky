@@ -345,3 +345,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 21.09 The Garden of Negative Flowers: signed quantities, cancellation
 - 21.14 The Library of All Rearrangements: permutations, semantic constraints
 - 21.16 The Dreamer’s Undo Tax: reversibility, residual state
+
+### Statistics: distributions, power laws and extremes (17)
