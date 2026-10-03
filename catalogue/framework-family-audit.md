@@ -79,3 +79,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 
 - 01.20 Zoning the Dead: packing problems
 - 03.02 The Ferry Without a River: optimal stopping
+- 03.05 The Lighthouse Keeper's Shift Table: constraint satisfaction
