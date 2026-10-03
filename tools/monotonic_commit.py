@@ -609,3 +609,4 @@ def main():
         print("\nIdentical to upstream apart from line endings (not re-committed): %d" % len(eol))
     for p, why in plan.skipped:
         print("Skipped %s: %s" % (why, p))
+    for label, cls in (("removed", "upstream-removed"), ("ignored here but present in upstream", "upstream-ignored")):
