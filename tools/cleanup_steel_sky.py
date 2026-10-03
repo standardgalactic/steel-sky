@@ -13,3 +13,4 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 THINK = re.compile(r'<think>.*?</think>', re.DOTALL)
+MOVES = [
