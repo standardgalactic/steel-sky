@@ -105,3 +105,4 @@ def main():
         if not root.is_dir():
             print("skip, not a folder:", s, file=sys.stderr)
             continue
+        dst = Path(a.dst) / root.name
