@@ -45,3 +45,5 @@ def read_prompt(img):
                     return graph[str(link[0])]["inputs"].get("text", "")
                 except Exception:
                     return ""
+
+            pos = text_of(inp.get("positive", [None]))
