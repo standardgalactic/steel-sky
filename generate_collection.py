@@ -14,3 +14,6 @@ def slug(value):
     if not value:
         raise ValueError('Names must contain at least one ASCII letter or number')
     return value
+
+
+def save(path, state):
