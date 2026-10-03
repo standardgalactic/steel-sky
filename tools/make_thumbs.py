@@ -26,3 +26,4 @@ from PIL import Image
 
 def read_prompt(img):
     """Return (positive, negative, seed) from the ComfyUI 'prompt' chunk, or blanks."""
+    raw = img.info.get("prompt")
