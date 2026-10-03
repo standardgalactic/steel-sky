@@ -101,3 +101,4 @@ def main():
         state['jobs'][job['key']] = {**job, 'status': 'running'}
         save(manifest, state)
         print(f"\n[{index}/{len(jobs)}] {job['prefix']}", flush=True)
+        try:
