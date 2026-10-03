@@ -39,3 +39,4 @@ def plan(config, selected):
                 raise ValueError('variations and batch must be positive')
             folder = f"{root}/{slug(category)}/{slug(entry['name'])}"
             if folder in seen:
+                raise ValueError(f'Duplicate output folder: {folder}')
