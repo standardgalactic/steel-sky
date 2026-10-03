@@ -630,3 +630,4 @@ def main():
     problems = verify(dest, plan)
     if problems:
         print("PROBLEMS: %d" % len(problems))
+        for b in problems[:30]:
