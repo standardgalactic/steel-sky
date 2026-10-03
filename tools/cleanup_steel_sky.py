@@ -161,3 +161,4 @@ def main():
     ignore = root / '.gitignore'
     raw_ignore = ignore.read_bytes() if ignore.exists() else b''
     ignore_text = raw_ignore.decode('utf-8')
+    old_output = {'/output/comfy/*.png', '/output/comfy/cache/', '/output/old/*.png'}
