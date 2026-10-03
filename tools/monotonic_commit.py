@@ -505,3 +505,4 @@ def verify(dest, plan):
     and mode must still be exactly what upstream has."""
     tree = {}
     for e in git(dest, "ls-tree", "-r", "-z", "HEAD").split(b"\0"):
+        if e:
