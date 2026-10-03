@@ -419,3 +419,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 19.14 The Market after the Last Stall: coordination, threshold participation
 - 19.20 The Ending That Left a Door: terminal states, residual capabilities
 - 22.12 The Orchard’s Empty Year: delayed effects, accumulated conditions
+
+### Fair division, allocation and social choice (14)
