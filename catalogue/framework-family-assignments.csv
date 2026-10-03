@@ -30,3 +30,4 @@ id,title,kind,framework,scale,family
 02.09,Three Clocks in the Hall,M,"coupled oscillators, synchronization",S,"Dynamics, feedback and oscillation"
 02.10,The Estate of Unequal Halves,M,convergent series,M,"Infinity, limits and continuity"
 02.11,The Mirror Cousin,M,"chirality, symmetry",S,"Symmetry, groups and algebra"
+02.12,The Cellar Census,M,capture and recapture estimation,S,"Bayesian updating, bias and sampling"
