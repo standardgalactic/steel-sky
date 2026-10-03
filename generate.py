@@ -74,3 +74,4 @@ def main():
             raise ValueError("--batch must be at least 1")
         graph["5"]["inputs"]["batch_size"] = args.batch
     if args.prefix is not None:
+        graph["9"]["inputs"]["filename_prefix"] = args.prefix
