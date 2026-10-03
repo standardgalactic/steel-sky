@@ -425,3 +425,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 01.15 The Stairwell Committee: social choice, Arrow's impossibility
 - 02.06 Whose Turn to Wash: fair division, envy-freeness
 - 02.18 The Spare Room Lemma: Hall's marriage theorem
+- 04.20 The Republic of Alphabetical Order: agenda-setting, ordering effects
