@@ -483,3 +483,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 15.18 The Wheelchair on the Sand Road: robust design, environmental variability
 - 19.02 The Factory That Kept Its Lights: viability constraints, admissible degradation
 - 19.10 The Theatre without a Back Door: safety invariants, single-point failure
+- 19.16 The Town That Sold Its Spare: redundancy, fault tolerance
