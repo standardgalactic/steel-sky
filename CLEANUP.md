@@ -20,3 +20,5 @@ Delete `README.txt` after its content is merged into `README.md`.
 The `*.progress.json` files are run state. Add them to `.gitignore` instead of committing them.
 
 ## 2. Stop tracking raw output
+
+Your current rules only cover PNGs directly inside the two folders:
