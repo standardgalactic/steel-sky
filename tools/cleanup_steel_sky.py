@@ -133,3 +133,4 @@ def main():
         for source in sorted(root.glob(pattern)):
             if not source.is_file() or source.is_symlink():
                 continue
+            if source.name.endswith('.progress.json'):
