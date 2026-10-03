@@ -62,3 +62,4 @@ def one(job):
             w, h = img.size
             if not out.exists():
                 out.parent.mkdir(parents=True, exist_ok=True)
+                t = img.convert("RGB")
