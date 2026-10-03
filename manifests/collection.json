@@ -5,3 +5,4 @@
     "batch": 4,
     "variations": 2,
     "seed": 20261003,
+    "negative": "text, watermark, logo, blurry, distorted, oversaturated, low quality"
