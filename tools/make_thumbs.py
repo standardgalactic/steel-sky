@@ -57,3 +57,4 @@ def one(job):
     rel = src.relative_to(root)
     out = dst / (str(rel) + ".webp")
     try:
+        with Image.open(src) as img:
