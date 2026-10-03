@@ -492,3 +492,5 @@ Special thanks to everyone behind these awesome projects, without them, none of 
     }
   },
   "version": 0.4
+}[0.008s](base)  flyxion@volsorium:/mnt/c/Users/nateg/OneDrive/Documentos/GitHub/stable-diffusion$
+
