@@ -128,3 +128,4 @@ def main():
     paths = [os.fsdecode(p) for p in git(root, 'ls-files', '-co', '--exclude-standard', '-z').split(b'\0') if p]
     paths = sorted(set(paths))
     moves = []
+    targets = set()
