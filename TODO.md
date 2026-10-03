@@ -37,3 +37,4 @@ If feedback comes back, the simplest static route is to let visitors open a pre-
 - [ ] 07.01 Whale Beneath the Railway: same four steps.
 - [ ] 08.01 Seven Minutes of Summer: same four steps.
 - [ ] 11.01 A Country Made of Footnotes: same four steps.
+- [ ] Sample images for each new project, using a new manifest category.
