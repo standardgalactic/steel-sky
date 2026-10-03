@@ -37,3 +37,4 @@ def git(root, *args):
 class References(HTMLParser):
     def __init__(self):
         super().__init__()
+        self.refs = []
