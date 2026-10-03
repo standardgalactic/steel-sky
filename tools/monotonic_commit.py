@@ -10,3 +10,4 @@ The history has two parts.
    with `git fast-import`. Text files grow line by line (or N lines at a time),
    binary files and very large files go in whole. Commit times are the real
    times at which the script runs. Nothing is back-dated. The intermediate states
+   are reconstructions of the finished files, and PROVENANCE.md says so.
