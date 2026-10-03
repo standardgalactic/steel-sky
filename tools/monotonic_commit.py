@@ -176,3 +176,4 @@ def phase_of(path, cls):
 
 
 def split_lines(data):
+    out = data.split(b"\n")
