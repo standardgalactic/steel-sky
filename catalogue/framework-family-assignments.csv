@@ -70,3 +70,4 @@ id,title,kind,framework,scale,family
 04.09,The Department of Forms,M,formal grammars,M,"Logic, computation and formal languages"
 04.10,The Ombudsman's Waiting Room,M,"priority inversion, queues",S,"Queues, flows and throughput"
 04.11,The Auditors of the Moon,M,infinite regress of verification,M,"Logic, computation and formal languages"
+04.12,The Parliament of Rounding,M,"rounding error, aggregation",M,"Measurement, error and uncertainty propagation"
