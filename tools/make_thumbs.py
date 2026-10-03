@@ -58,3 +58,4 @@ def one(job):
     out = dst / (str(rel) + ".webp")
     try:
         with Image.open(src) as img:
+            pos, neg, seed = read_prompt(img)
