@@ -180,3 +180,6 @@ def split_lines(data):
     if out and out[-1] == b"":
         out.pop()
     return out
+
+
+def blame_lines(dest, path):
