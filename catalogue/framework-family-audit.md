@@ -292,3 +292,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 13.18 The Observatory’s Wrong Appointment: discovery processes, institutional access
 - 14.02 Orpheus at the Answering Service: grief, mediated presence
 - 14.06 Persephone’s Second Address: role conflict, negotiated belonging
+- 14.14 The Fire Taken Home: diffusion of innovation, complementary resources
