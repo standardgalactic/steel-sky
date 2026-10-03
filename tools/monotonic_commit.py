@@ -417,3 +417,4 @@ def schedule(plan, source, args):
     by_phase = collections.OrderedDict()
     for it in plan.items:
         if it["phase"]:
+            by_phase.setdefault(it["phase"], []).append(it)
