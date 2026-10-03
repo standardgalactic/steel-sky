@@ -102,3 +102,4 @@ def main():
         temporary_git = tempfile.TemporaryDirectory()
         subprocess.run(
             ['git', 'init', '--bare', '-q', temporary_git.name],
+            check=True,
