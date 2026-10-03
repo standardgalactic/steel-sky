@@ -395,3 +395,4 @@ def commits_for(it, source, args):
     groups = group_lines(data)
     if not groups:
         yield "%s: Add empty %s%s" % (scope, path, tr), data
+        return
