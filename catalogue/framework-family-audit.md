@@ -191,3 +191,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 11.03 The Silence Clause: signaling games, strategic silence
 - 13.06 The Treaty’s Third Signatory: coalition games, bargaining power
 - 13.15 The Newspaper That Printed the Retraction: reputation, informational cascades
+- 13.20 The Peace That Changed Its Conditions: repeated games, equilibrium stability
