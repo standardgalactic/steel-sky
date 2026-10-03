@@ -548,3 +548,4 @@ def main():
     ap.add_argument("--max-commits-per-file", type=int, default=1500)
     ap.add_argument("--max-line-bytes", type=int, default=2_000_000, help="bigger text files go in whole")
     ap.add_argument("--eol", choices=["keep", "lf"], default="keep",
+                    help="keep bytes exactly as they are (default) or convert CRLF to LF in text files")
