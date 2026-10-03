@@ -401,3 +401,4 @@ id,title,kind,framework,scale,family
 20.20,The Museum of Successful Failures,C,"hindsight bias, selection effects",M,"Bayesian updating, bias and sampling"
 21.01,The City of Borrowed Lengths,M,"metric spaces, changing distance",M,"Geometry, space and scale"
 21.02,The Room That Forgets One Object,M,"finite memory, eviction policies",S,"Optimization, search and scheduling"
+21.03,The Staircase of Rational Steps,M,"density of the rationals, order",S,"Infinity, limits and continuity"
