@@ -86,3 +86,4 @@ def main():
     )
 
     try:
+        with process.stdin as pipe:
