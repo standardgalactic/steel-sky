@@ -5,3 +5,5 @@ import re
 
 input_path = "output/comfy/steel-sky.txt"
 output_path = "image_descriptions.json"
+
+def is_separator(line):
