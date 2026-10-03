@@ -289,3 +289,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 06.08 The Cairn of Standard Gauge: path dependence
 - 12.05 The Index of Erased Occupations: ontology design, archival visibility
 - 13.04 The Loom Patent Refused: path dependence, institutional selection
+- 13.18 The Observatory’s Wrong Appointment: discovery processes, institutional access
