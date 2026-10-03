@@ -117,3 +117,5 @@ def main():
             if result.returncode:
                 raise RuntimeError(result.stderr.decode('utf-8', 'replace'))
             return result.stdout
+
+        globals()['git'] = temporary_git_command
