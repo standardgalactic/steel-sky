@@ -36,3 +36,4 @@ def plan(config, selected):
             variations = int(settings.get('variations', 1))
             batch = int(settings.get('batch', 4))
             if variations < 1 or batch < 1:
+                raise ValueError('variations and batch must be positive')
