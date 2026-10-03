@@ -127,3 +127,4 @@ def sha(b):
 
 
 def hash_object(dest, data):
+    return git(dest, "hash-object", "--stdin", inp=data).decode().strip()
