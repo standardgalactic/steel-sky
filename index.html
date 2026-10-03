@@ -323,3 +323,4 @@ function show(run,list){
   const byProject = {};
   Object.keys(groups).forEach(g=>{const proj=g.split(" / ")[0]; (byProject[proj]=byProject[proj]||[]).push(groups[g][0].prompt)});
   const cut = {}; Object.keys(byProject).forEach(k=>cut[k]=commonSuffix(byProject[k]));
+  Object.keys(groups).sort().forEach(g=>{
