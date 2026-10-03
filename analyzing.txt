@@ -18,3 +18,4 @@ x-base_service: &base_service
         reservations:
           devices:
               - driver: nvidia
+                device_ids: ['0']
