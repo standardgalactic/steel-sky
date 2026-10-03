@@ -37,3 +37,4 @@ def read_prompt(img):
     seed = None
     for node in graph.values():
         if node.get("class_type") in ("KSampler", "KSamplerAdvanced"):
+            inp = node.get("inputs", {})
