@@ -610,3 +610,4 @@ def main():
     for p, why in plan.skipped:
         print("Skipped %s: %s" % (why, p))
     for label, cls in (("removed", "upstream-removed"), ("ignored here but present in upstream", "upstream-ignored")):
+        lst = [it["path"] for it in plan.items if it["cls"] == cls]
