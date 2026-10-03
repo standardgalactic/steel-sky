@@ -398,3 +398,4 @@ id,title,kind,framework,scale,family
 20.17,The Tailor of Reversible Trousers,M,"reversible transformations, information loss",S,"Symmetry, groups and algebra"
 20.18,The Clerk Who Rounded Himself Up,M,"discrete allocation, rounding rules",S,"Measurement, error and uncertainty propagation"
 20.19,The Fortune-Teller’s Calibration Party,M,"calibration, sharpness",M,"Bayesian updating, bias and sampling"
+20.20,The Museum of Successful Failures,C,"hindsight bias, selection effects",M,"Bayesian updating, bias and sampling"
