@@ -631,3 +631,4 @@ def main():
     if problems:
         print("PROBLEMS: %d" % len(problems))
         for b in problems[:30]:
+            print("   " + b)
