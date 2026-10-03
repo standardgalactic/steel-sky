@@ -217,3 +217,4 @@ def describe(line, n, ext):
             return "Add list item: " + re.sub(r"^([-*]|\d+\.)\s+", "", s)[:50]
         if s.startswith("```"):
             return "Add code block"
+        return "Add text: " + short
