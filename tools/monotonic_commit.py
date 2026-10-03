@@ -210,3 +210,4 @@ def describe(line, n, ext):
     if ext == ".md":
         if s.startswith("#"):
             return "Add heading: " + s.lstrip("# ").strip()[:60]
+        if s.startswith("|"):
