@@ -271,3 +271,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 06.05 The Museum of Receipts: compression, lossy records
 - 06.07 The Interpreter of Ruined Alphabets: frequency analysis, decipherment
 - 06.10 The Time Capsule Dispute: channel coding across time
+- 09.05 Translators on the Slow Boat: channel capacity with delay
