@@ -189,3 +189,4 @@ def blame_lines(dest, path):
 
 def retained_authors(dest, path, new_data):
     """Authors of upstream lines still present in new_data. Returns (Counter, retained, total)."""
+    up = git(dest, "cat-file", "blob", "HEAD:" + path)
