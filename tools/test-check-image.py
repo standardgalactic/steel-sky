@@ -34,3 +34,4 @@ messages = [
             },
             {
                 "type": "text",
+                "text": "What's in this image?",
