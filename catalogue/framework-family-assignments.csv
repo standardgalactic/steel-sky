@@ -192,3 +192,4 @@ id,title,kind,framework,scale,family
 10.11,The Boundary Conditions,M,boundary value problems,M,"Geometry, space and scale"
 10.12,The Money Changers' Loop,M,"arbitrage, negative cycles",M,"Optimization, search and scheduling"
 10.13,The Mountain Pass Lottery,M,"random allocation, fairness",S,"Fair division, allocation and social choice"
+10.14,The Lighthouse Zone,M,"medial axis, equidistance",M,"Graphs, networks and topology"
