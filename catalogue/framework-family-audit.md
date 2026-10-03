@@ -299,3 +299,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 17.04 The Crime That Changed Names: institutional classification, retrospective judgment
 - 17.10 The Restorer’s Invisible Repair: authenticity, provenance, intention
 - 17.20 The Acquittal Nobody Understood: burdens of proof, epistemic and legal conclusions
+- 18.07 The Replica with Better Memories: authenticity, experiential value
