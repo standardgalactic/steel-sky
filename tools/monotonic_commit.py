@@ -433,3 +433,4 @@ def schedule(plan, source, args):
                     if s:
                         yield it["path"], s[0], s[1], it["mode"]
                         nxt.append((it, gen))
+                live = nxt
