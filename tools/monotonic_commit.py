@@ -155,3 +155,4 @@ def list_source_files(source):
         full = os.path.join(source, p)
         if p.startswith(".git/"):
             continue
+        if os.path.islink(full):
