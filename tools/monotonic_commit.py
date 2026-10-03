@@ -179,3 +179,4 @@ def split_lines(data):
     out = data.split(b"\n")
     if out and out[-1] == b"":
         out.pop()
+    return out
