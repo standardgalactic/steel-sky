@@ -528,3 +528,4 @@ def verify(dest, plan):
             problems.append("inherited file changed: " + p)
     for p in tree:
         if p not in expect and p not in inherited:
+            problems.append("unexpected file: " + p)
