@@ -499,3 +499,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 13.08 The Missing Zero in the Treasury: positional notation, error propagation
 - 15.03 The Dancer’s Borrowed Balance: sensor fusion, weighted estimation
 - 15.06 The Mirror Measurement: measurement error, proxy selection
+- 20.18 The Clerk Who Rounded Himself Up: discrete allocation, rounding rules
