@@ -444,3 +444,4 @@ def fast_import(dest, commits, ident, branch):
     """Stream commits into git fast-import. Returns the number written."""
     name, email = ident
     tip = git(dest, "rev-parse", "HEAD").decode().strip()
+    tz = time.strftime("%z")
