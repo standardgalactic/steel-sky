@@ -354,3 +354,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 03.08 The Ledger Keepers of a Vanished Bank: Benford's law
 - 03.17 The Apprentice Who Outlived the Trade: power law of practice
 - 05.12 The Weighing Machine of Saint Ardel: noise averaging, law of large numbers
+- 05.20 The Last Spare Part: Poisson failures, reliability
