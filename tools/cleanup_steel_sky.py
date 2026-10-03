@@ -51,3 +51,4 @@ class References(HTMLParser):
             # Handles ordinary file srcsets; data URLs are excluded.
             value = attrs['srcset']
             if 'data:' not in value:
+                self.refs.extend((tag, 'srcset', part.strip().split()[0])
