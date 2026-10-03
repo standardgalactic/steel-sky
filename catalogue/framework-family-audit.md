@@ -450,3 +450,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 13.16 The Canal with a Different Lock: bottlenecks, throughput
 - 14.18 The Feast That Never Ended: replenishment, throughput constraints
 - 18.06 The Debt That Arrived Early: liquidity constraints, timing
+- 19.07 The Winter They Spent the Buffer: reserve depletion, stochastic demand
