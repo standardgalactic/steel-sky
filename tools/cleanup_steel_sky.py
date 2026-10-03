@@ -153,3 +153,4 @@ def main():
                 print(f'Skipping non-UTF8 text: {relative}')
                 continue
             cleaned, count = THINK.subn('', text)
+            if count:
