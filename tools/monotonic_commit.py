@@ -655,3 +655,4 @@ def main():
         else:
             git(dest, "push", "-u", "origin", args.branch)
         print("Pushed.")
+    else:
