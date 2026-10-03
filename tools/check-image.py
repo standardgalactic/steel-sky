@@ -82,3 +82,4 @@ def main():
         ["tee", "-a", output_file],
         stdin=subprocess.PIPE,
         text=True,
+        encoding="utf-8"
