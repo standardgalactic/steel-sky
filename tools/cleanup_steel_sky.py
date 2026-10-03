@@ -67,3 +67,4 @@ def check_index(root):
         return None
     broken = []
     for tag, attr, ref in parser.refs:
+        url = urlsplit(ref)
