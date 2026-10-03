@@ -399,3 +399,4 @@ async function described(){
     dd = dd.filter(e=>e&&typeof e.filename==="string"&&typeof e.summary==="string"); if(!dd.length) throw 0;
   }catch(e){ $("#desc").innerHTML='<p class="empty">No descriptions found. Add image_descriptions.json next to this page.</p>'; return }
   const p = +new URLSearchParams(location.search).get("page"); dpage = Number.isInteger(p)&&p>0?Math.min(p-1,Math.ceil(dd.length/PER)-1):0;
+  $("#pager").hidden = false; drender();
