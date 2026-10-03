@@ -26,3 +26,4 @@ messages = [
         "role": "user",
         "content": [
             {
+                "type": "image_url",
