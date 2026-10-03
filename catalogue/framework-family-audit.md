@@ -205,3 +205,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 18.08 The Queue Outside the Empty Shop: informational cascades
 - 18.11 The Prize for Being Second: mechanism design, strategic response
 - 18.12 The Landlord’s Perfect Tenant: adverse selection, screening
+
+### Logic, computation and formal languages (24)
