@@ -263,3 +263,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 
 - 01.13 The Night Clerks of the Central Library: sorting cost, information entropy
 - 02.04 Grandmother's Recipe, Corrupted: noisy channels, error correction
+- 02.17 The Thin Walls: information leakage, signal and noise
