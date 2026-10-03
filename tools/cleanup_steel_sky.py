@@ -99,3 +99,4 @@ def main():
     )
     if probe.returncode:
         import tempfile
+        temporary_git = tempfile.TemporaryDirectory()
