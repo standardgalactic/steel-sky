@@ -143,3 +143,4 @@ def list_source_files(source):
     tmp = tempfile.mkdtemp()
     try:
         run(["git", "init", "--bare", "-q", tmp])
+        out = run(["git", "-c", "core.excludesFile=", "--git-dir=" + tmp, "--work-tree=" + source,
