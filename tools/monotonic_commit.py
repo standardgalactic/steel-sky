@@ -418,3 +418,4 @@ def schedule(plan, source, args):
     for it in plan.items:
         if it["phase"]:
             by_phase.setdefault(it["phase"], []).append(it)
+    names = [n for n in ("upstream-changes", "pipeline", "catalogue") if n in by_phase]
