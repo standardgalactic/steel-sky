@@ -47,3 +47,4 @@ def read_prompt(img):
                     return ""
 
             pos = text_of(inp.get("positive", [None]))
+            neg = text_of(inp.get("negative", [None]))
