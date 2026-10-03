@@ -386,3 +386,4 @@ id,title,kind,framework,scale,family
 20.05,The Baker’s Noncommutative Breakfast,M,noncommutative operations,S,"Symmetry, groups and algebra"
 20.06,The Detective of Missing Socks,M,"combinatorics, search-space reduction",S,"Optimization, search and scheduling"
 20.07,The Town That Optimized Its Picnic,M,"multi-objective optimization, Pareto efficiency",M,"Optimization, search and scheduling"
+20.08,The Groom’s Backup Groom,M/C,"redundancy, common-mode failure",S,Physical and engineering limits
