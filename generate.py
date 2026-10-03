@@ -25,3 +25,4 @@ widget_names = {
     "CLIPTextEncode": ["text"],
     "KSampler": [
         "seed", "_seed_control", "steps", "cfg",
+        "sampler_name", "scheduler", "denoise",
