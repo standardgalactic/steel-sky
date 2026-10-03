@@ -106,3 +106,4 @@ def main():
             print("skip, not a folder:", s, file=sys.stderr)
             continue
         dst = Path(a.dst) / root.name
+        files = sorted(root.rglob("*.png"))
