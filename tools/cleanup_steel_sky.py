@@ -96,3 +96,4 @@ def main():
     probe = subprocess.run(
         ['git', '-C', str(requested), 'rev-parse', '--show-toplevel'],
         capture_output=True,
+    )
