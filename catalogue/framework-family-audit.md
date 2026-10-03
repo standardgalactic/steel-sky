@@ -441,3 +441,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 
 - 03.06 The Elevator Attendants: queueing theory
 - 03.10 The Switchboard Women: circuit versus packet routing
+- 04.10 The Ombudsman's Waiting Room: priority inversion, queues
