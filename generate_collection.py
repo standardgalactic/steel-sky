@@ -111,3 +111,4 @@ def main():
         state['jobs'][job['key']]['status'] = 'completed' if result.returncode == 0 else 'failed'
         save(manifest, state)
         if result.returncode:
+            print('Stopped after a failed job; progress was saved.', file=sys.stderr)
