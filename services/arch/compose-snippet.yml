@@ -10,3 +10,4 @@ USER root
 RUN pacman-key --init && pacman-key --populate archlinux || true
 RUN pacman -Syu --noconfirm --needed \
       shadow ca-certificates python python-pillow python-requests git less nano jq \
+    && pacman -Scc --noconfirm
