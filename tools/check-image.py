@@ -104,3 +104,4 @@ def main():
                 pipe.flush()
                 # Add random delay every 10 files
                 if i % 10 == 0:
+                    time.sleep(random.uniform(0.5, 2.0))
