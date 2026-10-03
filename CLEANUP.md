@@ -62,3 +62,5 @@ Expect about 40 MB of WebP for 12,000 images. Check with `du -sh thumbs` before 
 Copy the chosen full-size images into `samples/` (a few dozen at most) and convert them to WebP at quality 85 with
 `python -c "from PIL import Image;import sys;[Image.open(p).convert('RGB').save(p.rsplit('.',1)[0]+'.webp','WEBP',quality=85) for p in sys.argv[1:]]" samples/*.png`
 then delete the PNG copies.
+
+## 5. Commit
