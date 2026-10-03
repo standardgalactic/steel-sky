@@ -136,3 +136,6 @@ def fi_path(p):
     if b.startswith(b'"') or b"\n" in b:
         b = b'"' + b.replace(b"\\", b"\\\\").replace(b'"', b'\\"').replace(b"\n", b"\\n") + b'"'
     return b
+
+
+def list_source_files(source):
