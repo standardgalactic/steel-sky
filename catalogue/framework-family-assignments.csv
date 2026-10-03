@@ -99,3 +99,4 @@ id,title,kind,framework,scale,family
 05.18,The Lock Maker's Pins,M,combinatorial keyspaces,S,"Coding, cryptography and information"
 05.19,The Printing Press Chain,M,"copying fidelity, exponential spread",M,"Coding, cryptography and information"
 05.20,The Last Spare Part,M,"Poisson failures, reliability",S,"Statistics: distributions, power laws and extremes"
+06.01,The Parking Lot Temple,C,"abductive inference, priors",M,Inverse problems and inference from traces
