@@ -315,3 +315,4 @@ def build_plan(source, dest, args):
                              or len(data) > args.max_line_bytes or ext in WHOLE_EXT)
             if not item["whole"]:
                 item["groups"] = len(group_lines(data))
+        plan.add(**item)
