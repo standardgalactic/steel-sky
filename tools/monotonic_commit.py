@@ -653,3 +653,4 @@ def main():
                 git(dest, "push", "-q", "origin", "%s:refs/heads/%s" % (s, args.branch))
                 print("pushed batch %d/%d" % (i, len(marks)))
         else:
+            git(dest, "push", "-u", "origin", args.branch)
