@@ -237,3 +237,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 
 - 01.03 The Sewer Cartographers: graph coloring
 - 01.04 A Bridge for Every Sunday: Eulerian paths
+- 01.06 The Parish of Bells: Voronoi partitions
