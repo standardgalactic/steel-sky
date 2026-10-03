@@ -179,3 +179,4 @@ id,title,kind,framework,scale,family
 09.18,The Harbor of Many Clocks,M,"calendar arithmetic, Metonic cycle",S,"Number, notation and calendars"
 09.19,The Unmapped Meridian,C,coordinate conventions,S,"Geometry, space and scale"
 09.20,The Closed Route,M,cyclic groups,S,"Symmetry, groups and algebra"
+10.01,The Checkpoint at Two Villages,M,"connectedness, enclaves",M,"Graphs, networks and topology"
