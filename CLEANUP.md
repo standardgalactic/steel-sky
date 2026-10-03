@@ -11,3 +11,4 @@ git mv 03.01-reconstruction-marker.svg projects/03.01/assets/
 git mv 01.01-*.md projects/01.01/
 git mv 01.01-register-overlay.svg projects/01.01/assets/
 git mv framework-family-* graphic-treatment-* catalogue/
+git mv slate-samples*.json collection.json manifests/
