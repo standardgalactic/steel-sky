@@ -284,3 +284,4 @@ def build_plan(source, dest, args):
         if e:
             meta, p = e.split(b"\t", 1)
             mode, _t, blob = meta.decode().split()
+            base[os.fsdecode(p)] = (mode, blob)
