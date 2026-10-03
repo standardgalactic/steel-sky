@@ -471,3 +471,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 21.01 The City of Borrowed Lengths: metric spaces, changing distance
 
 ### Physical and engineering limits (13)
+
+- 03.09 The Rope Walkers' Guild: stability, inverted pendulum
