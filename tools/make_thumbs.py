@@ -110,3 +110,4 @@ def main():
         print(f"{root}: {len(files)} PNGs")
         jobs = [(f, dst, root, a.size, a.quality) for f in files]
         with Pool(a.workers) as pool:
+            rows = pool.map(one, jobs, chunksize=32)
