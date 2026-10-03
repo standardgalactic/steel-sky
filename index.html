@@ -311,3 +311,4 @@ function commonSuffix(prompts){
     if(a===undefined || !parts.every(p=>p[p.length-1-n]===a)) break;
     n++;
   }
+  return n;
