@@ -51,3 +51,4 @@ The inference cluster is the one to watch. The catalogue leans on evidence, sele
 - Each entry was given one family, assigned from its Framework text by keyword rules in priority order, then every assignment was read and corrected by hand. 22 entries matched no rule and were assigned by hand, and about 20 more were reassigned after review (for example a keyword match on "graph" inside "autobiographical").
 - Single assignment hides overlap. Many entries belong to two families (for example 17.01 temporal sampling is both inverse-problem and sampling). A multi-label count would be higher for every family.
 - The assignment uses the Framework field only. It does not test whether two entries with different framework labels dramatise the same story shape.
+- Conceptual (C) entries are spread over Language, Identity, Institutions, Memory and Economics families, so the cap is tested for them too, but they are the least reliably categorised.
