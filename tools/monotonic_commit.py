@@ -350,3 +350,4 @@ def provenance_files(plan, base_count):
           "- The later commits are a reconstruction. Each file was built up in small steps from its "
           "finished form. The steps show how the file can be assembled, not how it was first written.",
           "- Timestamps on those commits are the times the script ran, not the times the work was done.",
+          "", "| Class | Files | Meaning |", "|---|---|---|",
