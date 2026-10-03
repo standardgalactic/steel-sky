@@ -111,3 +111,4 @@ def main():
         jobs = [(f, dst, root, a.size, a.quality) for f in files]
         with Pool(a.workers) as pool:
             rows = pool.map(one, jobs, chunksize=32)
+        dst.mkdir(parents=True, exist_ok=True)
