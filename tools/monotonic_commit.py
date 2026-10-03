@@ -21,3 +21,4 @@ Every file is classified before anything is written:
 
 Commits that touch an upstream-modified file carry trailers. The authors named are
 those whose upstream lines are still present in the final file, found by matching
+the final file against `git blame` of the upstream version. It is a count of
