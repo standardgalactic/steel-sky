@@ -465,3 +465,4 @@ def fast_import(dest, commits, ident, branch):
                 w.write(b"data %d\n" % len(data))
                 w.write(data + b"\n")
             n += 1
+        w.close()
