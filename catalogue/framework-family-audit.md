@@ -317,3 +317,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 11.12 The Courtesy That Closed the Door: speech acts, institutional authority
 - 11.14 Names for the Same Mountain: reference, situated description
 - 11.16 The Child Who Corrected the Map: prototypes, category boundaries
+- 11.18 The Choir of Separate Meanings: conceptual alignment, apparent agreement
