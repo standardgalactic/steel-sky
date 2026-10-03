@@ -497,3 +497,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 09.12 The Navigator's Table of Stars: interpolation, tabulated functions
 - 12.17 The Memorial of Rounded Numbers: uncertainty propagation, interval estimates
 - 13.08 The Missing Zero in the Treasury: positional notation, error propagation
+- 15.03 The Dancer’s Borrowed Balance: sensor fusion, weighted estimation
