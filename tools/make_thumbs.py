@@ -53,3 +53,4 @@ def read_prompt(img):
 
 
 def one(job):
+    src, dst, root, size, quality = job
