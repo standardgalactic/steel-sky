@@ -27,3 +27,4 @@ widget_names = {
         "seed", "_seed_control", "steps", "cfg",
         "sampler_name", "scheduler", "denoise",
     ],
+    "SaveImage": ["filename_prefix"],
