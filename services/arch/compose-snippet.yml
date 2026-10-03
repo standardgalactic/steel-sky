@@ -15,3 +15,4 @@ RUN pacman -Syu --noconfirm --needed \
 # Run as a normal user whose ids match yours, so files written to the mounted
 # project folder are not owned by root.
 ARG PUID=1000
+ARG PGID=1000
