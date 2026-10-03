@@ -215,3 +215,4 @@ def describe(line, n, ext):
             return "Add table row: " + (cell[:50] or "row")
         if s[:2] in ("- ", "* ") or re.match(r"^\d+\. ", s):
             return "Add list item: " + re.sub(r"^([-*]|\d+\.)\s+", "", s)[:50]
+        if s.startswith("```"):
