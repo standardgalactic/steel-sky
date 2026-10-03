@@ -486,3 +486,4 @@ def read_blobs(dest, ids):
             proc.stdin.write(oid.encode() + b"\n")
             proc.stdin.flush()
             head = proc.stdout.readline().split()
+            if len(head) < 3 or head[1] != b"blob":
