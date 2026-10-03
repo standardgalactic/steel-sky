@@ -475,3 +475,4 @@ def fast_import(dest, commits, ident, branch):
 
 
 def read_blobs(dest, ids):
+    """Yield (blob id, sha256 of its content) through one `git cat-file --batch` process.
