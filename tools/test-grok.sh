@@ -11,3 +11,5 @@ curl https://api.x.ai/v1/chat/completions \
     "model": "grok-3-latest",
     "stream": false,
     "temperature": 0
+  }'
+
