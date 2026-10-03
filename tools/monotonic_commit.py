@@ -300,3 +300,4 @@ def build_plan(source, dest, args):
             item["mode"] = bmode
             lf = to_lf(data)
             if hash_object(dest, data) == bblob:
+                item.update(cls="upstream")
