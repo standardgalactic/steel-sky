@@ -226,3 +226,4 @@ def main():
             readme_txt.unlink()
         else:
             readme_txt.unlink()
+    for path in untrack:
