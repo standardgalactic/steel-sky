@@ -95,3 +95,4 @@ def main():
                 total_token_usage["total_tokens"] += token_usage["total_tokens"]
                 # Prepare output string for individual image
                 output = (
+                    f"{image_path}\n"
