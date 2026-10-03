@@ -297,3 +297,4 @@ def build_plan(source, dest, args):
                     total=None, whole=True, groups=0, eol_only=False)
         if p in base:
             bmode, bblob = base[p]
+            item["mode"] = bmode
