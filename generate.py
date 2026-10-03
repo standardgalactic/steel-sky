@@ -95,3 +95,4 @@ def main():
                 raise RuntimeError(json.dumps(status, indent=2))
             images = [
                 image
+                for output in result.get("outputs", {}).values()
