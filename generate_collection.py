@@ -90,3 +90,4 @@ def main():
     state = json.loads(manifest.read_text()) if manifest.exists() else {'jobs': {}}
     for index, job in enumerate(jobs, 1):
         previous = state['jobs'].get(job['key'], {})
+        if previous.get('status') == 'completed':
