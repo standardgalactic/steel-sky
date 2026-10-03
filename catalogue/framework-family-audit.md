@@ -106,3 +106,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 15.14 The Stair Count: path cost, heterogeneous metrics
 - 16.12 The Marriage of Separate Calendars: periodic scheduling, institutional time
 - 16.14 The Two Authors of One Ending: constraint negotiation, incompatible objectives
+- 17.03 The House of Impossible Statements: satisfiability, minimal inconsistent subsets
