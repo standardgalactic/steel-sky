@@ -325,3 +325,4 @@ id,title,kind,framework,scale,family
 17.04,The Crime That Changed Names,C,"institutional classification, retrospective judgment",M,"Institutions, culture and social relation"
 17.05,The Inspector’s Elegant Theory,M,"overfitting, model selection",M,"Bayesian updating, bias and sampling"
 17.06,The Duplicate Confession,M/C,"source dependence, textual copying",S,"Bayesian updating, bias and sampling"
+17.07,The Locked Room’s Open Window,M,"model checking, omitted transitions",S,"Logic, computation and formal languages"
