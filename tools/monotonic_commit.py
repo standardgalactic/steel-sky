@@ -498,3 +498,4 @@ def read_blobs(dest, ids):
 
 
 def verify(dest, plan):
+    """Return a list of problems. Compares committed content, modes and the file set to the plan.
