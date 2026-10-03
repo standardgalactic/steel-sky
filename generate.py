@@ -22,3 +22,4 @@ args = parser.parse_args()
 widget_names = {
     "CheckpointLoaderSimple": ["ckpt_name"],
     "EmptyLatentImage": ["width", "height", "batch_size"],
+    "CLIPTextEncode": ["text"],
