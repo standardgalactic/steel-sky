@@ -11158,3 +11158,12 @@
 │       ├── curation.json
 │       ├── curator.py
 │       ├── description.txt
+│       ├── filenames.json
+│       ├── first-try.txt
+│       ├── get-description.py
+│       ├── get-prompt.py
+│       ├── index.html
+│       ├── macrolife_00001_.png
+│       ├── macrolife_00002_.png
+│       ├── macrolife_00003_.png
+│       ├── macrolife_00004_.png
