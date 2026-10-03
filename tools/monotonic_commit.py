@@ -372,3 +372,4 @@ def trailers(it):
                 word = "retained"
             a = ", ".join("%s (%d lines %s)" % (k, v, word) for k, v in it["authors"].most_common())
         else:
+            a = "none retained (file rewritten)"
