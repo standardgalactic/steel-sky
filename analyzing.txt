@@ -42,3 +42,4 @@ services:
     <<: *automatic
     profiles: ["auto-cpu"]
     deploy: {}
+    environment:
