@@ -591,3 +591,4 @@ def main():
     plan = build_plan(source, dest, args)
     for p, data in provenance_files(plan, base_count):
         plan.add(path=p, cls="steel-sky", phase="docs", data=data, mode="100644", sha=sha(data),
+                 whole=False, groups=len(group_lines(data)), authors=None, retained=None)
