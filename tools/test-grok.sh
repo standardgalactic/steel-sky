@@ -5,3 +5,4 @@ curl https://api.x.ai/v1/chat/completions \
   -H "Authorization: Bearer <api-key>" \
   -d '{
     "messages": [
+      { "role": "system", "content": "You are a test assistant." },
