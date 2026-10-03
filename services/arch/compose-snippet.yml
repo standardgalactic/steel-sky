@@ -13,3 +13,4 @@ RUN pacman -Syu --noconfirm --needed \
     && pacman -Scc --noconfirm
 
 # Run as a normal user whose ids match yours, so files written to the mounted
+# project folder are not owned by root.
