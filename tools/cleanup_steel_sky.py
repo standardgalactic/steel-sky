@@ -21,3 +21,4 @@ MOVES = [
  ('framework-family-*', 'catalogue'), ('graphic-treatment-*', 'catalogue'),
  ('catalogue.md', 'catalogue'), ('slate-samples*.json', 'manifests'),
  ('collection.json', 'manifests'),
+ ('make-json.py', 'tools'), ('check-image.py', 'tools'),
