@@ -123,3 +123,4 @@
       "outputs": [
         {
           "name": "IMAGE",
+          "type": "IMAGE",
