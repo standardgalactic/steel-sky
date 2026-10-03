@@ -36,3 +36,4 @@ def get_image_summary(image_path):
                 "content": [
                     {
                         "type": "image_url",
+                        "image_url": {
