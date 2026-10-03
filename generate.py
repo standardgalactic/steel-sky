@@ -59,3 +59,4 @@ def main():
             if not name.startswith("_"):
                 inputs[name] = value
         for socket in node.get("inputs", []):
+            if socket.get("link") is not None:
