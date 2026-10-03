@@ -155,3 +155,4 @@ def main():
             cleaned, count = THINK.subn('', text)
             if count:
                 rewrites[source] = cleaned.encode('utf-8')
+                print(f'Remove {count} think block(s): {relative}')
