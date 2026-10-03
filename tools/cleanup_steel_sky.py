@@ -39,3 +39,5 @@ class References(HTMLParser):
         super().__init__()
         self.refs = []
         self.base = None
+
+    def handle_starttag(self, tag, attrs):
