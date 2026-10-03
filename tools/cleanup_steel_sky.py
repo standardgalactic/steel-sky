@@ -41,3 +41,4 @@ class References(HTMLParser):
         self.base = None
 
     def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
