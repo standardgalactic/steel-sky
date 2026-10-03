@@ -159,3 +159,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 05.07 A Radio That Hears Itself: positive feedback, oscillation
 - 07.04 The Moss Cartographers: reaction-diffusion patterns
 - 07.05 The Tide Pool Republic: Lotka-Volterra predator-prey cycles
+- 07.12 A Garden of Slow Predators: separation of timescales
