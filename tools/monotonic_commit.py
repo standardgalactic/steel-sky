@@ -530,3 +530,4 @@ def verify(dest, plan):
         if p not in expect and p not in inherited:
             problems.append("unexpected file: " + p)
     check = [p for p in expect if p in tree]
+    ids = [tree[p][1] for p in check]
