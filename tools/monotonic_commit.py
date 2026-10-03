@@ -623,3 +623,4 @@ def main():
 
     print("\nImporting ...")
     written = fast_import(dest, schedule(plan, source, args), (name, email), args.branch)
+    print("  %d commits written" % written)
