@@ -74,3 +74,4 @@ def main():
     jobs = list(plan(config, args.category))
     if not jobs:
         raise ValueError('No jobs selected')
+    workflow_path = Path(args.workflow)
