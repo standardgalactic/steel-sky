@@ -24,3 +24,4 @@ The `*.progress.json` files are run state. Add them to `.gitignore` instead of c
 Your current rules only cover PNGs directly inside the two folders:
 
 ```
+/output/comfy/*.png
