@@ -49,3 +49,4 @@ File modes: a path that exists upstream keeps its upstream mode. A new file is
 own permission bits are not used, so the result is the same on Windows and Linux.
 
 Verification: after the import the script reads every file back out of the new
+repository's object database (not the working tree, so autocrlf cannot disturb the
