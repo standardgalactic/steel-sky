@@ -141,3 +141,4 @@ def main():
             targets.add(target)
             moves.append((source, target))
     rewrites = {}
+    if args.strip_think:
