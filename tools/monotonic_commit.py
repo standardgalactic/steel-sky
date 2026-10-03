@@ -240,3 +240,4 @@ def group_lines(data):
     for ln in data.splitlines(keepends=True):  # bytes: splits on \n, \r\n, \r only
         cur.append(ln)
         if ln.strip():
+            groups.append(cur)
