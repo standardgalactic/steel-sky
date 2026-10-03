@@ -66,3 +66,4 @@ def check_index(root):
         print(f'HTML base URL detected: {parser.base}; resolve these paths against the deployment URL manually.')
         return None
     broken = []
+    for tag, attr, ref in parser.refs:
