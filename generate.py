@@ -60,3 +60,4 @@ def main():
                 inputs[name] = value
         for socket in node.get("inputs", []):
             if socket.get("link") is not None:
+                link = links[socket["link"]]
