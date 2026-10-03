@@ -13,3 +13,4 @@ git mv 01.01-register-overlay.svg projects/01.01/assets/
 git mv framework-family-* graphic-treatment-* catalogue/
 git mv slate-samples*.json collection.json manifests/
 git mv make-json.py check-image.py test-check-image.py test-grok.sh test-samples.sh tools/
+```
