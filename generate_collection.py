@@ -34,3 +34,4 @@ def plan(config, selected):
         for entry in group['items']:
             settings = {**defaults, **group.get('settings', {}), **entry.get('settings', {})}
             variations = int(settings.get('variations', 1))
+            batch = int(settings.get('batch', 4))
