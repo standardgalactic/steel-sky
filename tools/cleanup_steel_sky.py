@@ -107,3 +107,4 @@ def main():
         original_git = globals()['git']
 
         def temporary_git_command(root, *commands):
+            if commands == ('rev-parse', '--show-toplevel'):
