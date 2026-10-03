@@ -306,3 +306,4 @@ def build_plan(source, dest, args):
             else:
                 a, ret, tot = retained_authors(dest, p, data)
                 item.update(cls="upstream-modified", authors=a, retained=ret, total=tot)
+        else:
