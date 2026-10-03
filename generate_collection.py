@@ -77,3 +77,4 @@ def main():
     workflow_path = Path(args.workflow)
     # Workflow content belongs to job identity, so changed settings regenerate.
     workflow_hash = hashlib.sha256(workflow_path.read_bytes()).hexdigest()
+    for job in jobs:
