@@ -410,3 +410,6 @@ def commits_for(it, source, args):
         else:
             what = describe(first, i + 1, ext)
         yield "%s: %s (%s)%s" % (scope, what, base, tr), b"".join(acc)
+
+
+def schedule(plan, source, args):
