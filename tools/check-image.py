@@ -32,3 +32,4 @@ def get_image_summary(image_path):
         base64_image = encode_image(image_path)
         messages = [
             {
+                "role": "user",
