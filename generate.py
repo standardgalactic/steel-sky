@@ -99,3 +99,4 @@ def main():
                 for image in output.get("images", [])
                 if image.get("type") == "output"
             ]
+            if images:
