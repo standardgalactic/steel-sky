@@ -190,3 +190,4 @@ def main():
     if not args.apply:
         print('Preview only. Add --apply to make these changes.')
         return 0
+    # Back up all touched bytes and the index before mutation.
