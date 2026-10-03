@@ -563,3 +563,4 @@ def main():
     args = ap.parse_args()
 
     source = os.path.abspath(args.source)
+    if not os.path.exists(os.path.join(source, ".gitignore")):
