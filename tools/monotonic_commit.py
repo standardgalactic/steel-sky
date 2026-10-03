@@ -205,3 +205,4 @@ def retained_authors(dest, path, new_data):
 
 
 def describe(line, n, ext):
+    s = line.decode("utf-8", "replace").strip()
