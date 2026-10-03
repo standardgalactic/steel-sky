@@ -251,3 +251,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 12.14 The Family Tree with a Loop: directed acyclic graphs, inconsistent constraints
 - 13.02 The Bridge That Was Never Built: network topology, accessibility
 - 17.12 The Chain of Custody Dinner: provenance graphs, broken continuity
+- 19.01 The Last Bus on Tuesday: accessibility thresholds, dependency networks
