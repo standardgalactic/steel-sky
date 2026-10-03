@@ -269,3 +269,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 05.18 The Lock Maker's Pins: combinatorial keyspaces
 - 05.19 The Printing Press Chain: copying fidelity, exponential spread
 - 06.05 The Museum of Receipts: compression, lossy records
+- 06.07 The Interpreter of Ruined Alphabets: frequency analysis, decipherment
