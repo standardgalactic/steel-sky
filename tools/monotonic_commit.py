@@ -291,3 +291,4 @@ def build_plan(source, dest, args):
     for p in files:
         seen.add(p)
         full = os.path.join(source, p)
+        raw = open(full, "rb").read()
