@@ -18,3 +18,4 @@ MOVES = [
  ('03.01-reconstruction-marker.svg', 'projects/03.01/assets'),
  ('01.01-*.md', 'projects/01.01'),
  ('01.01-register-overlay.svg', 'projects/01.01/assets'),
+ ('framework-family-*', 'catalogue'), ('graphic-treatment-*', 'catalogue'),
