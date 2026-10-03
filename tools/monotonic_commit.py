@@ -131,3 +131,4 @@ def hash_object(dest, data):
 
 
 def fi_path(p):
+    """Path bytes as fast-import wants them (C-quoted only when it has to be)."""
