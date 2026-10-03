@@ -445,3 +445,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 04.18 The Procurement of Ladders: bullwhip effect
 - 07.11 The Mycelial Telegraph: network flow
 - 08.11 Drought Arithmetic: stocks and flows
+- 10.08 The Visa Queue: Little's law
