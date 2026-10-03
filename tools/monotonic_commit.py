@@ -228,3 +228,4 @@ def describe(line, n, ext):
             return "Add comment: " + short
         return "Add code line %d" % n
     if ext in (".json", ".csv", ".jsonl"):
+        return "Add data entry %d" % n
