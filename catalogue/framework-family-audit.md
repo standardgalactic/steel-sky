@@ -476,3 +476,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 03.18 The Clock Winders: conservation of energy, impossibility of perpetual motion
 - 03.19 The Stoker's Apprentice: Carnot limits, thermodynamic efficiency
 - 08.03 The Wind Tax: Betz limit
+- 08.12 The Snow Surveyors: angle of repose, stability thresholds
