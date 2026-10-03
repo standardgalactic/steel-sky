@@ -112,3 +112,4 @@ def main():
         with Pool(a.workers) as pool:
             rows = pool.map(one, jobs, chunksize=32)
         dst.mkdir(parents=True, exist_ok=True)
+        with open(dst / "index.jsonl", "w", encoding="utf-8") as fh:
