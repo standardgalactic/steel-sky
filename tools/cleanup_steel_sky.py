@@ -230,3 +230,4 @@ def main():
         git(root, 'rm', '--cached', '-f', '--', path)
     print(f'Backup: {backup.relative_to(root)}')
     after = check_index(root)
+    if before is not None and after is not None:
