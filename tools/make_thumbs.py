@@ -35,3 +35,4 @@ def read_prompt(img):
         return "", "", None
     pos = neg = ""
     seed = None
+    for node in graph.values():
