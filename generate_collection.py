@@ -122,3 +122,4 @@ if __name__ == '__main__':
         sys.exit(main())
     except (OSError, ValueError, KeyError) as exc:
         print(f'Error: {exc}', file=sys.stderr)
+        sys.exit(1)
