@@ -34,3 +34,4 @@ They do not match the run subfolders (`output/comfy/slate-samples-v4/03-01/...`)
 
 ```
 # raw generator output stays local; thumbs/ and samples/ are committed
+/output/
