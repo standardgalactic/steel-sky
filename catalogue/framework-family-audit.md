@@ -155,3 +155,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 02.09 Three Clocks in the Hall: coupled oscillators, synchronization
 - 05.01 The Pump That Counts: feedback, limit cycles
 - 05.05 The Seawall Engine: Fourier analysis, tidal harmonics
+- 05.06 The Orrery Mechanic: gear ratios, continued fractions, resonance
