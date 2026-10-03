@@ -248,3 +248,4 @@
     },
     {
       "id": 6,
+      "type": "CLIPTextEncode",
