@@ -27,3 +27,4 @@ def join_summary_lines(lines):
     result = []
     for i, line in enumerate(lines):
         result.append(line)
+        if i < len(lines) - 1:
