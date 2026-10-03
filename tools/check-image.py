@@ -68,3 +68,4 @@ def main():
     output_file = "steel-sky.txt"
     # Initialize token counters
     total_token_usage = {
+        "prompt_tokens": 0,
