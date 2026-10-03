@@ -193,3 +193,4 @@ def retained_authors(dest, path, new_data):
     names = blame_lines(dest, path)
     if is_binary(up) or is_binary(new_data):
         c = collections.Counter(names)  # upstream version only: no line matching was done
+        return c, None, sum(c.values())
