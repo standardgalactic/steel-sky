@@ -647,3 +647,4 @@ def main():
             shas = git(dest, "rev-list", "--reverse", "HEAD").decode().split()
             step = args.push_every
             marks = shas[step - 1::step]
+            if not marks or marks[-1] != shas[-1]:
