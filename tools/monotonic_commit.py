@@ -641,3 +641,4 @@ def main():
     if args.remote:
         git(dest, "remote", "add", "origin", args.remote)
     if args.push:
+        if not args.remote:
