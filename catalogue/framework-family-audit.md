@@ -213,3 +213,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 04.01 The Society for Perfect Endings: termination conditions, definitions of completion
 - 04.02 The Ministry of Lost Appeals: halting problem
 - 04.05 The Committee on Committees: recursion, self-reference
+- 04.08 The Registry of Names: self-reference, barber paradox
