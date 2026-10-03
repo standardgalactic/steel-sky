@@ -82,3 +82,4 @@ import tempfile
 import time
 
 UPSTREAM_URL = "https://github.com/AbdBarho/stable-diffusion-webui-docker"
+ALIASES = {"abdullah barhoum": "AbdBarho", "abdullah": "AbdBarho", "abdbarho": "AbdBarho"}
