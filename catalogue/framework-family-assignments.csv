@@ -116,3 +116,4 @@ id,title,kind,framework,scale,family
 06.15,The Typology Wars,M,"clustering, classification",M,"Bayesian updating, bias and sampling"
 06.16,The Fossil Keyboard,M,Zipf's law,S,"Statistics: distributions, power laws and extremes"
 06.17,The Burial of the Standard Meter,C,conventions and units,S,"Language, meaning and convention"
+06.18,The Reconstruction Committee,M,overfitting,M,"Bayesian updating, bias and sampling"
