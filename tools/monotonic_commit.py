@@ -61,3 +61,4 @@ Typical use, from the finished project folder (needs a .gitignore beside it):
 
     python tools/monotonic_commit.py --source . --dest ../steel-sky-new --dry-run
     python tools/monotonic_commit.py --source . --dest ../steel-sky-new
+    python tools/monotonic_commit.py --source . --dest ../steel-sky-new \\
