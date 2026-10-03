@@ -16,3 +16,4 @@ def is_stop_line(line):
             line.strip().startswith('}'))
 
 def is_list_line(line):
+    stripped = line.lstrip()
