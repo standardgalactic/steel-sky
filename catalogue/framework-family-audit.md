@@ -34,3 +34,4 @@ Under this 26-family taxonomy **no family exceeds the cap**. The largest are Opt
 | 24 | Memory, cognition and embodied skill | 11 | 2.5% | 24 |
 | 25 | Number, notation and calendars | 6 | 1.4% | 29 |
 | 26 | Infinity, limits and continuity | 6 | 1.4% | 29 |
+| | **Total** | **440** | 100% | |
