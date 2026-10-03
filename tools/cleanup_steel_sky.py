@@ -15,3 +15,4 @@ from urllib.parse import unquote, urlsplit
 THINK = re.compile(r'<think>.*?</think>', re.DOTALL)
 MOVES = [
  ('03.01-*.md', 'projects/03.01'),
+ ('03.01-reconstruction-marker.svg', 'projects/03.01/assets'),
