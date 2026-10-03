@@ -91,3 +91,4 @@ def main():
         if prompt_id in history:
             result = history[prompt_id]
             status = result.get("status", {})
+            if status.get("status_str") == "error":
