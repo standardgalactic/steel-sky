@@ -70,3 +70,4 @@ def check_index(root):
         url = urlsplit(ref)
         if url.scheme or url.netloc or not url.path:
             continue
+        path = unquote(url.path)
