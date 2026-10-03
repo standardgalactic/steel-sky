@@ -77,3 +77,4 @@ def check_index(root):
         target = index.parent / path
         if not target.exists():
             broken.append({'tag': tag, 'attribute': attr, 'reference': ref})
+    for item in broken:
