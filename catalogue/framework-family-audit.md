@@ -14,3 +14,4 @@ Under this 26-family taxonomy **no family exceeds the cap**. The largest are Opt
 | 4 | Game theory and strategic interaction | 25 | 5.7% | 10 |
 | 5 | Logic, computation and formal languages | 24 | 5.5% | 11 |
 | 6 | Graphs, networks and topology | 23 | 5.2% | 12 |
+| 7 | Coding, cryptography and information | 21 | 4.8% | 14 |
