@@ -40,3 +40,5 @@ written as raw bytes (no decoding, no line-ending changes) unless you pass `--eo
      to upstream, so the repository keeps upstream's LF bytes and your CRLF copy is
      not re-committed. The dry run lists these files.
   2. Symbolic links are not imported. They are listed as skipped.
+
+Binary files get no line matching. Their trailers name the authors of the upstream
