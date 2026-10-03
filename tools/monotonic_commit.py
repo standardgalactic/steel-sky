@@ -643,3 +643,4 @@ def main():
     if args.push:
         if not args.remote:
             sys.exit("--push needs --remote")
+        if args.push_every > 0:
