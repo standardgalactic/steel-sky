@@ -426,3 +426,4 @@ def schedule(plan, source, args):
                    for it in sorted(by_phase[name], key=lambda x: x["path"])]
         if args.interleave:
             live = streams
+            while live:
