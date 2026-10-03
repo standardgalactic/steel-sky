@@ -116,3 +116,4 @@ if __name__ == "__main__":
         main()
     except (OSError, ValueError, KeyError, RuntimeError, TimeoutError) as exc:
         print(f"Error: {exc}", file=sys.stderr)
+        sys.exit(1)
