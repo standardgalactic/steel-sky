@@ -84,3 +84,4 @@ def make_sheets(rows, thumb_root, sheet_dir, cell=96, cols=20, per_sheet=400, qu
                 with Image.open(p) as t:
                     t = t.convert("RGB")
                     t.thumbnail((cell, cell), Image.LANCZOS)
+                    sheet.paste(t, ((i % cols) * cell, (i // cols) * cell))
