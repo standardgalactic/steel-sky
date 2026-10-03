@@ -89,3 +89,4 @@ def main():
     manifest = config_path.with_name(config_path.stem + '.progress.json')
     state = json.loads(manifest.read_text()) if manifest.exists() else {'jobs': {}}
     for index, job in enumerate(jobs, 1):
+        previous = state['jobs'].get(job['key'], {})
