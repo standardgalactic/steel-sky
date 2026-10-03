@@ -562,3 +562,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 22.07 Variations on a Missed Train: causal counterfactuals, branching structure
 
 ### Memory, cognition and embodied skill (11)
+
+- 12.15 The Testimony Rehearsal: reconstructive memory, social influence
