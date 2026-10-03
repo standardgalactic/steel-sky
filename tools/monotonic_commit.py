@@ -598,3 +598,4 @@ def main():
     for it in plan.items:
         if it.get("phase"):
             per_phase[it["phase"]] += commit_count(it, args)
+    total_commits = sum(per_phase.values())
