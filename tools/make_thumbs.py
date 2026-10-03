@@ -98,3 +98,4 @@ def main():
     ap.add_argument("--quality", type=int, default=60)
     ap.add_argument("--no-sheets", action="store_true")
     ap.add_argument("--workers", type=int, default=max(1, (os.cpu_count() or 2) - 1))
+    a = ap.parse_args()
