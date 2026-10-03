@@ -29,3 +29,4 @@ def read_prompt(img):
     raw = img.info.get("prompt")
     if not raw:
         return "", "", None
+    try:
