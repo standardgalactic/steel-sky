@@ -375,3 +375,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 06.13 The Radio Silence Fellowship: absence of evidence
 - 06.19 The Hall of Misattributed Tools: equifinality, form versus function
 - 12.08 The Ten-Year Blank: interpolation, non-identifiability
+- 12.11 The Deposition of the Empty Chair: absence of evidence, search adequacy
