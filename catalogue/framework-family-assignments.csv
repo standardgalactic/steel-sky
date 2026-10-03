@@ -81,3 +81,4 @@ id,title,kind,framework,scale,family
 04.20,The Republic of Alphabetical Order,M,"agenda-setting, ordering effects",M,"Fair division, allocation and social choice"
 05.01,The Pump That Counts,M,"feedback, limit cycles",S,"Dynamics, feedback and oscillation"
 05.02,Lathe No. 9,M,"tolerances, error accumulation",S,"Measurement, error and uncertainty propagation"
+05.03,The Loom with Memory,M,"programmable machines, universal computation",M,"Logic, computation and formal languages"
