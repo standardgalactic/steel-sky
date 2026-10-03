@@ -351,3 +351,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 02.13 Hand-Me-Downs: Markov chains, stationary distributions
 - 02.15 The Birthday House: birthday paradox
 - 03.04 The Typesetter's Alphabet: permutations, frequency distributions
+- 03.08 The Ledger Keepers of a Vanished Bank: Benford's law
