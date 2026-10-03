@@ -58,3 +58,5 @@ python tools/make_thumbs.py output/comfy output/old --dst thumbs
 Expect about 40 MB of WebP for 12,000 images. Check with `du -sh thumbs` before committing.
 
 ## 4. Pick samples
+
+Copy the chosen full-size images into `samples/` (a few dozen at most) and convert them to WebP at quality 85 with
