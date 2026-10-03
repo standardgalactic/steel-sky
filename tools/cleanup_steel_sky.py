@@ -112,3 +112,4 @@ def main():
             result = subprocess.run(
                 ['git', '--git-dir=' + temporary_git.name,
                  '--work-tree=' + str(requested), *commands],
+                capture_output=True,
