@@ -564,3 +564,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Memory, cognition and embodied skill (11)
 
 - 12.15 The Testimony Rehearsal: reconstructive memory, social influence
+- 14.13 Echo in the Call Centre: recognition, scripted interaction
