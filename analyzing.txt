@@ -56,3 +56,4 @@ services:
 
   comfy-cpu:
     <<: *comfy
+    profiles: ["comfy-cpu"]
