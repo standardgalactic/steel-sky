@@ -58,3 +58,4 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('config', nargs='?', default='collection.json')
     parser.add_argument('--generator', default='generate.py')
+    parser.add_argument('--workflow', default='workflow.json')
