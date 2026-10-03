@@ -254,3 +254,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
       "properties": {
         "Node name for S&R": "VAEDecode"
       }
+    },
