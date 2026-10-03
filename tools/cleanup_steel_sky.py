@@ -197,3 +197,4 @@ def main():
     originals = set(rewrites) | {source for source, _ in moves}
     if merge:
         originals.add(readme_txt)
+    for source in originals:
