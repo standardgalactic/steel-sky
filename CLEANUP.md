@@ -47,3 +47,5 @@ git rm -r --cached output
 ```
 
 If the PNGs are already in history, the clone size will not shrink until history is rewritten (for example `git filter-repo --path output --invert-paths`). That rewrites history, so only do it if clone size matters.
+
+## 3. Build previews
