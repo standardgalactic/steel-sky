@@ -343,3 +343,4 @@ function open(i){
   $("#lbimg").src = thumb(r); $("#lbimg").alt = r.path;
   $("#lbmeta").innerHTML = `<dt>Prompt</dt><dd>${esc(r.prompt)||"Not recorded"}</dd><dt>Negative prompt</dt><dd>${esc(r.negative)||"Not recorded"}</dd><dt>Seed</dt><dd>${esc(r.seed??"Not recorded")}</dd><dt>File</dt><dd>${esc(r.path)}</dd>`;
   if(!$("#lb").open) $("#lb").showModal();
+}
