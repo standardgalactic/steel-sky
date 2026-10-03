@@ -63,3 +63,4 @@ def one(job):
             if not out.exists():
                 out.parent.mkdir(parents=True, exist_ok=True)
                 t = img.convert("RGB")
+                t.thumbnail((size, size), Image.LANCZOS)
