@@ -59,3 +59,4 @@ def get_image_summary(image_path):
             "prompt_tokens": completion.usage.prompt_tokens,
             "completion_tokens": completion.usage.completion_tokens,
             "total_tokens": completion.usage.total_tokens
+        } if completion.usage else {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
