@@ -301,3 +301,5 @@ function tabs(){
   $("#runs").onclick = e=>{const b=e.target.closest("button"); if(!b)return; document.querySelectorAll("#runs button").forEach(x=>x.setAttribute("aria-selected",x===b)); show(b.dataset.run,byRun[b.dataset.run])};
   if(order.length) show(order[0],byRun[order[0]]);
 }
+
+function commonSuffix(prompts){
