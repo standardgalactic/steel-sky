@@ -362,3 +362,4 @@ def provenance_files(plan, base_count):
 
 
 def trailers(it):
+    if it["cls"] in ("upstream-modified", "upstream-removed"):
