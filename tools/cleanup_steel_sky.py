@@ -217,3 +217,4 @@ def main():
         target.parent.mkdir(parents=True, exist_ok=True)
         relative = str(source.relative_to(root))
         if relative in tracked:
+            git(root, 'mv', '--', relative, str(target.relative_to(root)))
