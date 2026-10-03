@@ -156,3 +156,4 @@ def list_source_files(source):
         if p.startswith(".git/"):
             continue
         if os.path.islink(full):
+            skipped.append((p, "symlink"))
