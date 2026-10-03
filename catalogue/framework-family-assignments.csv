@@ -334,3 +334,4 @@ id,title,kind,framework,scale,family
 17.13,The Defendant of Tomorrow,M/C,"prediction, performative feedback",M,Causal inference and performative feedback
 17.14,The Honest Pair of Liars,M,"strategic communication, incentive compatibility",S,Game theory and strategic interaction
 17.15,The Accident with Three Causes,C,"causal attribution, explanatory plurality",M,Causal inference and performative feedback
+17.16,The Thief of Almost Nothing,M,"cumulative sums, sequential detection",M,"Statistics: distributions, power laws and extremes"
