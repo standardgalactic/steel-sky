@@ -541,3 +541,4 @@ def verify(dest, plan):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--source", default=".", help="finished working tree (needs a .gitignore)")
