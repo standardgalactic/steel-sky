@@ -24,3 +24,4 @@ widget_names = {
     "EmptyLatentImage": ["width", "height", "batch_size"],
     "CLIPTextEncode": ["text"],
     "KSampler": [
+        "seed", "_seed_control", "steps", "cfg",
