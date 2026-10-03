@@ -159,3 +159,4 @@ def list_source_files(source):
             skipped.append((p, "symlink"))
         elif os.path.isfile(full):
             files.append(p)
+    return sorted(files), skipped
