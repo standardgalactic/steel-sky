@@ -382,3 +382,4 @@ def trailers(it):
 
 
 def commits_for(it, source, args):
+    """Yield (message, bytes or None) per commit for one file. None means delete."""
