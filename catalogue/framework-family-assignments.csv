@@ -18,3 +18,4 @@ id,title,kind,framework,scale,family
 01.17,The Last Stop on the Loop,M,"topology, orientability",S,"Graphs, networks and topology"
 01.18,Hotel Infinity Street,M,"Hilbert's hotel, infinite sets",M,"Infinity, limits and continuity"
 01.19,The Clock Tower That Disagrees,M,"distributed time, consensus",M,"Coordination, protocols and distributed knowledge"
+01.20,Zoning the Dead,M,packing problems,S,"Optimization, search and scheduling"
