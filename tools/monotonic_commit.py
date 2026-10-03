@@ -286,3 +286,4 @@ def build_plan(source, dest, args):
             mode, _t, blob = meta.decode().split()
             base[os.fsdecode(p)] = (mode, blob)
     plan = Plan()
+    plan.skipped = skipped
