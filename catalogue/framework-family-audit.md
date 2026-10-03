@@ -574,3 +574,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 16.13 The Caretaker’s Substitute: tacit knowledge, role transfer
 - 19.03 The Orchestra after the Missing Note: constitutive practices, collective identity
 - 19.06 The Village of One Remaining Expert: distributed competence, institutional memory
+
+### Number, notation and calendars (6)
