@@ -219,3 +219,4 @@ def describe(line, n, ext):
             return "Add code block"
         return "Add text: " + short
     if ext == ".py":
+        m = re.match(r"\s*(def|class)\s+(\w+)", s)
