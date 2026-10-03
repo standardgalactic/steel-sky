@@ -79,3 +79,4 @@ def check_index(root):
             broken.append({'tag': tag, 'attribute': attr, 'reference': ref})
     for item in broken:
         print(f"Missing static HTML target: {item['reference']}")
+    print(f'Static HTML check: {len(broken)} missing relative targets.')
