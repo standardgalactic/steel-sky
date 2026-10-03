@@ -96,3 +96,4 @@ def main():
     ap.add_argument("--dst", default="thumbs")
     ap.add_argument("--size", type=int, default=192)
     ap.add_argument("--quality", type=int, default=60)
+    ap.add_argument("--no-sheets", action="store_true")
