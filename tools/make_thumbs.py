@@ -69,3 +69,6 @@ def one(job):
                 "prompt": pos, "negative": neg}
     except Exception as e:  # keep going on a bad file
         return {"path": rel.as_posix(), "error": str(e)}
+
+
+def make_sheets(rows, thumb_root, sheet_dir, cell=96, cols=20, per_sheet=400, quality=70):
