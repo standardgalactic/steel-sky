@@ -530,3 +530,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 15.19 The Breath Between Lines: temporal coordination, adaptation
 - 16.19 The Agreement to Disagree Tomorrow: revision rules, dynamic commitments
 - 17.18 The Signature Borrower: authorization, scope of delegation
+- 19.19 The Festival Nobody Could Restart: coordination capital, interrupted traditions
