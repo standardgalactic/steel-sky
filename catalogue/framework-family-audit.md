@@ -524,3 +524,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 07.08 The Termite Archivists: stigmergy
 - 11.08 Instructions for a Stranger: common knowledge, coordination
 - 11.17 The Unfinished Conversation: interactive protocols, acknowledgement
+- 12.06 A Ledger with Two Histories: append-only records, provenance
