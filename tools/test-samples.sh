@@ -12,3 +12,4 @@
 
     printf '\nGenerating scene %03d: %s\n' "$count" "$prompt"
     python generate.py "$prompt" --batch 4 --prefix "$prefix"
+  done < prompts.txt
