@@ -3,3 +3,4 @@
 (
   set -e
   count=0
+  while IFS= read -r prompt || [[ -n "$prompt" ]]; do
