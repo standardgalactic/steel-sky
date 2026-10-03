@@ -24,3 +24,4 @@ MOVES = [
  ('make-json.py', 'tools'), ('check-image.py', 'tools'),
  ('test-check-image.py', 'tools'), ('test-grok.sh', 'tools'),
  ('test-samples.sh', 'tools'), ('make_thumbs.py', 'tools'),
+]
