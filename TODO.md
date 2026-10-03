@@ -32,3 +32,5 @@ If feedback comes back, the simplest static route is to let visitors open a pre-
 - [ ] Add the 1,000-image sets and other old archives to the contact sheets if they are missing.
 
 ## Catalogue
+
+- [ ] 04.01 The Society for Perfect Endings: treatment, scene outline, screenplay, visual bible.
