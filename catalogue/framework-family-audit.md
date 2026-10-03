@@ -305,3 +305,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 20.10 The Man Who Outsourced His Apologies: delegated action, relational sincerity
 - 20.15 The Auctioneer Who Sold Silence: scarcity by convention, institutional enforcement
 - 22.06 The Room between Performances: invisible labor, conditions of appearance
+
+### Language, meaning and convention (17)
