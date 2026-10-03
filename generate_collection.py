@@ -110,3 +110,4 @@ def main():
             return 130
         state['jobs'][job['key']]['status'] = 'completed' if result.returncode == 0 else 'failed'
         save(manifest, state)
+        if result.returncode:
