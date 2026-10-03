@@ -11,3 +11,4 @@ x-base_service: &base_service
       - &v2 ./output:/output
     command: >
       bash -c "pip install --upgrade typing_extensions && /docker/entrypoint.sh && python /stable-diffusion/main.py --listen --port 7860"
+    stop_signal: SIGKILL
