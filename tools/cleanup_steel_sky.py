@@ -136,3 +136,4 @@ def main():
             if source.name.endswith('.progress.json'):
                 continue
             target = root / directory / source.name
+            if target.exists() or target in targets:
