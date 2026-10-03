@@ -61,3 +61,4 @@ id,title,kind,framework,scale,family
 03.20,The Retired Calculators,M,error propagation,M,"Measurement, error and uncertainty propagation"
 04.01,The Society for Perfect Endings,M/C,"termination conditions, definitions of completion",M,"Logic, computation and formal languages"
 04.02,The Ministry of Lost Appeals,M,halting problem,M,"Logic, computation and formal languages"
+04.03,The Court of Small Probabilities,M,"base rates, prosecutor's fallacy",S,"Bayesian updating, bias and sampling"
