@@ -86,3 +86,4 @@ def main():
     print(f"Queued {prompt_id}; seed={seed}", flush=True)
 
     deadline = time.monotonic() + args.timeout
+    while time.monotonic() < deadline:
