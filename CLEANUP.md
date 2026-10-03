@@ -54,3 +54,5 @@ If the PNGs are already in history, the clone size will not shrink until history
 pip install pillow
 python tools/make_thumbs.py output/comfy output/old --dst thumbs
 ```
+
+Expect about 40 MB of WebP for 12,000 images. Check with `du -sh thumbs` before committing.
