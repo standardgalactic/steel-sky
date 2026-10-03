@@ -66,3 +66,4 @@ def get_image_summary(image_path):
 
 def main():
     output_file = "steel-sky.txt"
+    # Initialize token counters
