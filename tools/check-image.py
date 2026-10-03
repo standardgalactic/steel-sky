@@ -91,3 +91,4 @@ def main():
                 summary, token_usage = get_image_summary(image_path)
                 # Update total token usage
                 total_token_usage["prompt_tokens"] += token_usage["prompt_tokens"]
+                total_token_usage["completion_tokens"] += token_usage["completion_tokens"]
