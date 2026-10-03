@@ -321,3 +321,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 11.20 The Gesture Returned: embodied convention, contextual meaning
 - 13.13 The Schoolhouse with Two Languages: language policy, institutional reproduction
 - 15.17 The Workshop of Quiet Signals: interoception, interpretive uncertainty
+- 16.09 The Language They Built Together: emergent convention, private shorthand
