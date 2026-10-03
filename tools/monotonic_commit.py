@@ -290,3 +290,4 @@ def build_plan(source, dest, args):
     seen = set()
     for p in files:
         seen.add(p)
+        full = os.path.join(source, p)
