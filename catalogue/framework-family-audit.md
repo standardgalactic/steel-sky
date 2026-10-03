@@ -78,3 +78,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Optimization, search and scheduling (35)
 
 - 01.20 Zoning the Dead: packing problems
+- 03.02 The Ferry Without a River: optimal stopping
