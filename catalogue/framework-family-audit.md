@@ -133,3 +133,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 12.02 The Photograph’s Other Edge: framing, evidential selection
 - 12.03 The Catalogue of Almost Matches: entity resolution, nontransitive similarity
 - 12.04 The Five Who Agreed: correlated evidence
+- 12.07 The Archive Fire Lottery: survivorship bias
