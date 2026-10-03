@@ -41,3 +41,4 @@ Weekly commit counts for the upstream project show a short, intense start and a 
 | Year | Commits |
 |---|---|
 | 2022 (from late August) | 153 |
+| 2023 | 91 |
