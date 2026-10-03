@@ -583,3 +583,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 05.11 The Abacus Factory: positional notation, base systems
 - 09.13 The Cicada Road: prime periods
 - 09.18 The Harbor of Many Clocks: calendar arithmetic, Metonic cycle
+
+### Infinity, limits and continuity (6)
