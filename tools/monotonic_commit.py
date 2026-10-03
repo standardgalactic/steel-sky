@@ -295,3 +295,4 @@ def build_plan(source, dest, args):
         data = to_lf(raw) if args.eol == "lf" else raw
         item = dict(path=p, size=len(data), sha=sha(data), phase=None, authors=None, retained=None,
                     total=None, whole=True, groups=0, eol_only=False)
+        if p in base:
