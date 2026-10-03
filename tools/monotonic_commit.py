@@ -448,3 +448,4 @@ def fast_import(dest, commits, ident, branch):
     proc = subprocess.Popen(["git", "fast-import", "--quiet"], cwd=dest, stdin=subprocess.PIPE,
                             stderr=subprocess.PIPE)
     w = proc.stdin
+    first, n = True, 0
