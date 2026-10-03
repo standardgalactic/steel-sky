@@ -1,0 +1,9 @@
+path,class,phase,upstream_lines_retained,upstream_authors
+.devscripts/chmod.sh,upstream,,,
+.devscripts/migratev1tov2.sh,upstream,,,
+.devscripts/migratev3tov4.sh,upstream,,,
+.devscripts/migratev7tov8.sh,upstream,,,
+.editorconfig,upstream,,,
+.gitattributes,upstream,,,
+.github/ISSUE_TEMPLATE/bug.md,upstream,,,
+.github/ISSUE_TEMPLATE/config.yml,upstream,,,
