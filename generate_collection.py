@@ -109,3 +109,4 @@ def main():
             print('\nInterrupted. The server may still finish this job.', file=sys.stderr)
             return 130
         state['jobs'][job['key']]['status'] = 'completed' if result.returncode == 0 else 'failed'
+        save(manifest, state)
