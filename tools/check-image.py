@@ -42,3 +42,4 @@ def get_image_summary(image_path):
                         },
                     },
                     {
+                        "type": "text",
