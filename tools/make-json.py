@@ -42,3 +42,4 @@ i = 0
 while i < len(lines):
     if lines[i].endswith(".png"):
         filename = lines[i]
+        i += 1
