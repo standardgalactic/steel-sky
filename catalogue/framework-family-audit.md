@@ -183,3 +183,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 01.05 Traffic That Remembers: Braess's paradox, equilibrium
 - 02.07 The Thermostat War: repeated games, tit-for-tat
 - 03.16 The Piece-Rate Choir: incentives, principal and agent
+- 07.02 The Lichen Parliament: stag hunt, mutualism
