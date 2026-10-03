@@ -490,3 +490,4 @@ def read_blobs(dest, ids):
                 yield oid, None
                 continue
             body = proc.stdout.read(int(head[2]))
+            proc.stdout.read(1)
