@@ -14,3 +14,5 @@ git mv framework-family-* graphic-treatment-* catalogue/
 git mv slate-samples*.json collection.json manifests/
 git mv make-json.py check-image.py test-check-image.py test-grok.sh test-samples.sh tools/
 ```
+
+Move `catalogue.md` into `catalogue/` too (it was never in the tree you sent, so it may be outside the repo).
