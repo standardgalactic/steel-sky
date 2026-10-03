@@ -28,3 +28,4 @@ def plan(config, selected):
     shared = config['shared_prompt'].strip()
     defaults = config.get('defaults', {})
     seen = set()
+    for category, group in config['categories'].items():
