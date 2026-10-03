@@ -650,3 +650,4 @@ def main():
             if not marks or marks[-1] != shas[-1]:
                 marks.append(shas[-1])
             for i, s in enumerate(marks, 1):
+                git(dest, "push", "-q", "origin", "%s:refs/heads/%s" % (s, args.branch))
