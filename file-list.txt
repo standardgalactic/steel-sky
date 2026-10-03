@@ -4642,3 +4642,12 @@
 │       ├── Steel-sky_00474_.png
 │       ├── Steel-sky_00475_.png
 │       ├── Steel-sky_00476_.png
+│       ├── Steel-sky_00477_.png
+│       ├── Steel-sky_00478_.png
+│       ├── Steel-sky_00479_.png
+│       ├── Steel-sky_00480_.png
+│       ├── Steel-sky_00481_.png
+│       ├── Steel-sky_00482_.png
+│       ├── Steel-sky_00483_.png
+│       ├── Steel-sky_00484_.png
+│       ├── Steel-sky_00485_.png
