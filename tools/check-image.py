@@ -15,3 +15,4 @@ if not XAI_API_KEY:
     raise ValueError("XAI_API_KEY environment variable not set")
 
 # Initialize the OpenAI client
+client = OpenAI(
