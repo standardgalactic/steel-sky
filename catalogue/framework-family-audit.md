@@ -219,3 +219,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 05.03 The Loom with Memory: programmable machines, universal computation
 - 05.13 The Vending Oracle: finite state machines
 - 05.14 The Rail Signal Box: Boolean logic, deadlock
+- 10.03 The Customs House Contradiction: inconsistent rule sets
