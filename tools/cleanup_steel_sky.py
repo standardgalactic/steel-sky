@@ -171,3 +171,4 @@ def main():
         rewrites[ignore] = new_ignore
     readme_txt = root / 'README.txt'
     readme_md = root / 'README.md'
+    merge = args.merge_readme and readme_txt.is_file()
