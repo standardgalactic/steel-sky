@@ -3,3 +3,4 @@
   "shared_prompt": "cinematic production design study, atmospheric realism, coherent material textures, weathered surfaces, muted blue grey and warm amber palette, subtle film grain, restrained contrast, soft directional light, believable scale, detailed composition, quiet mysterious mood, analog cinema atmosphere, careful separation of foreground and background, visual storytelling through light and texture",
   "defaults": {
     "batch": 4,
+    "variations": 2,
