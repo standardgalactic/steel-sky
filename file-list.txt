@@ -5722,3 +5722,12 @@
 │       ├── aniara_00667_.png
 │       ├── aniara_00668_.png
 │       ├── aniara_00669_.png
+│       ├── aniara_00670_.png
+│       ├── aniara_00671_.png
+│       ├── aniara_00672_.png
+│       ├── aniara_00673_.png
+│       ├── aniara_00674_.png
+│       ├── aniara_00675_.png
+│       ├── aniara_00676_.png
+│       ├── aniara_00677_.png
+│       ├── aniara_00678_.png
