@@ -298,3 +298,4 @@ def build_plan(source, dest, args):
         if p in base:
             bmode, bblob = base[p]
             item["mode"] = bmode
+            lf = to_lf(data)
