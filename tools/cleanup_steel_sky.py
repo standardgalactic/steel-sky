@@ -47,3 +47,4 @@ class References(HTMLParser):
         for attr in ('src', 'href', 'poster', 'data'):
             if attrs.get(attr):
                 self.refs.append((tag, attr, attrs[attr]))
+        if attrs.get('srcset'):
