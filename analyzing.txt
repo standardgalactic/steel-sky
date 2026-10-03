@@ -311,3 +311,4 @@ Special thanks to everyone behind these awesome projects, without them, none of 
             3,
             5
           ],
+          "slot_index": 1
