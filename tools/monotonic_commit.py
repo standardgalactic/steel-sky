@@ -445,3 +445,4 @@ def fast_import(dest, commits, ident, branch):
     name, email = ident
     tip = git(dest, "rev-parse", "HEAD").decode().strip()
     tz = time.strftime("%z")
+    proc = subprocess.Popen(["git", "fast-import", "--quiet"], cwd=dest, stdin=subprocess.PIPE,
