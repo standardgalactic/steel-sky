@@ -166,3 +166,4 @@ def phase_of(path, cls):
     if cls in ("upstream-modified", "upstream-removed"):
         return "upstream-changes"
     m = PROJECT_RE.match(path)
+    if m:
