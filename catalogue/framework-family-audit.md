@@ -381,3 +381,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 17.17 The Scene Rebuilt for the Jury: sensitivity analysis, reconstruction assumptions
 - 22.02 One Street, Forty Mornings: repeated observation, latent change
 - 22.13 The Map Folded Forty Times: representation damage, recoverability
+- 22.14 The Night of Separate Windows: local knowledge, incomplete observability
