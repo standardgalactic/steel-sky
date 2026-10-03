@@ -215,3 +215,4 @@ id,title,kind,framework,scale,family
 11.14,Names for the Same Mountain,C,"reference, situated description",M,"Language, meaning and convention"
 11.15,The Password of the Bereaved,M,"authentication, replay attacks",S,"Coding, cryptography and information"
 11.16,The Child Who Corrected the Map,C,"prototypes, category boundaries",M,"Language, meaning and convention"
+11.17,The Unfinished Conversation,M/C,"interactive protocols, acknowledgement",S,"Coordination, protocols and distributed knowledge"
