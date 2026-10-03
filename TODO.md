@@ -42,3 +42,5 @@ If feedback comes back, the simplest static route is to let visitors open a pre-
 - [ ] Differentiate the eight clusters of near-duplicate treatments before developing those projects.
 
 ## Site and repository
+
+- [ ] Rebuild `thumbs/comfy` at 512 px (`--size 512 --quality 80`) so the image viewer is sharp.
