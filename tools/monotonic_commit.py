@@ -467,3 +467,4 @@ def fast_import(dest, commits, ident, branch):
             n += 1
         w.close()
     except BrokenPipeError:
+        pass
