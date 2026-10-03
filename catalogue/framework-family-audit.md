@@ -383,3 +383,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 22.13 The Map Folded Forty Times: representation damage, recoverability
 - 22.14 The Night of Separate Windows: local knowledge, incomplete observability
 - 22.15 The Rehearsal in Reverse: dependency reconstruction, causal direction
+- 22.16 The Square after Everyone Leaves: traces, inference without presence
