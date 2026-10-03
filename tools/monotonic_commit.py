@@ -152,3 +152,4 @@ def list_source_files(source):
         if not raw:
             continue
         p = os.fsdecode(raw)
+        full = os.path.join(source, p)
