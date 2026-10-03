@@ -63,3 +63,4 @@ def check_index(root):
     parser = References()
     parser.feed(index.read_text(encoding='utf-8'))
     if parser.base:
+        print(f'HTML base URL detected: {parser.base}; resolve these paths against the deployment URL manually.')
