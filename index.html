@@ -385,3 +385,4 @@ function drender(){
   const a = dd.slice(dpage*PER,(dpage+1)*PER), pages = Math.ceil(dd.length/PER);
   $("#desc").innerHTML = a.map(e=>`<article><img src="${esc(dsrc(e.filename))}" alt="" loading="lazy"><div class="sum">${mdHtml(e.summary)}</div></article>`).join("");
   document.querySelectorAll("#desc article img").forEach((img,i)=>{
+    const fallback = "thumbs/comfy/"+assetPath(a[i].filename+".webp");
