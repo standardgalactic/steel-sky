@@ -25,3 +25,4 @@ name: webui-docker
 
 services:
   download:
+    build: ./services/download/
