@@ -1,3 +1,4 @@
 {
   "name": "slate-samples-v3",
   "shared_prompt": "graphic novel interior art, hand drawn, flat 2d illustration, full bleed drawing that fills the entire image, strong readable composition",
+  "defaults": {
