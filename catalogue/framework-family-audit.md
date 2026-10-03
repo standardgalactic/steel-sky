@@ -209,3 +209,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Logic, computation and formal languages (24)
 
 - 01.16 The Block That Wouldn't Die: cellular automata
+- 02.16 Liars at the Breakfast Table: logic puzzles, truth-teller and liar
