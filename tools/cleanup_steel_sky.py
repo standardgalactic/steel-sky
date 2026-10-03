@@ -73,3 +73,4 @@ def check_index(root):
         path = unquote(url.path)
         if path.startswith('/'):
             print(f'Deployment-root reference (manual check): {ref}')
+            continue
