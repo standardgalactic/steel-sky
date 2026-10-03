@@ -135,3 +135,4 @@ def main():
                 continue
             if source.name.endswith('.progress.json'):
                 continue
+            target = root / directory / source.name
