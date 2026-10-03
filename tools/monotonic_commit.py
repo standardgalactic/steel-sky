@@ -616,3 +616,4 @@ def main():
             print("\nUpstream files %s (%s): %d" % (label, act, len(lst)))
             for p in lst[:15]:
                 print("   " + p)
+    if args.dry_run:
