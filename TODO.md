@@ -15,3 +15,4 @@ The old viewer was a Picbreeder-style rater for a 4,999-image set, with ratings 
 | Heatmap of popular click areas | Not planned. |
 | Indicator for images that have comments | Not planned. |
 | Paginate in batches of 100 | Done differently. Experiments are browsed by run, the archive by contact sheet (400 images each), and described images by page (10 each). |
+| Sort by rating, votes, comments or delete flags | Not planned. Needs stored feedback. |
