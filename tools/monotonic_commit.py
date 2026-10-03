@@ -488,3 +488,4 @@ def read_blobs(dest, ids):
             head = proc.stdout.readline().split()
             if len(head) < 3 or head[1] != b"blob":
                 yield oid, None
+                continue
