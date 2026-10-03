@@ -30,3 +30,4 @@ def get_image_summary(image_path):
     """Get a summary of the image content and token usage using the xAI API."""
     try:
         base64_image = encode_image(image_path)
+        messages = [
