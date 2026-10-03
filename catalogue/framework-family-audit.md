@@ -329,3 +329,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 ### Symmetry, groups and algebra (17)
 
 - 02.02 Seven Keys to One Door: permutations, cycle structure
+- 02.03 The Wallpaper Group: plane symmetry groups
