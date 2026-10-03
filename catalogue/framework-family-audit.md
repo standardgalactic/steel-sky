@@ -519,3 +519,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 18.20 The Object Everyone Wanted to Give Away: negative value, disposal constraints
 
 ### Coordination, protocols and distributed knowledge (12)
+
+- 01.19 The Clock Tower That Disagrees: distributed time, consensus
