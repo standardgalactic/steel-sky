@@ -318,3 +318,4 @@ def build_plan(source, dest, args):
         plan.add(**item)
     for p, (mode, _b) in sorted(base.items()):
         if p in seen:
+            continue
