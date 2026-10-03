@@ -625,3 +625,5 @@ def main():
     written = fast_import(dest, schedule(plan, source, args), (name, email), args.branch)
     print("  %d commits written" % written)
     git(dest, "reset", "-q", "--hard", args.branch)
+
+    print("Verifying content, modes and file set from the object database ...")
