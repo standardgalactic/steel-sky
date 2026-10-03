@@ -111,3 +111,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 20.07 The Town That Optimized Its Picnic: multi-objective optimization, Pareto efficiency
 - 21.02 The Room That Forgets One Object: finite memory, eviction policies
 - 21.19 The Orchard of Branching Days: branching time, irreversible choice
+- 22.17 Three Journeys of the Same Distance: heterogeneous path costs
