@@ -432,3 +432,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 13.10 The Election with Another Agenda: Condorcet cycles, sequential voting
 - 13.17 The Census That Counted Children: apportionment, representation
 - 15.10 The Runner’s Hidden Reserve: constrained optimization, resource allocation
+- 15.12 The Queue for Sitting Down: allocation under unequal need
