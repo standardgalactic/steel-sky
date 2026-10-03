@@ -16,3 +16,12 @@
 ├── ankara-01.webp
 ├── ankara-02.webp
 ├── ankara-03.webp
+├── ankara-04.webp
+├── check-image.py
+├── collection.json
+├── data
+│   ├── StableDiffusion
+│   ├── config
+│   │   ├── auto
+│   │   └── comfy
+│   ├── embeddings
