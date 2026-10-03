@@ -12175,3 +12175,12 @@
 │   │   ├── config.py
 │   │   └── entrypoint.sh
 │   ├── comfy
+│   │   ├── Dockerfile
+│   │   ├── entrypoint.sh
+│   │   └── extra_model_paths.yaml
+│   └── download
+│       ├── Dockerfile
+│       ├── checksums.sha256
+│       ├── download.sh
+│       └── links.txt
+├── slate-samples-v2.json
