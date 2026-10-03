@@ -307,3 +307,4 @@ def build_plan(source, dest, args):
                 a, ret, tot = retained_authors(dest, p, data)
                 item.update(cls="upstream-modified", authors=a, retained=ret, total=tot)
         else:
+            item.update(cls="steel-sky", mode="100755" if data.startswith(b"#!") else "100644")
