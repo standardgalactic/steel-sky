@@ -109,3 +109,5 @@ The authors of this project are not responsible for any content generated using 
 This license of this software forbids you from sharing any content that violates any laws, produce any harm to a person, disseminate any personal information that would be meant for harm, spread misinformation and target vulnerable groups. For the full list of restrictions please read [the license](./LICENSE).
 
 ## Thanks
+
+Special thanks to everyone behind these awesome projects, without them, none of this would have been possible:
