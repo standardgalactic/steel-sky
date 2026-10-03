@@ -217,3 +217,4 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 04.09 The Department of Forms: formal grammars
 - 04.11 The Auditors of the Moon: infinite regress of verification
 - 05.03 The Loom with Memory: programmable machines, universal computation
+- 05.13 The Vending Oracle: finite state machines
