@@ -20,3 +20,4 @@ id,title,kind,framework,scale,family
 01.19,The Clock Tower That Disagrees,M,"distributed time, consensus",M,"Coordination, protocols and distributed knowledge"
 01.20,Zoning the Dead,M,packing problems,S,"Optimization, search and scheduling"
 02.01,The Lodger's Arithmetic,M,Bayesian updating under filtered evidence,S,"Bayesian updating, bias and sampling"
+02.02,Seven Keys to One Door,M,"permutations, cycle structure",S,"Symmetry, groups and algebra"
