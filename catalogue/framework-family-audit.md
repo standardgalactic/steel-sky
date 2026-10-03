@@ -453,3 +453,5 @@ Two pairs of slate projects share a family: 07.01 and 08.01 (Optimization), and 
 - 19.07 The Winter They Spent the Buffer: reserve depletion, stochastic demand
 - 22.05 A Day in the Water’s Account: conservation, stocks and flows
 - 22.10 The Queue from Every Position: queueing, unequal waiting experience
+
+### Geometry, space and scale (13)
