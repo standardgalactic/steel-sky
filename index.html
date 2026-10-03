@@ -355,3 +355,4 @@ function sheets(){
   function next(){
     const name = "sheet-"+String(n).padStart(2,"0")+".webp";
     const img = new Image();
+    img.onload = ()=>{
